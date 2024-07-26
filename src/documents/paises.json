@@ -1,323 +1,323 @@
-[
+ [
      
-    {"codigo":"004","alfa3":"AFG","alfa2":"AF","nombre":"AFGANISTAN"}
-    ,
-    {"codigo":"008","alfa3":"ALB","alfa2":"AL","nombre":"ALBANIA"},
-    {"codigo":"276","alfa3":"DEU","alfa2":"DE","nombre":"ALEMANIA"},
-    {"codigo":"020","alfa3":"AND","alfa2":"AD","nombre":"ANDORRA"},
-    {"codigo":"024","alfa3":"AGO","alfa2":"AO","nombre":"ANGOLA"},
-    {"codigo":"660","alfa3":"AIA","alfa2":"AI","nombre":"ANGUILA"},
-    {"codigo":"028","alfa3":"ATG","alfa2":"AG","nombre":"ANTIGUA Y BARBUDA"},
-    {"codigo":"010","alfa3":"ATA","alfa2":"AQ","nombre":"ANTARTIDA"}
-    ,
-    {"codigo":"682","alfa3":"SAU","alfa2":"SA","nombre":"ARABIA SAUDITA"},
-    {"codigo":"012","alfa3":"DZA","alfa2":"DZ","nombre":"ARGELIA"},
-    {"codigo":"032","alfa3":"ARG","alfa2":"AR","nombre":"ARGENTINA"},
-    {"codigo":"051","alfa3":"ARM","alfa2":"AM","nombre":"ARMENIA"},
-    {"codigo":"533","alfa3":"ABW","alfa2":"AW","nombre":"ARUBA"},
-    {"codigo":"036","alfa3":"AUS","alfa2":"AU","nombre":"AUSTRALIA"},
-    {"codigo":"040","alfa3":"AUT","alfa2":"AT","nombre":"AUSTRIA"},
-    {"codigo":"031","alfa3":"AZE","alfa2":"AZ","nombre":"AZERBAIYAN"}
-    ,
-    {"codigo":"044","alfa3":"BHS","alfa2":"BS","nombre":"BAHAMAS (LAS)"},
-    {"codigo":"050","alfa3":"BGD","alfa2":"BD","nombre":"BANGLADES"}
-    ,
-    {"codigo":"052","alfa3":"BRB","alfa2":"BB","nombre":"BARBADOS"},
-    {"codigo":"048","alfa3":"BHR","alfa2":"BH","nombre":"BAREIN"}
-    ,
-    {"codigo":"084","alfa3":"BLZ","alfa2":"BZ","nombre":"BELICE"},
-    {"codigo":"204","alfa3":"BEN","alfa2":"BJ","nombre":"BENIN"}
-    ,
-    {"codigo":"060","alfa3":"BMU","alfa2":"BM","nombre":"BERMUDAS"},
-    {"codigo":"112","alfa3":"BLR","alfa2":"BY","nombre":"BIELORRUSIA"},
-    {"codigo":"068","alfa3":"BOL","alfa2":"BO","nombre":"BOLIVIA, ESTADO PLURINACIONAL DE"},
-    {"codigo":"535","alfa3":"BES","alfa2":"BQ","nombre":"BONAIRE, SAN EUSTAQUIO Y SABA"},
-    {"codigo":"070","alfa3":"BIH","alfa2":"BA","nombre":"BOSNIA Y HERZEGOVINA"},
-    {"codigo":"072","alfa3":"BWA","alfa2":"BW","nombre":"BOTSUANA"},
-    {"codigo":"076","alfa3":"BRA","alfa2":"BR","nombre":"BRASIL"},
-    {"codigo":"096","alfa3":"BRN","alfa2":"BN","nombre":"BRUNEI DARUSSALAM"}
-    ,
-    {"codigo":"100","alfa3":"BGR","alfa2":"BG","nombre":"BULGARIA"},
-    {"codigo":"854","alfa3":"BFA","alfa2":"BF","nombre":"BURKINA FASO"},
-    {"codigo":"108","alfa3":"BDI","alfa2":"BI","nombre":"BURUNDI"},
-    {"codigo":"064","alfa3":"BTN","alfa2":"BT","nombre":"BUTAN"}
-    ,
-    {"codigo":"056","alfa3":"BEL","alfa2":"BE","nombre":"BELGICA"}
-    ,
-    {"codigo":"132","alfa3":"CPV","alfa2":"CV","nombre":"CABO VERDE"},
-    {"codigo":"116","alfa3":"KHM","alfa2":"KH","nombre":"CAMBOYA"},
-    {"codigo":"120","alfa3":"CMR","alfa2":"CM","nombre":"CAMERUN"}
-    ,
-    {"codigo":"124","alfa3":"CAN","alfa2":"CA","nombre":"CANADA"}
-    ,
-    {"codigo":"634","alfa3":"QAT","alfa2":"QA","nombre":"CATAR"},
-    {"codigo":"148","alfa3":"TCD","alfa2":"TD","nombre":"CHAD"},
-    {"codigo":"152","alfa3":"CHL","alfa2":"CL","nombre":"CHILE"},
-    {"codigo":"156","alfa3":"CHN","alfa2":"CN","nombre":"CHINA"},
-    {"codigo":"196","alfa3":"CYP","alfa2":"CY","nombre":"CHIPRE"},
-    {"codigo":"170","alfa3":"COL","alfa2":"CO","nombre":"COLOMBIA"},
-    {"codigo":"174","alfa3":"COM","alfa2":"KM","nombre":"COMORAS"},
-    {"codigo":"178","alfa3":"COG","alfa2":"CG","nombre":"CONGO"},
-    {"codigo":"180","alfa3":"COD","alfa2":"CD","nombre":"CONGO (LA REPUBLICA DEMOCRATICA DEL)"}
-    ,
-    {"codigo":"408","alfa3":"PRK","alfa2":"KP","nombre":"COREA (LA REPUBLICA DEMOCRATICA POPULAR DE)"}
-    ,
-    {"codigo":"410","alfa3":"KOR","alfa2":"KR","nombre":"COREA (LA REPUBLICA DE)"}
-    ,
-    {"codigo":"188","alfa3":"CRI","alfa2":"CR","nombre":"COSTA RICA"},
-    {"codigo":"384","alfa3":"CIV","alfa2":"CI","nombre":"COTE D IVOIRE"},
-    {"codigo":"191","alfa3":"HRV","alfa2":"HR","nombre":"CROACIA"},
-    {"codigo":"192","alfa3":"CUB","alfa2":"CU","nombre":"CUBA"},
-    {"codigo":"531","alfa3":"CUW","alfa2":"CW","nombre":"CURAÇAO"}
-    ,
-    {"codigo":"208","alfa3":"DNK","alfa2":"DK","nombre":"DINAMARCA"},
-    {"codigo":"212","alfa3":"DMA","alfa2":"DM","nombre":"DOMINICA"},
-    {"codigo":"218","alfa3":"ECU","alfa2":"EC","nombre":"ECUADOR"},
-    {"codigo":"818","alfa3":"EGY","alfa2":"EG","nombre":"EGIPTO"},
-    {"codigo":"222","alfa3":"SLV","alfa2":"SV","nombre":"EL SALVADOR"},
-    {"codigo":"784","alfa3":"ARE","alfa2":"AE","nombre":"EMIRATOS ARABES UNIDOS (LOS)"}
-    ,
-    {"codigo":"232","alfa3":"ERI","alfa2":"ER","nombre":"ERITREA"},
-    {"codigo":"703","alfa3":"SVK","alfa2":"SK","nombre":"ESLOVAQUIA"},
-    {"codigo":"705","alfa3":"SVN","alfa2":"SI","nombre":"ESLOVENIA"},
-    {"codigo":"724","alfa3":"ESP","alfa2":"ES","nombre":"ESPAÑA"}
-    ,
-    {"codigo":"840","alfa3":"USA","alfa2":"US","nombre":"ESTADOS UNIDOS (LOS)"},
-    {"codigo":"233","alfa3":"EST","alfa2":"EE","nombre":"ESTONIA"},
-    {"codigo":"231","alfa3":"ETH","alfa2":"ET","nombre":"ETIOPIA"}
-    ,
-    {"codigo":"608","alfa3":"PHL","alfa2":"PH","nombre":"FILIPINAS (LAS)"},
-    {"codigo":"246","alfa3":"FIN","alfa2":"FI","nombre":"FINLANDIA"},
-    {"codigo":"242","alfa3":"FJI","alfa2":"FJ","nombre":"FIYI"},
-    {"codigo":"250","alfa3":"FRA","alfa2":"FR","nombre":"FRANCIA"},
-    {"codigo":"266","alfa3":"GAB","alfa2":"GA","nombre":"GABON"}
-    ,
-    {"codigo":"270","alfa3":"GMB","alfa2":"GM","nombre":"GAMBIA (LA)"},
-    {"codigo":"268","alfa3":"GEO","alfa2":"GE","nombre":"GEORGIA"},
-    {"codigo":"239","alfa3":"SGS","alfa2":"GS","nombre":"GEORGIA DEL SUR Y LAS ISLAS SANDWICH DEL SUR"},
-    {"codigo":"288","alfa3":"GHA","alfa2":"GH","nombre":"GHANA"},
-    {"codigo":"292","alfa3":"GIB","alfa2":"GI","nombre":"GIBRALTAR"},
-    {"codigo":"308","alfa3":"GRD","alfa2":"GD","nombre":"GRANADA"},
-    {"codigo":"300","alfa3":"GRC","alfa2":"GR","nombre":"GRECIA"},
-    {"codigo":"304","alfa3":"GRL","alfa2":"GL","nombre":"GROENLANDIA"},
-    {"codigo":"312","alfa3":"GLP","alfa2":"GP","nombre":"GUADALUPE"},
-    {"codigo":"316","alfa3":"GUM","alfa2":"GU","nombre":"GUAM"},
-    {"codigo":"320","alfa3":"GTM","alfa2":"GT","nombre":"GUATEMALA"},
-    {"codigo":"254","alfa3":"GUF","alfa2":"GF","nombre":"GUAYANA FRANCESA"},
-    {"codigo":"831","alfa3":"GGY","alfa2":"GG","nombre":"GUERNSEY"},
-    {"codigo":"324","alfa3":"GIN","alfa2":"GN","nombre":"GUINEA"},
-    {"codigo":"226","alfa3":"GNQ","alfa2":"GQ","nombre":"GUINEA ECUATORIAL"},
-    {"codigo":"624","alfa3":"GNB","alfa2":"GW","nombre":"GUINEA-BISAU"}
-    ,
-    {"codigo":"328","alfa3":"GUY","alfa2":"GY","nombre":"GUYANA"},
-    {"codigo":"332","alfa3":"HTI","alfa2":"HT","nombre":"HAITI"}
-    ,
-    {"codigo":"340","alfa3":"HND","alfa2":"HN","nombre":"HONDURAS"},
-    {"codigo":"344","alfa3":"HKG","alfa2":"HK","nombre":"HONG KONG"},
-    {"codigo":"348","alfa3":"HUN","alfa2":"HU","nombre":"HUNGRIA"}
-    ,
-    {"codigo":"356","alfa3":"IND","alfa2":"IN","nombre":"INDIA"},
-    {"codigo":"360","alfa3":"IDN","alfa2":"ID","nombre":"INDONESIA"},
-    {"codigo":"368","alfa3":"IRQ","alfa2":"IQ","nombre":"IRAK"},
-    {"codigo":"372","alfa3":"IRL","alfa2":"IE","nombre":"IRLANDA"},
-    {"codigo":"364","alfa3":"IRN","alfa2":"IR","nombre":"IRAN (LA REPUBLICA ISLAMICA DE)"}
-    ,
-    {"codigo":"074","alfa3":"BVT","alfa2":"BV","nombre":"ISLA BOUVET"},
-    {"codigo":"334","alfa3":"HMD","alfa2":"HM","nombre":"ISLA HEARD E ISLAS MCDONALD"},
-    {"codigo":"574","alfa3":"NFK","alfa2":"NF","nombre":"ISLA NORFOLK"},
-    {"codigo":"833","alfa3":"IMN","alfa2":"IM","nombre":"ISLA DE MAN"},
-    {"codigo":"162","alfa3":"CXR","alfa2":"CX","nombre":"ISLA DE NAVIDAD"},
-    {"codigo":"352","alfa3":"ISL","alfa2":"IS","nombre":"ISLANDIA"},
-    {"codigo":"136","alfa3":"CYM","alfa2":"KY","nombre":"ISLAS CAIMAN (LAS)"}
-    ,
-    {"codigo":"166","alfa3":"CCK","alfa2":"CC","nombre":"ISLAS COCOS (KEELING)"},
-    {"codigo":"184","alfa3":"COK","alfa2":"CK","nombre":"ISLAS COOK (LAS)"},
-    {"codigo":"234","alfa3":"FRO","alfa2":"FO","nombre":"ISLAS FEROE (LAS)"},
-    {"codigo":"238","alfa3":"FLK","alfa2":"FK","nombre":"ISLAS MALVINAS [FALKLAND] (LAS)"},
-    {"codigo":"580","alfa3":"MNP","alfa2":"MP","nombre":"ISLAS MARIANAS DEL NORTE (LAS)"},
-    {"codigo":"584","alfa3":"MHL","alfa2":"MH","nombre":"ISLAS MARSHALL (LAS)"},
-    {"codigo":"090","alfa3":"SLB","alfa2":"SB","nombre":"ISLAS SALOMON (LAS)"}
-    ,
-    {"codigo":"796","alfa3":"TCA","alfa2":"TC","nombre":"ISLAS TURCAS Y CAICOS (LAS)"},
-    {"codigo":"092","alfa3":"VGB","alfa2":"VG","nombre":"ISLAS VIRGENES (BRITANICAS)"}
-    ,
-    {"codigo":"850","alfa3":"VIR","alfa2":"VI","nombre":"ISLAS VIRGENES (EE.UU.)"}
-    ,
-    {"codigo":"581","alfa3":"UMI","alfa2":"UM","nombre":"ISLAS DE ULTRAMAR MENORES DE ESTADOS UNIDOS (LAS)"},
-    {"codigo":"248","alfa3":"ALA","alfa2":"AX","nombre":"ISLAS ÅLAND"}
-    ,
-    {"codigo":"376","alfa3":"ISR","alfa2":"IL","nombre":"ISRAEL"},
-    {"codigo":"380","alfa3":"ITA","alfa2":"IT","nombre":"ITALIA"},
-    {"codigo":"388","alfa3":"JAM","alfa2":"JM","nombre":"JAMAICA"},
-    {"codigo":"392","alfa3":"JPN","alfa2":"JP","nombre":"JAPON"}
-    ,
-    {"codigo":"832","alfa3":"JEY","alfa2":"JE","nombre":"JERSEY"},
-    {"codigo":"400","alfa3":"JOR","alfa2":"JO","nombre":"JORDANIA"},
-    {"codigo":"398","alfa3":"KAZ","alfa2":"KZ","nombre":"KAZAJISTAN"}
-    ,
-    {"codigo":"404","alfa3":"KEN","alfa2":"KE","nombre":"KENIA"},
-    {"codigo":"417","alfa3":"KGZ","alfa2":"KG","nombre":"KIRGUISTAN"}
-    ,
-    {"codigo":"296","alfa3":"KIR","alfa2":"KI","nombre":"KIRIBATI"},
-    {"codigo":"414","alfa3":"KWT","alfa2":"KW","nombre":"KUWAIT"},
-    {"codigo":"418","alfa3":"LAO","alfa2":"LA","nombre":"LAO, (LA) REPUBLICA DEMOCROTICA POPULAR"}
-    ,
-    {"codigo":"426","alfa3":"LSO","alfa2":"LS","nombre":"LESOTO"},
-    {"codigo":"428","alfa3":"LVA","alfa2":"LV","nombre":"LETONIA"},
-    {"codigo":"430","alfa3":"LBR","alfa2":"LR","nombre":"LIBERIA"},
-    {"codigo":"434","alfa3":"LBY","alfa2":"LY","nombre":"LIBIA"},
-    {"codigo":"438","alfa3":"LIE","alfa2":"LI","nombre":"LIECHTENSTEIN"},
-    {"codigo":"440","alfa3":"LTU","alfa2":"LT","nombre":"LITUANIA"},
-    {"codigo":"442","alfa3":"LUX","alfa2":"LU","nombre":"LUXEMBURGO"},
-    {"codigo":"422","alfa3":"LBN","alfa2":"LB","nombre":"LIBANO"}
-    ,
-    {"codigo":"446","alfa3":"MAC","alfa2":"MO","nombre":"MACAO"},
-    {"codigo":"807","alfa3":"MKD","alfa2":"MK","nombre":"MACEDONIA (LA ANTIGUA REPUBLICA YUGOSLAVA DE)"}
-    ,
-    {"codigo":"450","alfa3":"MDG","alfa2":"MG","nombre":"MADAGASCAR"},
-    {"codigo":"458","alfa3":"MYS","alfa2":"MY","nombre":"MALASIA"},
-    {"codigo":"454","alfa3":"MWI","alfa2":"MW","nombre":"MALAUI"},
-    {"codigo":"462","alfa3":"MDV","alfa2":"MV","nombre":"MALDIVAS"},
-    {"codigo":"470","alfa3":"MLT","alfa2":"MT","nombre":"MALTA"},
-    {"codigo":"466","alfa3":"MLI","alfa2":"ML","nombre":"MALI"}
-    ,
-    {"codigo":"504","alfa3":"MAR","alfa2":"MA","nombre":"MARRUECOS"},
-    {"codigo":"474","alfa3":"MTQ","alfa2":"MQ","nombre":"MARTINICA"},
-    {"codigo":"480","alfa3":"MUS","alfa2":"MU","nombre":"MAURICIO"},
-    {"codigo":"478","alfa3":"MRT","alfa2":"MR","nombre":"MAURITANIA"},
-    {"codigo":"175","alfa3":"MYT","alfa2":"YT","nombre":"MAYOTTE"},
-    {"codigo":"583","alfa3":"FSM","alfa2":"FM","nombre":"MICRONESIA (LOS ESTADOS FEDERADOS DE)"},
-    {"codigo":"498","alfa3":"MDA","alfa2":"MD","nombre":"MOLDAVIA (LA REPUBLICA DE)"}
-    ,
-    {"codigo":"496","alfa3":"MNG","alfa2":"MN","nombre":"MONGOLIA"},
-    {"codigo":"499","alfa3":"MNE","alfa2":"ME","nombre":"MONTENEGRO"},
-    {"codigo":"500","alfa3":"MSR","alfa2":"MS","nombre":"MONTSERRAT"},
-    {"codigo":"508","alfa3":"MOZ","alfa2":"MZ","nombre":"MOZAMBIQUE"},
-    {"codigo":"104","alfa3":"MMR","alfa2":"MM","nombre":"MYANMAR"},
-    {"codigo":"484","alfa3":"MEX","alfa2":"MX","nombre":"MEXICO"}
-    ,
-    {"codigo":"492","alfa3":"MCO","alfa2":"MC","nombre":"MONACO"}
-    ,
-    {"codigo":"516","alfa3":"NAM","alfa2":"NA","nombre":"NAMIBIA"},
-    {"codigo":"520","alfa3":"NRU","alfa2":"NR","nombre":"NAURU"},
-    {"codigo":"524","alfa3":"NPL","alfa2":"NP","nombre":"NEPAL"},
-    {"codigo":"558","alfa3":"NIC","alfa2":"NI","nombre":"NICARAGUA"},
-    {"codigo":"566","alfa3":"NGA","alfa2":"NG","nombre":"NIGERIA"},
-    {"codigo":"570","alfa3":"NIU","alfa2":"NU","nombre":"NIUE"},
-    {"codigo":"578","alfa3":"NOR","alfa2":"NO","nombre":"NORUEGA"},
-    {"codigo":"540","alfa3":"NCL","alfa2":"NC","nombre":"NUEVA CALEDONIA"},
-    {"codigo":"554","alfa3":"NZL","alfa2":"NZ","nombre":"NUEVA ZELANDA"},
-    {"codigo":"562","alfa3":"NER","alfa2":"NE","nombre":"NIGER (EL)"}
-    ,
-    {"codigo":"512","alfa3":"OMN","alfa2":"OM","nombre":"OMAN"}
-    ,
-    {"codigo":"586","alfa3":"PAK","alfa2":"PK","nombre":"PAKISTAN"}
-    ,
-    {"codigo":"585","alfa3":"PLW","alfa2":"PW","nombre":"PALAOS"},
-    {"codigo":"275","alfa3":"PSE","alfa2":"PS","nombre":"PALESTINA, ESTADO DE"},
-    {"codigo":"591","alfa3":"PAN","alfa2":"PA","nombre":"PANAMA"}
-    ,
-    {"codigo":"598","alfa3":"PNG","alfa2":"PG","nombre":"PAPUA NUEVA GUINEA"}
-    ,
-    {"codigo":"600","alfa3":"PRY","alfa2":"PY","nombre":"PARAGUAY"},
-    {"codigo":"528","alfa3":"NLD","alfa2":"NL","nombre":"PAISES BAJOS (LOS)"}
-    ,
-    {"codigo":"604","alfa3":"PER","alfa2":"PE","nombre":"PERU"}
-    ,
-    {"codigo":"612","alfa3":"PCN","alfa2":"PN","nombre":"PITCAIRN"},
-    {"codigo":"258","alfa3":"PYF","alfa2":"PF","nombre":"POLINESIA FRANCESA"},
-    {"codigo":"616","alfa3":"POL","alfa2":"PL","nombre":"POLONIA"},
-    {"codigo":"620","alfa3":"PRT","alfa2":"PT","nombre":"PORTUGAL"},
-    {"codigo":"630","alfa3":"PRI","alfa2":"PR","nombre":"PUERTO RICO"},
-    {"codigo":"826","alfa3":"GBR","alfa2":"GB","nombre":"REINO UNIDO (EL)"},
-    {"codigo":"140","alfa3":"CAF","alfa2":"CF","nombre":"REPUBLICA CENTROAFRICANA (LA)"}
-    ,
-    {"codigo":"203","alfa3":"CZE","alfa2":"CZ","nombre":"REPUBLICA CHECA (LA)"}
-    ,
-    {"codigo":"214","alfa3":"DOM","alfa2":"DO","nombre":"REPUBLICA DOMINICANA (LA)"}
-    ,
-    {"codigo":"638","alfa3":"REU","alfa2":"RE","nombre":"REUNION"}
-    ,
-    {"codigo":"646","alfa3":"RWA","alfa2":"RW","nombre":"RUANDA"},
-    {"codigo":"642","alfa3":"ROU","alfa2":"RO","nombre":"RUMANIA"},
-    {"codigo":"643","alfa3":"RUS","alfa2":"RU","nombre":"RUSIA, (LA) FEDERACION DE"}
-    ,
-    {"codigo":"732","alfa3":"ESH","alfa2":"EH","nombre":"SAHARA OCCIDENTAL"},
-    {"codigo":"882","alfa3":"WSM","alfa2":"WS","nombre":"SAMOA"},
-    {"codigo":"016","alfa3":"ASM","alfa2":"AS","nombre":"SAMOA AMERICANA"},
-    {"codigo":"652","alfa3":"BLM","alfa2":"BL","nombre":"SAN BARTOLOME"}
-    ,
-    {"codigo":"659","alfa3":"KNA","alfa2":"KN","nombre":"SAN CRISTOBAL Y NIEVES"}
-    ,
-    {"codigo":"674","alfa3":"SMR","alfa2":"SM","nombre":"SAN MARINO"},
-    {"codigo":"663","alfa3":"MAF","alfa2":"MF","nombre":"SAN MARTIN (PARTE FRANCESA)"}
-    ,
-    {"codigo":"666","alfa3":"SPM","alfa2":"PM","nombre":"SAN PEDRO Y MIQUELON"}
-    ,
-    {"codigo":"670","alfa3":"VCT","alfa2":"VC","nombre":"SAN VICENTE Y LAS GRANADINAS"},
-    {"codigo":"654","alfa3":"SHN","alfa2":"SH","nombre":"SANTA HELENA, ASCENSION Y TRISTAN DE ACUÑA"}
-    ,
-    {"codigo":"662","alfa3":"LCA","alfa2":"LC","nombre":"SANTA LUCIA"}
-    ,
-    {"codigo":"336","alfa3":"VAT","alfa2":"VA","nombre":"SANTA SEDE[ESTADO DE LA CIUDAD DEL VATICANO] (LA)"},
-    {"codigo":"678","alfa3":"STP","alfa2":"ST","nombre":"SANTO TOME Y PRINCIPE"}
-    ,
-    {"codigo":"686","alfa3":"SEN","alfa2":"SN","nombre":"SENEGAL"},
-    {"codigo":"688","alfa3":"SRB","alfa2":"RS","nombre":"SERBIA"},
-    {"codigo":"690","alfa3":"SYC","alfa2":"SC","nombre":"SEYCHELLES"},
-    {"codigo":"694","alfa3":"SLE","alfa2":"SL","nombre":"SIERRA LEONA"},
-    {"codigo":"702","alfa3":"SGP","alfa2":"SG","nombre":"SINGAPUR"},
-    {"codigo":"534","alfa3":"SXM","alfa2":"SX","nombre":"SINT MAARTEN (PARTE HOLANDESA)"},
-    {"codigo":"760","alfa3":"SYR","alfa2":"SY","nombre":"SIRIA, (LA) REPUBLICA ARABE"}
-    ,
-    {"codigo":"706","alfa3":"SOM","alfa2":"SO","nombre":"SOMALIA"},
-    {"codigo":"144","alfa3":"LKA","alfa2":"LK","nombre":"SRI LANKA"},
-    {"codigo":"748","alfa3":"SWZ","alfa2":"SZ","nombre":"SUAZILANDIA"},
-    {"codigo":"710","alfa3":"ZAF","alfa2":"ZA","nombre":"SUDAFRICA"}
-    ,
-    {"codigo":"729","alfa3":"SDN","alfa2":"SD","nombre":"SUDAN (EL)"}
-    ,
-    {"codigo":"728","alfa3":"SSD","alfa2":"SS","nombre":"SUDAN DEL SUR"}
-    ,
-    {"codigo":"752","alfa3":"SWE","alfa2":"SE","nombre":"SUECIA"},
-    {"codigo":"756","alfa3":"CHE","alfa2":"CH","nombre":"SUIZA"},
-    {"codigo":"740","alfa3":"SUR","alfa2":"SR","nombre":"SURINAM"},
-    {"codigo":"744","alfa3":"SJM","alfa2":"SJ","nombre":"SVALBARD Y JAN MAYEN"},
-    {"codigo":"764","alfa3":"THA","alfa2":"TH","nombre":"TAILANDIA"},
-    {"codigo":"158","alfa3":"TWN","alfa2":"TW","nombre":"TAIWAN (PROVINCIA DE CHINA)"}
-    ,
-    {"codigo":"834","alfa3":"TZA","alfa2":"TZ","nombre":"TANZANIA, REPUBLICA UNIDA DE"}
-    ,
-    {"codigo":"762","alfa3":"TJK","alfa2":"TJ","nombre":"TAYIKISTAN"}
-    ,
-    {"codigo":"086","alfa3":"IOT","alfa2":"IO","nombre":"TERRITORIO BRITANICO DEL OCEANO INDICO (EL)"}
-    ,
-    {"codigo":"260","alfa3":"ATF","alfa2":"TF","nombre":"TERRITORIOS AUSTRALES FRANCESES (LOS)"},
-    {"codigo":"626","alfa3":"TLS","alfa2":"TL","nombre":"TIMOR-LESTE"},
-    {"codigo":"768","alfa3":"TGO","alfa2":"TG","nombre":"TOGO"},
-    {"codigo":"772","alfa3":"TKL","alfa2":"TK","nombre":"TOKELAU"},
-    {"codigo":"776","alfa3":"TON","alfa2":"TO","nombre":"TONGA"},
-    {"codigo":"780","alfa3":"TTO","alfa2":"TT","nombre":"TRINIDAD Y TOBAGO"},
-    {"codigo":"795","alfa3":"TKM","alfa2":"TM","nombre":"TURKMENISTAN"}
-    ,
-    {"codigo":"792","alfa3":"TUR","alfa2":"TR","nombre":"TURQUIA"}
-    ,
-    {"codigo":"798","alfa3":"TUV","alfa2":"TV","nombre":"TUVALU"},
-    {"codigo":"788","alfa3":"TUN","alfa2":"TN","nombre":"TUNEZ"}
-    ,
-    {"codigo":"804","alfa3":"UKR","alfa2":"UA","nombre":"UCRANIA"},
-    {"codigo":"800","alfa3":"UGA","alfa2":"UG","nombre":"UGANDA"},
-    {"codigo":"858","alfa3":"URY","alfa2":"UY","nombre":"URUGUAY"},
-    {"codigo":"860","alfa3":"UZB","alfa2":"UZ","nombre":"UZBEKISTAN"}
-    ,
-    {"codigo":"548","alfa3":"VUT","alfa2":"VU","nombre":"VANUATU"},
-    {"codigo":"862","alfa3":"VEN","alfa2":"VE","nombre":"VENEZUELA, REPUBLICA BOLIVARIANA DE"}
-    ,
-    {"codigo":"704","alfa3":"VNM","alfa2":"VN","nombre":"VIET NAM"},
-    {"codigo":"876","alfa3":"WLF","alfa2":"WF","nombre":"WALLIS Y FUTUNA"},
-    {"codigo":"887","alfa3":"YEM","alfa2":"YE","nombre":"YEMEN"},
-    {"codigo":"262","alfa3":"DJI","alfa2":"DJ","nombre":"YIBUTI"},
-    {"codigo":"894","alfa3":"ZMB","alfa2":"ZM","nombre":"ZAMBIA"},
-    {"codigo":"716","alfa3":"ZWE","alfa2":"ZW","nombre":"ZIMBABUE"}
-        ]
-      
+{"codigo":"004","alfa3":"AFG","alfa2":"AF","nombre":"AFGANISTÁN"}
+,
+{"codigo":"008","alfa3":"ALB","alfa2":"AL","nombre":"ALBANIA"},
+{"codigo":"276","alfa3":"DEU","alfa2":"DE","nombre":"ALEMANIA"},
+{"codigo":"020","alfa3":"AND","alfa2":"AD","nombre":"ANDORRA"},
+{"codigo":"024","alfa3":"AGO","alfa2":"AO","nombre":"ANGOLA"},
+{"codigo":"660","alfa3":"AIA","alfa2":"AI","nombre":"ANGUILA"},
+{"codigo":"028","alfa3":"ATG","alfa2":"AG","nombre":"ANTIGUA Y BARBUDA"},
+{"codigo":"010","alfa3":"ATA","alfa2":"AQ","nombre":"ANTÁRTIDA"}
+,
+{"codigo":"682","alfa3":"SAU","alfa2":"SA","nombre":"ARABIA SAUDITA"},
+{"codigo":"012","alfa3":"DZA","alfa2":"DZ","nombre":"ARGELIA"},
+{"codigo":"032","alfa3":"ARG","alfa2":"AR","nombre":"ARGENTINA"},
+{"codigo":"051","alfa3":"ARM","alfa2":"AM","nombre":"ARMENIA"},
+{"codigo":"533","alfa3":"ABW","alfa2":"AW","nombre":"ARUBA"},
+{"codigo":"036","alfa3":"AUS","alfa2":"AU","nombre":"AUSTRALIA"},
+{"codigo":"040","alfa3":"AUT","alfa2":"AT","nombre":"AUSTRIA"},
+{"codigo":"031","alfa3":"AZE","alfa2":"AZ","nombre":"AZERBAIYÁN"}
+,
+{"codigo":"044","alfa3":"BHS","alfa2":"BS","nombre":"BAHAMAS (LAS)"},
+{"codigo":"050","alfa3":"BGD","alfa2":"BD","nombre":"BANGLADÉS"}
+,
+{"codigo":"052","alfa3":"BRB","alfa2":"BB","nombre":"BARBADOS"},
+{"codigo":"048","alfa3":"BHR","alfa2":"BH","nombre":"BARÉIN"}
+,
+{"codigo":"084","alfa3":"BLZ","alfa2":"BZ","nombre":"BELICE"},
+{"codigo":"204","alfa3":"BEN","alfa2":"BJ","nombre":"BENÍN"}
+,
+{"codigo":"060","alfa3":"BMU","alfa2":"BM","nombre":"BERMUDAS"},
+{"codigo":"112","alfa3":"BLR","alfa2":"BY","nombre":"BIELORRUSIA"},
+{"codigo":"068","alfa3":"BOL","alfa2":"BO","nombre":"BOLIVIA, ESTADO PLURINACIONAL DE"},
+{"codigo":"535","alfa3":"BES","alfa2":"BQ","nombre":"BONAIRE, SAN EUSTAQUIO Y SABA"},
+{"codigo":"070","alfa3":"BIH","alfa2":"BA","nombre":"BOSNIA Y HERZEGOVINA"},
+{"codigo":"072","alfa3":"BWA","alfa2":"BW","nombre":"BOTSUANA"},
+{"codigo":"076","alfa3":"BRA","alfa2":"BR","nombre":"BRASIL"},
+{"codigo":"096","alfa3":"BRN","alfa2":"BN","nombre":"BRUNÉI DARUSSALAM"}
+,
+{"codigo":"100","alfa3":"BGR","alfa2":"BG","nombre":"BULGARIA"},
+{"codigo":"854","alfa3":"BFA","alfa2":"BF","nombre":"BURKINA FASO"},
+{"codigo":"108","alfa3":"BDI","alfa2":"BI","nombre":"BURUNDI"},
+{"codigo":"064","alfa3":"BTN","alfa2":"BT","nombre":"BUTÁN"}
+,
+{"codigo":"056","alfa3":"BEL","alfa2":"BE","nombre":"BÉLGICA"}
+,
+{"codigo":"132","alfa3":"CPV","alfa2":"CV","nombre":"CABO VERDE"},
+{"codigo":"116","alfa3":"KHM","alfa2":"KH","nombre":"CAMBOYA"},
+{"codigo":"120","alfa3":"CMR","alfa2":"CM","nombre":"CAMERÚN"}
+,
+{"codigo":"124","alfa3":"CAN","alfa2":"CA","nombre":"CANADÁ"}
+,
+{"codigo":"634","alfa3":"QAT","alfa2":"QA","nombre":"CATAR"},
+{"codigo":"148","alfa3":"TCD","alfa2":"TD","nombre":"CHAD"},
+{"codigo":"152","alfa3":"CHL","alfa2":"CL","nombre":"CHILE"},
+{"codigo":"156","alfa3":"CHN","alfa2":"CN","nombre":"CHINA"},
+{"codigo":"196","alfa3":"CYP","alfa2":"CY","nombre":"CHIPRE"},
+{"codigo":"170","alfa3":"COL","alfa2":"CO","nombre":"COLOMBIA"},
+{"codigo":"174","alfa3":"COM","alfa2":"KM","nombre":"COMORAS"},
+{"codigo":"178","alfa3":"COG","alfa2":"CG","nombre":"CONGO"},
+{"codigo":"180","alfa3":"COD","alfa2":"CD","nombre":"CONGO (LA REPÚBLICA DEMOCRÁTICA DEL)"}
+,
+{"codigo":"408","alfa3":"PRK","alfa2":"KP","nombre":"COREA (LA REPÚBLICA DEMOCRÁTICA POPULAR DE)"}
+,
+{"codigo":"410","alfa3":"KOR","alfa2":"KR","nombre":"COREA (LA REPÚBLICA DE)"}
+,
+{"codigo":"188","alfa3":"CRI","alfa2":"CR","nombre":"COSTA RICA"},
+{"codigo":"384","alfa3":"CIV","alfa2":"CI","nombre":"COTE D IVOIRE"},
+{"codigo":"191","alfa3":"HRV","alfa2":"HR","nombre":"CROACIA"},
+{"codigo":"192","alfa3":"CUB","alfa2":"CU","nombre":"CUBA"},
+{"codigo":"531","alfa3":"CUW","alfa2":"CW","nombre":"CURAÇAO"}
+,
+{"codigo":"208","alfa3":"DNK","alfa2":"DK","nombre":"DINAMARCA"},
+{"codigo":"212","alfa3":"DMA","alfa2":"DM","nombre":"DOMINICA"},
+{"codigo":"218","alfa3":"ECU","alfa2":"EC","nombre":"ECUADOR"},
+{"codigo":"818","alfa3":"EGY","alfa2":"EG","nombre":"EGIPTO"},
+{"codigo":"222","alfa3":"SLV","alfa2":"SV","nombre":"EL SALVADOR"},
+{"codigo":"784","alfa3":"ARE","alfa2":"AE","nombre":"EMIRATOS ÁRABES UNIDOS (LOS)"}
+,
+{"codigo":"232","alfa3":"ERI","alfa2":"ER","nombre":"ERITREA"},
+{"codigo":"703","alfa3":"SVK","alfa2":"SK","nombre":"ESLOVAQUIA"},
+{"codigo":"705","alfa3":"SVN","alfa2":"SI","nombre":"ESLOVENIA"},
+{"codigo":"724","alfa3":"ESP","alfa2":"ES","nombre":"ESPA�A"}
+,
+{"codigo":"840","alfa3":"USA","alfa2":"US","nombre":"ESTADOS UNIDOS (LOS)"},
+{"codigo":"233","alfa3":"EST","alfa2":"EE","nombre":"ESTONIA"},
+{"codigo":"231","alfa3":"ETH","alfa2":"ET","nombre":"ETIOPÍA"}
+,
+{"codigo":"608","alfa3":"PHL","alfa2":"PH","nombre":"FILIPINAS (LAS)"},
+{"codigo":"246","alfa3":"FIN","alfa2":"FI","nombre":"FINLANDIA"},
+{"codigo":"242","alfa3":"FJI","alfa2":"FJ","nombre":"FIYI"},
+{"codigo":"250","alfa3":"FRA","alfa2":"FR","nombre":"FRANCIA"},
+{"codigo":"266","alfa3":"GAB","alfa2":"GA","nombre":"GABÓN"}
+,
+{"codigo":"270","alfa3":"GMB","alfa2":"GM","nombre":"GAMBIA (LA)"},
+{"codigo":"268","alfa3":"GEO","alfa2":"GE","nombre":"GEORGIA"},
+{"codigo":"239","alfa3":"SGS","alfa2":"GS","nombre":"GEORGIA DEL SUR Y LAS ISLAS SANDWICH DEL SUR"},
+{"codigo":"288","alfa3":"GHA","alfa2":"GH","nombre":"GHANA"},
+{"codigo":"292","alfa3":"GIB","alfa2":"GI","nombre":"GIBRALTAR"},
+{"codigo":"308","alfa3":"GRD","alfa2":"GD","nombre":"GRANADA"},
+{"codigo":"300","alfa3":"GRC","alfa2":"GR","nombre":"GRECIA"},
+{"codigo":"304","alfa3":"GRL","alfa2":"GL","nombre":"GROENLANDIA"},
+{"codigo":"312","alfa3":"GLP","alfa2":"GP","nombre":"GUADALUPE"},
+{"codigo":"316","alfa3":"GUM","alfa2":"GU","nombre":"GUAM"},
+{"codigo":"320","alfa3":"GTM","alfa2":"GT","nombre":"GUATEMALA"},
+{"codigo":"254","alfa3":"GUF","alfa2":"GF","nombre":"GUAYANA FRANCESA"},
+{"codigo":"831","alfa3":"GGY","alfa2":"GG","nombre":"GUERNSEY"},
+{"codigo":"324","alfa3":"GIN","alfa2":"GN","nombre":"GUINEA"},
+{"codigo":"226","alfa3":"GNQ","alfa2":"GQ","nombre":"GUINEA ECUATORIAL"},
+{"codigo":"624","alfa3":"GNB","alfa2":"GW","nombre":"GUINEA-BISÁU"}
+,
+{"codigo":"328","alfa3":"GUY","alfa2":"GY","nombre":"GUYANA"},
+{"codigo":"332","alfa3":"HTI","alfa2":"HT","nombre":"HAITÍ"}
+,
+{"codigo":"340","alfa3":"HND","alfa2":"HN","nombre":"HONDURAS"},
+{"codigo":"344","alfa3":"HKG","alfa2":"HK","nombre":"HONG KONG"},
+{"codigo":"348","alfa3":"HUN","alfa2":"HU","nombre":"HUNGRÍA"}
+,
+{"codigo":"356","alfa3":"IND","alfa2":"IN","nombre":"INDIA"},
+{"codigo":"360","alfa3":"IDN","alfa2":"ID","nombre":"INDONESIA"},
+{"codigo":"368","alfa3":"IRQ","alfa2":"IQ","nombre":"IRAK"},
+{"codigo":"372","alfa3":"IRL","alfa2":"IE","nombre":"IRLANDA"},
+{"codigo":"364","alfa3":"IRN","alfa2":"IR","nombre":"IRÁN (LA REPÚBLICA ISLÁMICA DE)"}
+,
+{"codigo":"074","alfa3":"BVT","alfa2":"BV","nombre":"ISLA BOUVET"},
+{"codigo":"334","alfa3":"HMD","alfa2":"HM","nombre":"ISLA HEARD E ISLAS MCDONALD"},
+{"codigo":"574","alfa3":"NFK","alfa2":"NF","nombre":"ISLA NORFOLK"},
+{"codigo":"833","alfa3":"IMN","alfa2":"IM","nombre":"ISLA DE MAN"},
+{"codigo":"162","alfa3":"CXR","alfa2":"CX","nombre":"ISLA DE NAVIDAD"},
+{"codigo":"352","alfa3":"ISL","alfa2":"IS","nombre":"ISLANDIA"},
+{"codigo":"136","alfa3":"CYM","alfa2":"KY","nombre":"ISLAS CAIMÁN (LAS)"}
+,
+{"codigo":"166","alfa3":"CCK","alfa2":"CC","nombre":"ISLAS COCOS (KEELING)"},
+{"codigo":"184","alfa3":"COK","alfa2":"CK","nombre":"ISLAS COOK (LAS)"},
+{"codigo":"234","alfa3":"FRO","alfa2":"FO","nombre":"ISLAS FEROE (LAS)"},
+{"codigo":"238","alfa3":"FLK","alfa2":"FK","nombre":"ISLAS MALVINAS [FALKLAND] (LAS)"},
+{"codigo":"580","alfa3":"MNP","alfa2":"MP","nombre":"ISLAS MARIANAS DEL NORTE (LAS)"},
+{"codigo":"584","alfa3":"MHL","alfa2":"MH","nombre":"ISLAS MARSHALL (LAS)"},
+{"codigo":"090","alfa3":"SLB","alfa2":"SB","nombre":"ISLAS SALOMÓN (LAS)"}
+,
+{"codigo":"796","alfa3":"TCA","alfa2":"TC","nombre":"ISLAS TURCAS Y CAICOS (LAS)"},
+{"codigo":"092","alfa3":"VGB","alfa2":"VG","nombre":"ISLAS VÍRGENES (BRITÁNICAS)"}
+,
+{"codigo":"850","alfa3":"VIR","alfa2":"VI","nombre":"ISLAS VÍRGENES (EE.UU.)"}
+,
+{"codigo":"581","alfa3":"UMI","alfa2":"UM","nombre":"ISLAS DE ULTRAMAR MENORES DE ESTADOS UNIDOS (LAS)"},
+{"codigo":"248","alfa3":"ALA","alfa2":"AX","nombre":"ISLAS ÅLAND"}
+,
+{"codigo":"376","alfa3":"ISR","alfa2":"IL","nombre":"ISRAEL"},
+{"codigo":"380","alfa3":"ITA","alfa2":"IT","nombre":"ITALIA"},
+{"codigo":"388","alfa3":"JAM","alfa2":"JM","nombre":"JAMAICA"},
+{"codigo":"392","alfa3":"JPN","alfa2":"JP","nombre":"JAPÓN"}
+,
+{"codigo":"832","alfa3":"JEY","alfa2":"JE","nombre":"JERSEY"},
+{"codigo":"400","alfa3":"JOR","alfa2":"JO","nombre":"JORDANIA"},
+{"codigo":"398","alfa3":"KAZ","alfa2":"KZ","nombre":"KAZAJISTÁN"}
+,
+{"codigo":"404","alfa3":"KEN","alfa2":"KE","nombre":"KENIA"},
+{"codigo":"417","alfa3":"KGZ","alfa2":"KG","nombre":"KIRGUISTÁN"}
+,
+{"codigo":"296","alfa3":"KIR","alfa2":"KI","nombre":"KIRIBATI"},
+{"codigo":"414","alfa3":"KWT","alfa2":"KW","nombre":"KUWAIT"},
+{"codigo":"418","alfa3":"LAO","alfa2":"LA","nombre":"LAO, (LA) REPÚBLICA DEMOCRÓTICA POPULAR"}
+,
+{"codigo":"426","alfa3":"LSO","alfa2":"LS","nombre":"LESOTO"},
+{"codigo":"428","alfa3":"LVA","alfa2":"LV","nombre":"LETONIA"},
+{"codigo":"430","alfa3":"LBR","alfa2":"LR","nombre":"LIBERIA"},
+{"codigo":"434","alfa3":"LBY","alfa2":"LY","nombre":"LIBIA"},
+{"codigo":"438","alfa3":"LIE","alfa2":"LI","nombre":"LIECHTENSTEIN"},
+{"codigo":"440","alfa3":"LTU","alfa2":"LT","nombre":"LITUANIA"},
+{"codigo":"442","alfa3":"LUX","alfa2":"LU","nombre":"LUXEMBURGO"},
+{"codigo":"422","alfa3":"LBN","alfa2":"LB","nombre":"LÍBANO"}
+,
+{"codigo":"446","alfa3":"MAC","alfa2":"MO","nombre":"MACAO"},
+{"codigo":"807","alfa3":"MKD","alfa2":"MK","nombre":"MACEDONIA (LA ANTIGUA REPÚBLICA YUGOSLAVA DE)"}
+,
+{"codigo":"450","alfa3":"MDG","alfa2":"MG","nombre":"MADAGASCAR"},
+{"codigo":"458","alfa3":"MYS","alfa2":"MY","nombre":"MALASIA"},
+{"codigo":"454","alfa3":"MWI","alfa2":"MW","nombre":"MALAUI"},
+{"codigo":"462","alfa3":"MDV","alfa2":"MV","nombre":"MALDIVAS"},
+{"codigo":"470","alfa3":"MLT","alfa2":"MT","nombre":"MALTA"},
+{"codigo":"466","alfa3":"MLI","alfa2":"ML","nombre":"MALÍ"}
+,
+{"codigo":"504","alfa3":"MAR","alfa2":"MA","nombre":"MARRUECOS"},
+{"codigo":"474","alfa3":"MTQ","alfa2":"MQ","nombre":"MARTINICA"},
+{"codigo":"480","alfa3":"MUS","alfa2":"MU","nombre":"MAURICIO"},
+{"codigo":"478","alfa3":"MRT","alfa2":"MR","nombre":"MAURITANIA"},
+{"codigo":"175","alfa3":"MYT","alfa2":"YT","nombre":"MAYOTTE"},
+{"codigo":"583","alfa3":"FSM","alfa2":"FM","nombre":"MICRONESIA (LOS ESTADOS FEDERADOS DE)"},
+{"codigo":"498","alfa3":"MDA","alfa2":"MD","nombre":"MOLDAVIA (LA REPÚBLICA DE)"}
+,
+{"codigo":"496","alfa3":"MNG","alfa2":"MN","nombre":"MONGOLIA"},
+{"codigo":"499","alfa3":"MNE","alfa2":"ME","nombre":"MONTENEGRO"},
+{"codigo":"500","alfa3":"MSR","alfa2":"MS","nombre":"MONTSERRAT"},
+{"codigo":"508","alfa3":"MOZ","alfa2":"MZ","nombre":"MOZAMBIQUE"},
+{"codigo":"104","alfa3":"MMR","alfa2":"MM","nombre":"MYANMAR"},
+{"codigo":"484","alfa3":"MEX","alfa2":"MX","nombre":"MÉXICO"}
+,
+{"codigo":"492","alfa3":"MCO","alfa2":"MC","nombre":"MÓNACO"}
+,
+{"codigo":"516","alfa3":"NAM","alfa2":"NA","nombre":"NAMIBIA"},
+{"codigo":"520","alfa3":"NRU","alfa2":"NR","nombre":"NAURU"},
+{"codigo":"524","alfa3":"NPL","alfa2":"NP","nombre":"NEPAL"},
+{"codigo":"558","alfa3":"NIC","alfa2":"NI","nombre":"NICARAGUA"},
+{"codigo":"566","alfa3":"NGA","alfa2":"NG","nombre":"NIGERIA"},
+{"codigo":"570","alfa3":"NIU","alfa2":"NU","nombre":"NIUE"},
+{"codigo":"578","alfa3":"NOR","alfa2":"NO","nombre":"NORUEGA"},
+{"codigo":"540","alfa3":"NCL","alfa2":"NC","nombre":"NUEVA CALEDONIA"},
+{"codigo":"554","alfa3":"NZL","alfa2":"NZ","nombre":"NUEVA ZELANDA"},
+{"codigo":"562","alfa3":"NER","alfa2":"NE","nombre":"NÍGER (EL)"}
+,
+{"codigo":"512","alfa3":"OMN","alfa2":"OM","nombre":"OMÁN"}
+,
+{"codigo":"586","alfa3":"PAK","alfa2":"PK","nombre":"PAKISTÁN"}
+,
+{"codigo":"585","alfa3":"PLW","alfa2":"PW","nombre":"PALAOS"},
+{"codigo":"275","alfa3":"PSE","alfa2":"PS","nombre":"PALESTINA, ESTADO DE"},
+{"codigo":"591","alfa3":"PAN","alfa2":"PA","nombre":"PANAMÁ"}
+,
+{"codigo":"598","alfa3":"PNG","alfa2":"PG","nombre":"PAPÚA NUEVA GUINEA"}
+,
+{"codigo":"600","alfa3":"PRY","alfa2":"PY","nombre":"PARAGUAY"},
+{"codigo":"528","alfa3":"NLD","alfa2":"NL","nombre":"PAÍSES BAJOS (LOS)"}
+,
+{"codigo":"604","alfa3":"PER","alfa2":"PE","nombre":"PERÚ"}
+,
+{"codigo":"612","alfa3":"PCN","alfa2":"PN","nombre":"PITCAIRN"},
+{"codigo":"258","alfa3":"PYF","alfa2":"PF","nombre":"POLINESIA FRANCESA"},
+{"codigo":"616","alfa3":"POL","alfa2":"PL","nombre":"POLONIA"},
+{"codigo":"620","alfa3":"PRT","alfa2":"PT","nombre":"PORTUGAL"},
+{"codigo":"630","alfa3":"PRI","alfa2":"PR","nombre":"PUERTO RICO"},
+{"codigo":"826","alfa3":"GBR","alfa2":"GB","nombre":"REINO UNIDO (EL)"},
+{"codigo":"140","alfa3":"CAF","alfa2":"CF","nombre":"REPÚBLICA CENTROAFRICANA (LA)"}
+,
+{"codigo":"203","alfa3":"CZE","alfa2":"CZ","nombre":"REPÚBLICA CHECA (LA)"}
+,
+{"codigo":"214","alfa3":"DOM","alfa2":"DO","nombre":"REPÚBLICA DOMINICANA (LA)"}
+,
+{"codigo":"638","alfa3":"REU","alfa2":"RE","nombre":"REUNIÓN"}
+,
+{"codigo":"646","alfa3":"RWA","alfa2":"RW","nombre":"RUANDA"},
+{"codigo":"642","alfa3":"ROU","alfa2":"RO","nombre":"RUMANIA"},
+{"codigo":"643","alfa3":"RUS","alfa2":"RU","nombre":"RUSIA, (LA) FEDERACIÓN DE"}
+,
+{"codigo":"732","alfa3":"ESH","alfa2":"EH","nombre":"SAHARA OCCIDENTAL"},
+{"codigo":"882","alfa3":"WSM","alfa2":"WS","nombre":"SAMOA"},
+{"codigo":"016","alfa3":"ASM","alfa2":"AS","nombre":"SAMOA AMERICANA"},
+{"codigo":"652","alfa3":"BLM","alfa2":"BL","nombre":"SAN BARTOLOMÉ"}
+,
+{"codigo":"659","alfa3":"KNA","alfa2":"KN","nombre":"SAN CRISTÓBAL Y NIEVES"}
+,
+{"codigo":"674","alfa3":"SMR","alfa2":"SM","nombre":"SAN MARINO"},
+{"codigo":"663","alfa3":"MAF","alfa2":"MF","nombre":"SAN MARTÍN (PARTE FRANCESA)"}
+,
+{"codigo":"666","alfa3":"SPM","alfa2":"PM","nombre":"SAN PEDRO Y MIQUELÓN"}
+,
+{"codigo":"670","alfa3":"VCT","alfa2":"VC","nombre":"SAN VICENTE Y LAS GRANADINAS"},
+{"codigo":"654","alfa3":"SHN","alfa2":"SH","nombre":"SANTA HELENA, ASCENSIÓN Y TRISTÁN DE ACUÑA"}
+,
+{"codigo":"662","alfa3":"LCA","alfa2":"LC","nombre":"SANTA LUCÍA"}
+,
+{"codigo":"336","alfa3":"VAT","alfa2":"VA","nombre":"SANTA SEDE[ESTADO DE LA CIUDAD DEL VATICANO] (LA)"},
+{"codigo":"678","alfa3":"STP","alfa2":"ST","nombre":"SANTO TOMÉ Y PRÍNCIPE"}
+,
+{"codigo":"686","alfa3":"SEN","alfa2":"SN","nombre":"SENEGAL"},
+{"codigo":"688","alfa3":"SRB","alfa2":"RS","nombre":"SERBIA"},
+{"codigo":"690","alfa3":"SYC","alfa2":"SC","nombre":"SEYCHELLES"},
+{"codigo":"694","alfa3":"SLE","alfa2":"SL","nombre":"SIERRA LEONA"},
+{"codigo":"702","alfa3":"SGP","alfa2":"SG","nombre":"SINGAPUR"},
+{"codigo":"534","alfa3":"SXM","alfa2":"SX","nombre":"SINT MAARTEN (PARTE HOLANDESA)"},
+{"codigo":"760","alfa3":"SYR","alfa2":"SY","nombre":"SIRIA, (LA) REPÚBLICA ÁRABE"}
+,
+{"codigo":"706","alfa3":"SOM","alfa2":"SO","nombre":"SOMALIA"},
+{"codigo":"144","alfa3":"LKA","alfa2":"LK","nombre":"SRI LANKA"},
+{"codigo":"748","alfa3":"SWZ","alfa2":"SZ","nombre":"SUAZILANDIA"},
+{"codigo":"710","alfa3":"ZAF","alfa2":"ZA","nombre":"SUDÁFRICA"}
+,
+{"codigo":"729","alfa3":"SDN","alfa2":"SD","nombre":"SUDÁN (EL)"}
+,
+{"codigo":"728","alfa3":"SSD","alfa2":"SS","nombre":"SUDÁN DEL SUR"}
+,
+{"codigo":"752","alfa3":"SWE","alfa2":"SE","nombre":"SUECIA"},
+{"codigo":"756","alfa3":"CHE","alfa2":"CH","nombre":"SUIZA"},
+{"codigo":"740","alfa3":"SUR","alfa2":"SR","nombre":"SURINAM"},
+{"codigo":"744","alfa3":"SJM","alfa2":"SJ","nombre":"SVALBARD Y JAN MAYEN"},
+{"codigo":"764","alfa3":"THA","alfa2":"TH","nombre":"TAILANDIA"},
+{"codigo":"158","alfa3":"TWN","alfa2":"TW","nombre":"TAIWÁN (PROVINCIA DE CHINA)"}
+,
+{"codigo":"834","alfa3":"TZA","alfa2":"TZ","nombre":"TANZANIA, REPÚBLICA UNIDA DE"}
+,
+{"codigo":"762","alfa3":"TJK","alfa2":"TJ","nombre":"TAYIKISTÁN"}
+,
+{"codigo":"086","alfa3":"IOT","alfa2":"IO","nombre":"TERRITORIO BRITÁNICO DEL OCÉANO ÍNDICO (EL)"}
+,
+{"codigo":"260","alfa3":"ATF","alfa2":"TF","nombre":"TERRITORIOS AUSTRALES FRANCESES (LOS)"},
+{"codigo":"626","alfa3":"TLS","alfa2":"TL","nombre":"TIMOR-LESTE"},
+{"codigo":"768","alfa3":"TGO","alfa2":"TG","nombre":"TOGO"},
+{"codigo":"772","alfa3":"TKL","alfa2":"TK","nombre":"TOKELAU"},
+{"codigo":"776","alfa3":"TON","alfa2":"TO","nombre":"TONGA"},
+{"codigo":"780","alfa3":"TTO","alfa2":"TT","nombre":"TRINIDAD Y TOBAGO"},
+{"codigo":"795","alfa3":"TKM","alfa2":"TM","nombre":"TURKMENISTÁN"}
+,
+{"codigo":"792","alfa3":"TUR","alfa2":"TR","nombre":"TURQUÍA"}
+,
+{"codigo":"798","alfa3":"TUV","alfa2":"TV","nombre":"TUVALU"},
+{"codigo":"788","alfa3":"TUN","alfa2":"TN","nombre":"TÚNEZ"}
+,
+{"codigo":"804","alfa3":"UKR","alfa2":"UA","nombre":"UCRANIA"},
+{"codigo":"800","alfa3":"UGA","alfa2":"UG","nombre":"UGANDA"},
+{"codigo":"858","alfa3":"URY","alfa2":"UY","nombre":"URUGUAY"},
+{"codigo":"860","alfa3":"UZB","alfa2":"UZ","nombre":"UZBEKISTÁN"}
+,
+{"codigo":"548","alfa3":"VUT","alfa2":"VU","nombre":"VANUATU"},
+{"codigo":"862","alfa3":"VEN","alfa2":"VE","nombre":"VENEZUELA, REPÚBLICA BOLIVARIANA DE"}
+,
+{"codigo":"704","alfa3":"VNM","alfa2":"VN","nombre":"VIET NAM"},
+{"codigo":"876","alfa3":"WLF","alfa2":"WF","nombre":"WALLIS Y FUTUNA"},
+{"codigo":"887","alfa3":"YEM","alfa2":"YE","nombre":"YEMEN"},
+{"codigo":"262","alfa3":"DJI","alfa2":"DJ","nombre":"YIBUTI"},
+{"codigo":"894","alfa3":"ZMB","alfa2":"ZM","nombre":"ZAMBIA"},
+{"codigo":"716","alfa3":"ZWE","alfa2":"ZW","nombre":"ZIMBABUE"}
+    ]
+  
