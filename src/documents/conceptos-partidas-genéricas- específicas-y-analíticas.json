@@ -1,0 +1,1733 @@
+[
+    {
+     "1000 SERVICIOS PERSONALES": "1100 REMUNERACIONES AL PERSONAL DE CARÁCTER PERMANENTE"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "113 Sueldos base al personal permanente"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1131 Sueldos base al personal permanente académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1132 Sueldos base al personal permanente administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1133 Sueldos base al personal permanente mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1200 REMUNERACIONESAL PERSONALDECARÁCTERTRANSITORIO"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "121 Honorarios asimilables a salarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1211 Honorarios asimilables a salarios personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1212 Honorarios asimilables a salarios personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1213 Honorarios asimilables a salarios personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "122 Sueldos base al personal eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1221 Sueldos base al personal eventual académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1222 Sueldos base al personal eventual administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1223 Sueldos base al personal eventual mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1300 REMUNERACIONESADICIONALESY ESPECIALES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "131 Primas por años de servicios efectivos prestados"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1311 Primas por años de servicios efectivos prestados personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1312 Primas por años de servicios efectivos prestados personal a dministrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1313 Primas por años de servicios efectivos prestados personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1314 Primas por años de servicios efectivos prestados personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1315 Primas por años de servicios efectivos prestados personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1316 Primas por años de servicios efectivos prestados personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "132 Primasde vacaciones,dominical y gratificación de fin de año"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1321 Prima vacacional"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13211 Prima vacacional personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13212 Prima vacacional personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13213 Prima vacacional personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13214 Prima vacacional personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13215 Prima vacacional personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13216 Prima vacacional personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1322 Prima dominical"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13221 Prima dominical personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1323 Gratificación anual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13231 Gratificación anual personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13232 Gratificación anual personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13233 Gratificación anual personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13234 Gratificación anual personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13235 Gratificación anual personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "13236 Gratificación anual personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "133 Horas extraordinarias"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1331 Horasextraordinariaspersonaladministrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "134 Compensaciones 1341 Compensaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1400 SEGURIDAD SOCIAL"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "141 Aportaciones de seguridad social"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1411 Aportaciones de seguridad social (IMSS)"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1412 Ayuda para gastos de matrimonio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14121 Ayuda para gastos de matrimonio personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14122 Ayuda para gastos de matrimonio personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "142 Aportaciones a fondos de vivienda"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1421 Aportaciones al fondo de vivienda (INFONAVIT)"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "143 Aportaciones al sistema para el retiro"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1431 Aportaciones al sistema para el retiro (Régimen de Pensiones y Jubilaciones)"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14311 Aportaciones al sistema para el retiro (Régimen de Pensiones y Jubilaciones) personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14312 Aportaciones al sistema para el retiro (Régimen de Pensiones y Jubilaciones) personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14313 Aportaciones al sistema para el retiro (Régimen de Pensiones y Jubilaciones) personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14314 Aportaciones al sistema para el retiro (Régimen de Pensiones y Jubilaciones) personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14315 Aportaciones al sistema para el retiro (Régimen de Pensiones y Jubilaciones) personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14316 Aportaciones al sistema para el retiro (Régimen de Pensiones y Jubilaciones) personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14317 Aportaciones al sistema para el retiro (Régimen de Pensiones y Jubilaciones) jubilados nuevo régimen"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "144 Aportaciones para seguros 1441 Seguro de vida grupal"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14411 Seguro de vida grupal personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14412 Seguro de vida grupal personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14413 Seguro de vida grupal personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14414 Seguro de vida grupal personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14415 Seguro de vida grupal personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "14416 Seguro de vida grupal personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1500 OTRAS PRESTACIONES SOCIALES Y ECONÓMICAS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "151 Cuotas para el fondo de ahorro y fondo de trabajo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1511 Aportación fondo de ahorro"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15111 Aportación fondo de ahorro personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15112 Aportación fondo de ahorro personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15113Aportación fondo de ahorro personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15114 Aportación fondo de ahorro personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15115 Aportación fondo de ahorro personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15116 Aportación fondo de ahorro personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "152 Indemnizaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1521 Liquidaciones al personal de carácter laboral"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "153 Prestaciones y haberes de retiro"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1531 Jubilaciones y pensiones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154 Prestaciones contractuales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1541 Ayuda de despensa"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15411 Ayuda de despensa personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15412 Ayuda de despensa personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15413 Ayuda de despensa personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15414 Ayuda de despensa personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15415 Ayuda de despensa personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15416 Ayuda de despensa personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1542 Ayuda de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15421 Ayuda de transporte personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15422 Ayuda de transporte personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15423 Ayuda de transporte personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15424 Ayuda de transporte personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15425 Ayuda de transporte personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15426 Ayuda de transporte personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1543 Ayuda de vivienda"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15431 Ayuda de vivienda personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15432 Ayuda de vivienda personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15433 Ayuda de vivienda personal mandos medios, intermedios y superiores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15434 Ayuda de vivienda personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15435 Ayuda de vivienda personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15436 Ayuda de vivienda personal mandos medios, intermedios y superiores eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1544 Vales de despensa"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15441 Vales de despensa personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15442 Vales de despensa personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15443 Vales de despensa personal académico eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15444 Vales de despensa personal administrativo eventual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1545 Prestaciones no ligadas personal académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15451 Apoyo informático"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15452 Apoyos para cursos, matriculas, inscripciones y conexiones al personal"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15453 Ayuda para guardería"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15454 Ayuda para gastos funerarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15455 Festejos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15456 Pases al club"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15457 Hospedajes hoteles UdeG"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15458 Preseas al mérito académico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15459 Actividades culturales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154510 Impresiones y publicaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154511 Suscripciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154512 Gastos de administración"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154513 Estudios posgrado"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154514 Proceso electoral"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154515 Equipamiento delegaciones académicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154516 Apoyo para material didáctico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154517 Programas especiales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154518 Reconocimiento de antigüedad"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154519 Quinta transitoria"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1546 Prestaciones no ligadas personal administrativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15461 Apoyo informático"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15462 Apoyos para cursos, matriculas, inscripciones y conexiones al personal"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15463 Ayuda para guardería"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15464 Ayuda para gastos funerarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15465 Prestación no ligada económica"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15466 Recreación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15467 Hospedajes hoteles UdeG"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15468 Actividades culturales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "15469 Fomento deportivo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154610 Programa integral de salud"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154611 Gastos de administración"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154612 Festejos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154613 Uniformes"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154614 Programas especiales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154615 Reconocimiento de antigüedad"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "154616 Quinta transitoria"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1547 Prima de antigüedad"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "155 Apoyos a la capacitación de los servidores públicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1551 Becas al personal"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1552 Seguro de gastos médicos becarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1700 PAGO DE ESTÍMULOS A SERVIDORES PÚBLICOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "171 Estímulos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1711 Estímulos de productividad"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "1712 Estímulos académicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2000 MATERIALES Y SUMINISTROS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2100 MATERIALES DE ADMINISTRACIÓN, EMISIÓN DE DOCUMENTOS Y ARTÍCULOS OFICIALES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "211 Materiales, útiles y equipos menores de oficina"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2111 Materiales, útiles y equipos menores de oficina"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "212 Materiales y útiles de impresión y reproducción"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2121 Materiales y útiles de impresión y reproducción"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "213 Material estadístico y geográfico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2131 Material estadístico y geográfico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "214 Materiales, útiles y equipos menores de tecnologías de la información y comunicaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2141 Materiales, útiles y equipos menores de tecnologías de la información y comunicaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "215 Material impreso e información digital"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2151 Material impreso"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2152 Material audiovisual"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2153 Libros"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2154 Revistas, periódicos, suscripciones y otros"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "216 Material de limpieza"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2161 Material de limpieza"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "217 Materiales y útiles de enseñanza"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2171 Materiales y útiles de enseñanza"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "218 Materiales para el registro e identificación de bienes y personas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2181 Materiales para el registro e identificación de bienes y personas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2200 ALIMENTOS Y UTENSILIOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "221 Productos alimenticios para personas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2211 Productos alimenticios para personas en las instalaciones de la Red Universitaria"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2212 Productos alimenticios para personas que realizan labores de campo o supervisión"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "222 Productos alimenticios para animales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2221 Productos alimenticios para animales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "223 Utensilios para el servicio de alimentación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2231 Utensilios para el servicio de alimentación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2300 MATERIAS PRIMAS Y MATERIALES DE PRODUCCIÓN Y COMERCIALIZACIÓN"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "231 Productos alimenticios, agropecuarios y forestales adquiridos como materia prima"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2311 Productos alimenticios, agropecuarios y forestales adquiridos como materia prima"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2400 MATERIALES Y ARTÍCULOS DE CONSTRUCCIÓN Y DE REPARACIÓN"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "241 Productos minerales no metálicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2411 Productos minerales no metálicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "246 Material eléctrico y electrónico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2461 Material eléctrico y electrónico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "248 Materiales complementarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2481 Materiales complementarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "249 Otros materiales y artículos de construcción y reparación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2491 Otros materiales y artículos de construcción y reparación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2500 PRODUCTOSQUÍMICOS,FARMACÉUTICOSY DE LABORATORIO"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "251 Productos químicos básicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2511 Productos químicos básicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "252 Fertilizantes, pesticidas y otros agroquímicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2521 Fertilizantes, pesticidas y otros agroquímicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "253 Medicinas y productos farmacéuticos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2531 Medicinas y productos farmacéuticos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "254 Materiales, accesorios y suministros médicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2541 Materiales, accesorios y suministros médicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "255 Materiales, accesorios y suministros de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2551 Accesorios y suministros de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2552 Insumos para experimentación, explotación y reproducción animal"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "256 Fibras sintéticas, hules, plásticos y derivados"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2561 Fibras sintéticas, hules, plásticos y derivados"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "259 Otros productos químicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2591 Otros productos químicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2600 COMBUSTIBLES, LUBRICANTES Y ADITIVOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "261 Combustibles, lubricantes y aditivos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2611 Combustibles para vehículos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2612 Aceites, lubricantes y aditivos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2613 Combustibles para aparatos, equipos y maquinaria en general"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2700 VESTUARIO,BLANCOS,PRENDASDE PROTECCIÓNYARTÍCULOSDEPORTIVOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "271 Vestuario y uniformes"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2711 Vestuario y uniformes"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "272 Prendas de seguridad y protección personal"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2721 Prendas de seguridad y protección personal"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "273 Artículos deportivos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2731 Artículosdeportivos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "274 Productos textiles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2741 Productos textiles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "275 Blancos y otros productos textiles, excepto prendas de vestir"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2751 Blancos y otros productos textiles, excepto prendas de vestir"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2900 HERRAMIENTAS, REFACCIONES Y ACCESORIOS MENORES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "291 Herramientas menores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2911 Herramientas menores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "292 Refacciones y accesorios menores de edificios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2921 Refacciones y accesorios menores de edificios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "293 Refacciones y accesorios menores de mobiliario y equipo de administración, educacional y recreativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2931 Refacciones y accesorios menores de mobiliario y equipo de administración, educacional y recreativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "294 Refacciones y accesorios menores de equipo de cómputo y tecnologías de la información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2941 Refacciones y accesorios menores para equipo de cómputo y tecnologías de la información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "295 Refacciones y accesorios menores de equipo e instrumental médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2951 Refacciones y accesorios menores de equipo e instrumental médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "296 Refacciones y accesorios menores de equipo de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2961 Refacciones y accesorios menores de equipo de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "298 Refacciones y accesorios menores de maquinaria y otros equipos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2981 Refacciones y accesorios menores de maquinaria y otros equipos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "299 Refacciones y accesorios menores otros bienes muebles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2991 Mobiliario de oficina y estantería"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2992 Mobiliario excepto de oficina y estantería"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2993 Otros mobiliarios y equipos de administración"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2994 Sistemas de aire acondicionado, calefacción y de refrigeración industrial y comercial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2995 Maquinaria y equipo agropecuario"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2996 Maquinaria y equipo industrial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2997 Maquinaria y equipo de construcción"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2998 Equipo de comunicación y telecomunicación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "2999 Equipos de generación eléctrica, aparatos y accesorios eléctricos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "29910 Herramientas y máquinas - refacciones y accesorios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "29911 Equipo informático"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "29912 Otros bienes inventariables no capitalizables"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3000 SERVICIOS GENERALES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3100 SERVICIOS BÁSICOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "311 Energía eléctrica"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3111 Energía eléctrica"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "312 Gas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3121 Gas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "313 Agua"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3131 Agua"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "314 Telefonía tradicional"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3141 Telefonía tradicional"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "315 Telefonía celular"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3151 Telefonía celular"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "316 Servicios de telecomunicaciones y satélites"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3161 Servicios de telecomunicaciones y satélites"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "317 Servicios de acceso de Internet, redes y procesamiento de información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3171 Servicio de acceso de Internet, redes y procesamiento de información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "318 Servicios postales y telegráficos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3181 Servicios postales y telegráficos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "319 Servicios integrales y otros servicios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3191 Servicios integrales y otros servicios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3200 SERVICIOS DE ARRENDAMIENTO"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "321 Arrendamiento de terrenos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3211 Arrendamiento de terrenos con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3212 Arrendamiento de terrenos con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "322 Arrendamiento de edificios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3221 Arrendamiento de edificios con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3222 Arrendamiento de edificios con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "323 Arrendamiento de mobiliario y equipo de administración, educacional y recreativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3231 Arrendamiento de mobiliario y equipo de administración, educacional y recreativo con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3232 Arrendamiento de mobiliario y equipo de administración, educacional y recreativo con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "324 Arrendamiento de equipo e instrumental médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3241 Arrendamiento de equipo e instrumental médico y de laboratorio con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3242 Arrendamiento de equipo e instrumental médico y de laboratorio con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "325 Arrendamiento de equipo de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3251 Arrendamiento de equipo de transporte con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3252 Arrendamiento de equipo de transporte con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "326 Arrendamiento de maquinaria, otros equipos y herramientas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3261 Arrendamiento de maquinaria, otros equipos y herramientas con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3262 Arrendamiento de maquinaria, otros equipos y herramientas con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "327 Arrendamiento de activos intangibles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3271 Arrendamiento de activos intangibles con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3272 Arrendamiento de activos intangibles con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "329 Otros arrendamientos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3291 Otros arrendamientos con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3292 Otros arrendamientos con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3300 SERVICIOS PROFESIONALES, CIENTÍFICOS, TÉCNICOS Y OTROS SERVICIOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "331 Servicios legales, de contabilidad, auditoría y relacionados"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3311 Servicios legales, de contabilidad, auditoría y relacionados con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3312 Servicios legales, de contabilidad, auditoría y relacionados con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "332 Servicios de diseño, arquitectura, ingeniería y actividades relacionadas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3321 Serviciosdediseño,arquitectura,ingenieríayactividadesrelacionadasconpersonas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3322 Serviciosdediseño,arquitectura,ingenieríayactividadesrelacionadasconpersonas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "333 Servicios de consultoría administrativa, procesos, técnica y en tecnologías de la información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3331 Servicios de consultoría administrativa, procesos, técnica y en tecnologías de la información con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3332 Servicios de consultaría administrativa, procesos, técnica y en tecnologías de la información con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "334 Servicios de capacitación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3341 Servicios de capacitación con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3342 Servicios de capacitación con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "335 Servicios de investigación científica y desarrollo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3351 Servicios de investigación científica y desarrollo con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3352 Servicios de investigación científica y desarrollo con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "336 Servicios de apoyo administrativo, fotocopiado e impresión"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3361 Servicios de apoyo administrativo, fotocopiado e impresión con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3362 Servicios de apoyo administrativo, fotocopiado e impresión con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "338 Servicios de vigilancia"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3381 Servicios de vigilancia con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3382 Servicios de vigilancia con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "339 Servicios profesionales, científicos y técnicos integrales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3391 Servicios profesionales, científicos y técnicos integrales con personas físicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3392 Servicios profesionales, científicos y técnicos integrales con personas morales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3400 SERVICIOSFINANCIEROS, BANCARIOS Y COMERCIALES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "341 Servicios financieros y bancarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3411 Descuentos, comisiones y otros servicios bancarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3412 Otras comisiones e intereses"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3413 Perdida en cambios de divisas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "343 Servicios de recaudación, traslado y custodia de valores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3431 Servicios de recaudación, traslado y custodia de valores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "344 Seguros de responsabilidad patrimonial y fianzas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3441 Seguros de responsabilidad patrimonial y fianzas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "345 Seguro de bienes patrimoniales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3451 Seguros de bienes patrimoniales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3452 Reembolso de recuperación de siniestros"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "346 Almacenaje, envase y embalaje"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3461 Almacenaje, envase y embalaje"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "347 Fletes y maniobras"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3471 Fletes y maniobras"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3500 SERVICIOS DE INSTALACIÓN, REPARACIÓN, MANTENIMIENTO Y CONSERVACIÓN"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "351 Conservación y mantenimiento menor de inmuebles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3511 Conservación y mantenimiento menor de inmuebles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "352 Instalación, reparación y mantenimiento de mobiliario y equipo de administración, educacional y recreativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3521 Instalación, reparación y mantenimiento de mobiliario y equipo de administración, educacional y recreativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "353 Instalación, reparación y mantenimiento de equipo de cómputo y tecnología de la información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3531 Instalación, reparación y mantenimiento de equipo de cómputo y tecnología de la información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "354 Instalación, reparación y mantenimiento de equipo e instrumental médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3541 Instalación, reparación y mantenimiento de equipo e instrumental médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "355 Reparación y mantenimiento de equipo de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3551 Reparación y mantenimiento de equipo de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "355 Reparación y mantenimiento de equipo de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3551 Reparación y mantenimiento de equipo de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "357 Instalación, reparación y mantenimiento de maquinaria, otros equipos y herramienta"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3571 Mantenimiento y conservación de maquinaria y equipo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3572 Serviciosdeinstalación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "358 Servicios de limpieza y manejo de desechos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3581 Servicios de limpieza y manejo de desechos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "359 Servicios de jardinería y fumigación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3591 Servicios de jardinería y fumigación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3600 SERVICIOSDECOMUNICACIÓNSOCIALY PUBLICIDAD"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "361 Difusión por radio, televisión y otros medios de mensajes sobre programas y actividades gubernamentales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3611 Gastos de propaganda e imagen institucional"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3612 Impresiones y publicaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "362 Difusión por radio, televisión y otros medios de mensajes comerciales para promover la venta de bienes o servicios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3621 Difusión por radio, televisión y otros medios de mensajes comerciales para promover la venta de bienes o servicios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "363 Servicios de creatividad, preproducción y producción de publicidad, excepto Internet"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3631 Servicios de creatividad, preproducción y producción de publicidad, excepto Internet"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "364 Servicios de revelado de fotografías"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3641 Servicio de revelado de fotografías"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "365 Servicios de la industria fílmica, del sonido y del video"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3651 Servicios de la industria fílmica, del sonido y del video"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "369 Otros servicios de información 3691 Otros servicios de información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3700 SERVICIOSDE TRASLADO Y VIÁTICOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "371 Pasajes aéreos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3711 Pasajes aéreos nacionales e internacionales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "372 Pasajes terrestres"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3721 Pasajes terrestres nacionales e internacionales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3722 Pasajes terrestres nacionales para la gestión entre dependencias"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "375 Viáticos en el país"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3751 Viáticos hospedaje nacional"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3752 Viáticos hospedaje nacional para la gestión entre dependencias"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3753 Viáticos alimentación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3754 Viáticos alimentación para la gestión entre dependencias"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3755 Viáticos otros gastos en el país"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "376 Viáticos en el extranjero"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3761 Viáticos hospedaje en el extranjero"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3762 Viáticos alimentación en el extranjero"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3763 Viáticos otros gastos en el extranjero"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "379 Otros servicios de traslado y hospedaje"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3791 Estacionamiento"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3800 SERVICIOS OFICIALES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "381 Gastos de ceremonial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3811 Gastos de ceremonial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "382 Gastos de orden social y cultural"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3821 Gastos de orden social"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3822 Obsequios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3823 Premios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3824 Reconocimientos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3825 Espectáculos, eventos culturales, deportivos y sociales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "383 Congresos y convenciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3831 Congresos y convenciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "384 Exposiciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3841 Exposiciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "385 Gastos de representación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3851 Gastos de consumo en restaurante por representación oficial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3852 Otros gastos de servicios oficiales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3900 OTROS SERVICIOS GENERALES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "392 Impuestos y derechos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3921 Impuestos y derechos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "393 Impuestos y derechos de importación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3931 Impuestos y derechos de importación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "394 Sentencias y resoluciones por autoridad competente"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3941 Sentencias y resoluciones por autoridad competente"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "395 Penas, multas, accesorios y actualizaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3951 Penas, multas, accesorios y actualizaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "399 Otros servicios generales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "3991 Otros servicios generales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4000 TRANSFERENCIAS, ASIGNACIONES, SUBSIDIOS Y OTRAS AYUDAS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4400 AYUDAS SOCIALES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "441 Ayudas sociales a personas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4411 Becarios"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4412 Seguros gastos médicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4413 Apoyos de programas específicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "442 Becas y otras ayudas para programas de capacitación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4421 Becas alumnos nacionales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4422 Becas alumnos extranjeros"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4423 S.T.A.U.DE G."
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "44231 Ayudas informáticas, bibliográficas y didácticas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "44232 Ayudas sociales, deportivas, recreativas y culturales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4424 S.U.T.U.DE G."
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "44241 Ayudas sociales, deportivas, recreativas y culturales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4425 F.E.U."
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "444 Ayudas sociales a actividades científicas o académicas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4441 Ayudas culturales y sociales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4442 Donativos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4443 Donativos etiquetados empresas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "448 Ayudas por desastres naturales y otros siniestros"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "4481 Ayudas por desastres naturales y otros siniestros"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5000 BIENES MUEBLES, INMUEBLES E INTANGIBLES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5100 MOBILIARIO Y EQUIPO DE ADMINISTRACIÓN"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "511 Muebles de oficina y estantería"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5111 Muebles de oficina y estantería"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "512 Muebles, excepto de oficina y estantería"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5121 Muebles,exceptodeoficinayestantería"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "513 Bienes artísticos, culturales y científicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5131 Libros, textos y colecciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5132 Bienes artísticos y culturales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "515 Equipo de cómputo y de tecnologías de la información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5151 Equipo de cómputo y de tecnologías de la información"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "519 Otros mobiliarios y equipos de administración"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5191 Otros mobiliarios y equipos de administración"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5200 MOBILIARIO Y EQUIPO EDUCACIONAL Y RECREATIVO"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "521 Equipos y aparatos audiovisuales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5211 Equipos y aparatos audiovisuales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "522 Aparatos deportivos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5221 Aparatosdeportivos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "523 Cámaras fotográficas y de video"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5231 Cámaras fotográficas y de video"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "529 Otro mobiliario y equipo educacional y recreativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5291 Instrumentos y equipos musicales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5292Instrumentosyequiposeducacionalesy recreativos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5300 EQUIPO E INSTRUMENTAL MÉDICO Y DE LABORATORIO"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "531 Equipo médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5311 Equipo médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "532 Instrumental médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5321 Instrumental médico y de laboratorio"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5400 VEHÍCULOS Y EQUIPO DE TRANSPORTE"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "541 Vehículos y equipo terrestre"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5411 Vehículos y equipo terrestre"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "542 Carrocerías y remolques"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5421 Carrocerías y remolques"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "545 Embarcaciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5451 Equipo de transporte marítimo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "549 Otros equipos de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5491 Otros equipos de transporte"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5600 MAQUINARIA, OTROS EQUIPOS Y HERRAMIENTAS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "561 Maquinaria y equipo agropecuario"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5611 Maquinaria y equipo agropecuario"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "562 Maquinaria y equipo industrial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5621 Maquinaria y equipo industrial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "563 Maquinaria y equipo de construcción"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5631 Maquinaria y equipo de construcción"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "564 Sistemas de aire acondicionado, calefacción y de refrigeración industrial y comercial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5641 Sistemas de aire acondicionado, calefacción y de refrigeración industrial y comercial"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "565 Equipo de comunicación y telecomunicación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5651 Equipo de comunicación y telecomunicación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "566 Equipos de generación eléctrica, aparatos y accesorios eléctricos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5661 Equipos de generación eléctrica, aparatos y accesorios eléctricos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "567 Herramientas y máquinas-herramienta"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5671 Herramientas y máquinas-herramienta"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "569 Otros equipos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5691 Otros equipos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5700 ACTIVOS BIOLÓGICOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "571 Bovinos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5711 Bovinos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "572 Porcinos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5721 Porcinos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "573 Aves"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5731 Aves"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "574 Ovinos y caprinos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5741 Ovinos y caprinos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "575 Peces y acuicultura"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5751 Peces y acuicultura"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "576 Equinos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5761 Equinos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "577 Especies menores y de zoológico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5771 Especies menores y de zoológico"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "579 Otros activos biológicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5791 Otros activos biológicos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5800 BIENES INMUEBLES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "581 Terrenos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5811 Terrenos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "583 Edificios no residenciales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5831 Edificios no residenciales (casas y locales)"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "589 Otros bienes inmuebles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5891 Otros bienes inmuebles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5892 Viajes Universidad de Guadalajara, S.A."
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5893 Centro Cultural Universitario"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "58931 Obra en proceso"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "58932 Administración de obras"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5894 Auditorio Metropolitano"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5900 ACTIVOS INTANGIBLES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "591 Software"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5911 Software"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "592 Patentes"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5921 Patentes"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "593 Marcas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5931 Marcas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "594 Derechos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5941 Derechos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "596 Franquicias"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5961 Franquicia equipo de fútbol"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "597 Licencias informáticas e intelectuales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5971 Licencias informáticas e intelectuales"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "599 Otros activos intangibles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "5991 Otros activos intangibles"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "6000 INVERSIÓN PÚBLICA"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "6200 OBRA PÚBLICA EN BIENES PROPIOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "622 Edificación no habitacional"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "6221 Espacios educativos"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62211 Construcción nueva"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62212 Ampliación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62213 Remodelación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62214 Mantenimiento o reparación integral de las construcciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62215 Gastos en estudios de pre-inversión y preparación del proyecto"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "6222 Espacios de apoyo educativo"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62221 Construcciónnueva"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62222 Ampliación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62223 Remodelación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62224 Mantenimiento o reparación integral de las construcciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62225 Gastos en estudios de pre-inversión y preparación del proyecto"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "6223 Espacios complementarios\/servicios generales\/otras obras\/total"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62231 Construcción nueva"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62232 Ampliación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62233 Remodelación"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62234 Mantenimiento o reparación integral de las construcciones"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "62235 Gastos en estudios de pre-inversión y preparación del proyecto"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "7000 INVERSIONES FINANCIERAS Y OTRAS PROVISIONES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "7300 COMPRA DE TITULOS Y VALORES"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "739 Otros valores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "7391 Acciones, bonos y valores"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "7500 INVERSIONES EN FIDEICOMISOS, MANDATOS Y OTROS ANÁLOGOS"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "757 Inversiones en fideicomisos de entidades federativas"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "7571 Fideicomiso FOMES-PIFI 010128-7"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "7572 Fideicomiso PROMEP 47578-0"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "7573 Fideicomiso FIFRU (Obras) 43464-7"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "7574 Fideicomiso C.C.U. 106644-5"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "9000 DEUDA PÚBLICA"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "9100 AMORTIZACIÓN DE LA DEUDA PÚBLICA"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "911 Amortización de la deuda interna con instituciones de crédito"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "9111 Amortización de la deuda pública interna. HSBC"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "91111 Amortizacióndeladeudapúblicainterna.AuditorioMetropolitano"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "9200 INTERESES DE LA DEUDA PÚBLICA"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "921 Interesesdela deudainternaconinstitucionesdecrédito"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "9211 Intereses de la deuda pública interna. H.S.B.C."
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "92111 Intereses de la deuda pública interna. Auditorio Metropolitano"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "9900 ADEUDOS DE EJERCICIOS ANTERIORES (ADEFAS)"
+    },
+    {
+     "1000 SERVICIOS PERSONALES": "991 ADEFAS"
+    }
+   ]

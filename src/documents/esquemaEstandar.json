@@ -1,0 +1,962 @@
+{
+    "ocid": "string",
+    "id": "string",
+    "date": "string",
+    "tag": [
+        "array"
+    ],
+    "initiationType": "string",
+    "parties": [
+        {
+            "name": "string",
+            "id": "string",
+            "position": "string",
+            "identifier": {
+                "legalPersonality": "string",
+                "scheme": "string",
+                "id": [
+                    "string",
+                    "integer"
+                ],
+                "legalName": "string",
+                "givenName": [
+                    "string",
+                    "null"
+                ],
+                "patronymicName": [
+                    "string",
+                    "null"
+                ],
+                "matronymicName": [
+                    "string",
+                    "null"
+                ],
+                "uri": "string"
+            },
+            "additionalIdentifiers": [
+                {
+                    "scheme": "string",
+                    "id": [
+                        "string",
+                        "integer"
+                    ],
+                    "legalName": "string",
+                    "uri": "string"
+                }
+            ],
+            "address": {
+                "streetAddress": "string",
+                "locality": "string",
+                "region": "string",
+                "postalCode": "string",
+                "countryName": "string"
+            },
+            "contactPoint": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "name": "string",
+                "givenName": [
+                    "string",
+                    "null"
+                ],
+                "patronymicName": [
+                    "string",
+                    "null"
+                ],
+                "matronymicName": [
+                    "string",
+                    "null"
+                ],
+                "email": "string",
+                "telephone": "string",
+                "faxNumber": "string",
+                "url": "string",
+                "availableLanguage": [
+                    "array",
+                    "null"
+                ]
+            },
+            "additionalContactPoints": [
+                {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "name": "string",
+                    "givenName": [
+                        "string",
+                        "null"
+                    ],
+                    "patronymicName": [
+                        "string",
+                        "null"
+                    ],
+                    "matronymicName": [
+                        "string",
+                        "null"
+                    ],
+                    "email": "string",
+                    "telephone": "string",
+                    "faxNumber": "string",
+                    "url": "string",
+                    "availableLanguage": [
+                        "array",
+                        "null"
+                    ]
+                }
+            ],
+            "roles": [
+                "array"
+            ],
+            "memberOf": [
+                {
+                    "name": "string",
+                    "id": [
+                        "string",
+                        "integer"
+                    ]
+                }
+            ]
+        }
+    ],
+    "buyer": {
+        "name": "string",
+        "id": [
+            "string",
+            "integer"
+        ]
+    },
+    "planning": {
+        "rationale": "string",
+        "hasQuotes": "boolean",
+        "requestingUnits": [
+            {
+                "name": "string",
+                "id": [
+                    "string",
+                    "integer"
+                ]
+            }
+        ],
+        "responsibleUnits": [
+            {
+                "name": "string",
+                "id": [
+                    "string",
+                    "integer"
+                ]
+            }
+        ],
+        "contractingUnits": [
+            {
+                "name": "string",
+                "id": [
+                    "string",
+                    "integer"
+                ]
+            }
+        ],
+        "requestForQuotes": [
+            {
+                "id": "string",
+                "title": "string",
+                "description": "string",
+                "period": {
+                    "startDate": "string",
+                    "endDate": "string",
+                    "maxExtentDate": "string",
+                    "durationInDays": "integer"
+                },
+                "items": [
+                    {
+                        "id": "string",
+                        "description": "string",
+                        "classification": {
+                            "scheme": "string",
+                            "id": [
+                                "string",
+                                "integer"
+                            ],
+                            "description": "string",
+                            "uri": "string"
+                        },
+                        "additionalClassifications": [
+                            {
+                                "scheme": "string",
+                                "id": [
+                                    "string",
+                                    "integer"
+                                ],
+                                "description": "string",
+                                "uri": "string"
+                            }
+                        ],
+                        "quantity": "number",
+                        "unit": {
+                            "scheme": "string",
+                            "id": "string",
+                            "name": "string",
+                            "value": {
+                                "amount": "number",
+                                "currency": [
+                                    "string",
+                                    "integer"
+                                ]
+                            },
+                            "uri": "string"
+                        }
+                    }
+                ],
+                "invitedSuppliers": [
+                    {
+                        "name": "string",
+                        "id": [
+                            "string",
+                            "integer"
+                        ]
+                    }
+                ],
+                "quotes": [
+                    {
+                        "id": "string",
+                        "description": "string",
+                        "date": "string",
+                        "items": [
+                            {
+                                "id": "string",
+                                "description": "string",
+                                "classification": {
+                                    "scheme": "string",
+                                    "id": [
+                                        "string",
+                                        "integer"
+                                    ],
+                                    "description": "string",
+                                    "uri": "string"
+                                },
+                                "additionalClassifications": [
+                                    {
+                                        "scheme": "string",
+                                        "id": [
+                                            "string",
+                                            "integer"
+                                        ],
+                                        "description": "string",
+                                        "uri": "string"
+                                    }
+                                ],
+                                "quantity": "number",
+                                "unit": {
+                                    "scheme": "string",
+                                    "id": "string",
+                                    "name": "string",
+                                    "value": {
+                                        "amount": "number",
+                                        "currency": "string"
+                                    },
+                                    "uri": "string"
+                                }
+                            }
+                        ],
+                        "value": {
+                            "amount": "number",
+                            "currency": "string"
+                        },
+                        "period": {
+                            "startDate": "string",
+                            "endDate": "string",
+                            "maxExtentDate": "string",
+                            "durationInDays": "integer"
+                        },
+                        "issuingSupplier": {
+                            "name": "string",
+                            "id": [
+                                "string",
+                                "integer"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "budget": {
+            "id": [
+                "string",
+                "integer"
+            ],
+            "description": "string",
+            "value": {
+                "amount": "number",
+                "currency": "string"
+            },
+            "project": "string",
+            "projectID": [
+                "string",
+                "integer"
+            ],
+            "uri": "string",
+            "budgetBreakdown": [
+                {
+                    "id": "string",
+                    "description": "string",
+                    "value": {
+                        "amount": "number",
+                        "currency": "string"
+                    },
+                    "uri": "string",
+                    "period": {
+                        "startDate": "string",
+                        "endDate": "string",
+                        "maxExtentDate": "string",
+                        "durationInDays": "integer"
+                    },
+                    "budgetLines": [
+                        {
+                            "id": "string",
+                            "origin": "string",
+                            "components": [
+                                {
+                                    "name": "string",
+                                    "level": [
+                                        "string",
+                                        "integer"
+                                    ],
+                                    "code": [
+                                        "string",
+                                        "integer"
+                                    ],
+                                    "description": "string"
+                                }
+                            ]
+                        }
+                    ],
+                    "sourceParty": {
+                        "name": "string",
+                        "id": [
+                            "string",
+                            "integer"
+                        ]
+                    }
+                }
+            ],
+            "documents": [
+                {
+                    "id": [
+                        "string",
+                        "integer"
+                    ],
+                    "documentType": "string",
+                    "title": "string",
+                    "description": "string",
+                    "url": "string",
+                    "datePublished": "string",
+                    "dateModified": "string",
+                    "format": "string",
+                    "language": "string"
+                }
+            ],
+            "milestones": [
+                {
+                    "id": "string",
+                    "title": "string",
+                    "type": "string",
+                    "description": "string",
+                    "code": "string",
+                    "dueDate": "string",
+                    "dateMet": "string",
+                    "dateModified": "string",
+                    "status": "string"
+                }
+            ]
+        }
+    },
+    "tender": {
+        "id": [
+            "string",
+            "integer"
+        ],
+        "title": "string",
+        "description": "string",
+        "status": "string",
+        "procuringEntity": {
+            "name": "string",
+            "id": [
+                "string",
+                "integer"
+            ]
+        },
+        "items": [
+            {
+                "id": "string",
+                "description": "string",
+                "classification": {
+                    "scheme": "string",
+                    "id": [
+                        "string",
+                        "integer"
+                    ],
+                    "description": "string",
+                    "uri": "string"
+                },
+                "additionalClassifications": [
+                    {
+                        "scheme": "string",
+                        "id": [
+                            "string",
+                            "integer"
+                        ],
+                        "description": "string",
+                        "uri": "string"
+                    }
+                ],
+                "quantity": "number",
+                "unit": {
+                    "scheme": "string",
+                    "id": "string",
+                    "name": "string",
+                    "value": {
+                        "amount": "number",
+                        "currency": "string",
+                        "amountNet": "number"
+                    },
+                    "uri": "string"
+                },
+                "deliveryLocation": {
+                    "geometry": {
+                        "type": "string",
+                        "coordinates": [
+                            "array"
+                        ]
+                    },
+                    "gazetteer": {
+                        "scheme": "string",
+                        "identifiers": [
+                            "array"
+                        ],
+                        "description": "string",
+                        "uri": "string"
+                    },
+                    "description": "string"
+                },
+                "deliveryAddress": {
+                    "streetAddress": "string",
+                    "locality": "string",
+                    "region": "string",
+                    "postalCode": "string",
+                    "countryName": "string"
+                }
+            }
+        ],
+        "value": {
+            "amount": "number",
+            "currency": "string"
+        },
+        "minValue": {
+            "amount": "number",
+            "currency": "string"
+        },
+        "procurementMethod": "string",
+        "procurementMethodDetails": "string",
+        "procurementMethodRationale": "string",
+        "mainProcurementCategory": "string",
+        "additionalProcurementCategories": [
+            "array"
+        ],
+        "awardCriteria": "string",
+        "awardCriteriaDetails": "string",
+        "submissionMethod": [
+            "array"
+        ],
+        "submissionMethodDetails": "string",
+        "tenderPeriod": {
+            "startDate": "string",
+            "endDate": "string"
+        },
+        "enquiryPeriod": {
+            "startDate": "string",
+            "endDate": "string"
+        },
+        "eligibilityCriteria": "string",
+        "contractDuration": {
+            "startDate": "string",
+            "endDate": "string",
+            "maxExtentDate": "string",
+            "durationInDays": "integer"
+        },
+        "contractTerms": [
+            {
+                "id": "string",
+                "title": "string",
+                "details": "string",
+                "relatedItems": [
+                    "array"
+                ],
+                "value": {
+                    "amount": "number",
+                    "currency": "string"
+                },
+                "period": {
+                    "startDate": "string",
+                    "endDate": "string",
+                    "maxExtentDate": "string",
+                    "durationInDays": "integer"
+                },
+                "documents": [
+                    {
+                        "id": "string",
+                        "documentType": "string",
+                        "title": "string",
+                        "description": "string",
+                        "url": "string",
+                        "datePublished": "string",
+                        "dateModified": "string",
+                        "format": "string",
+                        "language": "string"
+                    }
+                ]
+            }
+        ],
+        "milestones": [
+            {
+                "id": "string",
+                "title": "string",
+                "type": "string",
+                "description": "string",
+                "code": "string",
+                "dueDate": "string",
+                "dateMet": "string",
+                "dateModified": "string",
+                "status": "string"
+            }
+        ],
+        "documents": [
+            {
+                "id": "string",
+                "documentType": "string",
+                "title": "string",
+                "description": "string",
+                "url": "string",
+                "datePublished": "string",
+                "dateModified": "string",
+                "format": "string",
+                "language": "string"
+            }
+        ],
+        "procurementMethodModalities": [
+            "array"
+        ],
+        "lots": [
+            {
+                "id": "string",
+                "title": "string",
+                "description": "string",
+                "status": "string",
+                "value": {
+                    "amount": "number",
+                    "currency": "string"
+                },
+                "minValue": {
+                    "amount": "number",
+                    "currency": "string"
+                },
+                "contractPeriod": {
+                    "startDate": "string",
+                    "endDate": "string",
+                    "maxExtentDate": "string",
+                    "durationInDays": "integer"
+                },
+                "placeOfPerformance": {
+                    "geometry": {
+                        "type": "string",
+                        "coordinates": [
+                            "array"
+                        ]
+                    },
+                    "gazetteer": {
+                        "scheme": "string",
+                        "identifiers": [
+                            "array"
+                        ],
+                        "description": "string",
+                        "uri": "string"
+                    },
+                    "description": "string"
+                }
+            }
+        ],
+        "options": [
+            {
+                "id": "string",
+                "title": "string",
+                "description": "string",
+                "type": "string",
+                "period": {
+                    "startDate": "string",
+                    "endDate": "string",
+                    "maxExtentDate": "string",
+                    "durationInDays": "integer"
+                }
+            }
+        ],
+        "awardPeriod": {
+            "startDate": "string",
+            "endDate": "string",
+            "maxExtentDate": "string",
+            "durationInDays": "integer"
+        },
+        "contractPeriod": {
+            "startDate": "string",
+            "endDate": "string",
+            "maxExtentDate": "string",
+            "durationInDays": "integer"
+        },
+        "electronicWorkflows": "boolean",
+        "electronicAuctions": "boolean",
+        "relatedProcesses": [
+            {
+                "id": "string",
+                "title": "string",
+                "description": "string",
+                "scheme": "string",
+                "identifier": "string",
+                "uri": "string",
+                "relationship": [
+                    "array"
+                ],
+                "type": "string"
+            }
+        ]
+    },
+    "contracts": [
+        {
+            "id": [
+                "string",
+                "integer"
+            ],
+            "awardID": [
+                "string",
+                "integer"
+            ],
+            "contractID": "string",
+            "title": "string",
+            "status": "string",
+            "period": {
+                "startDate": "string",
+                "endDate": "string",
+                "maxExtentDate": "string",
+                "durationInDays": "integer"
+            },
+            "value": {
+                "amount": "number",
+                "currency": "string"
+            },
+            "items": [
+                {
+                    "id": "string",
+                    "description": "string",
+                    "classification": {
+                        "scheme": "string",
+                        "id": [
+                            "string",
+                            "integer"
+                        ],
+                        "description": "string",
+                        "uri": "string"
+                    },
+                    "additionalClassifications": [
+                        {
+                            "scheme": "string",
+                            "id": [
+                                "string",
+                                "integer"
+                            ],
+                            "description": "string",
+                            "uri": "string"
+                        }
+                    ],
+                    "quantity": "number",
+                    "unit": {
+                        "scheme": "string",
+                        "id": "string",
+                        "name": "string",
+                        "value": {
+                            "amount": "number",
+                            "currency": "string"
+                        },
+                        "uri": "string"
+                    }
+                }
+            ],
+            "documents": [
+                {
+                    "id": "string",
+                    "documentType": "string",
+                    "title": "string",
+                    "description": "string",
+                    "url": "string",
+                    "datePublished": "string",
+                    "dateModified": "string",
+                    "format": "string",
+                    "language": "string"
+                }
+            ],
+            "milestones": [
+                {
+                    "id": "string",
+                    "title": "string",
+                    "type": "string",
+                    "description": "string",
+                    "code": "string",
+                    "dueDate": "string",
+                    "dateMet": "string",
+                    "dateModified": "string",
+                    "status": "string"
+                }
+            ],
+            "amendments": [
+                {
+                    "id": "string",
+                    "rationale": "string",
+                    "description": "string",
+                    "amendsReleaseID": "string",
+                    "date": "string",
+                    "period": {
+                        "startDate": "string",
+                        "endDate": "string",
+                        "maxExtentDate": "string",
+                        "durationInDays": "integer"
+                    },
+                    "value": {
+                        "amount": "number",
+                        "currency": "string"
+                    },
+                    "suppliers": [
+                        {
+                            "name": "string",
+                            "id": [
+                                "string",
+                                "integer"
+                            ]
+                        }
+                    ],
+                    "documents": [
+                        {
+                            "id": "string",
+                            "documentType": "string",
+                            "title": "string",
+                            "description": "string",
+                            "url": "string",
+                            "datePublished": "string",
+                            "dateModified": "string",
+                            "format": "string",
+                            "language": "string"
+                        }
+                    ]
+                }
+            ],
+            "relatedProcesses": [
+                {
+                    "id": "string",
+                    "title": "string",
+                    "description": "string",
+                    "scheme": "string",
+                    "identifier": "string",
+                    "uri": "string",
+                    "relationship": [
+                        "array"
+                    ],
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "id": [
+                "string",
+                "integer"
+            ],
+            "title": "string",
+            "description": "string",
+            "status": "string",
+            "date": "string",
+            "value": {
+                "amount": "number",
+                "currency": "string"
+            },
+            "suppliers": [
+                {
+                    "name": "string",
+                    "id": [
+                        "string",
+                        "integer"
+                    ]
+                }
+            ],
+            "items": [
+                {
+                    "id": "string",
+                    "description": "string",
+                    "classification": {
+                        "scheme": "string",
+                        "id": [
+                            "string",
+                            "integer"
+                        ],
+                        "description": "string",
+                        "uri": "string"
+                    },
+                    "additionalClassifications": [
+                        {
+                            "scheme": "string",
+                            "id": [
+                                "string",
+                                "integer"
+                            ],
+                            "description": "string",
+                            "uri": "string"
+                        }
+                    ],
+                    "quantity": "number",
+                    "unit": {
+                        "scheme": "string",
+                        "id": "string",
+                        "name": "string",
+                        "value": {
+                            "amount": "number",
+                            "currency": "string"
+                        },
+                        "uri": "string"
+                    },
+                    "deliveryLocation": {
+                        "geometry": {
+                            "type": "string",
+                            "coordinates": [
+                                "array"
+                            ]
+                        },
+                        "gazetteer": {
+                            "scheme": "string",
+                            "identifiers": [
+                                "array"
+                            ],
+                            "description": "string",
+                            "uri": "string"
+                        },
+                        "description": "string"
+                    },
+                    "deliveryAddress": {
+                        "streetAddress": "string",
+                        "locality": "string",
+                        "region": "string",
+                        "postalCode": "string",
+                        "countryName": "string"
+                    }
+                }
+            ],
+            "contractPeriod": {
+                "startDate": "string",
+                "endDate": "string",
+                "maxExtentDate": "string",
+                "durationInDays": "integer"
+            },
+            "documents": [
+                {
+                    "id": "string",
+                    "documentType": "string",
+                    "title": "string",
+                    "description": "string",
+                    "url": "string",
+                    "datePublished": "string",
+                    "dateModified": "string",
+                    "format": "string",
+                    "language": "string"
+                }
+            ],
+            "milestones": [
+                {
+                    "id": "string",
+                    "title": "string",
+                    "type": "string",
+                    "description": "string",
+                    "code": "string",
+                    "dueDate": "string",
+                    "dateMet": "string",
+                    "dateModified": "string",
+                    "status": "string"
+                }
+            ],
+            "amendments": [
+                {
+                    "id": "string",
+                    "rationale": "string",
+                    "description": "string",
+                    "amendsReleaseID": "string",
+                    "date": "string",
+                    "period": {
+                        "startDate": "string",
+                        "endDate": "string",
+                        "maxExtentDate": "string",
+                        "durationInDays": "integer"
+                    },
+                    "value": {
+                        "amount": "number",
+                        "currency": "string"
+                    },
+                    "suppliers": [
+                        {
+                            "name": "string",
+                            "id": [
+                                "string",
+                                "integer"
+                            ]
+                        }
+                    ],
+                    "documents": [
+                        {
+                            "id": "string",
+                            "documentType": "string",
+                            "title": "string",
+                            "description": "string",
+                            "url": "string",
+                            "datePublished": "string",
+                            "dateModified": "string",
+                            "format": "string",
+                            "language": "string"
+                        }
+                    ]
+                }
+            ],
+            "relatedProcesses": [
+                {
+                    "id": "string",
+                    "title": "string",
+                    "description": "string",
+                    "scheme": "string",
+                    "identifier": "string",
+                    "uri": "string",
+                    "relationship": [
+                        "array"
+                    ],
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "relatedProcesses": [
+        {
+            "id": "string",
+            "title": "string",
+            "description": "string",
+            "scheme": "string",
+            "identifier": "string",
+            "uri": "string",
+            "relationship": [
+                "array"
+            ],
+            "type": "string"
+        }
+    ]
+}

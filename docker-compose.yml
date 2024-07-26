@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  s6-backend:
+    build: .
+    ports:
+      - "3221:3221"
+    links:
+      - mongodb
+    
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=adminDB
+      - MONGO_INITDB_ROOT_PASSWORD=m1h4ru
+

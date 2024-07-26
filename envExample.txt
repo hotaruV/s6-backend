@@ -1,0 +1,34 @@
+PORT = 3005
+# DB_CNN = mongodb+srv://HotaruV2:m1h4ru@cluster0.xduh9.mongodb.net/HospitalUdemy
+# DB_CNN = mongodb://localhost/S6-Contrataciones
+
+
+#Conexion local local
+# USERMONGO =adminDB
+# PASSWORDMONGO=m1h4ru
+# HOSTMONGO = localhost:27017
+# MONGO_DATABASE= s6_contrataciones
+# MONGOSERV = mongodb
+
+# Conexion VPN
+# USERMONGO =adminDB
+# PASSWORDMONGO=m1h4ru
+# HOSTMONGO = 10.20.54.10:27017
+# MONGO_DATABASE= s6_contraciones
+# MONGOSERV = mongodb
+
+#Conexion remota a mongodb atlas
+USERMONGO =HotaruV2
+PASSWORDMONGO=lG3lPVMdXt5LizF9
+HOSTMONGO = cluster0.xduh9.mongodb.net/?retryWrites=true&w=majority
+MONGO_DATABASE= s6_contrataciones
+MONGOSERV = mongodb+srv
+
+#KEYJWT
+TOKEN_TIME_VALIDATE = 14h
+JWT_SECRET_KEY = M1h4ruH4yd33N1kt3P4H0t4ruV@slpcdmx$samRavius
+OCID = ocds-7e7fnm-
+
+SISTEM_SECURITY = FALSE
+
+ID_CONTRACTGENERATE = 651ae9bfdbd5f039288030f3

@@ -1,0 +1,162 @@
+[
+    {
+      "id": 1,
+      "nombre": "AGUASCALIENTES",
+      "estatus": 1
+    },
+    {
+      "id": 2,
+      "nombre": "BAJA CALIFORNIA",
+      "estatus": 1
+    },
+    {
+      "id": 3,
+      "nombre": "BAJA CALIFORNIA SUR",
+      "estatus": 1
+    },
+    {
+      "id": 4,
+      "nombre": "CAMPECHE",
+      "estatus": 1
+    },
+    {
+      "id": 5,
+      "nombre": "COAHUILA",
+      "estatus": 1
+    },
+    {
+      "id": 6,
+      "nombre": "COLIMA",
+      "estatus": 1
+    },
+    {
+      "id": 7,
+      "nombre": "CHIAPAS",
+      "estatus": 1
+    },
+    {
+      "id": 8,
+      "nombre": "CHIHUAHUA",
+      "estatus": 1
+    },
+    {
+      "id": 9,
+      "nombre": "CIUDAD DE MEXICO",
+      "estatus": 1
+    },
+    {
+      "id": 10,
+      "nombre": "DURANGO",
+      "estatus": 1
+    },
+    {
+      "id": 11,
+      "nombre": "SINALOA",
+      "estatus": 1
+    },
+    {
+      "id": 12,
+      "nombre": "GUERRERO",
+      "estatus": 1
+    },
+    {
+      "id": 13,
+      "nombre": "HIDALGO",
+      "estatus": 1
+    },
+    {
+      "id": 14,
+      "nombre": "JALISCO",
+      "estatus": 1
+    },
+    {
+      "id": 15,
+      "nombre": "MEXICO",
+      "estatus": 1
+    },
+    {
+      "id": 16,
+      "nombre": "MICHOACAN",
+      "estatus": 1
+    },
+    {
+      "id": 17,
+      "nombre": "MORELOS",
+      "estatus": 1
+    },
+    {
+      "id": 18,
+      "nombre": "NAYARIT",
+      "estatus": 1
+    },
+    {
+      "id": 19,
+      "nombre": "NUEVO LEON",
+      "estatus": 1
+    },
+    {
+      "id": 20,
+      "nombre": "OAXACA",
+      "estatus": 1
+    },
+    {
+      "id": 21,
+      "nombre": "PUEBLA",
+      "estatus": 1
+    },
+    {
+      "id": 22,
+      "nombre": "QUERETARO",
+      "estatus": 1
+    },
+    {
+      "id": 23,
+      "nombre": "QUINTANA ROO",
+      "estatus": 1
+    },
+    {
+      "id": 24,
+      "nombre": "SAN LUIS POTOSI",
+      "estatus": 1
+    },
+    {
+      "id": 25,
+      "nombre": "GUANAJUATO",
+      "estatus": 1
+    },
+    {
+      "id": 26,
+      "nombre": "SONORA",
+      "estatus": 1
+    },
+    {
+      "id": 27,
+      "nombre": "TABASCO",
+      "estatus": 1
+    },
+    {
+      "id": 28,
+      "nombre": "TAMAULIPAS",
+      "estatus": 1
+    },
+    {
+      "id": 29,
+      "nombre": "TLAXCALA",
+      "estatus": 1
+    },
+    {
+      "id": 30,
+      "nombre": "VERACRUZ",
+      "estatus": 1
+    },
+    {
+      "id": 31,
+      "nombre": "YUCATAN",
+      "estatus": 1
+    },
+    {
+      "id": 32,
+      "nombre": "ZACATECAS",
+      "estatus": 1
+    }
+  ]

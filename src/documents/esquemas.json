@@ -1,0 +1,5534 @@
+[
+    {
+     "id": 1,
+     "esquema": "RADIÁN"
+    },
+    {
+     "id": 2,
+     "esquema": "MILIRADIÁN"
+    },
+    {
+     "id": 3,
+     "esquema": "MICRORADIANES"
+    },
+    {
+     "id": 4,
+     "esquema": "GRADO [UNIDAD DE ÁNGULO]"
+    },
+    {
+     "id": 5,
+     "esquema": "MINUTO [UNIDAD DE ÁNGULO]"
+    },
+    {
+     "id": 6,
+     "esquema": "SEGUNDO [UNIDAD DE ÁNGULO]"
+    },
+    {
+     "id": 7,
+     "esquema": "CALIFICACIÓN"
+    },
+    {
+     "id": 8,
+     "esquema": "GON"
+    },
+    {
+     "id": 9,
+     "esquema": "MIL"
+    },
+    {
+     "id": 10,
+     "esquema": "REVOLUCIÓN"
+    },
+    {
+     "id": 11,
+     "esquema": "ESTEREORRADIÁN"
+    },
+    {
+     "id": 12,
+     "esquema": "PULGADA POR DOS PI RADIANTE"
+    },
+    {
+     "id": 13,
+     "esquema": "METRO"
+    },
+    {
+     "id": 14,
+     "esquema": "GRADOS POR SEGUNDO"
+    },
+    {
+     "id": 15,
+     "esquema": "GRADO POR METRO"
+    },
+    {
+     "id": 16,
+     "esquema": "METRO POR RADIANTE"
+    },
+    {
+     "id": 17,
+     "esquema": "DECÍMETRO"
+    },
+    {
+     "id": 18,
+     "esquema": "CENTÍMETRO"
+    },
+    {
+     "id": 19,
+     "esquema": "MICRÓMETRO (MICRÓN)"
+    },
+    {
+     "id": 20,
+     "esquema": "MILÍMETRO"
+    },
+    {
+     "id": 21,
+     "esquema": "HECTÓMETRO"
+    },
+    {
+     "id": 22,
+     "esquema": "KILÓMETRO"
+    },
+    {
+     "id": 23,
+     "esquema": "NANÓMETRO"
+    },
+    {
+     "id": 24,
+     "esquema": "PICÓMETRO"
+    },
+    {
+     "id": 25,
+     "esquema": "FEMTÓMETRO"
+    },
+    {
+     "id": 26,
+     "esquema": "DECÁMETRO"
+    },
+    {
+     "id": 27,
+     "esquema": "MILLA NAUTICA"
+    },
+    {
+     "id": 28,
+     "esquema": "ANGSTROM"
+    },
+    {
+     "id": 29,
+     "esquema": "UNIDAD ASTRONÓMICA"
+    },
+    {
+     "id": 30,
+     "esquema": "PÁRSEC"
+    },
+    {
+     "id": 31,
+     "esquema": "METROS POR KELVIN"
+    },
+    {
+     "id": 32,
+     "esquema": "MICRÓMETRO POR KELVIN"
+    },
+    {
+     "id": 33,
+     "esquema": "CENTÍMETRO POR KELVIN"
+    },
+    {
+     "id": 34,
+     "esquema": "MILÍMETRO POR BARRA"
+    },
+    {
+     "id": 35,
+     "esquema": "GRAMO MILÍMETRO"
+    },
+    {
+     "id": 36,
+     "esquema": "CENTÍMETRO POR BARRA"
+    },
+    {
+     "id": 37,
+     "esquema": "METRO POR BARRA"
+    },
+    {
+     "id": 38,
+     "esquema": "CALIBRE FRANCÉS"
+    },
+    {
+     "id": 39,
+     "esquema": "BRAZA"
+    },
+    {
+     "id": 40,
+     "esquema": "CADENA DE GUNTER"
+    },
+    {
+     "id": 41,
+     "esquema": "PULGADA"
+    },
+    {
+     "id": 42,
+     "esquema": "MICROPULGADA"
+    },
+    {
+     "id": 43,
+     "esquema": "PIE"
+    },
+    {
+     "id": 44,
+     "esquema": "PATIO"
+    },
+    {
+     "id": 45,
+     "esquema": "MILLA (MILLA TERRESTRE)"
+    },
+    {
+     "id": 46,
+     "esquema": "MILIPULGADA"
+    },
+    {
+     "id": 47,
+     "esquema": "AÑO LUZ"
+    },
+    {
+     "id": 48,
+     "esquema": "VARILLA [UNIDAD DE DISTANCIA]"
+    },
+    {
+     "id": 49,
+     "esquema": "MEGÁMETRO"
+    },
+    {
+     "id": 50,
+     "esquema": "PIE POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 51,
+     "esquema": "PIE POR PSI"
+    },
+    {
+     "id": 52,
+     "esquema": "PULGADA POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 53,
+     "esquema": "PULGADA POR PSI"
+    },
+    {
+     "id": 54,
+     "esquema": "YARDA POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 55,
+     "esquema": "YARDA POR PSI"
+    },
+    {
+     "id": 56,
+     "esquema": "CADENA (BASADA EN EL PIE TOPOGRÁFICO DE EE. UU.)"
+    },
+    {
+     "id": 57,
+     "esquema": "ESTADIO"
+    },
+    {
+     "id": 58,
+     "esquema": "PIE (ENCUESTA DE EE. UU.)"
+    },
+    {
+     "id": 59,
+     "esquema": "MILLA (BASADO EN PIES TOPOGRÁFICOS DE EE. UU.)"
+    },
+    {
+     "id": 60,
+     "esquema": "METRO POR PASCAL"
+    },
+    {
+     "id": 61,
+     "esquema": "METRO CUADRADO"
+    },
+    {
+     "id": 62,
+     "esquema": "KILOMETRO CUADRADO"
+    },
+    {
+     "id": 63,
+     "esquema": "MICRÓMETRO CUADRADO (MICRÓMETRO CUADRADO)"
+    },
+    {
+     "id": 64,
+     "esquema": "METRO CUADRADO POR NEWTON"
+    },
+    {
+     "id": 65,
+     "esquema": "DESOCUPAR"
+    },
+    {
+     "id": 66,
+     "esquema": "CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 67,
+     "esquema": "DECÍMETRO CUADRADO"
+    },
+    {
+     "id": 68,
+     "esquema": "DECÁMETRO CUADRADO"
+    },
+    {
+     "id": 69,
+     "esquema": "HECTÓMETRO CUADRADO"
+    },
+    {
+     "id": 70,
+     "esquema": "MILÍMETRO CUADRADO"
+    },
+    {
+     "id": 71,
+     "esquema": "SON"
+    },
+    {
+     "id": 72,
+     "esquema": "HECTÁREA"
+    },
+    {
+     "id": 73,
+     "esquema": "PULGADA CUADRADA"
+    },
+    {
+     "id": 74,
+     "esquema": "PIE CUADRADO"
+    },
+    {
+     "id": 75,
+     "esquema": "YARDA CUADRADA"
+    },
+    {
+     "id": 76,
+     "esquema": "MILLA CUADRADA (MILLA TERRESTRE)"
+    },
+    {
+     "id": 77,
+     "esquema": "MILLA CUADRADA (BASADO EN PIES TOPOGRÁFICOS DE EE. UU.)"
+    },
+    {
+     "id": 78,
+     "esquema": "ACRE"
+    },
+    {
+     "id": 79,
+     "esquema": "MILÉSIMAS CIRCULARES"
+    },
+    {
+     "id": 80,
+     "esquema": "METRO CÚBICO"
+    },
+    {
+     "id": 81,
+     "esquema": "MEGALITRO"
+    },
+    {
+     "id": 82,
+     "esquema": "LITRO"
+    },
+    {
+     "id": 83,
+     "esquema": "MILÍMETRO CÚBICO"
+    },
+    {
+     "id": 84,
+     "esquema": "CENTÍMETRO CÚBICO"
+    },
+    {
+     "id": 85,
+     "esquema": "DECÍMETRO CÚBICO"
+    },
+    {
+     "id": 86,
+     "esquema": "MILILITRO"
+    },
+    {
+     "id": 87,
+     "esquema": "HECTOLITRO"
+    },
+    {
+     "id": 88,
+     "esquema": "CENTILITRO"
+    },
+    {
+     "id": 89,
+     "esquema": "DECÁMETRO CÚBICO"
+    },
+    {
+     "id": 90,
+     "esquema": "HECTÓMETRO CÚBICO"
+    },
+    {
+     "id": 91,
+     "esquema": "KILÓMETRO CÚBICO"
+    },
+    {
+     "id": 92,
+     "esquema": "METRO CÚBICO POR PASCAL"
+    },
+    {
+     "id": 93,
+     "esquema": "DECILITRO"
+    },
+    {
+     "id": 94,
+     "esquema": "MICROLITRO"
+    },
+    {
+     "id": 95,
+     "esquema": "KILOLITRO"
+    },
+    {
+     "id": 96,
+     "esquema": "DECALITRO"
+    },
+    {
+     "id": 97,
+     "esquema": "CENTÍMETRO CÚBICO POR BAR"
+    },
+    {
+     "id": 98,
+     "esquema": "LITRO POR BARRA"
+    },
+    {
+     "id": 99,
+     "esquema": "METRO CÚBICO POR BAR"
+    },
+    {
+     "id": 100,
+     "esquema": "MILILITRO POR BARRA"
+    },
+    {
+     "id": 101,
+     "esquema": "PIE CÚBICO ESTÁNDAR"
+    },
+    {
+     "id": 102,
+     "esquema": "PULGADA CÚBICA"
+    },
+    {
+     "id": 103,
+     "esquema": "PIE CUBICO"
+    },
+    {
+     "id": 104,
+     "esquema": "YARDA CÚBICA"
+    },
+    {
+     "id": 105,
+     "esquema": "GALÓN (REINO UNIDO)"
+    },
+    {
+     "id": 106,
+     "esquema": "GALÓN (EE.UU.)"
+    },
+    {
+     "id": 107,
+     "esquema": "PINTA (ESTADOS UNIDOS)"
+    },
+    {
+     "id": 108,
+     "esquema": "PINTA (REINO UNIDO)"
+    },
+    {
+     "id": 109,
+     "esquema": "CUARTO (REINO UNIDO)"
+    },
+    {
+     "id": 110,
+     "esquema": "PINTA LÍQUIDA (EE. UU.)"
+    },
+    {
+     "id": 111,
+     "esquema": "CUARTO LÍQUIDO (EE.UU.)"
+    },
+    {
+     "id": 112,
+     "esquema": "PINTA SECA (EE. UU.)"
+    },
+    {
+     "id": 113,
+     "esquema": "ONZA LÍQUIDA (REINO UNIDO)"
+    },
+    {
+     "id": 114,
+     "esquema": "CUARTO (EE.UU.)"
+    },
+    {
+     "id": 115,
+     "esquema": "BARRIL (PETRÓLEO DEL REINO UNIDO)"
+    },
+    {
+     "id": 116,
+     "esquema": "PIES CÚBICOS POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 117,
+     "esquema": "PIES CÚBICOS POR PSI"
+    },
+    {
+     "id": 118,
+     "esquema": "PICOTEAR (REINO UNIDO)"
+    },
+    {
+     "id": 119,
+     "esquema": "PINTA (SECO EN EE. UU.)"
+    },
+    {
+     "id": 120,
+     "esquema": "CUARTO (SECO EN EE. UU.)"
+    },
+    {
+     "id": 121,
+     "esquema": "TONELADA (ENVÍO AL REINO UNIDO)"
+    },
+    {
+     "id": 122,
+     "esquema": "TONELADA (ENVÍO A EE. UU.)"
+    },
+    {
+     "id": 123,
+     "esquema": "YARDA CÚBICA POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 124,
+     "esquema": "YARDA CÚBICA POR PSI"
+    },
+    {
+     "id": 125,
+     "esquema": "ONZA LÍQUIDA (EE.UU.)"
+    },
+    {
+     "id": 126,
+     "esquema": "BUSHEL (REINO UNIDO)"
+    },
+    {
+     "id": 127,
+     "esquema": "BUSHEL (ESTADOS UNIDOS)"
+    },
+    {
+     "id": 128,
+     "esquema": "BARRIL (ESTADOS UNIDOS)"
+    },
+    {
+     "id": 129,
+     "esquema": "BARRIL SECO (EE.UU.)"
+    },
+    {
+     "id": 130,
+     "esquema": "GALÓN SECO (EE.UU.)"
+    },
+    {
+     "id": 131,
+     "esquema": "CUARTO SECO (EE. UU.)"
+    },
+    {
+     "id": 132,
+     "esquema": "ESTÉREO"
+    },
+    {
+     "id": 133,
+     "esquema": "TAZA [UNIDAD DE VOLUMEN]"
+    },
+    {
+     "id": 134,
+     "esquema": "CUCHARADA (EE. UU.)"
+    },
+    {
+     "id": 135,
+     "esquema": "CUCHARADITA (EE. UU.)"
+    },
+    {
+     "id": 136,
+     "esquema": "PICOTEAR"
+    },
+    {
+     "id": 137,
+     "esquema": "ACRE-PIE (BASADO EN PIES TOPOGRÁFICOS DE EE. UU.)"
+    },
+    {
+     "id": 138,
+     "esquema": "CABLE (128 PIES3)"
+    },
+    {
+     "id": 139,
+     "esquema": "MILLA CÚBICA (ESTATUTO DEL REINO UNIDO)"
+    },
+    {
+     "id": 140,
+     "esquema": "TONELADA, REGISTRO"
+    },
+    {
+     "id": 141,
+     "esquema": "CENTÍMETRO CÚBICO POR KELVIN"
+    },
+    {
+     "id": 142,
+     "esquema": "METRO CÚBICO POR KELVIN"
+    },
+    {
+     "id": 143,
+     "esquema": "LITRO POR KELVIN"
+    },
+    {
+     "id": 144,
+     "esquema": "MILILITRO POR KELVIN"
+    },
+    {
+     "id": 145,
+     "esquema": "MICROLITRO POR LITRO"
+    },
+    {
+     "id": 146,
+     "esquema": "CENTÍMETRO CÚBICO POR METRO CÚBICO"
+    },
+    {
+     "id": 147,
+     "esquema": "DECÍMETRO CÚBICO POR METRO CÚBICO"
+    },
+    {
+     "id": 148,
+     "esquema": "LITRO POR LITRO"
+    },
+    {
+     "id": 149,
+     "esquema": "MILILITRO POR LITRO"
+    },
+    {
+     "id": 150,
+     "esquema": "MILÍMETRO CÚBICO POR METRO CÚBICO"
+    },
+    {
+     "id": 151,
+     "esquema": "SEGUNDO [UNIDAD DE TIEMPO]"
+    },
+    {
+     "id": 152,
+     "esquema": "MINUTO [UNIDAD DE TIEMPO]"
+    },
+    {
+     "id": 153,
+     "esquema": "HORA"
+    },
+    {
+     "id": 154,
+     "esquema": "DÍA"
+    },
+    {
+     "id": 155,
+     "esquema": "KILOSEGUNDO"
+    },
+    {
+     "id": 156,
+     "esquema": "MILISEGUNDO"
+    },
+    {
+     "id": 157,
+     "esquema": "PICOSEGUNDO"
+    },
+    {
+     "id": 158,
+     "esquema": "MICROSEGUNDO"
+    },
+    {
+     "id": 159,
+     "esquema": "NANOSEGUNDO"
+    },
+    {
+     "id": 160,
+     "esquema": "SEMANA"
+    },
+    {
+     "id": 161,
+     "esquema": "MES"
+    },
+    {
+     "id": 162,
+     "esquema": "AÑO"
+    },
+    {
+     "id": 163,
+     "esquema": "AÑO TROPICAL"
+    },
+    {
+     "id": 164,
+     "esquema": "AÑO COMÚN"
+    },
+    {
+     "id": 165,
+     "esquema": "AÑO SIDERAL"
+    },
+    {
+     "id": 166,
+     "esquema": "AGITAR"
+    },
+    {
+     "id": 167,
+     "esquema": "RADIANES POR SEGUNDO"
+    },
+    {
+     "id": 168,
+     "esquema": "REVOLUCIÓN POR MINUTO"
+    },
+    {
+     "id": 169,
+     "esquema": "RADIANES POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 170,
+     "esquema": "GRADO [UNIDAD DE ÁNGULO] POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 171,
+     "esquema": "METROS POR SEGUNDO"
+    },
+    {
+     "id": 172,
+     "esquema": "NUDO"
+    },
+    {
+     "id": 173,
+     "esquema": "KILÓMETRO POR HORA"
+    },
+    {
+     "id": 174,
+     "esquema": "MILÍMETRO POR SEGUNDO"
+    },
+    {
+     "id": 175,
+     "esquema": "CENTÍMETRO POR SEGUNDO"
+    },
+    {
+     "id": 176,
+     "esquema": "CENTÍMETRO POR HORA"
+    },
+    {
+     "id": 177,
+     "esquema": "MILÍMETRO POR MINUTO"
+    },
+    {
+     "id": 178,
+     "esquema": "METROS POR MINUTO"
+    },
+    {
+     "id": 179,
+     "esquema": "METROS POR SEGUNDO PASCAL"
+    },
+    {
+     "id": 180,
+     "esquema": "MILÍMETRO POR AÑO"
+    },
+    {
+     "id": 181,
+     "esquema": "MILÍMETRO POR HORA"
+    },
+    {
+     "id": 182,
+     "esquema": "PIE POR MINUTO"
+    },
+    {
+     "id": 183,
+     "esquema": "PULGADA POR SEGUNDO"
+    },
+    {
+     "id": 184,
+     "esquema": "PIE POR SEGUNDO"
+    },
+    {
+     "id": 185,
+     "esquema": "MILLA POR HORA (MILLA TERRESTRE)"
+    },
+    {
+     "id": 186,
+     "esquema": "CENTÍMETROS POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 187,
+     "esquema": "BARRA DE CENTÍMETROS POR SEGUNDO"
+    },
+    {
+     "id": 188,
+     "esquema": "PIE POR HORA"
+    },
+    {
+     "id": 189,
+     "esquema": "PIE POR SEGUNDO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 190,
+     "esquema": "PIES POR SEGUNDO PSI"
+    },
+    {
+     "id": 191,
+     "esquema": "PULGADA POR SEGUNDO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 192,
+     "esquema": "PULGADAS POR SEGUNDO PSI"
+    },
+    {
+     "id": 193,
+     "esquema": "METROS POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 194,
+     "esquema": "METRO POR SEGUNDO BARRA"
+    },
+    {
+     "id": 195,
+     "esquema": "MILILITRO POR CENTÍMETRO CUADRADO MINUTO"
+    },
+    {
+     "id": 196,
+     "esquema": "MILLA POR MINUTO"
+    },
+    {
+     "id": 197,
+     "esquema": "MILLA POR SEGUNDO"
+    },
+    {
+     "id": 198,
+     "esquema": "METROS POR HORA"
+    },
+    {
+     "id": 199,
+     "esquema": "PULGADA POR AÑO"
+    },
+    {
+     "id": 200,
+     "esquema": "KILÓMETROS POR SEGUNDO"
+    },
+    {
+     "id": 201,
+     "esquema": "PULGADA POR MINUTO"
+    },
+    {
+     "id": 202,
+     "esquema": "YARDA POR SEGUNDO"
+    },
+    {
+     "id": 203,
+     "esquema": "YARDA POR MINUTO"
+    },
+    {
+     "id": 204,
+     "esquema": "YARDA POR HORA"
+    },
+    {
+     "id": 205,
+     "esquema": "METROS POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 206,
+     "esquema": "GALÓN"
+    },
+    {
+     "id": 207,
+     "esquema": "MILIGAL"
+    },
+    {
+     "id": 208,
+     "esquema": "KILÓMETROS POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 209,
+     "esquema": "CENTÍMETRO POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 210,
+     "esquema": "MILÍMETRO POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 211,
+     "esquema": "PIE POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 212,
+     "esquema": "PULGADA POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 213,
+     "esquema": "ACELERACIÓN ESTÁNDAR DE CAÍDA LIBRE"
+    },
+    {
+     "id": 214,
+     "esquema": "YARDA POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 215,
+     "esquema": "MILLA (MILLA TERRESTRE) POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 216,
+     "esquema": "METRO RECÍPROCO"
+    },
+    {
+     "id": 217,
+     "esquema": "FEMTOLITRO"
+    },
+    {
+     "id": 218,
+     "esquema": "PICOLITRO"
+    },
+    {
+     "id": 219,
+     "esquema": "NANOLITRO"
+    },
+    {
+     "id": 220,
+     "esquema": "CALIBRE DE ALAMBRE AMERICANO"
+    },
+    {
+     "id": 221,
+     "esquema": "METRO CÚBICO NORMALIZADO"
+    },
+    {
+     "id": 222,
+     "esquema": "METRO CÚBICO ESTÁNDAR"
+    },
+    {
+     "id": 223,
+     "esquema": "HERCIOS"
+    },
+    {
+     "id": 224,
+     "esquema": "KILOHERCIO"
+    },
+    {
+     "id": 225,
+     "esquema": "MEGAHERCIO"
+    },
+    {
+     "id": 226,
+     "esquema": "TERAHERCIOS"
+    },
+    {
+     "id": 227,
+     "esquema": "GIGAHERCIOS"
+    },
+    {
+     "id": 228,
+     "esquema": "MILIHERCIOS"
+    },
+    {
+     "id": 229,
+     "esquema": "HORA RECÍPROCA"
+    },
+    {
+     "id": 230,
+     "esquema": "MES RECÍPROCO"
+    },
+    {
+     "id": 231,
+     "esquema": "AÑO RECÍPROCO"
+    },
+    {
+     "id": 232,
+     "esquema": "SEMANA RECÍPROCA"
+    },
+    {
+     "id": 233,
+     "esquema": "SEGUNDO RECÍPROCO"
+    },
+    {
+     "id": 234,
+     "esquema": "REVOLUCIONES POR SEGUNDO"
+    },
+    {
+     "id": 235,
+     "esquema": "REVOLUCIONES POR MINUTO"
+    },
+    {
+     "id": 236,
+     "esquema": "MINUTO RECÍPROCO"
+    },
+    {
+     "id": 237,
+     "esquema": "NEPER"
+    },
+    {
+     "id": 238,
+     "esquema": "DECIBEL"
+    },
+    {
+     "id": 239,
+     "esquema": "BEL"
+    },
+    {
+     "id": 240,
+     "esquema": "NEPER POR SEGUNDO"
+    },
+    {
+     "id": 241,
+     "esquema": "KILOGRAMO"
+    },
+    {
+     "id": 242,
+     "esquema": "MICROGRAMO"
+    },
+    {
+     "id": 243,
+     "esquema": "DECAGRAMO"
+    },
+    {
+     "id": 244,
+     "esquema": "DECIGRAMO"
+    },
+    {
+     "id": 245,
+     "esquema": "GRAMO"
+    },
+    {
+     "id": 246,
+     "esquema": "CENTIGRAMO"
+    },
+    {
+     "id": 247,
+     "esquema": "TONELADA (TONELADA MÉTRICA)"
+    },
+    {
+     "id": 248,
+     "esquema": "DECITONA"
+    },
+    {
+     "id": 249,
+     "esquema": "MILIGRAMO"
+    },
+    {
+     "id": 250,
+     "esquema": "HECTOGRAMO"
+    },
+    {
+     "id": 251,
+     "esquema": "KILOTONELADA"
+    },
+    {
+     "id": 252,
+     "esquema": "MEGAGRAMO"
+    },
+    {
+     "id": 253,
+     "esquema": "LIBRA"
+    },
+    {
+     "id": 254,
+     "esquema": "GRANO"
+    },
+    {
+     "id": 255,
+     "esquema": "ONZA (AVOIRDUPOIS)"
+    },
+    {
+     "id": 256,
+     "esquema": "CIEN PESOS (REINO UNIDO)"
+    },
+    {
+     "id": 257,
+     "esquema": "CIEN LIBRAS (CWT) \/ CIEN PESOS (EE.UU.)"
+    },
+    {
+     "id": 258,
+     "esquema": "TONELADA (REINO UNIDO) O TONELADA LARGA (EE.UU.)"
+    },
+    {
+     "id": 259,
+     "esquema": "PIEDRA (REINO UNIDO)"
+    },
+    {
+     "id": 260,
+     "esquema": "TONELADA (EE.UU.) O TONELADA CORTA (REINO UNIDO\/EE.UU.)"
+    },
+    {
+     "id": 261,
+     "esquema": "ONZA TROY O ONZA BOTICARIA"
+    },
+    {
+     "id": 262,
+     "esquema": "BABOSA"
+    },
+    {
+     "id": 263,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 264,
+     "esquema": "TONELADA POR KELVIN"
+    },
+    {
+     "id": 265,
+     "esquema": "TONELADA CORTA POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 266,
+     "esquema": "TONELADA, ENSAYO"
+    },
+    {
+     "id": 267,
+     "esquema": "FONDO DE INVERSIÓN"
+    },
+    {
+     "id": 268,
+     "esquema": "KILOGRAMO POR METRO CÚBICO"
+    },
+    {
+     "id": 269,
+     "esquema": "GRAMO POR CENTÍMETRO CÚBICO"
+    },
+    {
+     "id": 270,
+     "esquema": "TONELADA POR METRO CÚBICO"
+    },
+    {
+     "id": 271,
+     "esquema": "GRAMO POR MILILITRO"
+    },
+    {
+     "id": 272,
+     "esquema": "KILOGRAMO POR LITRO"
+    },
+    {
+     "id": 273,
+     "esquema": "GRAMO POR LITRO"
+    },
+    {
+     "id": 274,
+     "esquema": "GRAMO POR METRO CÚBICO"
+    },
+    {
+     "id": 275,
+     "esquema": "MILIGRAMO POR METRO CÚBICO"
+    },
+    {
+     "id": 276,
+     "esquema": "MEGAGRAMO POR METRO CÚBICO"
+    },
+    {
+     "id": 277,
+     "esquema": "KILOGRAMO POR DECÍMETRO CÚBICO"
+    },
+    {
+     "id": 278,
+     "esquema": "MILIGRAMO POR GRAMO"
+    },
+    {
+     "id": 279,
+     "esquema": "MICROGRAMO POR LITRO"
+    },
+    {
+     "id": 280,
+     "esquema": "MILIGRAMO POR LITRO"
+    },
+    {
+     "id": 281,
+     "esquema": "MICROGRAMO POR METRO CÚBICO"
+    },
+    {
+     "id": 282,
+     "esquema": "GRAMO POR BARRA DE CENTÍMETRO CÚBICO"
+    },
+    {
+     "id": 283,
+     "esquema": "GRAMO POR CENTÍMETRO CÚBICO KELVIN"
+    },
+    {
+     "id": 284,
+     "esquema": "GRAMO POR DECÍMETRO CÚBICO"
+    },
+    {
+     "id": 285,
+     "esquema": "GRAMO POR BARRA DE DECÍMETRO CÚBICO"
+    },
+    {
+     "id": 286,
+     "esquema": "GRAMO POR DECÍMETRO CÚBICO KELVIN"
+    },
+    {
+     "id": 287,
+     "esquema": "GRAMO POR METRO CÚBICO BAR"
+    },
+    {
+     "id": 288,
+     "esquema": "GRAMO POR METRO CÚBICO KELVIN"
+    },
+    {
+     "id": 289,
+     "esquema": "BARRA DE GRAMO POR LITRO"
+    },
+    {
+     "id": 290,
+     "esquema": "GRAMO POR LITRO KELVIN"
+    },
+    {
+     "id": 291,
+     "esquema": "BARRA GRAMO POR MILILITRO"
+    },
+    {
+     "id": 292,
+     "esquema": "GRAMO POR MILILITRO KELVIN"
+    },
+    {
+     "id": 293,
+     "esquema": "KILOGRAMO POR CENTÍMETRO CÚBICO"
+    },
+    {
+     "id": 294,
+     "esquema": "KILOGRAMO POR BARRA DE CENTÍMETRO CÚBICO"
+    },
+    {
+     "id": 295,
+     "esquema": "KILOGRAMO POR CENTÍMETRO CÚBICO KELVIN"
+    },
+    {
+     "id": 296,
+     "esquema": "KILOGRAMO POR METRO CÚBICO BAR"
+    },
+    {
+     "id": 297,
+     "esquema": "KILOGRAMO POR METRO CÚBICO KELVIN"
+    },
+    {
+     "id": 298,
+     "esquema": "KILOGRAMO POR DECÍMETRO CÚBICO KELVIN"
+    },
+    {
+     "id": 299,
+     "esquema": "KILOGRAMO POR BARRA DE DECÍMETRO CÚBICO"
+    },
+    {
+     "id": 300,
+     "esquema": "GRAMO POR KELVIN"
+    },
+    {
+     "id": 301,
+     "esquema": "KILOGRAMO POR KELVIN"
+    },
+    {
+     "id": 302,
+     "esquema": "KILOGRAMO POR KILOMOL"
+    },
+    {
+     "id": 303,
+     "esquema": "KILOGRAMO POR LITRO DE BARRA"
+    },
+    {
+     "id": 304,
+     "esquema": "KILOGRAMO POR LITRO KELVIN"
+    },
+    {
+     "id": 305,
+     "esquema": "KILOGRAMO POR BARRA"
+    },
+    {
+     "id": 306,
+     "esquema": "KILOGRAMO CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 307,
+     "esquema": "KILOGRAMO MILÍMETRO CUADRADO"
+    },
+    {
+     "id": 308,
+     "esquema": "GRAMO POR BARRA"
+    },
+    {
+     "id": 309,
+     "esquema": "MILIGRAMO POR BARRA"
+    },
+    {
+     "id": 310,
+     "esquema": "MILIGRAMO POR KELVIN"
+    },
+    {
+     "id": 311,
+     "esquema": "KILOGRAMO POR METRO CÚBICO PASCAL"
+    },
+    {
+     "id": 312,
+     "esquema": "LIBRA POR PIE CÚBICO"
+    },
+    {
+     "id": 313,
+     "esquema": "LIBRA POR GALÓN (EE.UU.)"
+    },
+    {
+     "id": 314,
+     "esquema": "LIBRA POR PULGADA CÚBICA"
+    },
+    {
+     "id": 315,
+     "esquema": "ONZA (AVOIRDUPOIS) POR YARDA CÚBICA"
+    },
+    {
+     "id": 316,
+     "esquema": "MICROGRAMO POR METRO CÚBICO KELVIN"
+    },
+    {
+     "id": 317,
+     "esquema": "MICROGRAMO POR METRO CÚBICO BAR"
+    },
+    {
+     "id": 318,
+     "esquema": "GRANO POR GALÓN (EE.UU.)"
+    },
+    {
+     "id": 319,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR PIE CÚBICO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 320,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR PIE CÚBICO PSI"
+    },
+    {
+     "id": 321,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR GALÓN (REINO UNIDO)"
+    },
+    {
+     "id": 322,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR PULGADA CÚBICA GRADO FAHRENHEIT"
+    },
+    {
+     "id": 323,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR PULGADA CÚBICA PSI"
+    },
+    {
+     "id": 324,
+     "esquema": "LIBRA POR YARDA CÚBICA"
+    },
+    {
+     "id": 325,
+     "esquema": "MILIGRAMO POR METRO CÚBICO KELVIN"
+    },
+    {
+     "id": 326,
+     "esquema": "MILIGRAMO POR METRO CÚBICO BAR"
+    },
+    {
+     "id": 327,
+     "esquema": "ONZA (AVOIRDUPOIS) POR GALÓN (REINO UNIDO)"
+    },
+    {
+     "id": 328,
+     "esquema": "ONZA (AVOIRDUPOIS) POR GALÓN (EE.UU.)"
+    },
+    {
+     "id": 329,
+     "esquema": "ONZA (AVOIRDUPOIS) POR PULGADA CÚBICA"
+    },
+    {
+     "id": 330,
+     "esquema": "SLUG POR PIE CÚBICO"
+    },
+    {
+     "id": 331,
+     "esquema": "TONELADAS POR METRO CÚBICO KELVIN"
+    },
+    {
+     "id": 332,
+     "esquema": "TONELADA POR METRO CÚBICO BAR"
+    },
+    {
+     "id": 333,
+     "esquema": "TONELADA (LARGA DEL REINO UNIDO) POR YARDA CÚBICA"
+    },
+    {
+     "id": 334,
+     "esquema": "TONELADA (CORTA ESTADOUNIDENSE) POR YARDA CÚBICA"
+    },
+    {
+     "id": 335,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR PSI"
+    },
+    {
+     "id": 336,
+     "esquema": "TONELADA POR BARRA"
+    },
+    {
+     "id": 337,
+     "esquema": "TONELADA CORTA POR PSI"
+    },
+    {
+     "id": 338,
+     "esquema": "KILOGRAMO POR PASCAL"
+    },
+    {
+     "id": 339,
+     "esquema": "UNO"
+    },
+    {
+     "id": 340,
+     "esquema": "METRO CÚBICO POR KILOGRAMO"
+    },
+    {
+     "id": 341,
+     "esquema": "DECILITRO POR GRAMO"
+    },
+    {
+     "id": 342,
+     "esquema": "MILILITRO POR METRO CÚBICO"
+    },
+    {
+     "id": 343,
+     "esquema": "LITRO POR KILOGRAMO"
+    },
+    {
+     "id": 344,
+     "esquema": "MILILITRO POR KILOGRAMO"
+    },
+    {
+     "id": 345,
+     "esquema": "CENTÍMETRO CUADRADO POR GRAMO"
+    },
+    {
+     "id": 346,
+     "esquema": "DECÍMETRO CÚBICO POR KILOGRAMO"
+    },
+    {
+     "id": 347,
+     "esquema": "PIE CÚBICO POR LIBRA"
+    },
+    {
+     "id": 348,
+     "esquema": "PULGADA CÚBICA POR LIBRA"
+    },
+    {
+     "id": 349,
+     "esquema": "KILOGRAMO POR METRO"
+    },
+    {
+     "id": 350,
+     "esquema": "GRAMO POR METRO (GRAMO POR 100 CENTÍMETROS)"
+    },
+    {
+     "id": 351,
+     "esquema": "GRAMO POR MILÍMETRO"
+    },
+    {
+     "id": 352,
+     "esquema": "KILOGRAMO POR MILÍMETRO"
+    },
+    {
+     "id": 353,
+     "esquema": "MILIGRAMO POR METRO"
+    },
+    {
+     "id": 354,
+     "esquema": "KILOGRAMO POR KILÓMETRO"
+    },
+    {
+     "id": 355,
+     "esquema": "LIBRA POR PIE"
+    },
+    {
+     "id": 356,
+     "esquema": "LIBRA POR PULGADA DE LONGITUD"
+    },
+    {
+     "id": 357,
+     "esquema": "NEGADOR"
+    },
+    {
+     "id": 358,
+     "esquema": "LIBRA POR YARDA"
+    },
+    {
+     "id": 359,
+     "esquema": "MILIGRAMO POR METRO CUADRADO"
+    },
+    {
+     "id": 360,
+     "esquema": "GRAMO POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 361,
+     "esquema": "MILIGRAMO POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 362,
+     "esquema": "GRAMO POR METRO CUADRADO"
+    },
+    {
+     "id": 363,
+     "esquema": "KILOGRAMO POR METRO CUADRADO"
+    },
+    {
+     "id": 364,
+     "esquema": "KILOGRAMO POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 365,
+     "esquema": "ONZA POR YARDA CUADRADA"
+    },
+    {
+     "id": 366,
+     "esquema": "ONZA POR PIE CUADRADO"
+    },
+    {
+     "id": 367,
+     "esquema": "KILOGRAMO METRO POR SEGUNDO"
+    },
+    {
+     "id": 368,
+     "esquema": "KILOGRAMO CENTÍMETRO POR SEGUNDO"
+    },
+    {
+     "id": 369,
+     "esquema": "GRAMO CENTÍMETRO POR SEGUNDO"
+    },
+    {
+     "id": 370,
+     "esquema": "LIBRA PIE POR SEGUNDO"
+    },
+    {
+     "id": 371,
+     "esquema": "LIBRA PULGADA POR SEGUNDO"
+    },
+    {
+     "id": 372,
+     "esquema": "KILOGRAMO METRO CUADRADO POR SEGUNDO"
+    },
+    {
+     "id": 373,
+     "esquema": "KILOGRAMO METRO CUADRADO"
+    },
+    {
+     "id": 374,
+     "esquema": "LIBRA PULGADA AL CUADRADO"
+    },
+    {
+     "id": 375,
+     "esquema": "LIBRA (AVOIRDUPOIS) PIE CUADRADO"
+    },
+    {
+     "id": 376,
+     "esquema": "NEWTON"
+    },
+    {
+     "id": 377,
+     "esquema": "MEGANEWTON"
+    },
+    {
+     "id": 378,
+     "esquema": "KILONEWTON"
+    },
+    {
+     "id": 379,
+     "esquema": "MILINEWTON"
+    },
+    {
+     "id": 380,
+     "esquema": "MICRONEWTON"
+    },
+    {
+     "id": 381,
+     "esquema": "DINA"
+    },
+    {
+     "id": 382,
+     "esquema": "LIBRA DE FUERZA"
+    },
+    {
+     "id": 383,
+     "esquema": "KILOGRAMO-FUERZA"
+    },
+    {
+     "id": 384,
+     "esquema": "KILOPONDIO"
+    },
+    {
+     "id": 385,
+     "esquema": "ONZA (AVOIRDUPOIS)-FUERZA"
+    },
+    {
+     "id": 386,
+     "esquema": "TONELADA-FUERZA (CORTO EE.UU.)"
+    },
+    {
+     "id": 387,
+     "esquema": "KILOLIBRA-FUERZA"
+    },
+    {
+     "id": 388,
+     "esquema": "LIBRA"
+    },
+    {
+     "id": 389,
+     "esquema": "KILOGRAMO METRO POR SEGUNDO AL CUADRADO"
+    },
+    {
+     "id": 390,
+     "esquema": "ESTANQUE"
+    },
+    {
+     "id": 391,
+     "esquema": "LIBRA DE FUERZA POR PIE"
+    },
+    {
+     "id": 392,
+     "esquema": "LIBRA FUERZA POR PULGADA"
+    },
+    {
+     "id": 393,
+     "esquema": "NEWTON METRO CUADRADO POR KILOGRAMO CUADRADO"
+    },
+    {
+     "id": 394,
+     "esquema": "METRO NEWTON"
+    },
+    {
+     "id": 395,
+     "esquema": "NEWTON POR AMPERIO"
+    },
+    {
+     "id": 396,
+     "esquema": "MEGANEWTON METRO"
+    },
+    {
+     "id": 397,
+     "esquema": "METRO DE KILONEWTON"
+    },
+    {
+     "id": 398,
+     "esquema": "METRO MILINEWTON"
+    },
+    {
+     "id": 399,
+     "esquema": "MEDIDOR DE MICRONEWTON"
+    },
+    {
+     "id": 400,
+     "esquema": "METRO DECINEWTON"
+    },
+    {
+     "id": 401,
+     "esquema": "METRO CENTINEWTON"
+    },
+    {
+     "id": 402,
+     "esquema": "KILOGRAMO METRO"
+    },
+    {
+     "id": 403,
+     "esquema": "NEWTON CENTÍMETRO"
+    },
+    {
+     "id": 404,
+     "esquema": "NEWTON METRO POR AMPERIO"
+    },
+    {
+     "id": 405,
+     "esquema": "NEWTON METRO POR GRADO"
+    },
+    {
+     "id": 406,
+     "esquema": "NEWTON METRO POR KILOGRAMO"
+    },
+    {
+     "id": 407,
+     "esquema": "NEWTON POR MILÍMETRO"
+    },
+    {
+     "id": 408,
+     "esquema": "NEWTON METRO POR RADIANES"
+    },
+    {
+     "id": 409,
+     "esquema": "NEWTON METRO VATIO A LA POTENCIA MENOS 0,5"
+    },
+    {
+     "id": 410,
+     "esquema": "METRO DE KILOGRAMO-FUERZA"
+    },
+    {
+     "id": 411,
+     "esquema": "PULGADA LIBRA (LIBRA PULGADA)"
+    },
+    {
+     "id": 412,
+     "esquema": "ONZA PULGADA"
+    },
+    {
+     "id": 413,
+     "esquema": "ONZA PIE"
+    },
+    {
+     "id": 414,
+     "esquema": "LIBRA-FUERZA PIE POR AMPERIO"
+    },
+    {
+     "id": 415,
+     "esquema": "LIBRA-FUERZA PULGADA"
+    },
+    {
+     "id": 416,
+     "esquema": "LIBRA-FUERZA PIE POR LIBRA"
+    },
+    {
+     "id": 417,
+     "esquema": "DINA CENTÍMETRO"
+    },
+    {
+     "id": 418,
+     "esquema": "ONZA (AVOIRDUPOIS)-FUERZA PULGADA"
+    },
+    {
+     "id": 419,
+     "esquema": "PIE LIBRA FUERZA"
+    },
+    {
+     "id": 420,
+     "esquema": "PIE LIBRA"
+    },
+    {
+     "id": 421,
+     "esquema": "PULGADA LIBRA"
+    },
+    {
+     "id": 422,
+     "esquema": "MEDIDOR DE DINAS"
+    },
+    {
+     "id": 423,
+     "esquema": "NEWTON SEGUNDO"
+    },
+    {
+     "id": 424,
+     "esquema": "NEWTON METRO SEGUNDO"
+    },
+    {
+     "id": 425,
+     "esquema": "MILIPASCAL"
+    },
+    {
+     "id": 426,
+     "esquema": "MEGAPASCAL"
+    },
+    {
+     "id": 427,
+     "esquema": "PASCAL"
+    },
+    {
+     "id": 428,
+     "esquema": "KILOPASCAL"
+    },
+    {
+     "id": 429,
+     "esquema": "BAR [UNIDAD DE PRESIÓN]"
+    },
+    {
+     "id": 430,
+     "esquema": "HECTOBAR"
+    },
+    {
+     "id": 431,
+     "esquema": "MILIBARES"
+    },
+    {
+     "id": 432,
+     "esquema": "KILOBAR"
+    },
+    {
+     "id": 433,
+     "esquema": "ATMÓSFERA ESTÁNDAR"
+    },
+    {
+     "id": 434,
+     "esquema": "GIGAPASCALES"
+    },
+    {
+     "id": 435,
+     "esquema": "MICROPASCAL"
+    },
+    {
+     "id": 436,
+     "esquema": "HECTOPASCAL"
+    },
+    {
+     "id": 437,
+     "esquema": "DECAPASCAL"
+    },
+    {
+     "id": 438,
+     "esquema": "MICROBARRA"
+    },
+    {
+     "id": 439,
+     "esquema": "NEWTON POR METRO CUADRADO"
+    },
+    {
+     "id": 440,
+     "esquema": "NEWTON POR MILÍMETRO CUADRADO"
+    },
+    {
+     "id": 441,
+     "esquema": "PASCAL SEGUNDO POR BARRA"
+    },
+    {
+     "id": 442,
+     "esquema": "HECTOPASCAL METRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 443,
+     "esquema": "HECTOPASCAL LITRO POR SEGUNDO"
+    },
+    {
+     "id": 444,
+     "esquema": "HECTOPASCAL POR KELVIN"
+    },
+    {
+     "id": 445,
+     "esquema": "KILOPASCAL POR KELVIN"
+    },
+    {
+     "id": 446,
+     "esquema": "MEGAPASCAL METRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 447,
+     "esquema": "MEGAPASCAL LITRO POR SEGUNDO"
+    },
+    {
+     "id": 448,
+     "esquema": "MEGAPASCAL POR KELVIN"
+    },
+    {
+     "id": 449,
+     "esquema": "MILIBAR METRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 450,
+     "esquema": "MILIBAR LITRO POR SEGUNDO"
+    },
+    {
+     "id": 451,
+     "esquema": "MILIBARES POR KELVIN"
+    },
+    {
+     "id": 452,
+     "esquema": "PASCAL METRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 453,
+     "esquema": "PASCAL LITRO POR SEGUNDO"
+    },
+    {
+     "id": 454,
+     "esquema": "SEGUNDO PASCAL POR KELVIN"
+    },
+    {
+     "id": 455,
+     "esquema": "NEWTON POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 456,
+     "esquema": "LIBRA POR PIE CUADRADO"
+    },
+    {
+     "id": 457,
+     "esquema": "LIBRA FUERZA POR PULGADA CUADRADA"
+    },
+    {
+     "id": 458,
+     "esquema": "KILOGRAMO-FUERZA POR METRO CUADRADO"
+    },
+    {
+     "id": 459,
+     "esquema": "TORRE"
+    },
+    {
+     "id": 460,
+     "esquema": "ATMÓSFERA TÉCNICA"
+    },
+    {
+     "id": 461,
+     "esquema": "LIBRA POR PULGADA CUADRADA ABSOLUTA"
+    },
+    {
+     "id": 462,
+     "esquema": "CENTÍMETRO CONVENCIONAL DE AGUA"
+    },
+    {
+     "id": 463,
+     "esquema": "MILÍMETRO CONVENCIONAL DE AGUA"
+    },
+    {
+     "id": 464,
+     "esquema": "MILÍMETRO CONVENCIONAL DE MERCURIO"
+    },
+    {
+     "id": 465,
+     "esquema": "PULGADA DE MERCURIO"
+    },
+    {
+     "id": 466,
+     "esquema": "PULGADA DE AGUA"
+    },
+    {
+     "id": 467,
+     "esquema": "CENTÍMETRO DE MERCURIO"
+    },
+    {
+     "id": 468,
+     "esquema": "PIE DE AGUA"
+    },
+    {
+     "id": 469,
+     "esquema": "PIE DE MERCURIO"
+    },
+    {
+     "id": 470,
+     "esquema": "GRAMO-FUERZA POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 471,
+     "esquema": "KILOGRAMO-FUERZA POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 472,
+     "esquema": "KILOGRAMO-FUERZA POR MILÍMETRO CUADRADO"
+    },
+    {
+     "id": 473,
+     "esquema": "LIBRA FUERZA POR PIE CUADRADO"
+    },
+    {
+     "id": 474,
+     "esquema": "LIBRA FUERZA POR PULGADA CUADRADA GRADO FAHRENHEIT"
+    },
+    {
+     "id": 475,
+     "esquema": "UNIDAD DE PRESIÓN QUE DEFINE EL NÚMERO DE KILOLIBRAS DE FUERZA POR PULGADA CUADRADA. UTILICE KIP POR PULGADA CUADRADA (CÓDIGO COMÚN N20)."
+    },
+    {
+     "id": 476,
+     "esquema": "CENTÍMETRO DE MERCURIO (0 ºC)"
+    },
+    {
+     "id": 477,
+     "esquema": "CENTÍMETRO DE AGUA (4 ºC)"
+    },
+    {
+     "id": 478,
+     "esquema": "PIE DE AGUA (39,2 ºF)"
+    },
+    {
+     "id": 479,
+     "esquema": "PULGADA DE MERCURIO (32 ºF)"
+    },
+    {
+     "id": 480,
+     "esquema": "PULGADA DE MERCURIO (60 ºF)"
+    },
+    {
+     "id": 481,
+     "esquema": "PULGADA DE AGUA (39,2 ºF)"
+    },
+    {
+     "id": 482,
+     "esquema": "PULGADA DE AGUA (60 ºF)"
+    },
+    {
+     "id": 483,
+     "esquema": "KIP POR PULGADA CUADRADA"
+    },
+    {
+     "id": 484,
+     "esquema": "LIBRA POR PIE CUADRADO"
+    },
+    {
+     "id": 485,
+     "esquema": "ONZA (AVOIRDUPOIS) POR PULGADA CUADRADA"
+    },
+    {
+     "id": 486,
+     "esquema": "MEDIDOR DE AGUA CONVENCIONAL"
+    },
+    {
+     "id": 487,
+     "esquema": "GRAMO POR MILÍMETRO CUADRADO"
+    },
+    {
+     "id": 488,
+     "esquema": "LIBRA POR YARDA CUADRADA"
+    },
+    {
+     "id": 489,
+     "esquema": "LIBRA POR PULGADA CUADRADA"
+    },
+    {
+     "id": 490,
+     "esquema": "HECTOPASCAL POR BAR"
+    },
+    {
+     "id": 491,
+     "esquema": "MEGAPASCALES POR BAR"
+    },
+    {
+     "id": 492,
+     "esquema": "MILIBARES POR BAR"
+    },
+    {
+     "id": 493,
+     "esquema": "PASCAL POR BARRA"
+    },
+    {
+     "id": 494,
+     "esquema": "KILOPASCAL POR BAR"
+    },
+    {
+     "id": 495,
+     "esquema": "PSI POR PSI"
+    },
+    {
+     "id": 496,
+     "esquema": "BARRA POR BARRA"
+    },
+    {
+     "id": 497,
+     "esquema": "PASCAL RECÍPROCO O PASCAL A LA POTENCIA MENOS UNO"
+    },
+    {
+     "id": 498,
+     "esquema": "BARRA RECÍPROCA"
+    },
+    {
+     "id": 499,
+     "esquema": "METRO A LA CUARTA POTENCIA"
+    },
+    {
+     "id": 500,
+     "esquema": "MILÍMETRO A LA CUARTA POTENCIA"
+    },
+    {
+     "id": 501,
+     "esquema": "PULGADA A LA CUARTA POTENCIA"
+    },
+    {
+     "id": 502,
+     "esquema": "PIE A LA CUARTA POTENCIA"
+    },
+    {
+     "id": 503,
+     "esquema": "SEGUNDO PASCAL"
+    },
+    {
+     "id": 504,
+     "esquema": "KILOGRAMO POR METRO SEGUNDO"
+    },
+    {
+     "id": 505,
+     "esquema": "KILOGRAMO POR METRO MINUTO"
+    },
+    {
+     "id": 506,
+     "esquema": "MILIPASCAL SEGUNDO"
+    },
+    {
+     "id": 507,
+     "esquema": "NEWTON SEGUNDO POR METRO CUADRADO"
+    },
+    {
+     "id": 508,
+     "esquema": "KILOGRAMO POR METRO DÍA"
+    },
+    {
+     "id": 509,
+     "esquema": "KILOGRAMO POR METRO HORA"
+    },
+    {
+     "id": 510,
+     "esquema": "GRAMO POR CENTÍMETRO SEGUNDO"
+    },
+    {
+     "id": 511,
+     "esquema": "EQUILIBRIO"
+    },
+    {
+     "id": 512,
+     "esquema": "CENTIPOISE"
+    },
+    {
+     "id": 513,
+     "esquema": "APLOMO POR BARRA"
+    },
+    {
+     "id": 514,
+     "esquema": "APLOMO POR KELVIN"
+    },
+    {
+     "id": 515,
+     "esquema": "MICROPESO"
+    },
+    {
+     "id": 516,
+     "esquema": "CENTIPOISE POR KELVIN"
+    },
+    {
+     "id": 517,
+     "esquema": "CENTIPOISE POR BAR"
+    },
+    {
+     "id": 518,
+     "esquema": "LIBRA POR PIE HORA"
+    },
+    {
+     "id": 519,
+     "esquema": "LIBRA POR PIE SEGUNDO"
+    },
+    {
+     "id": 520,
+     "esquema": "LIBRA FUERZA SEGUNDO POR PIE CUADRADO"
+    },
+    {
+     "id": 521,
+     "esquema": "LIBRA FUERZA SEGUNDO POR PULGADA CUADRADA"
+    },
+    {
+     "id": 522,
+     "esquema": "MILIPASCAL SEGUNDO POR KELVIN"
+    },
+    {
+     "id": 523,
+     "esquema": "MILIPASCAL SEGUNDO POR BAR"
+    },
+    {
+     "id": 524,
+     "esquema": "SLUG POR PIE SEGUNDO"
+    },
+    {
+     "id": 525,
+     "esquema": "LIBRA SEGUNDO POR PIE CUADRADO"
+    },
+    {
+     "id": 526,
+     "esquema": "APLOMO POR PASCAL"
+    },
+    {
+     "id": 527,
+     "esquema": "LIBRA POR SEGUNDO POR PULGADA CUADRADA"
+    },
+    {
+     "id": 528,
+     "esquema": "LIBRA POR PIE MINUTO"
+    },
+    {
+     "id": 529,
+     "esquema": "LIBRA POR PIE DÍA"
+    },
+    {
+     "id": 530,
+     "esquema": "METRO CUADRADO POR SEGUNDO"
+    },
+    {
+     "id": 531,
+     "esquema": "METRO CUADRADO POR SEGUNDO PASCAL"
+    },
+    {
+     "id": 532,
+     "esquema": "MILÍMETRO CUADRADO POR SEGUNDO"
+    },
+    {
+     "id": 533,
+     "esquema": "METRO CUADRADO POR SEGUNDO BAR"
+    },
+    {
+     "id": 534,
+     "esquema": "METRO CUADRADO POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 535,
+     "esquema": "ALIMENTA"
+    },
+    {
+     "id": 536,
+     "esquema": "CENTISTOKES"
+    },
+    {
+     "id": 537,
+     "esquema": "GOLPES POR BARRA"
+    },
+    {
+     "id": 538,
+     "esquema": "STOKES POR KELVIN"
+    },
+    {
+     "id": 539,
+     "esquema": "PIES CUADRADOS POR SEGUNDO"
+    },
+    {
+     "id": 540,
+     "esquema": "PULGADA CUADRADA POR SEGUNDO"
+    },
+    {
+     "id": 541,
+     "esquema": "PIES CUADRADOS POR HORA"
+    },
+    {
+     "id": 542,
+     "esquema": "GOLPES POR PASCAL"
+    },
+    {
+     "id": 543,
+     "esquema": "CENTÍMETRO CUADRADO POR SEGUNDO"
+    },
+    {
+     "id": 544,
+     "esquema": "NEWTON POR METRO"
+    },
+    {
+     "id": 545,
+     "esquema": "MILINEWTON POR METRO"
+    },
+    {
+     "id": 546,
+     "esquema": "NEWTON POR CENTÍMETRO"
+    },
+    {
+     "id": 547,
+     "esquema": "KILONEWTON POR METRO"
+    },
+    {
+     "id": 548,
+     "esquema": "DINA POR CENTÍMETRO"
+    },
+    {
+     "id": 549,
+     "esquema": "LIBRAS POR PULGADA"
+    },
+    {
+     "id": 550,
+     "esquema": "LIBRA DE FUERZA POR YARDA"
+    },
+    {
+     "id": 551,
+     "esquema": "NEWTON METRO POR METRO CUADRADO"
+    },
+    {
+     "id": 552,
+     "esquema": "JOULE"
+    },
+    {
+     "id": 553,
+     "esquema": "KILOJULIO"
+    },
+    {
+     "id": 554,
+     "esquema": "EXAJULIO"
+    },
+    {
+     "id": 555,
+     "esquema": "PETAJULIO"
+    },
+    {
+     "id": 556,
+     "esquema": "TERAJULIO"
+    },
+    {
+     "id": 557,
+     "esquema": "GIGAJULIO"
+    },
+    {
+     "id": 558,
+     "esquema": "MEGAJULIO"
+    },
+    {
+     "id": 559,
+     "esquema": "MILIJULIO"
+    },
+    {
+     "id": 560,
+     "esquema": "FEMTOJULIO"
+    },
+    {
+     "id": 561,
+     "esquema": "ATTOJULIO"
+    },
+    {
+     "id": 562,
+     "esquema": "VATIOS HORA"
+    },
+    {
+     "id": 563,
+     "esquema": "MEGAVATIO HORA (1000 KW.H)"
+    },
+    {
+     "id": 564,
+     "esquema": "KILOVATIO HORA"
+    },
+    {
+     "id": 565,
+     "esquema": "GIGAVATIO HORA"
+    },
+    {
+     "id": 566,
+     "esquema": "TERAVATIOS HORA"
+    },
+    {
+     "id": 567,
+     "esquema": "ELECTRONVOLTIO"
+    },
+    {
+     "id": 568,
+     "esquema": "MEGAELECTRONVOLTIO"
+    },
+    {
+     "id": 569,
+     "esquema": "GIGAELECTRONVOLTIO"
+    },
+    {
+     "id": 570,
+     "esquema": "KILOELECTRONVOLTIO"
+    },
+    {
+     "id": 571,
+     "esquema": "ERGIO"
+    },
+    {
+     "id": 572,
+     "esquema": "PIE LIBRA-FUERZA"
+    },
+    {
+     "id": 573,
+     "esquema": "LIBRA DEL PIE"
+    },
+    {
+     "id": 574,
+     "esquema": "LIBRA EN PULGADAS"
+    },
+    {
+     "id": 575,
+     "esquema": "VATIO"
+    },
+    {
+     "id": 576,
+     "esquema": "KILOVATIO"
+    },
+    {
+     "id": 577,
+     "esquema": "MEGAVATIO"
+    },
+    {
+     "id": 578,
+     "esquema": "GIGAVATIO"
+    },
+    {
+     "id": 579,
+     "esquema": "MILIVATIOS"
+    },
+    {
+     "id": 580,
+     "esquema": "MICROVATIO"
+    },
+    {
+     "id": 581,
+     "esquema": "CABALLOS DE FUERZA DE AGUA"
+    },
+    {
+     "id": 582,
+     "esquema": "ERGIO POR SEGUNDO"
+    },
+    {
+     "id": 583,
+     "esquema": "PIE LIBRA-FUERZA POR SEGUNDO"
+    },
+    {
+     "id": 584,
+     "esquema": "KILOGRAMO-FUERZA METRO POR SEGUNDO"
+    },
+    {
+     "id": 585,
+     "esquema": "CABALLOS DE FUERZA MÉTRICOS"
+    },
+    {
+     "id": 586,
+     "esquema": "VAPORIZADOR DE CABALLO"
+    },
+    {
+     "id": 587,
+     "esquema": "POTENCIA AL FRENO"
+    },
+    {
+     "id": 588,
+     "esquema": "PIE LIBRA-FUERZA POR HORA"
+    },
+    {
+     "id": 589,
+     "esquema": "PIE LIBRA-FUERZA POR MINUTO"
+    },
+    {
+     "id": 590,
+     "esquema": "CABALLOS DE FUERZA (CALDERA)"
+    },
+    {
+     "id": 591,
+     "esquema": "PFERDESTAERKE"
+    },
+    {
+     "id": 592,
+     "esquema": "KILOGRAMO POR SEGUNDO"
+    },
+    {
+     "id": 593,
+     "esquema": "KILOGRAMO POR METRO CUADRADO SEGUNDO"
+    },
+    {
+     "id": 594,
+     "esquema": "KILOGRAMO POR SEGUNDO PASCAL"
+    },
+    {
+     "id": 595,
+     "esquema": "MILIGRAMO POR HORA"
+    },
+    {
+     "id": 596,
+     "esquema": "GRAMO POR DÍA"
+    },
+    {
+     "id": 597,
+     "esquema": "BARRA DE GRAMOS POR DÍA"
+    },
+    {
+     "id": 598,
+     "esquema": "GRAMO POR DÍA KELVIN"
+    },
+    {
+     "id": 599,
+     "esquema": "GRAMO POR HORA"
+    },
+    {
+     "id": 600,
+     "esquema": "BARRA DE GRAMO POR HORA"
+    },
+    {
+     "id": 601,
+     "esquema": "GRAMO POR HORA KELVIN"
+    },
+    {
+     "id": 602,
+     "esquema": "GRAMO POR MINUTO"
+    },
+    {
+     "id": 603,
+     "esquema": "BARRA DE GRAMO POR MINUTO"
+    },
+    {
+     "id": 604,
+     "esquema": "GRAMO POR MINUTO KELVIN"
+    },
+    {
+     "id": 605,
+     "esquema": "GRAMO POR SEGUNDO"
+    },
+    {
+     "id": 606,
+     "esquema": "GRAMO POR SEGUNDO BARRA"
+    },
+    {
+     "id": 607,
+     "esquema": "GRAMO POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 608,
+     "esquema": "KILOGRAMO POR DÍA"
+    },
+    {
+     "id": 609,
+     "esquema": "BARRA DE KILOGRAMOS POR DÍA"
+    },
+    {
+     "id": 610,
+     "esquema": "KILOGRAMO POR DÍA KELVIN"
+    },
+    {
+     "id": 611,
+     "esquema": "KILOGRAMO POR HORA"
+    },
+    {
+     "id": 612,
+     "esquema": "BARRA DE KILOGRAMOS POR HORA"
+    },
+    {
+     "id": 613,
+     "esquema": "KILOGRAMO POR HORA KELVIN"
+    },
+    {
+     "id": 614,
+     "esquema": "KILOGRAMO POR MINUTO"
+    },
+    {
+     "id": 615,
+     "esquema": "BARRA DE KILOGRAMO POR MINUTO"
+    },
+    {
+     "id": 616,
+     "esquema": "KILOGRAMO POR MINUTO KELVIN"
+    },
+    {
+     "id": 617,
+     "esquema": "KILOGRAMO POR SEGUNDO BARRA"
+    },
+    {
+     "id": 618,
+     "esquema": "KILOGRAMO POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 619,
+     "esquema": "MILIGRAMOS POR DÍA"
+    },
+    {
+     "id": 620,
+     "esquema": "BARRA DE MILIGRAMOS POR DÍA"
+    },
+    {
+     "id": 621,
+     "esquema": "MILIGRAMOS POR DÍA KELVIN"
+    },
+    {
+     "id": 622,
+     "esquema": "BARRA DE MILIGRAMOS POR HORA"
+    },
+    {
+     "id": 623,
+     "esquema": "MILIGRAMO POR HORA KELVIN"
+    },
+    {
+     "id": 624,
+     "esquema": "MILIGRAMO POR MINUTO"
+    },
+    {
+     "id": 625,
+     "esquema": "BARRA DE MILIGRAMOS POR MINUTO"
+    },
+    {
+     "id": 626,
+     "esquema": "MILIGRAMO POR MINUTO KELVIN"
+    },
+    {
+     "id": 627,
+     "esquema": "MILIGRAMO POR SEGUNDO"
+    },
+    {
+     "id": 628,
+     "esquema": "BARRA DE MILIGRAMOS POR SEGUNDO"
+    },
+    {
+     "id": 629,
+     "esquema": "MILIGRAMO POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 630,
+     "esquema": "GRAMO POR HERCIO"
+    },
+    {
+     "id": 631,
+     "esquema": "TONELADA (EE.UU.) POR HORA"
+    },
+    {
+     "id": 632,
+     "esquema": "LIBRA POR HORA"
+    },
+    {
+     "id": 633,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR DÍA"
+    },
+    {
+     "id": 634,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR HORA GRADO FAHRENHEIT"
+    },
+    {
+     "id": 635,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR HORA PSI"
+    },
+    {
+     "id": 636,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR MINUTO"
+    },
+    {
+     "id": 637,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR MINUTO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 638,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR MINUTO PSI"
+    },
+    {
+     "id": 639,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR SEGUNDO"
+    },
+    {
+     "id": 640,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR SEGUNDO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 641,
+     "esquema": "LIBRA (AVOIRDUPOIS) POR SEGUNDO PSI"
+    },
+    {
+     "id": 642,
+     "esquema": "ONZA (AVOIRDUPOIS) POR DÍA"
+    },
+    {
+     "id": 643,
+     "esquema": "ONZA (AVOIRDUPOIS) POR HORA"
+    },
+    {
+     "id": 644,
+     "esquema": "ONZA (AVOIRDUPOIS) POR MINUTO"
+    },
+    {
+     "id": 645,
+     "esquema": "ONZA (AVOIRDUPOIS) POR SEGUNDO"
+    },
+    {
+     "id": 646,
+     "esquema": "BABOSA POR DIA"
+    },
+    {
+     "id": 647,
+     "esquema": "BABOSA POR HORA"
+    },
+    {
+     "id": 648,
+     "esquema": "BABOSA POR MINUTO"
+    },
+    {
+     "id": 649,
+     "esquema": "BABOSA POR SEGUNDO"
+    },
+    {
+     "id": 650,
+     "esquema": "TONELADA POR DÍA"
+    },
+    {
+     "id": 651,
+     "esquema": "TONELADAS POR DÍA KELVIN"
+    },
+    {
+     "id": 652,
+     "esquema": "BARRA DE TONELADAS POR DÍA"
+    },
+    {
+     "id": 653,
+     "esquema": "TONELADA POR HORA"
+    },
+    {
+     "id": 654,
+     "esquema": "TONELADAS POR HORA KELVIN"
+    },
+    {
+     "id": 655,
+     "esquema": "BARRA DE TONELADAS POR HORA"
+    },
+    {
+     "id": 656,
+     "esquema": "TONELADA POR MINUTO"
+    },
+    {
+     "id": 657,
+     "esquema": "TONELADAS POR MINUTO KELVIN"
+    },
+    {
+     "id": 658,
+     "esquema": "TONELADAS POR MINUTO BAR"
+    },
+    {
+     "id": 659,
+     "esquema": "TONELADA POR SEGUNDO"
+    },
+    {
+     "id": 660,
+     "esquema": "TONELADAS POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 661,
+     "esquema": "TONELADA POR SEGUNDO BAR"
+    },
+    {
+     "id": 662,
+     "esquema": "TONELADA DE LARGO POR DÍA"
+    },
+    {
+     "id": 663,
+     "esquema": "TONELADA CORTA POR DÍA"
+    },
+    {
+     "id": 664,
+     "esquema": "TONELADA CORTA POR HORA GRADO FAHRENHEIT"
+    },
+    {
+     "id": 665,
+     "esquema": "TONELADA CORTA POR HORA PSI"
+    },
+    {
+     "id": 666,
+     "esquema": "TONELADA POR MES"
+    },
+    {
+     "id": 667,
+     "esquema": "TONELADA POR AÑO"
+    },
+    {
+     "id": 668,
+     "esquema": "KILOLIBRA POR HORA"
+    },
+    {
+     "id": 669,
+     "esquema": "MICROGRAMO POR KILOGRAMO"
+    },
+    {
+     "id": 670,
+     "esquema": "NANOGRAMO POR KILOGRAMO"
+    },
+    {
+     "id": 671,
+     "esquema": "MILIGRAMO POR KILOGRAMO"
+    },
+    {
+     "id": 672,
+     "esquema": "KILOGRAMO POR KILOGRAMO"
+    },
+    {
+     "id": 673,
+     "esquema": "LIBRA POR LIBRA"
+    },
+    {
+     "id": 674,
+     "esquema": "METRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 675,
+     "esquema": "METRO CÚBICO POR HORA"
+    },
+    {
+     "id": 676,
+     "esquema": "MILILITRO POR SEGUNDO"
+    },
+    {
+     "id": 677,
+     "esquema": "MILILITRO POR MINUTO"
+    },
+    {
+     "id": 678,
+     "esquema": "LITRO POR DÍA"
+    },
+    {
+     "id": 679,
+     "esquema": "CENTÍMETRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 680,
+     "esquema": "KILOLITRO POR HORA"
+    },
+    {
+     "id": 681,
+     "esquema": "LITRO POR MINUTO"
+    },
+    {
+     "id": 682,
+     "esquema": "CENTÍMETRO CÚBICO POR DÍA"
+    },
+    {
+     "id": 683,
+     "esquema": "BARRA DE CENTÍMETROS CÚBICOS POR DÍA"
+    },
+    {
+     "id": 684,
+     "esquema": "CENTÍMETRO CÚBICO POR DÍA KELVIN"
+    },
+    {
+     "id": 685,
+     "esquema": "CENTÍMETRO CÚBICO POR HORA"
+    },
+    {
+     "id": 686,
+     "esquema": "BARRA DE CENTÍMETROS CÚBICOS POR HORA"
+    },
+    {
+     "id": 687,
+     "esquema": "CENTÍMETRO CÚBICO POR HORA KELVIN"
+    },
+    {
+     "id": 688,
+     "esquema": "CENTÍMETRO CÚBICO POR MINUTO"
+    },
+    {
+     "id": 689,
+     "esquema": "CENTÍMETRO CÚBICO POR MINUTO BAR"
+    },
+    {
+     "id": 690,
+     "esquema": "CENTÍMETRO CÚBICO POR MINUTO KELVIN"
+    },
+    {
+     "id": 691,
+     "esquema": "CENTÍMETRO CÚBICO POR SEGUNDO BAR"
+    },
+    {
+     "id": 692,
+     "esquema": "CENTÍMETRO CÚBICO POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 693,
+     "esquema": "DECÍMETRO CÚBICO POR HORA"
+    },
+    {
+     "id": 694,
+     "esquema": "METRO CÚBICO POR DÍA"
+    },
+    {
+     "id": 695,
+     "esquema": "METRO CÚBICO POR DÍA BAR"
+    },
+    {
+     "id": 696,
+     "esquema": "METRO CÚBICO POR DÍA KELVIN"
+    },
+    {
+     "id": 697,
+     "esquema": "METRO CÚBICO POR HORA BAR"
+    },
+    {
+     "id": 698,
+     "esquema": "METRO CÚBICO POR HORA KELVIN"
+    },
+    {
+     "id": 699,
+     "esquema": "METRO CÚBICO POR MINUTO"
+    },
+    {
+     "id": 700,
+     "esquema": "METRO CÚBICO POR MINUTO BAR"
+    },
+    {
+     "id": 701,
+     "esquema": "METRO CÚBICO POR MINUTO KELVIN"
+    },
+    {
+     "id": 702,
+     "esquema": "METRO CÚBICO POR SEGUNDO BAR"
+    },
+    {
+     "id": 703,
+     "esquema": "METRO CÚBICO POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 704,
+     "esquema": "BARRA DE LITRO POR DÍA"
+    },
+    {
+     "id": 705,
+     "esquema": "LITRO POR DÍA KELVIN"
+    },
+    {
+     "id": 706,
+     "esquema": "BARRA DE LITROS POR HORA"
+    },
+    {
+     "id": 707,
+     "esquema": "LITRO POR HORA KELVIN"
+    },
+    {
+     "id": 708,
+     "esquema": "BARRA DE LITROS POR MINUTO"
+    },
+    {
+     "id": 709,
+     "esquema": "LITRO POR MINUTO KELVIN"
+    },
+    {
+     "id": 710,
+     "esquema": "LITRO POR SEGUNDO"
+    },
+    {
+     "id": 711,
+     "esquema": "LITROS POR SEGUNDO BAR"
+    },
+    {
+     "id": 712,
+     "esquema": "LITRO POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 713,
+     "esquema": "MILILITRO POR DÍA"
+    },
+    {
+     "id": 714,
+     "esquema": "BARRA DE MILILITROS POR DÍA"
+    },
+    {
+     "id": 715,
+     "esquema": "MILILITRO POR DÍA KELVIN"
+    },
+    {
+     "id": 716,
+     "esquema": "MILILITRO POR HORA"
+    },
+    {
+     "id": 717,
+     "esquema": "BARRA DE MILILITROS POR HORA"
+    },
+    {
+     "id": 718,
+     "esquema": "MILILITRO POR HORA KELVIN"
+    },
+    {
+     "id": 719,
+     "esquema": "BARRA DE MILILITROS POR MINUTO"
+    },
+    {
+     "id": 720,
+     "esquema": "MILILITRO POR MINUTO KELVIN"
+    },
+    {
+     "id": 721,
+     "esquema": "MILILITRO POR SEGUNDO BAR"
+    },
+    {
+     "id": 722,
+     "esquema": "MILILITRO POR SEGUNDO KELVIN"
+    },
+    {
+     "id": 723,
+     "esquema": "PIES CÚBICOS POR HORA"
+    },
+    {
+     "id": 724,
+     "esquema": "PIES CÚBICOS POR MINUTO"
+    },
+    {
+     "id": 725,
+     "esquema": "BARRIL (EE.UU.) POR MINUTO"
+    },
+    {
+     "id": 726,
+     "esquema": "GALONES ESTADOUNIDENSES POR MINUTO"
+    },
+    {
+     "id": 727,
+     "esquema": "GALONES IMPERIALES POR MINUTO"
+    },
+    {
+     "id": 728,
+     "esquema": "PULGADAS CÚBICAS POR HORA"
+    },
+    {
+     "id": 729,
+     "esquema": "PULGADAS CÚBICAS POR MINUTO"
+    },
+    {
+     "id": 730,
+     "esquema": "PULGADAS CÚBICAS POR SEGUNDO"
+    },
+    {
+     "id": 731,
+     "esquema": "GALÓN (EE.UU.) POR HORA"
+    },
+    {
+     "id": 732,
+     "esquema": "BARRIL (PETRÓLEO BRITÁNICO) POR MINUTO"
+    },
+    {
+     "id": 733,
+     "esquema": "BARRIL (PETRÓLEO DEL REINO UNIDO) POR DÍA"
+    },
+    {
+     "id": 734,
+     "esquema": "BARRIL (PETRÓLEO DEL REINO UNIDO) POR HORA"
+    },
+    {
+     "id": 735,
+     "esquema": "BARRIL (PETRÓLEO BRITÁNICO) POR SEGUNDO"
+    },
+    {
+     "id": 736,
+     "esquema": "BARRIL (PETRÓLEO ESTADOUNIDENSE) POR HORA"
+    },
+    {
+     "id": 737,
+     "esquema": "BARRIL (PETRÓLEO ESTADOUNIDENSE) POR SEGUNDO"
+    },
+    {
+     "id": 738,
+     "esquema": "BUSHEL (REINO UNIDO) POR DÍA"
+    },
+    {
+     "id": 739,
+     "esquema": "BUSHEL (REINO UNIDO) POR HORA"
+    },
+    {
+     "id": 740,
+     "esquema": "BUSHEL (REINO UNIDO) POR MINUTO"
+    },
+    {
+     "id": 741,
+     "esquema": "BUSHEL (REINO UNIDO) POR SEGUNDO"
+    },
+    {
+     "id": 742,
+     "esquema": "BUSHEL (EE.UU. SECO) POR DÍA"
+    },
+    {
+     "id": 743,
+     "esquema": "BUSHEL (EE.UU. SECO) POR HORA"
+    },
+    {
+     "id": 744,
+     "esquema": "BUSHEL (EE.UU. SECO) POR MINUTO"
+    },
+    {
+     "id": 745,
+     "esquema": "BUSHEL (EE.UU. SECO) POR SEGUNDO"
+    },
+    {
+     "id": 746,
+     "esquema": "DECÍMETRO CÚBICO POR DÍA"
+    },
+    {
+     "id": 747,
+     "esquema": "DECÍMETRO CÚBICO POR MINUTO"
+    },
+    {
+     "id": 748,
+     "esquema": "DECÍMETRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 749,
+     "esquema": "METRO CÚBICO POR SEGUNDO PASCAL"
+    },
+    {
+     "id": 750,
+     "esquema": "ONZA (LÍQUIDO BRITÁNICO) POR DÍA"
+    },
+    {
+     "id": 751,
+     "esquema": "ONZA (LÍQUIDO BRITÁNICO) POR HORA"
+    },
+    {
+     "id": 752,
+     "esquema": "ONZA (LÍQUIDO BRITÁNICO) POR MINUTO"
+    },
+    {
+     "id": 753,
+     "esquema": "ONZA (LÍQUIDO BRITÁNICO) POR SEGUNDO"
+    },
+    {
+     "id": 754,
+     "esquema": "ONZA (LÍQUIDO ESTADOUNIDENSE) POR DÍA"
+    },
+    {
+     "id": 755,
+     "esquema": "ONZA (LÍQUIDO ESTADOUNIDENSE) POR HORA"
+    },
+    {
+     "id": 756,
+     "esquema": "ONZA (LÍQUIDO ESTADOUNIDENSE) POR MINUTO"
+    },
+    {
+     "id": 757,
+     "esquema": "ONZA (LÍQUIDO ESTADOUNIDENSE) POR SEGUNDO"
+    },
+    {
+     "id": 758,
+     "esquema": "PIES CÚBICOS POR DÍA"
+    },
+    {
+     "id": 759,
+     "esquema": "GALÓN (REINO UNIDO) POR DÍA"
+    },
+    {
+     "id": 760,
+     "esquema": "GALÓN (REINO UNIDO) POR HORA"
+    },
+    {
+     "id": 761,
+     "esquema": "GALÓN (REINO UNIDO) POR SEGUNDO"
+    },
+    {
+     "id": 762,
+     "esquema": "GALÓN (LÍQUIDO ESTADOUNIDENSE) POR SEGUNDO"
+    },
+    {
+     "id": 763,
+     "esquema": "BRANQUIAS (REINO UNIDO) POR DÍA"
+    },
+    {
+     "id": 764,
+     "esquema": "BRANQUIAS (REINO UNIDO) POR HORA"
+    },
+    {
+     "id": 765,
+     "esquema": "BRANQUIAS (REINO UNIDO) POR MINUTO"
+    },
+    {
+     "id": 766,
+     "esquema": "BRANQUIAS (REINO UNIDO) POR SEGUNDO"
+    },
+    {
+     "id": 767,
+     "esquema": "BRANQUIAS (EE.UU.) POR DÍA"
+    },
+    {
+     "id": 768,
+     "esquema": "BRANQUIAS (EE.UU.) POR HORA"
+    },
+    {
+     "id": 769,
+     "esquema": "BRANQUIAS (EE.UU.) POR MINUTO"
+    },
+    {
+     "id": 770,
+     "esquema": "BRANQUIAS (EE.UU.) POR SEGUNDO"
+    },
+    {
+     "id": 771,
+     "esquema": "CUARTO (LÍQUIDO DEL REINO UNIDO) POR DÍA"
+    },
+    {
+     "id": 772,
+     "esquema": "CUARTO (LÍQUIDO BRITÁNICO) POR HORA"
+    },
+    {
+     "id": 773,
+     "esquema": "CUARTO (LÍQUIDO BRITÁNICO) POR MINUTO"
+    },
+    {
+     "id": 774,
+     "esquema": "CUARTO (LÍQUIDO BRITÁNICO) POR SEGUNDO"
+    },
+    {
+     "id": 775,
+     "esquema": "CUARTO (LÍQUIDO ESTADOUNIDENSE) POR DÍA"
+    },
+    {
+     "id": 776,
+     "esquema": "CUARTO (LÍQUIDO ESTADOUNIDENSE) POR HORA"
+    },
+    {
+     "id": 777,
+     "esquema": "CUARTO (LÍQUIDO ESTADOUNIDENSE) POR MINUTO"
+    },
+    {
+     "id": 778,
+     "esquema": "CUARTO (LÍQUIDO ESTADOUNIDENSE) POR SEGUNDO"
+    },
+    {
+     "id": 779,
+     "esquema": "PICOTEO (REINO UNIDO) POR DÍA"
+    },
+    {
+     "id": 780,
+     "esquema": "PICOTEO (REINO UNIDO) POR HORA"
+    },
+    {
+     "id": 781,
+     "esquema": "PICOTEO (REINO UNIDO) POR MINUTO"
+    },
+    {
+     "id": 782,
+     "esquema": "PICOTEO (REINO UNIDO) POR SEGUNDO"
+    },
+    {
+     "id": 783,
+     "esquema": "PICOTEO (SECO EN EE. UU.) POR DÍA"
+    },
+    {
+     "id": 784,
+     "esquema": "PICOTEO (SECO EN EE. UU.) POR HORA"
+    },
+    {
+     "id": 785,
+     "esquema": "PICOTEO (SECO EN EE. UU.) POR MINUTO"
+    },
+    {
+     "id": 786,
+     "esquema": "PICOTEO (SECO EN EE. UU.) POR SEGUNDO"
+    },
+    {
+     "id": 787,
+     "esquema": "PINTA (REINO UNIDO) POR DÍA"
+    },
+    {
+     "id": 788,
+     "esquema": "PINTA (REINO UNIDO) POR HORA"
+    },
+    {
+     "id": 789,
+     "esquema": "PINTA (REINO UNIDO) POR MINUTO"
+    },
+    {
+     "id": 790,
+     "esquema": "PINTA (REINO UNIDO) POR SEGUNDO"
+    },
+    {
+     "id": 791,
+     "esquema": "PINTA (LÍQUIDO ESTADOUNIDENSE) POR DÍA"
+    },
+    {
+     "id": 792,
+     "esquema": "PINTA (LÍQUIDO ESTADOUNIDENSE) POR HORA"
+    },
+    {
+     "id": 793,
+     "esquema": "PINTA (LÍQUIDO ESTADOUNIDENSE) POR MINUTO"
+    },
+    {
+     "id": 794,
+     "esquema": "PINTA (LÍQUIDO ESTADOUNIDENSE) POR SEGUNDO"
+    },
+    {
+     "id": 795,
+     "esquema": "YARDA CÚBICA POR DÍA"
+    },
+    {
+     "id": 796,
+     "esquema": "YARDA CÚBICA POR HORA"
+    },
+    {
+     "id": 797,
+     "esquema": "YARDA CÚBICA POR MINUTO"
+    },
+    {
+     "id": 798,
+     "esquema": "YARDA CÚBICA POR SEGUNDO"
+    },
+    {
+     "id": 799,
+     "esquema": "METRO CÚBICO POR METRO CÚBICO"
+    },
+    {
+     "id": 800,
+     "esquema": "BAR METRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 801,
+     "esquema": "BAR LITRO POR SEGUNDO"
+    },
+    {
+     "id": 802,
+     "esquema": "PSI PULGADAS CÚBICAS POR SEGUNDO"
+    },
+    {
+     "id": 803,
+     "esquema": "PSI LITRO POR SEGUNDO"
+    },
+    {
+     "id": 804,
+     "esquema": "PSI METRO CÚBICO POR SEGUNDO"
+    },
+    {
+     "id": 805,
+     "esquema": "PSI YARDA CÚBICA POR SEGUNDO"
+    },
+    {
+     "id": 806,
+     "esquema": "MICROGRAMO POR HECTOGRAMO"
+    },
+    {
+     "id": 807,
+     "esquema": "METRO CÚBICO ESTÁNDAR POR DÍA"
+    },
+    {
+     "id": 808,
+     "esquema": "METRO CÚBICO ESTÁNDAR POR HORA"
+    },
+    {
+     "id": 809,
+     "esquema": "METRO CÚBICO NORMALIZADO POR DÍA"
+    },
+    {
+     "id": 810,
+     "esquema": "METRO CÚBICO NORMALIZADO POR HORA"
+    },
+    {
+     "id": 811,
+     "esquema": "KILOVATIO HORA POR METRO CÚBICO NORMALIZADO"
+    },
+    {
+     "id": 812,
+     "esquema": "KILOVATIO HORA POR METRO CÚBICO ESTÁNDAR"
+    },
+    {
+     "id": 813,
+     "esquema": "JULIOS POR METRO CÚBICO NORMALIZADO"
+    },
+    {
+     "id": 814,
+     "esquema": "JULIOS POR METRO CÚBICO ESTÁNDAR"
+    },
+    {
+     "id": 815,
+     "esquema": "MEGAJULIO POR METRO CÚBICO NORMALIZADO"
+    },
+    {
+     "id": 816,
+     "esquema": "KELVIN"
+    },
+    {
+     "id": 817,
+     "esquema": "GRADO CELSIUS"
+    },
+    {
+     "id": 818,
+     "esquema": "GRADOS CENTÍGRADOS POR HORA"
+    },
+    {
+     "id": 819,
+     "esquema": "GRADOS CENTÍGRADOS POR BAR"
+    },
+    {
+     "id": 820,
+     "esquema": "GRADOS CENTÍGRADOS POR KELVIN"
+    },
+    {
+     "id": 821,
+     "esquema": "GRADOS CENTÍGRADOS POR MINUTO"
+    },
+    {
+     "id": 822,
+     "esquema": "GRADOS CENTÍGRADOS POR SEGUNDO"
+    },
+    {
+     "id": 823,
+     "esquema": "KELVIN POR BAR"
+    },
+    {
+     "id": 824,
+     "esquema": "KELVIN POR HORA"
+    },
+    {
+     "id": 825,
+     "esquema": "KELVIN POR KELVIN"
+    },
+    {
+     "id": 826,
+     "esquema": "KELVIN POR MINUTO"
+    },
+    {
+     "id": 827,
+     "esquema": "GRADOS KELVIN POR SEGUNDO"
+    },
+    {
+     "id": 828,
+     "esquema": "KELVIN POR PASCAL"
+    },
+    {
+     "id": 829,
+     "esquema": "GRADOS FAHRENHEIT POR KELVIN"
+    },
+    {
+     "id": 830,
+     "esquema": "GRADOS FAHRENHEIT POR BAR"
+    },
+    {
+     "id": 831,
+     "esquema": "GRADOS FAHRENHEIT RECÍPROCOS"
+    },
+    {
+     "id": 832,
+     "esquema": "GRADO RANKINE"
+    },
+    {
+     "id": 833,
+     "esquema": "GRADOS FAHRENHEIT"
+    },
+    {
+     "id": 834,
+     "esquema": "GRADOS FAHRENHEIT POR HORA"
+    },
+    {
+     "id": 835,
+     "esquema": "GRADOS FAHRENHEIT POR MINUTO"
+    },
+    {
+     "id": 836,
+     "esquema": "GRADOS FAHRENHEIT POR SEGUNDO"
+    },
+    {
+     "id": 837,
+     "esquema": "GRADO RANKINE POR HORA"
+    },
+    {
+     "id": 838,
+     "esquema": "GRADOS RANKINE POR MINUTO"
+    },
+    {
+     "id": 839,
+     "esquema": "GRADOS RANKINE POR SEGUNDO"
+    },
+    {
+     "id": 840,
+     "esquema": "KELVIN RECÍPROCO O KELVIN ELEVADO A MENOS UNO"
+    },
+    {
+     "id": 841,
+     "esquema": "MEGAKELVIN RECÍPROCO O MEGAKELVIN A LA POTENCIA MENOS UNO"
+    },
+    {
+     "id": 842,
+     "esquema": "PASCAL POR KELVIN"
+    },
+    {
+     "id": 843,
+     "esquema": "BAR POR KELVIN"
+    },
+    {
+     "id": 844,
+     "esquema": "VATIO SEGUNDO"
+    },
+    {
+     "id": 845,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL)"
+    },
+    {
+     "id": 846,
+     "esquema": "15°C CALORÍAS"
+    },
+    {
+     "id": 847,
+     "esquema": "CALORÍAS (TABLA INTERNACIONAL)"
+    },
+    {
+     "id": 848,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (MEDIA)"
+    },
+    {
+     "id": 849,
+     "esquema": "CALORÍAS (MEDIA)"
+    },
+    {
+     "id": 850,
+     "esquema": "KILOCALORÍA (MEDIA)"
+    },
+    {
+     "id": 851,
+     "esquema": "KILOCALORÍA (TABLA INTERNACIONAL)"
+    },
+    {
+     "id": 852,
+     "esquema": "KILOCALORÍA (TERMOQUÍMICA)"
+    },
+    {
+     "id": 853,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (39 ºF)"
+    },
+    {
+     "id": 854,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (59 ºF)"
+    },
+    {
+     "id": 855,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (60 ºF)"
+    },
+    {
+     "id": 856,
+     "esquema": "CALORÍAS (20 ºC)"
+    },
+    {
+     "id": 857,
+     "esquema": "CUÁDRUPLE (1015 BTUIT)"
+    },
+    {
+     "id": 858,
+     "esquema": "TERMIA (CE)"
+    },
+    {
+     "id": 859,
+     "esquema": "TERMIA (EE.UU.)"
+    },
+    {
+     "id": 860,
+     "esquema": "CALORÍA (TERMOQUÍMICA)"
+    },
+    {
+     "id": 861,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR HORA"
+    },
+    {
+     "id": 862,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR MINUTO"
+    },
+    {
+     "id": 863,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR SEGUNDO"
+    },
+    {
+     "id": 864,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR HORA"
+    },
+    {
+     "id": 865,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR MINUTO"
+    },
+    {
+     "id": 866,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR SEGUNDO"
+    },
+    {
+     "id": 867,
+     "esquema": "CALORÍAS (TERMOQUÍMICAS) POR MINUTO"
+    },
+    {
+     "id": 868,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR SEGUNDO"
+    },
+    {
+     "id": 869,
+     "esquema": "KILOCALORÍA (TERMOQUÍMICA) POR HORA"
+    },
+    {
+     "id": 870,
+     "esquema": "KILOCALORÍA (TERMOQUÍMICA) POR MINUTO"
+    },
+    {
+     "id": 871,
+     "esquema": "KILOCALORÍA (TERMOQUÍMICA) POR SEGUNDO"
+    },
+    {
+     "id": 872,
+     "esquema": "VATIO POR METRO CUADRADO"
+    },
+    {
+     "id": 873,
+     "esquema": "VATIO POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 874,
+     "esquema": "VATIOS POR PULGADA CUADRADA"
+    },
+    {
+     "id": 875,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR PIE CUADRADO HORA"
+    },
+    {
+     "id": 876,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR PIE CUADRADO HORA"
+    },
+    {
+     "id": 877,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR PIE CUADRADO MINUTO"
+    },
+    {
+     "id": 878,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR PIE CUADRADO SEGUNDO"
+    },
+    {
+     "id": 879,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR PIE CUADRADO SEGUNDO"
+    },
+    {
+     "id": 880,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR PULGADA CUADRADA SEGUNDO"
+    },
+    {
+     "id": 881,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR CENTÍMETRO CUADRADO MINUTO"
+    },
+    {
+     "id": 882,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR CENTÍMETRO CUADRADO SEGUNDO"
+    },
+    {
+     "id": 883,
+     "esquema": "VATIO POR METRO KELVIN"
+    },
+    {
+     "id": 884,
+     "esquema": "VATIO POR METRO GRADO CELSIUS"
+    },
+    {
+     "id": 885,
+     "esquema": "KILOVATIO POR METRO KELVIN"
+    },
+    {
+     "id": 886,
+     "esquema": "KILOVATIO POR METRO GRADO CELSIUS"
+    },
+    {
+     "id": 887,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR SEGUNDO PIE GRADO RANKINE"
+    },
+    {
+     "id": 888,
+     "esquema": "CALORÍA (TABLA INTERNACIONAL) POR SEGUNDO CENTÍMETRO KELVIN"
+    },
+    {
+     "id": 889,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR SEGUNDO CENTÍMETRO KELVIN"
+    },
+    {
+     "id": 890,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) PIE POR HORA PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 891,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) PULGADAS POR HORA PIES CUADRADOS GRADOS FAHRENHEIT"
+    },
+    {
+     "id": 892,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) PULGADAS POR SEGUNDO PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 893,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) PIE POR HORA PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 894,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) PULGADA POR HORA PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 895,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) PULGADA POR SEGUNDO PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 896,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR CENTÍMETRO SEGUNDO GRADO CELSIUS"
+    },
+    {
+     "id": 897,
+     "esquema": "KILOCALORÍA (TABLA INTERNACIONAL) POR HORA METRO GRADO CELSIUS"
+    },
+    {
+     "id": 898,
+     "esquema": "VATIOS POR METRO CUADRADO KELVIN"
+    },
+    {
+     "id": 899,
+     "esquema": "KILOVATIO POR METRO CUADRADO KELVIN"
+    },
+    {
+     "id": 900,
+     "esquema": "CALORÍA (TABLA INTERNACIONAL) POR SEGUNDO CENTÍMETRO CUADRADO KELVIN"
+    },
+    {
+     "id": 901,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR SEGUNDO CENTÍMETRO CUADRADO KELVIN"
+    },
+    {
+     "id": 902,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR SEGUNDO PIE CUADRADO GRADO RANKINE"
+    },
+    {
+     "id": 903,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR HORA PIE CUADRADO GRADO RANKINE"
+    },
+    {
+     "id": 904,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR HORA PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 905,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR HORA PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 906,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR SEGUNDO PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 907,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR SEGUNDO PIE CUADRADO GRADO FAHRENHEIT"
+    },
+    {
+     "id": 908,
+     "esquema": "METRO CUADRADO KELVIN POR VATIO"
+    },
+    {
+     "id": 909,
+     "esquema": "GRADOS FAHRENHEIT HORA PIE CUADRADO POR UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA)"
+    },
+    {
+     "id": 910,
+     "esquema": "GRADOS FAHRENHEIT HORA PIE CUADRADO POR UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL)"
+    },
+    {
+     "id": 911,
+     "esquema": "CLO"
+    },
+    {
+     "id": 912,
+     "esquema": "METRO CUADRADO HORA GRADO CELSIUS POR KILOCALORÍA (TABLA INTERNACIONAL)"
+    },
+    {
+     "id": 913,
+     "esquema": "KELVIN POR VATIO"
+    },
+    {
+     "id": 914,
+     "esquema": "KELVIN METRO POR VATIO"
+    },
+    {
+     "id": 915,
+     "esquema": "GRADOS FAHRENHEIT HORA POR UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL)"
+    },
+    {
+     "id": 916,
+     "esquema": "GRADOS FAHRENHEIT HORA POR UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA)"
+    },
+    {
+     "id": 917,
+     "esquema": "GRADOS FAHRENHEIT SEGUNDO POR UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL)"
+    },
+    {
+     "id": 918,
+     "esquema": "GRADO FAHRENHEIT SEGUNDO POR UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA)"
+    },
+    {
+     "id": 919,
+     "esquema": "GRADOS FAHRENHEIT HORA PIE CUADRADO POR UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) PULGADA"
+    },
+    {
+     "id": 920,
+     "esquema": "GRADOS FAHRENHEIT HORA PIE CUADRADO POR UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) PULGADA"
+    },
+    {
+     "id": 921,
+     "esquema": "VATIO POR KELVIN"
+    },
+    {
+     "id": 922,
+     "esquema": "MILÍMETRO POR GRADO CELSIUS METRO"
+    },
+    {
+     "id": 923,
+     "esquema": "MILÍMETRO POR KELVIN"
+    },
+    {
+     "id": 924,
+     "esquema": "METROS POR GRADO CELSIUS METRO"
+    },
+    {
+     "id": 925,
+     "esquema": "JULIO POR KELVIN"
+    },
+    {
+     "id": 926,
+     "esquema": "KILOJULIO POR KELVIN"
+    },
+    {
+     "id": 927,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR LIBRA GRADO FAHRENHEIT"
+    },
+    {
+     "id": 928,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR LIBRA GRADO FAHRENHEIT"
+    },
+    {
+     "id": 929,
+     "esquema": "CALORÍA (TABLA INTERNACIONAL) POR GRAMO GRADO CELSIUS"
+    },
+    {
+     "id": 930,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR GRAMO GRADO CELSIUS"
+    },
+    {
+     "id": 931,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 932,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR GRADO FAHRENHEIT"
+    },
+    {
+     "id": 933,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR GRADO RANKINE"
+    },
+    {
+     "id": 934,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR GRADO RANKINE"
+    },
+    {
+     "id": 935,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR LIBRA GRADO RANKINE"
+    },
+    {
+     "id": 936,
+     "esquema": "KILOCALORÍA (TABLA INTERNACIONAL) POR GRAMO KELVIN"
+    },
+    {
+     "id": 937,
+     "esquema": "JULIOS POR KILOGRAMO KELVIN"
+    },
+    {
+     "id": 938,
+     "esquema": "KILOJULIO POR KILOGRAMO KELVIN"
+    },
+    {
+     "id": 939,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR LIBRA GRADO RANKINE"
+    },
+    {
+     "id": 940,
+     "esquema": "CALORÍA (TABLA INTERNACIONAL) POR GRAMO KELVIN"
+    },
+    {
+     "id": 941,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR GRAMO KELVIN"
+    },
+    {
+     "id": 942,
+     "esquema": "JULIOS POR KILOGRAMO"
+    },
+    {
+     "id": 943,
+     "esquema": "JULIOS POR GRAMO"
+    },
+    {
+     "id": 944,
+     "esquema": "MEGAJULIO POR KILOGRAMO"
+    },
+    {
+     "id": 945,
+     "esquema": "KILOJULIO POR KILOGRAMO"
+    },
+    {
+     "id": 946,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR LIBRA"
+    },
+    {
+     "id": 947,
+     "esquema": "CALORÍAS (TABLA INTERNACIONAL) POR GRAMO"
+    },
+    {
+     "id": 948,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR LIBRA"
+    },
+    {
+     "id": 949,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR GRAMO"
+    },
+    {
+     "id": 950,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR PIE CÚBICO"
+    },
+    {
+     "id": 951,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR PIE CÚBICO"
+    },
+    {
+     "id": 952,
+     "esquema": "KILOJULIO POR GRAMO"
+    },
+    {
+     "id": 953,
+     "esquema": "AMPERIO"
+    },
+    {
+     "id": 954,
+     "esquema": "KILOAMPERIO"
+    },
+    {
+     "id": 955,
+     "esquema": "MEGAAMPERIO"
+    },
+    {
+     "id": 956,
+     "esquema": "MILIAMPERIO"
+    },
+    {
+     "id": 957,
+     "esquema": "MICROAMPERIO"
+    },
+    {
+     "id": 958,
+     "esquema": "NANOAMPERIO"
+    },
+    {
+     "id": 959,
+     "esquema": "PICOAMPERIO"
+    },
+    {
+     "id": 960,
+     "esquema": "BIOTA"
+    },
+    {
+     "id": 961,
+     "esquema": "GILBERT"
+    },
+    {
+     "id": 962,
+     "esquema": "CULOMBIO"
+    },
+    {
+     "id": 963,
+     "esquema": "AMPERIO SEGUNDO"
+    },
+    {
+     "id": 964,
+     "esquema": "AMPERIO AL CUADRADO SEGUNDO"
+    },
+    {
+     "id": 965,
+     "esquema": "AMPERIO HORA"
+    },
+    {
+     "id": 966,
+     "esquema": "KILOAMPERIOS HORA (MIL AMPERIOS HORA)"
+    },
+    {
+     "id": 967,
+     "esquema": "MEGACULOMBIO"
+    },
+    {
+     "id": 968,
+     "esquema": "MILICOULOMB"
+    },
+    {
+     "id": 969,
+     "esquema": "KILOCULOMBIO"
+    },
+    {
+     "id": 970,
+     "esquema": "MICROCOULOMB"
+    },
+    {
+     "id": 971,
+     "esquema": "NANOCOULOMB"
+    },
+    {
+     "id": 972,
+     "esquema": "PICOCULOMBIO"
+    },
+    {
+     "id": 973,
+     "esquema": "MILIAMPERIOS HORA"
+    },
+    {
+     "id": 974,
+     "esquema": "AMPERIO MINUTO"
+    },
+    {
+     "id": 975,
+     "esquema": "FRANKLIN"
+    },
+    {
+     "id": 976,
+     "esquema": "CULOMBIO POR METRO CÚBICO"
+    },
+    {
+     "id": 977,
+     "esquema": "GIGACULOMBIO POR METRO CÚBICO"
+    },
+    {
+     "id": 978,
+     "esquema": "CULOMBIO POR MILÍMETRO CÚBICO"
+    },
+    {
+     "id": 979,
+     "esquema": "MEGACULOMBIO POR METRO CÚBICO"
+    },
+    {
+     "id": 980,
+     "esquema": "CULOMBIO POR CENTÍMETRO CÚBICO"
+    },
+    {
+     "id": 981,
+     "esquema": "KILOCULOMBIO POR METRO CÚBICO"
+    },
+    {
+     "id": 982,
+     "esquema": "MILICOULOMB POR METRO CÚBICO"
+    },
+    {
+     "id": 983,
+     "esquema": "MICROCOULOMB POR METRO CÚBICO"
+    },
+    {
+     "id": 984,
+     "esquema": "CULOMBIO POR METRO CUADRADO"
+    },
+    {
+     "id": 985,
+     "esquema": "MEGACULOMBIO POR METRO CUADRADO"
+    },
+    {
+     "id": 986,
+     "esquema": "CULOMBIO POR MILÍMETRO CUADRADO"
+    },
+    {
+     "id": 987,
+     "esquema": "CULOMBIO POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 988,
+     "esquema": "KILOCULOMBIO POR METRO CUADRADO"
+    },
+    {
+     "id": 989,
+     "esquema": "MILICOULOMB POR METRO CUADRADO"
+    },
+    {
+     "id": 990,
+     "esquema": "MICROCOULOMB POR METRO CUADRADO"
+    },
+    {
+     "id": 991,
+     "esquema": "VOLTIO POR METRO"
+    },
+    {
+     "id": 992,
+     "esquema": "VOLTIO SEGUNDO POR METRO"
+    },
+    {
+     "id": 993,
+     "esquema": "VOLTIO AL CUADRADO POR KELVIN AL CUADRADO"
+    },
+    {
+     "id": 994,
+     "esquema": "VOLTIO POR MILÍMETRO"
+    },
+    {
+     "id": 995,
+     "esquema": "VOLTIO POR MICROSEGUNDO"
+    },
+    {
+     "id": 996,
+     "esquema": "MILIVOLTIOS POR MINUTO"
+    },
+    {
+     "id": 997,
+     "esquema": "VOLTIO POR SEGUNDO"
+    },
+    {
+     "id": 998,
+     "esquema": "MEGAVOLTIO POR METRO"
+    },
+    {
+     "id": 999,
+     "esquema": "KILOVOLTIO POR METRO"
+    },
+    {
+     "id": 1000,
+     "esquema": "VOLTIO POR CENTÍMETRO"
+    },
+    {
+     "id": 1001,
+     "esquema": "MILIVOLTIOS POR METRO"
+    },
+    {
+     "id": 1002,
+     "esquema": "MICROVOLTIOS POR METRO"
+    },
+    {
+     "id": 1003,
+     "esquema": "VOLTIOS POR BARRA"
+    },
+    {
+     "id": 1004,
+     "esquema": "VOLTIO POR PASCAL"
+    },
+    {
+     "id": 1005,
+     "esquema": "VOLTIO POR LITRO MINUTO"
+    },
+    {
+     "id": 1006,
+     "esquema": "VOLTIO PULGADA CUADRADA POR LIBRA-FUERZA"
+    },
+    {
+     "id": 1007,
+     "esquema": "VOLTIO POR PULGADA"
+    },
+    {
+     "id": 1008,
+     "esquema": "VOLTIO"
+    },
+    {
+     "id": 1009,
+     "esquema": "MEGAVOLTIO"
+    },
+    {
+     "id": 1010,
+     "esquema": "KILOVOLTIO"
+    },
+    {
+     "id": 1011,
+     "esquema": "MILIVOLTIO"
+    },
+    {
+     "id": 1012,
+     "esquema": "MICROVOLTIO"
+    },
+    {
+     "id": 1013,
+     "esquema": "PICOVOLTIO"
+    },
+    {
+     "id": 1014,
+     "esquema": "FARADIO"
+    },
+    {
+     "id": 1015,
+     "esquema": "ATTOFARADIO"
+    },
+    {
+     "id": 1016,
+     "esquema": "MILIFARADIO"
+    },
+    {
+     "id": 1017,
+     "esquema": "MICROFARADIO"
+    },
+    {
+     "id": 1018,
+     "esquema": "NANOFARADIO"
+    },
+    {
+     "id": 1019,
+     "esquema": "PICOFARADIO"
+    },
+    {
+     "id": 1020,
+     "esquema": "KILOFARADIO"
+    },
+    {
+     "id": 1021,
+     "esquema": "FARADIO POR METRO"
+    },
+    {
+     "id": 1022,
+     "esquema": "MICROFARADIO POR KILÓMETRO"
+    },
+    {
+     "id": 1023,
+     "esquema": "FARADIO POR KILÓMETRO"
+    },
+    {
+     "id": 1024,
+     "esquema": "MICROFARADIO POR METRO"
+    },
+    {
+     "id": 1025,
+     "esquema": "NANOFARADIO POR METRO"
+    },
+    {
+     "id": 1026,
+     "esquema": "PICOFARADIO POR METRO"
+    },
+    {
+     "id": 1027,
+     "esquema": "METRO CULOMBIO"
+    },
+    {
+     "id": 1028,
+     "esquema": "AMPERIOS POR METRO CUADRADO"
+    },
+    {
+     "id": 1029,
+     "esquema": "AMPERIOS POR KILOGRAMO"
+    },
+    {
+     "id": 1030,
+     "esquema": "MEGAAMPERIOS POR METRO CUADRADO"
+    },
+    {
+     "id": 1031,
+     "esquema": "AMPERIOS POR MILÍMETRO CUADRADO"
+    },
+    {
+     "id": 1032,
+     "esquema": "AMPERIOS POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 1033,
+     "esquema": "KILOAMPERIOS POR METRO CUADRADO"
+    },
+    {
+     "id": 1034,
+     "esquema": "MILIAMPERIOS POR LITRO MINUTO"
+    },
+    {
+     "id": 1035,
+     "esquema": "AMPERIO POR PASCAL"
+    },
+    {
+     "id": 1036,
+     "esquema": "MILIAMPERIOS POR LIBRA-FUERZA POR PULGADA CUADRADA"
+    },
+    {
+     "id": 1037,
+     "esquema": "MILIAMPERIOS POR BAR"
+    },
+    {
+     "id": 1038,
+     "esquema": "AMPERIOS POR METRO"
+    },
+    {
+     "id": 1039,
+     "esquema": "KILOAMPERIO POR METRO"
+    },
+    {
+     "id": 1040,
+     "esquema": "AMPERIOS POR MILÍMETRO"
+    },
+    {
+     "id": 1041,
+     "esquema": "AMPERIOS POR CENTÍMETRO"
+    },
+    {
+     "id": 1042,
+     "esquema": "MILIAMPERIOS POR MILÍMETRO"
+    },
+    {
+     "id": 1043,
+     "esquema": "MILIAMPERIOS POR PULGADA"
+    },
+    {
+     "id": 1044,
+     "esquema": "CULOMBIO POR METRO"
+    },
+    {
+     "id": 1045,
+     "esquema": "TESLA"
+    },
+    {
+     "id": 1046,
+     "esquema": "MILITESLA"
+    },
+    {
+     "id": 1047,
+     "esquema": "MICROTESLA"
+    },
+    {
+     "id": 1048,
+     "esquema": "NANOTESLA"
+    },
+    {
+     "id": 1049,
+     "esquema": "KILOTESLA"
+    },
+    {
+     "id": 1050,
+     "esquema": "GAMA"
+    },
+    {
+     "id": 1051,
+     "esquema": "WEBER"
+    },
+    {
+     "id": 1052,
+     "esquema": "MILIWEBER"
+    },
+    {
+     "id": 1053,
+     "esquema": "KILOWEBER"
+    },
+    {
+     "id": 1054,
+     "esquema": "WEBER POR METRO"
+    },
+    {
+     "id": 1055,
+     "esquema": "KILOWEBER POR METRO"
+    },
+    {
+     "id": 1056,
+     "esquema": "WEBER POR MILÍMETRO"
+    },
+    {
+     "id": 1057,
+     "esquema": "ENRIQUE"
+    },
+    {
+     "id": 1058,
+     "esquema": "MILIHENRIO"
+    },
+    {
+     "id": 1059,
+     "esquema": "MICROHENRIO"
+    },
+    {
+     "id": 1060,
+     "esquema": "NANOHENRIO"
+    },
+    {
+     "id": 1061,
+     "esquema": "PICOHENRIO"
+    },
+    {
+     "id": 1062,
+     "esquema": "HENRY POR KILOOHMIO"
+    },
+    {
+     "id": 1063,
+     "esquema": "HENRY POR OHMIO"
+    },
+    {
+     "id": 1064,
+     "esquema": "MICROHENRIOS POR KILOOHMIO"
+    },
+    {
+     "id": 1065,
+     "esquema": "MICROHENRIOS POR OHMIO"
+    },
+    {
+     "id": 1066,
+     "esquema": "MILIHENRIOS POR KILOOHMIO"
+    },
+    {
+     "id": 1067,
+     "esquema": "MILIHENRIOS POR OHMIO"
+    },
+    {
+     "id": 1068,
+     "esquema": "KILOHENRIO"
+    },
+    {
+     "id": 1069,
+     "esquema": "HENRY POR METRO"
+    },
+    {
+     "id": 1070,
+     "esquema": "MICROHENRIOS POR METRO"
+    },
+    {
+     "id": 1071,
+     "esquema": "NANOHENRIO POR METRO"
+    },
+    {
+     "id": 1072,
+     "esquema": "AMPERIO METRO CUADRADO"
+    },
+    {
+     "id": 1073,
+     "esquema": "JULIOS POR METRO CÚBICO"
+    },
+    {
+     "id": 1074,
+     "esquema": "OHM"
+    },
+    {
+     "id": 1075,
+     "esquema": "GIGAOHMIO"
+    },
+    {
+     "id": 1076,
+     "esquema": "MEGAOHMIO"
+    },
+    {
+     "id": 1077,
+     "esquema": "TERAOHMIO"
+    },
+    {
+     "id": 1078,
+     "esquema": "KILOOHMIO"
+    },
+    {
+     "id": 1079,
+     "esquema": "MILIOHMIO"
+    },
+    {
+     "id": 1080,
+     "esquema": "MICROOHMIO"
+    },
+    {
+     "id": 1081,
+     "esquema": "NANOOHMIO"
+    },
+    {
+     "id": 1082,
+     "esquema": "GIGAOHMIOS POR METRO"
+    },
+    {
+     "id": 1083,
+     "esquema": "SIEMENS"
+    },
+    {
+     "id": 1084,
+     "esquema": "KILOSIEMENS"
+    },
+    {
+     "id": 1085,
+     "esquema": "MILISIEMENS"
+    },
+    {
+     "id": 1086,
+     "esquema": "MICROSIEMENS"
+    },
+    {
+     "id": 1087,
+     "esquema": "MICROSIEMENS POR CENTÍMETRO"
+    },
+    {
+     "id": 1088,
+     "esquema": "MICROSIEMENS POR METRO"
+    },
+    {
+     "id": 1089,
+     "esquema": "PICOSIEMENS"
+    },
+    {
+     "id": 1090,
+     "esquema": "MHO"
+    },
+    {
+     "id": 1091,
+     "esquema": "MICROMHO"
+    },
+    {
+     "id": 1092,
+     "esquema": "MEDIDOR DE OHMIOS"
+    },
+    {
+     "id": 1093,
+     "esquema": "MEDIDOR DE GIGAOHMIOS"
+    },
+    {
+     "id": 1094,
+     "esquema": "MEDIDOR DE MEGAOHMIOS"
+    },
+    {
+     "id": 1095,
+     "esquema": "MEGAOHMIO KILÓMETRO"
+    },
+    {
+     "id": 1096,
+     "esquema": "KILOOHMÍMETRO"
+    },
+    {
+     "id": 1097,
+     "esquema": "OHMIOS CENTÍMETRO"
+    },
+    {
+     "id": 1098,
+     "esquema": "MILIOHMÍMETRO"
+    },
+    {
+     "id": 1099,
+     "esquema": "MEDIDOR DE MICROOHMIOS"
+    },
+    {
+     "id": 1100,
+     "esquema": "MEDIDOR DE NANOOHMIOS"
+    },
+    {
+     "id": 1101,
+     "esquema": "OHMIO KILÓMETRO"
+    },
+    {
+     "id": 1102,
+     "esquema": "OHMIOS CIRCULARES-MIL POR PIE"
+    },
+    {
+     "id": 1103,
+     "esquema": "OHMIOS POR KILÓMETRO"
+    },
+    {
+     "id": 1104,
+     "esquema": "OHMIOS POR METRO"
+    },
+    {
+     "id": 1105,
+     "esquema": "MEGAOHMIOS POR METRO"
+    },
+    {
+     "id": 1106,
+     "esquema": "MILIOHMIOS POR METRO"
+    },
+    {
+     "id": 1107,
+     "esquema": "MEGAOHMIOS POR KILÓMETRO"
+    },
+    {
+     "id": 1108,
+     "esquema": "OHMIOS POR MILLA (MILLA TERRESTRE)"
+    },
+    {
+     "id": 1109,
+     "esquema": "SIEMENS POR METRO"
+    },
+    {
+     "id": 1110,
+     "esquema": "SIEMENS POR CENTÍMETRO"
+    },
+    {
+     "id": 1111,
+     "esquema": "MILISIEMENS POR CENTÍMETRO"
+    },
+    {
+     "id": 1112,
+     "esquema": "MEGASIEMENS POR METRO"
+    },
+    {
+     "id": 1113,
+     "esquema": "KILOSIEMENS POR METRO"
+    },
+    {
+     "id": 1114,
+     "esquema": "NANOSIEMENS POR METRO"
+    },
+    {
+     "id": 1115,
+     "esquema": "NANOSIEMENS POR CENTÍMETRO"
+    },
+    {
+     "id": 1116,
+     "esquema": "PICOSIEMENS POR METRO"
+    },
+    {
+     "id": 1117,
+     "esquema": "ENRIQUE RECÍPROCO"
+    },
+    {
+     "id": 1118,
+     "esquema": "JULIOS POR SEGUNDO"
+    },
+    {
+     "id": 1119,
+     "esquema": "TERAVATIO"
+    },
+    {
+     "id": 1120,
+     "esquema": "JULIOS POR MINUTO"
+    },
+    {
+     "id": 1121,
+     "esquema": "JULIOS POR HORA"
+    },
+    {
+     "id": 1122,
+     "esquema": "JULIOS POR DÍA"
+    },
+    {
+     "id": 1123,
+     "esquema": "KILOJULIO POR SEGUNDO"
+    },
+    {
+     "id": 1124,
+     "esquema": "KILOJULIO POR MINUTO"
+    },
+    {
+     "id": 1125,
+     "esquema": "KILOJULIO POR HORA"
+    },
+    {
+     "id": 1126,
+     "esquema": "KILOJULIO POR DÍA"
+    },
+    {
+     "id": 1127,
+     "esquema": "CABALLOS DE FUERZA (ELÉCTRICOS)"
+    },
+    {
+     "id": 1128,
+     "esquema": "NANOVATIO"
+    },
+    {
+     "id": 1129,
+     "esquema": "PICOVATIO"
+    },
+    {
+     "id": 1130,
+     "esquema": "VOLTIO - AMPERIO"
+    },
+    {
+     "id": 1131,
+     "esquema": "MEGAVOLTIO - AMPERIO"
+    },
+    {
+     "id": 1132,
+     "esquema": "KILOVOLTIO - AMPERIO"
+    },
+    {
+     "id": 1133,
+     "esquema": "MILIVOLTIO - AMPERIO"
+    },
+    {
+     "id": 1134,
+     "esquema": "VAR"
+    },
+    {
+     "id": 1135,
+     "esquema": "KILOVOLTIO AMPERIO (REACTIVO)"
+    },
+    {
+     "id": 1136,
+     "esquema": "KILOVAR"
+    },
+    {
+     "id": 1137,
+     "esquema": "MEGAVAR"
+    },
+    {
+     "id": 1138,
+     "esquema": "JULIO RECÍPROCO"
+    },
+    {
+     "id": 1139,
+     "esquema": "VOLTIO RECÍPROCO - SEGUNDO RECÍPROCO AMPERIO"
+    },
+    {
+     "id": 1140,
+     "esquema": "METRO DE KILOHERCIOS"
+    },
+    {
+     "id": 1141,
+     "esquema": "MEDIDOR DE GIGAHERCIOS"
+    },
+    {
+     "id": 1142,
+     "esquema": "METRO DE MEGAHERCIOS"
+    },
+    {
+     "id": 1143,
+     "esquema": "KILOVOLTIO RECÍPROCO - AMPERIO HORA RECÍPROCO"
+    },
+    {
+     "id": 1144,
+     "esquema": "MEDIDOR DE HERCIOS"
+    },
+    {
+     "id": 1145,
+     "esquema": "MEGAHERCIOS KILÓMETRO"
+    },
+    {
+     "id": 1146,
+     "esquema": "RADIANES POR METRO"
+    },
+    {
+     "id": 1147,
+     "esquema": "MEGAJULIO POR METRO CÚBICO"
+    },
+    {
+     "id": 1148,
+     "esquema": "JULIOS POR METRO A LA CUARTA POTENCIA"
+    },
+    {
+     "id": 1149,
+     "esquema": "JULIOS POR METRO CUADRADO"
+    },
+    {
+     "id": 1150,
+     "esquema": "SEGUNDO RECÍPROCO POR ESTEREORRADIÁN"
+    },
+    {
+     "id": 1151,
+     "esquema": "SEGUNDO RECÍPROCO POR METRO ESTEREORRADIÁN AL CUADRADO"
+    },
+    {
+     "id": 1152,
+     "esquema": "SEGUNDO RECÍPROCO POR METRO CUADRADO"
+    },
+    {
+     "id": 1153,
+     "esquema": "METRO CUADRADO RECÍPROCO"
+    },
+    {
+     "id": 1154,
+     "esquema": "VATIO POR METRO CÚBICO"
+    },
+    {
+     "id": 1155,
+     "esquema": "VATIO POR METRO"
+    },
+    {
+     "id": 1156,
+     "esquema": "JULIOS POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 1157,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TABLA INTERNACIONAL) POR PIE CUADRADO"
+    },
+    {
+     "id": 1158,
+     "esquema": "UNIDAD TÉRMICA BRITÁNICA (TERMOQUÍMICA) POR PIE CUADRADO"
+    },
+    {
+     "id": 1159,
+     "esquema": "CALORÍA (TERMOQUÍMICA) POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 1160,
+     "esquema": "LANGLEY"
+    },
+    {
+     "id": 1161,
+     "esquema": "VATIO POR ESTEREORRADIÁN"
+    },
+    {
+     "id": 1162,
+     "esquema": "VATIO POR METRO CUADRADO ESTEREORRADIÁN"
+    },
+    {
+     "id": 1163,
+     "esquema": "VATIO POR METRO CUADRADO KELVIN A LA CUARTA POTENCIA"
+    },
+    {
+     "id": 1164,
+     "esquema": "METROS KELVIN"
+    },
+    {
+     "id": 1165,
+     "esquema": "CANDELA"
+    },
+    {
+     "id": 1166,
+     "esquema": "KILOCANDELA"
+    },
+    {
+     "id": 1167,
+     "esquema": "MILICANDELA"
+    },
+    {
+     "id": 1168,
+     "esquema": "HEFNER-KERZE"
+    },
+    {
+     "id": 1169,
+     "esquema": "VELA INTERNACIONAL"
+    },
+    {
+     "id": 1170,
+     "esquema": "LUZ"
+    },
+    {
+     "id": 1171,
+     "esquema": "LUMEN SEGUNDO"
+    },
+    {
+     "id": 1172,
+     "esquema": "HORA LUMÍNICA"
+    },
+    {
+     "id": 1173,
+     "esquema": "CANDELAS POR METRO CUADRADO"
+    },
+    {
+     "id": 1174,
+     "esquema": "CANDELAS POR PULGADA CUADRADA"
+    },
+    {
+     "id": 1175,
+     "esquema": "PIELAMBERT"
+    },
+    {
+     "id": 1176,
+     "esquema": "LAMBERTO"
+    },
+    {
+     "id": 1177,
+     "esquema": "ESTILETE"
+    },
+    {
+     "id": 1178,
+     "esquema": "CANDELAS POR PIE CUADRADO"
+    },
+    {
+     "id": 1179,
+     "esquema": "LÚMENES POR METRO CUADRADO"
+    },
+    {
+     "id": 1180,
+     "esquema": "LUJOS"
+    },
+    {
+     "id": 1181,
+     "esquema": "KILOLUX"
+    },
+    {
+     "id": 1182,
+     "esquema": "LUMEN POR PIE CUADRADO"
+    },
+    {
+     "id": 1183,
+     "esquema": "FOTO"
+    },
+    {
+     "id": 1184,
+     "esquema": "VELA DE PIE"
+    },
+    {
+     "id": 1185,
+     "esquema": "LUX SEGUNDO"
+    },
+    {
+     "id": 1186,
+     "esquema": "HORA LUX"
+    },
+    {
+     "id": 1187,
+     "esquema": "LÚMENES POR VATIO"
+    },
+    {
+     "id": 1188,
+     "esquema": "METRO CUADRADO POR MOL"
+    },
+    {
+     "id": 1189,
+     "esquema": "OCTAVA"
+    },
+    {
+     "id": 1190,
+     "esquema": "DINA POR CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 1191,
+     "esquema": "ERGIO POR CENTÍMETRO CÚBICO"
+    },
+    {
+     "id": 1192,
+     "esquema": "MILIVATIOS POR METRO CUADRADO"
+    },
+    {
+     "id": 1193,
+     "esquema": "MICROVATIO POR METRO CUADRADO"
+    },
+    {
+     "id": 1194,
+     "esquema": "PICOVATIO POR METRO CUADRADO"
+    },
+    {
+     "id": 1195,
+     "esquema": "ERGIO POR SEGUNDO CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 1196,
+     "esquema": "PASCAL SEGUNDO POR METRO"
+    },
+    {
+     "id": 1197,
+     "esquema": "DINA SEGUNDO POR CENTÍMETRO CÚBICO"
+    },
+    {
+     "id": 1198,
+     "esquema": "PASCAL SEGUNDO POR METRO CÚBICO"
+    },
+    {
+     "id": 1199,
+     "esquema": "DINA SEGUNDO POR CENTÍMETRO A LA QUINTA POTENCIA"
+    },
+    {
+     "id": 1200,
+     "esquema": "PASCAL SEGUNDO POR LITRO"
+    },
+    {
+     "id": 1201,
+     "esquema": "NEWTON SEGUNDO POR METRO"
+    },
+    {
+     "id": 1202,
+     "esquema": "DINA SEGUNDO POR CENTÍMETRO"
+    },
+    {
+     "id": 1203,
+     "esquema": "BELIOS POR METRO"
+    },
+    {
+     "id": 1204,
+     "esquema": "DECIBELIO POR KILÓMETRO"
+    },
+    {
+     "id": 1205,
+     "esquema": "DECIBELIOS POR METRO"
+    },
+    {
+     "id": 1206,
+     "esquema": "TELÉFONO"
+    },
+    {
+     "id": 1207,
+     "esquema": "HIJO"
+    },
+    {
+     "id": 1208,
+     "esquema": "PASCAL AL CUADRADO SEGUNDO"
+    },
+    {
+     "id": 1209,
+     "esquema": "DÉCADA (LOGARÍTMICA)"
+    },
+    {
+     "id": 1210,
+     "esquema": "LUNAR"
+    },
+    {
+     "id": 1211,
+     "esquema": "KILOMOL"
+    },
+    {
+     "id": 1212,
+     "esquema": "MILIMOLES"
+    },
+    {
+     "id": 1213,
+     "esquema": "MICROMOL"
+    },
+    {
+     "id": 1214,
+     "esquema": "NANOMOL"
+    },
+    {
+     "id": 1215,
+     "esquema": "LIBRA MOLE"
+    },
+    {
+     "id": 1216,
+     "esquema": "MOL RECÍPROCO"
+    },
+    {
+     "id": 1217,
+     "esquema": "KILOGRAMO POR MOL"
+    },
+    {
+     "id": 1218,
+     "esquema": "GRAMO POR MOL"
+    },
+    {
+     "id": 1219,
+     "esquema": "METRO CÚBICO POR MOL"
+    },
+    {
+     "id": 1220,
+     "esquema": "DECÍMETRO CÚBICO POR MOL"
+    },
+    {
+     "id": 1221,
+     "esquema": "CENTÍMETRO CÚBICO POR MOL"
+    },
+    {
+     "id": 1222,
+     "esquema": "LITRO POR MOL"
+    },
+    {
+     "id": 1223,
+     "esquema": "JULIOS POR MOL"
+    },
+    {
+     "id": 1224,
+     "esquema": "KILOJULIO POR MOL"
+    },
+    {
+     "id": 1225,
+     "esquema": "JULIO POR MOL KELVIN"
+    },
+    {
+     "id": 1226,
+     "esquema": "METRO CÚBICO RECÍPROCO"
+    },
+    {
+     "id": 1227,
+     "esquema": "CENTÍMETRO CÚBICO RECÍPROCO"
+    },
+    {
+     "id": 1228,
+     "esquema": "MILÍMETRO CÚBICO RECÍPROCO"
+    },
+    {
+     "id": 1229,
+     "esquema": "PIE CÚBICO RECÍPROCO"
+    },
+    {
+     "id": 1230,
+     "esquema": "PULGADA CÚBICA RECÍPROCA"
+    },
+    {
+     "id": 1231,
+     "esquema": "LITRO RECÍPROCO"
+    },
+    {
+     "id": 1232,
+     "esquema": "YARDA CÚBICA RECÍPROCA"
+    },
+    {
+     "id": 1233,
+     "esquema": "MOL POR METRO CÚBICO"
+    },
+    {
+     "id": 1234,
+     "esquema": "MOL POR LITRO"
+    },
+    {
+     "id": 1235,
+     "esquema": "MOL POR DECÍMETRO CÚBICO"
+    },
+    {
+     "id": 1236,
+     "esquema": "KILOMOL POR METRO CÚBICO"
+    },
+    {
+     "id": 1237,
+     "esquema": "MOL POR SEGUNDO"
+    },
+    {
+     "id": 1238,
+     "esquema": "MILIMOLES POR LITRO"
+    },
+    {
+     "id": 1239,
+     "esquema": "MOL POR KILOGRAMO PASCAL"
+    },
+    {
+     "id": 1240,
+     "esquema": "MOL POR METRO CÚBICO PASCAL"
+    },
+    {
+     "id": 1241,
+     "esquema": "KILOMOL POR METRO CÚBICO KELVIN"
+    },
+    {
+     "id": 1242,
+     "esquema": "KILOMOL POR METRO CÚBICO BAR"
+    },
+    {
+     "id": 1243,
+     "esquema": "PSI RECÍPROCO"
+    },
+    {
+     "id": 1244,
+     "esquema": "MOL POR KILOGRAMO KELVIN"
+    },
+    {
+     "id": 1245,
+     "esquema": "MOL POR KILOGRAMO DE BARRA"
+    },
+    {
+     "id": 1246,
+     "esquema": "MOL POR LITRO KELVIN"
+    },
+    {
+     "id": 1247,
+     "esquema": "BARRA DE MOL POR LITRO"
+    },
+    {
+     "id": 1248,
+     "esquema": "MOL POR METRO CÚBICO KELVIN"
+    },
+    {
+     "id": 1249,
+     "esquema": "MOL POR METRO CÚBICO BAR"
+    },
+    {
+     "id": 1250,
+     "esquema": "MOL POR KILOGRAMO"
+    },
+    {
+     "id": 1251,
+     "esquema": "SEGUNDO POR METRO CÚBICO"
+    },
+    {
+     "id": 1252,
+     "esquema": "MILIMOLES POR KILOGRAMO"
+    },
+    {
+     "id": 1253,
+     "esquema": "MILIMOLES POR GRAMO"
+    },
+    {
+     "id": 1254,
+     "esquema": "KILOMOL POR KILOGRAMO"
+    },
+    {
+     "id": 1255,
+     "esquema": "LIBRA MOLE POR LIBRA"
+    },
+    {
+     "id": 1256,
+     "esquema": "KATAL"
+    },
+    {
+     "id": 1257,
+     "esquema": "KILOMOL POR SEGUNDO"
+    },
+    {
+     "id": 1258,
+     "esquema": "LIBRA MOL POR SEGUNDO"
+    },
+    {
+     "id": 1259,
+     "esquema": "LIBRA MOL POR MINUTO"
+    },
+    {
+     "id": 1260,
+     "esquema": "UNIDAD DE MASA ATÓMICA UNIFICADA"
+    },
+    {
+     "id": 1261,
+     "esquema": "CULOMBIO METRO CUADRADO POR VOLTIO"
+    },
+    {
+     "id": 1262,
+     "esquema": "CULOMBIO POR MOL"
+    },
+    {
+     "id": 1263,
+     "esquema": "SIEMENS METRO CUADRADO POR MOL"
+    },
+    {
+     "id": 1264,
+     "esquema": "KILOMOL POR HORA"
+    },
+    {
+     "id": 1265,
+     "esquema": "KILOMOL POR MINUTO"
+    },
+    {
+     "id": 1266,
+     "esquema": "MOL POR HORA"
+    },
+    {
+     "id": 1267,
+     "esquema": "MOL POR MINUTO"
+    },
+    {
+     "id": 1268,
+     "esquema": "RADIANES METRO CUADRADO POR MOL"
+    },
+    {
+     "id": 1269,
+     "esquema": "RADIANES METRO CUADRADO POR KILOGRAMO"
+    },
+    {
+     "id": 1270,
+     "esquema": "NEWTON METRO CUADRADO POR AMPERIO"
+    },
+    {
+     "id": 1271,
+     "esquema": "MEDIDOR WEBER"
+    },
+    {
+     "id": 1272,
+     "esquema": "PH (POTENCIAL DE HIDRÓGENO)"
+    },
+    {
+     "id": 1273,
+     "esquema": "JULIO SEGUNDO"
+    },
+    {
+     "id": 1274,
+     "esquema": "AMPERIOS METRO CUADRADO POR JULIO SEGUNDO"
+    },
+    {
+     "id": 1275,
+     "esquema": "CURIE"
+    },
+    {
+     "id": 1276,
+     "esquema": "MILICURIO"
+    },
+    {
+     "id": 1277,
+     "esquema": "MICROCURIO"
+    },
+    {
+     "id": 1278,
+     "esquema": "KILOCURIO"
+    },
+    {
+     "id": 1279,
+     "esquema": "BECQUEREL"
+    },
+    {
+     "id": 1280,
+     "esquema": "GIGABECQUEREL"
+    },
+    {
+     "id": 1281,
+     "esquema": "KILOBECQUEREL"
+    },
+    {
+     "id": 1282,
+     "esquema": "MEGABECQUEREL"
+    },
+    {
+     "id": 1283,
+     "esquema": "MICROBEQUEREL"
+    },
+    {
+     "id": 1284,
+     "esquema": "CURIA POR KILOGRAMO"
+    },
+    {
+     "id": 1285,
+     "esquema": "BECQUEREL POR KILOGRAMO"
+    },
+    {
+     "id": 1286,
+     "esquema": "MEGABECQUERELIO POR KILOGRAMO"
+    },
+    {
+     "id": 1287,
+     "esquema": "KILOBECQUEREL POR KILOGRAMO"
+    },
+    {
+     "id": 1288,
+     "esquema": "BECQUEREL POR METRO CÚBICO"
+    },
+    {
+     "id": 1289,
+     "esquema": "GRANERO"
+    },
+    {
+     "id": 1290,
+     "esquema": "METRO CUADRADO POR ESTEREORRADIÁN"
+    },
+    {
+     "id": 1291,
+     "esquema": "GRANERO POR ESTEREORRADIÁN"
+    },
+    {
+     "id": 1292,
+     "esquema": "METRO CUADRADO POR JULIO"
+    },
+    {
+     "id": 1293,
+     "esquema": "GRANERO POR ELECTRONVOLTIO"
+    },
+    {
+     "id": 1294,
+     "esquema": "CENTÍMETRO CUADRADO POR ERGIO"
+    },
+    {
+     "id": 1295,
+     "esquema": "METRO CUADRADO POR JULIO ESTEREORRADIÁN"
+    },
+    {
+     "id": 1296,
+     "esquema": "GRANERO POR ELECTRONVOLTIO ESTEREORRADIÁN"
+    },
+    {
+     "id": 1297,
+     "esquema": "CENTÍMETRO CUADRADO POR ERGIO ESTEREORRADIÁN"
+    },
+    {
+     "id": 1298,
+     "esquema": "METRO RECÍPROCO AL CUADRADO SEGUNDO RECÍPROCO"
+    },
+    {
+     "id": 1299,
+     "esquema": "ERGIO POR CENTÍMETRO CUADRADO SEGUNDO"
+    },
+    {
+     "id": 1300,
+     "esquema": "METRO CUADRADO POR KILOGRAMO"
+    },
+    {
+     "id": 1301,
+     "esquema": "JULIOS POR METRO"
+    },
+    {
+     "id": 1302,
+     "esquema": "ELECTRONVOLTIO POR METRO"
+    },
+    {
+     "id": 1303,
+     "esquema": "ERGIO POR CENTÍMETRO"
+    },
+    {
+     "id": 1304,
+     "esquema": "JULIOS METRO CUADRADO"
+    },
+    {
+     "id": 1305,
+     "esquema": "METRO CUADRADO DE ELECTRONVOLTIO"
+    },
+    {
+     "id": 1306,
+     "esquema": "ERGIO CENTÍMETRO CUADRADO"
+    },
+    {
+     "id": 1307,
+     "esquema": "JULIOS METRO CUADRADO POR KILOGRAMO"
+    },
+    {
+     "id": 1308,
+     "esquema": "ELECTRONVOLTIO METRO CUADRADO POR KILOGRAMO"
+    },
+    {
+     "id": 1309,
+     "esquema": "ERGIO CENTÍMETRO CUADRADO POR GRAMO"
+    },
+    {
+     "id": 1310,
+     "esquema": "METRO CUADRADO POR VOLTIO SEGUNDO"
+    },
+    {
+     "id": 1311,
+     "esquema": "METROS POR VOLTIO SEGUNDO"
+    },
+    {
+     "id": 1312,
+     "esquema": "SEGUNDO RECÍPROCO POR METRO CÚBICO"
+    },
+    {
+     "id": 1313,
+     "esquema": "METRO CÚBICO RECÍPROCO POR SEGUNDO"
+    },
+    {
+     "id": 1314,
+     "esquema": "GRIS"
+    },
+    {
+     "id": 1315,
+     "esquema": "MILIGRAY"
+    },
+    {
+     "id": 1316,
+     "esquema": "RAD"
+    },
+    {
+     "id": 1317,
+     "esquema": "ERGIO POR GRAMO"
+    },
+    {
+     "id": 1318,
+     "esquema": "SIEVERT"
+    },
+    {
+     "id": 1319,
+     "esquema": "MILISIEVERT"
+    },
+    {
+     "id": 1320,
+     "esquema": "MOVIMIENTO RÁPIDO DEL OJO"
+    },
+    {
+     "id": 1321,
+     "esquema": "HOMBRES EQUIVALENTES A MILIROENTGEN"
+    },
+    {
+     "id": 1322,
+     "esquema": "GRIS POR SEGUNDO"
+    },
+    {
+     "id": 1323,
+     "esquema": "ERGIO POR GRAMO SEGUNDO"
+    },
+    {
+     "id": 1324,
+     "esquema": "CULOMBIO POR KILOGRAMO"
+    },
+    {
+     "id": 1325,
+     "esquema": "MILICOULOMB POR KILOGRAMO"
+    },
+    {
+     "id": 1326,
+     "esquema": "ROENTGEN"
+    },
+    {
+     "id": 1327,
+     "esquema": "MILIROENTGEN"
+    },
+    {
+     "id": 1328,
+     "esquema": "CULOMBIO METRO CUADRADO POR KILOGRAMO"
+    },
+    {
+     "id": 1329,
+     "esquema": "KILOROENTGEN"
+    },
+    {
+     "id": 1330,
+     "esquema": "CULOMBIO POR KILOGRAMO SEGUNDO"
+    },
+    {
+     "id": 1331,
+     "esquema": "ROENTGEN POR SEGUNDO"
+    },
+    {
+     "id": 1332,
+     "esquema": "MILIGRAYS POR SEGUNDO"
+    },
+    {
+     "id": 1333,
+     "esquema": "MICROGRIS POR SEGUNDO"
+    },
+    {
+     "id": 1334,
+     "esquema": "NANOGRIS POR SEGUNDO"
+    },
+    {
+     "id": 1335,
+     "esquema": "GRIS POR MINUTO"
+    },
+    {
+     "id": 1336,
+     "esquema": "MILIGRAYS POR MINUTO"
+    },
+    {
+     "id": 1337,
+     "esquema": "MICROGRIS POR MINUTO"
+    },
+    {
+     "id": 1338,
+     "esquema": "NANOGRIS POR MINUTO"
+    },
+    {
+     "id": 1339,
+     "esquema": "GRIS POR HORA"
+    },
+    {
+     "id": 1340,
+     "esquema": "MILIGRAYS POR HORA"
+    },
+    {
+     "id": 1341,
+     "esquema": "MICROGRIS POR HORA"
+    },
+    {
+     "id": 1342,
+     "esquema": "NANOGRIS POR HORA"
+    },
+    {
+     "id": 1343,
+     "esquema": "SIEVERT POR SEGUNDO"
+    },
+    {
+     "id": 1344,
+     "esquema": "MILISIEVERT POR SEGUNDO"
+    },
+    {
+     "id": 1345,
+     "esquema": "MICROSIEVERT POR SEGUNDO"
+    },
+    {
+     "id": 1346,
+     "esquema": "NANOSIEVERT POR SEGUNDO"
+    },
+    {
+     "id": 1347,
+     "esquema": "REM POR SEGUNDO"
+    },
+    {
+     "id": 1348,
+     "esquema": "SIEVERT POR HORA"
+    },
+    {
+     "id": 1349,
+     "esquema": "MILISIEVERT POR HORA"
+    },
+    {
+     "id": 1350,
+     "esquema": "MICROSIEVERT POR HORA"
+    },
+    {
+     "id": 1351,
+     "esquema": "NANOSIEVERT POR HORA"
+    },
+    {
+     "id": 1352,
+     "esquema": "SIEVERT POR MINUTO"
+    },
+    {
+     "id": 1353,
+     "esquema": "MILISIEVERT POR MINUTO"
+    },
+    {
+     "id": 1354,
+     "esquema": "MICROSIEVERT POR MINUTO"
+    },
+    {
+     "id": 1355,
+     "esquema": "NANOSIEVERT POR MINUTO"
+    },
+    {
+     "id": 1356,
+     "esquema": "PULGADA CUADRADA RECÍPROCA"
+    },
+    {
+     "id": 1357,
+     "esquema": "POLO DE LA UNIDAD"
+    },
+    {
+     "id": 1358,
+     "esquema": "ANGSTROM RECÍPROCO"
+    },
+    {
+     "id": 1359,
+     "esquema": "SEGUNDO POR METRO CÚBICO RADIANES"
+    },
+    {
+     "id": 1360,
+     "esquema": "JULIOS RECÍPROCOS POR METRO CÚBICO"
+    },
+    {
+     "id": 1361,
+     "esquema": "ELECTRONVOLTIO RECÍPROCO POR METRO CÚBICO"
+    },
+    {
+     "id": 1362,
+     "esquema": "METRO CÚBICO POR CULOMBIO"
+    },
+    {
+     "id": 1363,
+     "esquema": "VOLTIO POR KELVIN"
+    },
+    {
+     "id": 1364,
+     "esquema": "MILIVOLTIOS POR KELVIN"
+    },
+    {
+     "id": 1365,
+     "esquema": "AMPERIOS POR METRO CUADRADO KELVIN AL CUADRADO"
+    },
+    {
+     "id": 1366,
+     "esquema": "KILOPASCAL METRO CUADRADO POR GRAMO"
+    },
+    {
+     "id": 1367,
+     "esquema": "PASCAL METRO CUADRADO POR KILOGRAMO"
+    },
+    {
+     "id": 1368,
+     "esquema": "KILOPASCAL POR MILÍMETRO"
+    },
+    {
+     "id": 1369,
+     "esquema": "PASCALES POR METRO"
+    },
+    {
+     "id": 1370,
+     "esquema": "PICOPASCALES POR KILÓMETRO"
+    },
+    {
+     "id": 1371,
+     "esquema": "MILIPASCAL POR METRO"
+    },
+    {
+     "id": 1372,
+     "esquema": "KILOPASCALES POR METRO"
+    },
+    {
+     "id": 1373,
+     "esquema": "HECTOPASCAL POR METRO"
+    },
+    {
+     "id": 1374,
+     "esquema": "ATMÓSFERA ESTÁNDAR POR METRO"
+    },
+    {
+     "id": 1375,
+     "esquema": "ATMÓSFERA TÉCNICA POR METRO"
+    },
+    {
+     "id": 1376,
+     "esquema": "TORRES POR METRO"
+    },
+    {
+     "id": 1377,
+     "esquema": "PSI POR PULGADA"
+    },
+    {
+     "id": 1378,
+     "esquema": "MILILITRO POR CENTÍMETRO CUADRADO SEGUNDO"
+    },
+    {
+     "id": 1379,
+     "esquema": "PIES CÚBICOS POR MINUTO POR PIE CUADRADO"
+    },
+    {
+     "id": 1380,
+     "esquema": "METRO CÚBICO POR SEGUNDO METRO CUADRADO"
+    },
+    {
+     "id": 1381,
+     "esquema": "OSCILACIONES POR MINUTO"
+    },
+    {
+     "id": 1382,
+     "esquema": "KILONEWTON POR METRO CUADRADO"
+    },
+    {
+     "id": 1383,
+     "esquema": "MEGAVATIOS POR MINUTO"
+    }
+   ]

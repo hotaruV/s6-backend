@@ -1,0 +1,2083 @@
+[
+ 
+  {
+    "id": "3",
+    "nombre_ente": "ARCHIVO HISTORICO DEL ESTADO",
+    "siglas_ente": "PE002",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "4",
+    "nombre_ente": "CASA CUNA MARGARITA MAZA DE JUAREZ",
+    "siglas_ente": "PE003",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "5",
+    "nombre_ente": "CENTRO CULTURAL REAL DE CATORCE",
+    "siglas_ente": "PE004",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "6",
+    "nombre_ente": "CENTRO DE ASISTENCIA SOCIAL RAFAEL NIETO",
+    "siglas_ente": "PE005",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "7",
+    "nombre_ente": "CENTRO DE ASISTENCIA SOCIAL ROSARIO CASTELLANOS",
+    "siglas_ente": "PE006",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "8",
+    "nombre_ente": "CENTRO DE CONVENCIONES DE SAN LUIS POTOSI",
+    "siglas_ente": "PE007",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "9",
+    "nombre_ente": "CENTRO DE JUSTICIA PARA MUJERES DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PE008",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "10",
+    "nombre_ente": "SECRETARIA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCION DE SAN LUIS POTOSI",
+    "siglas_ente": "PE090",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "11",
+    "nombre_ente": "CENTRO DE PRODUCCION \"SANTA RITA\" S.A. DE C.V.",
+    "siglas_ente": "PE010",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "12",
+    "nombre_ente": "CENTRO ESTATAL DE TRASPLANTES",
+    "siglas_ente": "PE011",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "13",
+    "nombre_ente": "CENTROS ESTATALES DE CULTURA Y RECREACION TANGAMANGA I. Y II.",
+    "siglas_ente": "PE012",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "14",
+    "nombre_ente": "CINETECA ALAMEDA",
+    "siglas_ente": "PE013",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "15",
+    "nombre_ente": "COLEGIO DE BACHILLERES",
+    "siglas_ente": "PE014",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "16",
+    "nombre_ente": "COLEGIO DE EDUCACION PROFESIONAL TECNICA NACIONAL DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PE015",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "17",
+    "nombre_ente": "COLEGIO DE ESTUDIOS CIENTIFICOS DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PE016",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "18",
+    "nombre_ente": "COMISION EJECUTIVA ESTATAL DE ATENCION A VICTIMAS.",
+    "siglas_ente": "PE017",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "19",
+    "nombre_ente": "COMISION ESTATAL DEL AGUA",
+    "siglas_ente": "PE018",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "20",
+    "nombre_ente": "CONSEJERIA JURIDICA",
+    "siglas_ente": "PE019",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "21",
+    "nombre_ente": "CONSEJO CONSULTIVO DEL CENTRO HISTORICO",
+    "siglas_ente": "PE020",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "22",
+    "nombre_ente": "CONSEJO ESTATAL DE POBLACION",
+    "siglas_ente": "PE021",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "23",
+    "nombre_ente": "CONSEJO POTOSINO DE CIENCIA Y TECNOLOGIA",
+    "siglas_ente": "PE022",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "24",
+    "nombre_ente": "CONTRALORIA GENERAL DEL ESTADO",
+    "siglas_ente": "PE023",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "25",
+    "nombre_ente": "COORDINACION ESTATAL PARA EL FORTALECIMIENTO ESTATAL DE LOS MUNICIPIOS",
+    "siglas_ente": "PE024",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "26",
+    "nombre_ente": "COORDINACION GENERAL DE COMUNICACION SOCIAL DEL GOBIERNO DEL ESTADO",
+    "siglas_ente": "PE025",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "27",
+    "nombre_ente": "COORDINACION GENERAL DE PROTECCION CIVIL DEL ESTADO",
+    "siglas_ente": "PE026",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "28",
+    "nombre_ente": "DEFENSORIA PUBLICA DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PE027",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "29",
+    "nombre_ente": "DIRECCION GENERAL DE PENSIONES",
+    "siglas_ente": "PE028",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "30",
+    "nombre_ente": "FISCALIA GENERAL / PROCURADURIA",
+    "siglas_ente": "PE029",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "31",
+    "nombre_ente": "HOSPITAL CENTRAL \"DR. IGNACIO MORONES PRIETO\".",
+    "siglas_ente": "PE030",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "32",
+    "nombre_ente": "INSTITUTO CATASTRAL Y REGISTRAL DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PE031",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "33",
+    "nombre_ente": "INSTITUTO DE CAPACITACION PARA EL TRABAJO DEL ESTADO",
+    "siglas_ente": "PE032",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "34",
+    "nombre_ente": "INSTITUTO DE DESARROLLO HUMANO Y SOCIAL DE LOS PUEBLOS INDIGENAS",
+    "siglas_ente": "PE033",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "35",
+    "nombre_ente": "INSTITUTO DE LAS MUJERES",
+    "siglas_ente": "PE034",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "36",
+    "nombre_ente": "INSTITUTO DE MIGRACION Y ENLACE INTERNACIONAL",
+    "siglas_ente": "PE035",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "37",
+    "nombre_ente": "INSTITUTO DE REINTEGRACION SOCIAL \"RAFAEL NIETO\"",
+    "siglas_ente": "PE036",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "38",
+    "nombre_ente": "INSTITUTO DE REINTEGRACION SOCIAL \"ROSARIO CASTELLANOS\"",
+    "siglas_ente": "PE037",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "39",
+    "nombre_ente": "INSTITUTO DE VIVIENDA DEL ESTADO",
+    "siglas_ente": "PE038",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "40",
+    "nombre_ente": "INSTITUTO ESTATAL DE CIEGOS",
+    "siglas_ente": "PE039",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "41",
+    "nombre_ente": "INSTITUTO ESTATAL DE EDUCACION PARA ADULTOS",
+    "siglas_ente": "PE040",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "42",
+    "nombre_ente": "INSTITUTO ESTATAL DE INFRAESTRUCTURA FISICA EDUCATIVA",
+    "siglas_ente": "PE041",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "43",
+    "nombre_ente": "INSTITUTO GERIATRICO \"DR. NICOLAS AGUILAR\"",
+    "siglas_ente": "PE042",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "44",
+    "nombre_ente": "INSTITUTO POTOSINO DE BELLAS ARTES",
+    "siglas_ente": "PE043",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "45",
+    "nombre_ente": "INSTITUTO POTOSINO DE LA JUVENTUD",
+    "siglas_ente": "PE044",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "46",
+    "nombre_ente": "INSTITUTO POTOSINO DEL DEPORTE",
+    "siglas_ente": "PE045",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "47",
+    "nombre_ente": "INSTITUTO TECNOLOGICO SUPERIOR DE EBANO",
+    "siglas_ente": "PE046",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "48",
+    "nombre_ente": "INSTITUTO TECNOLOGICO SUPERIOR DE RIOVERDE",
+    "siglas_ente": "PE047",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "49",
+    "nombre_ente": "INSTITUTO TECNOLOGICO SUPERIOR DE SAN LUIS POTOSI",
+    "siglas_ente": "PE048",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "50",
+    "nombre_ente": "INSTITUTO TECNOLOGICO SUPERIOR DE TAMAZUNCHALE",
+    "siglas_ente": "PE049",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "51",
+    "nombre_ente": "INSTITUTO TEMAZCALLI, PREVENCION Y REHABILITACION",
+    "siglas_ente": "PE050",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "52",
+    "nombre_ente": "INSTITUTO DE TELEVISION PUBLICA DE SAN LUIS POTOSI XHSLS CANAL 9",
+    "siglas_ente": "PE051",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "53",
+    "nombre_ente": "JUNTA ESTATAL DE CAMINOS",
+    "siglas_ente": "PE052",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "54",
+    "nombre_ente": "MUSEO DE ARTE CONTEMPORANEO.",
+    "siglas_ente": "PE053",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "55",
+    "nombre_ente": "MUSEO DEL FERROCARRIL",
+    "siglas_ente": "PE054",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "56",
+    "nombre_ente": "MUSEO DEL VIRREINATO",
+    "siglas_ente": "PE055",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "57",
+    "nombre_ente": "MUSEO FEDERICO SILVA, ESCULTURA CONTEMPORANEA.",
+    "siglas_ente": "PE056",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "58",
+    "nombre_ente": "MUSEO FRANCISCO COSSIO",
+    "siglas_ente": "PE057",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "59",
+    "nombre_ente": "MUSEO LABERINTO DE LAS CIENCIAS Y LAS ARTES",
+    "siglas_ente": "PE058",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "60",
+    "nombre_ente": "MUSEO NACIONAL DE LA MASCARA",
+    "siglas_ente": "PE059",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "61",
+    "nombre_ente": "OFICIALIA MAYOR",
+    "siglas_ente": "PE060",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "62",
+    "nombre_ente": "PATRONATO DE LA FERIA NACIONAL POTOSINA",
+    "siglas_ente": "PE061",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "63",
+    "nombre_ente": "PROMOTORA DEL ESTADO",
+    "siglas_ente": "PE062",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "64",
+    "nombre_ente": "REGIMEN ESTATAL DE PROTECCION SOCIAL EN SALUD DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PE063",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "65",
+    "nombre_ente": "SECRETARIA DE COMUNICACIONES Y TRANSPORTES",
+    "siglas_ente": "PE064",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "66",
+    "nombre_ente": "SECRETARIA DE CULTURA",
+    "siglas_ente": "PE065",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "67",
+    "nombre_ente": "SECRETARIA DE DESARROLLO AGROPECUARIO Y RECURSOS HIDRAULICOS",
+    "siglas_ente": "PE066",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "68",
+    "nombre_ente": "SECRETARIA DE DESARROLLO ECONOMICO",
+    "siglas_ente": "PE067",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "69",
+    "nombre_ente": "SECRETARIA DE DESARROLLO SOCIAL Y REGIONAL",
+    "siglas_ente": "PE068",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "70",
+    "nombre_ente": "SECRETARIA DE DESARROLLO URBANO VIVIENDA Y OBRA PUBLICA",
+    "siglas_ente": "PE069",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "71",
+    "nombre_ente": "SECRETARIA DE ECOLOGIA Y GESTION AMBIENTAL",
+    "siglas_ente": "PE070",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "72",
+    "nombre_ente": "SECRETARIA DE EDUCACION DE GOBIERNO DEL ESTADO",
+    "siglas_ente": "PE071",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "73",
+    "nombre_ente": "SECRETARIA DE FINANZAS",
+    "siglas_ente": "PE072",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "74",
+    "nombre_ente": "SECRETARIA DE SEGURIDAD PUBLICA",
+    "siglas_ente": "PE073",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "75",
+    "nombre_ente": "SECRETARIA DEL TRABAJO Y PREVISION SOCIAL",
+    "siglas_ente": "PE074",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "76",
+    "nombre_ente": "SECRETARIA GENERAL DE GOBIERNO",
+    "siglas_ente": "PE075",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "77",
+    "nombre_ente": "SECRETARIA PARTICULAR DEL C. GOBERNADOR",
+    "siglas_ente": "PE076",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "78",
+    "nombre_ente": "SECRETARIA TECNICA DEL GABINETE",
+    "siglas_ente": "PE077",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "79",
+    "nombre_ente": "SECRETARIADO EJECUTIVO DEL CONSEJO ESTATAL DE SEGURIDAD PUBLICA DEL ESTADO",
+    "siglas_ente": "PE078",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "80",
+    "nombre_ente": "SECRETARIA DE TURISMO",
+    "siglas_ente": "PE079",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "81",
+    "nombre_ente": "SERVICIOS DE SALUD",
+    "siglas_ente": "PE080",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "82",
+    "nombre_ente": "SISTEMA DE EDUCACION ESTATAL REGULAR (SEER)",
+    "siglas_ente": "PE081",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "83",
+    "nombre_ente": "SISTEMA DE FINANCIAMIENTO PARA EL DESARROLLO DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PE082",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "84",
+    "nombre_ente": "SISTEMA ESTATAL PARA EL DESARROLLO INTEGRAL DE LA FAMILIA",
+    "siglas_ente": "PE083",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "85",
+    "nombre_ente": "TRIBUNAL ESTATAL DE CONCILIACION Y ARBITRAJE",
+    "siglas_ente": "PE084",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "86",
+    "nombre_ente": "TRIBUNAL ESTATAL DE JUSTICIA ADMINISTRATIVA DE SAN LUIS POTOSI",
+    "siglas_ente": "PE085",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "87",
+    "nombre_ente": "UNIVERSIDAD INTERCULTURAL DE SAN LUIS POTOSI",
+    "siglas_ente": "PE086",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "88",
+    "nombre_ente": "UNIVERSIDAD POLITECNICA DE SAN LUIS POTOSI",
+    "siglas_ente": "PE087",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "89",
+    "nombre_ente": "UNIVERSIDAD TECNOLOGICA DE SAN LUIS POTOSI",
+    "siglas_ente": "PE088",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "90",
+    "nombre_ente": "UNIVERSIDAD TECNOLOGICA METROPOLITANA DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PE089",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "91",
+    "nombre_ente": "AUDITORIA SUPERIOR DEL ESTADO DE SAN LUIS POTOSI ",
+    "siglas_ente": "PL001",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "92",
+    "nombre_ente": "H. CONGRESO DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PL002",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "93",
+    "nombre_ente": "PODER JUDICIAL DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "PJ001",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "94",
+    "nombre_ente": "COMISION ESTATAL DE DERECHOS HUMANOS",
+    "siglas_ente": "OA001",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "95",
+    "nombre_ente": "COMISION ESTATAL DE GARANTIA DE ACCESO A LA INFORMACION PUBLICA DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "OA002",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "96",
+    "nombre_ente": "CONSEJO ESTATAL ELECTORAL Y DE PARTICIPACION CIUDADANA",
+    "siglas_ente": "OA003",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "97",
+    "nombre_ente": "TRIBUNAL CONTENCIOSO ADMINISTRATIVO DEL ESTADO.",
+    "siglas_ente": "OA004",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "98",
+    "nombre_ente": "TRIBUNAL ELECTORAL DEL ESTADO DE SAN LUIS POTOSI",
+    "siglas_ente": "OA005",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "99",
+    "nombre_ente": "UNIVERSIDAD AUTONOMA DE SAN LUIS POTOSI",
+    "siglas_ente": "OA006",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "100",
+    "nombre_ente": "AHUALULCO",
+    "siglas_ente": "AY001",
+    "estado_ente": "24",
+    "municipio_ente": "001",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "101",
+    "nombre_ente": "ALAQUINES",
+    "siglas_ente": "AY002",
+    "estado_ente": "24",
+    "municipio_ente": "002",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "102",
+    "nombre_ente": "AQUISMON",
+    "siglas_ente": "AY003",
+    "estado_ente": "24",
+    "municipio_ente": "003",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "103",
+    "nombre_ente": "ARMADILLO DE LOS INFANTE",
+    "siglas_ente": "AY004",
+    "estado_ente": "24",
+    "municipio_ente": "004",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "104",
+    "nombre_ente": "CARDENAS",
+    "siglas_ente": "AY005",
+    "estado_ente": "24",
+    "municipio_ente": "005",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "105",
+    "nombre_ente": "CATORCE",
+    "siglas_ente": "AY006",
+    "estado_ente": "24",
+    "municipio_ente": "006",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "106",
+    "nombre_ente": "CEDRAL",
+    "siglas_ente": "AY007",
+    "estado_ente": "24",
+    "municipio_ente": "007",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "107",
+    "nombre_ente": "CERRITOS",
+    "siglas_ente": "AY008",
+    "estado_ente": "24",
+    "municipio_ente": "008",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "108",
+    "nombre_ente": "CERRO DE SAN PEDRO",
+    "siglas_ente": "AY009",
+    "estado_ente": "24",
+    "municipio_ente": "009",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "109",
+    "nombre_ente": "CIUDAD DEL MAIZ",
+    "siglas_ente": "AY010",
+    "estado_ente": "24",
+    "municipio_ente": "010",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "110",
+    "nombre_ente": "CIUDAD FERNANDEZ",
+    "siglas_ente": "AY011",
+    "estado_ente": "24",
+    "municipio_ente": "011",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "111",
+    "nombre_ente": "TANCANHUITZ DE SANTOS",
+    "siglas_ente": "AY012",
+    "estado_ente": "24",
+    "municipio_ente": "012",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "112",
+    "nombre_ente": "CIUDAD VALLES",
+    "siglas_ente": "AY013",
+    "estado_ente": "24",
+    "municipio_ente": "013",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "113",
+    "nombre_ente": "COXCATLAN",
+    "siglas_ente": "AY014",
+    "estado_ente": "24",
+    "municipio_ente": "014",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "114",
+    "nombre_ente": "CHARCAS",
+    "siglas_ente": "AY015",
+    "estado_ente": "24",
+    "municipio_ente": "015",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "115",
+    "nombre_ente": "EBANO",
+    "siglas_ente": "AY016",
+    "estado_ente": "24",
+    "municipio_ente": "016",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "116",
+    "nombre_ente": "GUADALCAZAR",
+    "siglas_ente": "AY017",
+    "estado_ente": "24",
+    "municipio_ente": "017",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "117",
+    "nombre_ente": "HUEHUETLAN",
+    "siglas_ente": "AY018",
+    "estado_ente": "24",
+    "municipio_ente": "018",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "118",
+    "nombre_ente": "LAGUNILLAS",
+    "siglas_ente": "AY019",
+    "estado_ente": "24",
+    "municipio_ente": "019",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "119",
+    "nombre_ente": "MATEHUALA",
+    "siglas_ente": "AY020",
+    "estado_ente": "24",
+    "municipio_ente": "020",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "120",
+    "nombre_ente": "MEXQUITIC DE CARMONA",
+    "siglas_ente": "AY021",
+    "estado_ente": "24",
+    "municipio_ente": "021",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "121",
+    "nombre_ente": "MOCTEZUMA",
+    "siglas_ente": "AY022",
+    "estado_ente": "24",
+    "municipio_ente": "022",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "122",
+    "nombre_ente": "RAYON",
+    "siglas_ente": "AY023",
+    "estado_ente": "24",
+    "municipio_ente": "023",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "123",
+    "nombre_ente": "RIOVERDE",
+    "siglas_ente": "AY024",
+    "estado_ente": "24",
+    "municipio_ente": "024",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "124",
+    "nombre_ente": "SALINAS DE HIDALGO",
+    "siglas_ente": "AY025",
+    "estado_ente": "24",
+    "municipio_ente": "025",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "125",
+    "nombre_ente": "SAN ANTONIO",
+    "siglas_ente": "AY026",
+    "estado_ente": "24",
+    "municipio_ente": "026",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "126",
+    "nombre_ente": "SAN CIRO DE ACOSTA",
+    "siglas_ente": "AY027",
+    "estado_ente": "24",
+    "municipio_ente": "027",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "127",
+    "nombre_ente": "SAN LUIS POTOSI",
+    "siglas_ente": "AY028",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "128",
+    "nombre_ente": "SAN MARTIN CHALCHICUAUTLA",
+    "siglas_ente": "AY029",
+    "estado_ente": "24",
+    "municipio_ente": "029",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "129",
+    "nombre_ente": "SAN NICOLAS TOLENTINO",
+    "siglas_ente": "AY030",
+    "estado_ente": "24",
+    "municipio_ente": "030",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "130",
+    "nombre_ente": "SANTA CATARINA",
+    "siglas_ente": "AY031",
+    "estado_ente": "24",
+    "municipio_ente": "031",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "131",
+    "nombre_ente": "SANTA MARIA DEL RIO",
+    "siglas_ente": "AY032",
+    "estado_ente": "24",
+    "municipio_ente": "032",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "132",
+    "nombre_ente": "SANTO DOMINGO",
+    "siglas_ente": "AY033",
+    "estado_ente": "24",
+    "municipio_ente": "033",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "133",
+    "nombre_ente": "SAN VICENTE TANCUYALAB",
+    "siglas_ente": "AY034",
+    "estado_ente": "24",
+    "municipio_ente": "034",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "134",
+    "nombre_ente": "SOLEDAD DE GRACIANO SANCHEZ",
+    "siglas_ente": "AY035",
+    "estado_ente": "24",
+    "municipio_ente": "035",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "135",
+    "nombre_ente": "TAMASOPO",
+    "siglas_ente": "AY036",
+    "estado_ente": "24",
+    "municipio_ente": "036",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "136",
+    "nombre_ente": "TAMAZUNCHALE",
+    "siglas_ente": "AY037",
+    "estado_ente": "24",
+    "municipio_ente": "037",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "137",
+    "nombre_ente": "TAMPACAN",
+    "siglas_ente": "AY038",
+    "estado_ente": "24",
+    "municipio_ente": "038",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "138",
+    "nombre_ente": "TAMPAMOLON CORONA",
+    "siglas_ente": "AY039",
+    "estado_ente": "24",
+    "municipio_ente": "039",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "139",
+    "nombre_ente": "TAMUIN",
+    "siglas_ente": "AY040",
+    "estado_ente": "24",
+    "municipio_ente": "040",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "140",
+    "nombre_ente": "TANLAJAS",
+    "siglas_ente": "AY041",
+    "estado_ente": "24",
+    "municipio_ente": "041",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "141",
+    "nombre_ente": "TANQUIAN DE ESCOBEDO",
+    "siglas_ente": "AY042",
+    "estado_ente": "24",
+    "municipio_ente": "042",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "142",
+    "nombre_ente": "TIERRA NUEVA",
+    "siglas_ente": "AY043",
+    "estado_ente": "24",
+    "municipio_ente": "043",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "143",
+    "nombre_ente": "VANEGAS",
+    "siglas_ente": "AY044",
+    "estado_ente": "24",
+    "municipio_ente": "044",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "144",
+    "nombre_ente": "VENADO",
+    "siglas_ente": "AY045",
+    "estado_ente": "24",
+    "municipio_ente": "045",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "145",
+    "nombre_ente": "VILLA DE ARRIAGA",
+    "siglas_ente": "AY046",
+    "estado_ente": "24",
+    "municipio_ente": "046",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "146",
+    "nombre_ente": "VILLA DE GUADALUPE",
+    "siglas_ente": "AY047",
+    "estado_ente": "24",
+    "municipio_ente": "047",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "147",
+    "nombre_ente": "VILLA DE LA PAZ",
+    "siglas_ente": "AY048",
+    "estado_ente": "24",
+    "municipio_ente": "048",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "148",
+    "nombre_ente": "VILLA DE RAMOS",
+    "siglas_ente": "AY049",
+    "estado_ente": "24",
+    "municipio_ente": "049",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "149",
+    "nombre_ente": "VILLA DE REYES",
+    "siglas_ente": "AY050",
+    "estado_ente": "24",
+    "municipio_ente": "050",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "150",
+    "nombre_ente": "VILLA HIDALGO",
+    "siglas_ente": "AY051",
+    "estado_ente": "24",
+    "municipio_ente": "051",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "151",
+    "nombre_ente": "VILLA JUAREZ",
+    "siglas_ente": "AY052",
+    "estado_ente": "24",
+    "municipio_ente": "052",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "152",
+    "nombre_ente": "AXTLA DE TERRAZAS",
+    "siglas_ente": "AY053",
+    "estado_ente": "24",
+    "municipio_ente": "053",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "153",
+    "nombre_ente": "XILITLA",
+    "siglas_ente": "AY054",
+    "estado_ente": "24",
+    "municipio_ente": "054",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "154",
+    "nombre_ente": "ZARAGOZA",
+    "siglas_ente": "AY055",
+    "estado_ente": "24",
+    "municipio_ente": "055",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "155",
+    "nombre_ente": "VILLA DE ARISTA",
+    "siglas_ente": "AY056",
+    "estado_ente": "24",
+    "municipio_ente": "056",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "156",
+    "nombre_ente": "MATLAPA",
+    "siglas_ente": "AY057",
+    "estado_ente": "24",
+    "municipio_ente": "057",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "157",
+    "nombre_ente": "EL NARANJO",
+    "siglas_ente": "AY058",
+    "estado_ente": "24",
+    "municipio_ente": "058",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "158",
+    "nombre_ente": "DIRECCION DE AGUA POTABLE Y ALCANTARILLADO Y SANEAMIENTO DE CIUDAD VALLES",
+    "siglas_ente": "OD001",
+    "estado_ente": "24",
+    "municipio_ente": "013",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "159",
+    "nombre_ente": "DIRECCION DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DE CHARCAS",
+    "siglas_ente": "OD002",
+    "estado_ente": "24",
+    "municipio_ente": "015",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "160",
+    "nombre_ente": "DIRECCION DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DE TANQUIAN DE ESCOBEDO",
+    "siglas_ente": "OD003",
+    "estado_ente": "24",
+    "municipio_ente": "042",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "161",
+    "nombre_ente": "INSTITUTO MUNICIPAL DE PLANEACION",
+    "siglas_ente": "OD004",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "162",
+    "nombre_ente": "INSTITUTO MUNICIPAL DE VIVIENDA DE CIUDAD VALLES",
+    "siglas_ente": "OD005",
+    "estado_ente": "24",
+    "municipio_ente": "013",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "163",
+    "nombre_ente": "INSTITUTO MUNICIPAL DE VIVIENDA DE RIOVERDE",
+    "siglas_ente": "OD006",
+    "estado_ente": "24",
+    "municipio_ente": "024",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "164",
+    "nombre_ente": "INSTITUTO MUNICIPAL DE VIVIENDA DE SOLEDAD DE GRACIANO SANCHEZ",
+    "siglas_ente": "OD007",
+    "estado_ente": "24",
+    "municipio_ente": "035",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "165",
+    "nombre_ente": "ORGANISMO DE AGUA POTABLE DE VILLA DE ARISTA. ",
+    "siglas_ente": "OD008",
+    "estado_ente": "24",
+    "municipio_ente": "056",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "166",
+    "nombre_ente": "ORGANISMO INTERMUNICIPAL METROPOLITANO DE AGUA POTABLE, ALCANTARILLADO, SANEAMIENTO Y SERVICIOS CONEXOS DE LOS MUNICIPIOS DE CERRO DE SAN PEDRO, SAN LUIS POTOSI Y SOLEDAD DE GRACIANO SANCHEZ",
+    "siglas_ente": "OD009",
+    "estado_ente": "24",
+    "municipio_ente": "035",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "167",
+    "nombre_ente": "ORGANISMO OPERADOR DE AGUA POTABLE DE SAN CIRO DE ACOSTA. ",
+    "siglas_ente": "OD010",
+    "estado_ente": "24",
+    "municipio_ente": "027",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "168",
+    "nombre_ente": "ORGANISMO OPERADOR DE AGUA POTABLE DE VILLA DE LA PAZ",
+    "siglas_ente": "OD011",
+    "estado_ente": "24",
+    "municipio_ente": "048",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "169",
+    "nombre_ente": "ORGANISMO OPERADOR DE AGUA POTABLE DE VILLA DE REYES",
+    "siglas_ente": "OD012",
+    "estado_ente": "24",
+    "municipio_ente": "050",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "170",
+    "nombre_ente": "ORGANISMO OPERADOR DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DEL MUNICIPIO DE TAMUIN",
+    "siglas_ente": "OD013",
+    "estado_ente": "24",
+    "municipio_ente": "040",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "171",
+    "nombre_ente": "ORGANISMO OPERADOR DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DE TAMAZUNCHALE, S.L.P.",
+    "siglas_ente": "OD014",
+    "estado_ente": "24",
+    "municipio_ente": "037",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "172",
+    "nombre_ente": "DIRECCION DE AGUA POTABLE ALCANTARILLADO Y SANEAMIENTO DE EBANO",
+    "siglas_ente": "OD015",
+    "estado_ente": "24",
+    "municipio_ente": "016",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "173",
+    "nombre_ente": "ORGANISMO OPERADOR PARAMUNICIPAL DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DE RIOVERDE",
+    "siglas_ente": "OD016",
+    "estado_ente": "24",
+    "municipio_ente": "024",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "174",
+    "nombre_ente": "ORGANISMO OPERADOR PARAMUNICIPAL DESCENTRALIZADO DE EL NARANJO.",
+    "siglas_ente": "OD017",
+    "estado_ente": "24",
+    "municipio_ente": "058",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "175",
+    "nombre_ente": "ORGANISMO OPERADOR PARAMUNICIPAL DESCENTRALIZADO DEL AYUNTAMIENTO DE CARDENAS. ",
+    "siglas_ente": "OD018",
+    "estado_ente": "24",
+    "municipio_ente": "005",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "176",
+    "nombre_ente": "ORGANISMO OPERADOR PARAMUNICIPAL DESCENTRALIZADO DEL AYUNTAMIENTO DE RAYON",
+    "siglas_ente": "OD019",
+    "estado_ente": "24",
+    "municipio_ente": "023",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "177",
+    "nombre_ente": "ORGANISMO OPERADOR PARAMUNICIPAL DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DE CIUDAD FERNANDEZ",
+    "siglas_ente": "OD020",
+    "estado_ente": "24",
+    "municipio_ente": "011",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "178",
+    "nombre_ente": "ORGANISMO OPERADOR PARAMUNICIPAL DE LA COMUNIDAD EL REFUGIO CIUDAD FERNANDEZ S.L.P. ",
+    "siglas_ente": "OD021",
+    "estado_ente": "24",
+    "municipio_ente": "011",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "179",
+    "nombre_ente": "ORGANISMO PARAMUNICIPAL DE AGUA POTABLE Y ALCANTARILLADO DE CERRITOS.",
+    "siglas_ente": "OD022",
+    "estado_ente": "24",
+    "municipio_ente": "008",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "180",
+    "nombre_ente": "ORGANISMO PUBLICO DESCENTRALIZADO SISTEMA MUNICIPAL PARA EL DESARROLLO INTEGRAL DE LA FAMILIA DE CIUDAD FERNANDEZ ",
+    "siglas_ente": "OD023",
+    "estado_ente": "24",
+    "municipio_ente": "011",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "181",
+    "nombre_ente": "ORGANISMOS OPERADOR PARAMUNICIPAL DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DE CIUDAD DEL MAIZ",
+    "siglas_ente": "OD024",
+    "estado_ente": "24",
+    "municipio_ente": "010",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "182",
+    "nombre_ente": "ORGANISMOS OPERADOR PARAMUNICIPAL DE AGUA Y DRENAJE Y SANEAMIENTO DE CEDRAL. ",
+    "siglas_ente": "OD025",
+    "estado_ente": "24",
+    "municipio_ente": "007",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "183",
+    "nombre_ente": "SERVICIOS DE AGUA POTABLE, ALCANTARILLADO Y SANEAMIENTO DE MATEHUALA",
+    "siglas_ente": "OD026",
+    "estado_ente": "24",
+    "municipio_ente": "020",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "184",
+    "nombre_ente": "SISTEMA DE AGUA Y DRENAJE DE AXTLA DE TERRAZAS, S.L.P.",
+    "siglas_ente": "OD027",
+    "estado_ente": "24",
+    "municipio_ente": "053",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "185",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE AHUALULCO. ",
+    "siglas_ente": "OD028",
+    "estado_ente": "24",
+    "municipio_ente": "001",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "186",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE MATEHUALA. ",
+    "siglas_ente": "OD029",
+    "estado_ente": "24",
+    "municipio_ente": "020",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "187",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE MEXQUITIC DE CARMONA",
+    "siglas_ente": "OD030",
+    "estado_ente": "24",
+    "municipio_ente": "021",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "188",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE RAYON",
+    "siglas_ente": "OD031",
+    "estado_ente": "24",
+    "municipio_ente": "023",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "189",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE RIOVERDE",
+    "siglas_ente": "OD032",
+    "estado_ente": "24",
+    "municipio_ente": "024",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "190",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE SALINAS. ",
+    "siglas_ente": "OD033",
+    "estado_ente": "24",
+    "municipio_ente": "025",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "191",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE SAN VICENTE TANCUAYALAB. ",
+    "siglas_ente": "OD034",
+    "estado_ente": "24",
+    "municipio_ente": "034",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "192",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE SANTA CATARINA",
+    "siglas_ente": "OD035",
+    "estado_ente": "24",
+    "municipio_ente": "031",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "193",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE SOLEDAD DE GRACIANO SANCHEZ",
+    "siglas_ente": "OD036",
+    "estado_ente": "24",
+    "municipio_ente": "035",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "194",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE TANLAJAS",
+    "siglas_ente": "OD037",
+    "estado_ente": "24",
+    "municipio_ente": "041",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "195",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE VENADO",
+    "siglas_ente": "OD038",
+    "estado_ente": "24",
+    "municipio_ente": "045",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "196",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE VILLA DE ARISTA",
+    "siglas_ente": "OD039",
+    "estado_ente": "24",
+    "municipio_ente": "056",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "197",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE VILLA DE ARRIAGA",
+    "siglas_ente": "OD040",
+    "estado_ente": "24",
+    "municipio_ente": "046",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "198",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE VILLA DE GUADALUPE",
+    "siglas_ente": "OD041",
+    "estado_ente": "24",
+    "municipio_ente": "047",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "199",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE VILLA DE LA PAZ",
+    "siglas_ente": "OD042",
+    "estado_ente": "24",
+    "municipio_ente": "048",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "200",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE VILLA DE REYES",
+    "siglas_ente": "OD043",
+    "estado_ente": "24",
+    "municipio_ente": "050",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "201",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE VILLA HIDALGO",
+    "siglas_ente": "OD044",
+    "estado_ente": "24",
+    "municipio_ente": "051",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "202",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL PARA EL DESARROLLO INTEGRAL DE LA FAMILIA DE CUIDAD VALLES",
+    "siglas_ente": "OD045",
+    "estado_ente": "24",
+    "municipio_ente": "013",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "203",
+    "nombre_ente": "SISTEMA MUNICIPAL DEL DIF AQUISMON",
+    "siglas_ente": "OD046",
+    "estado_ente": "24",
+    "municipio_ente": "003",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "204",
+    "nombre_ente": "SISTEMA MUNICIPAL PARA EL DESARROLLO INTEGRAL DE LA FAMILIA CHARCAS",
+    "siglas_ente": "OD047",
+    "estado_ente": "24",
+    "municipio_ente": "015",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "205",
+    "nombre_ente": "SISTEMA MUNICIPAL PARA EL DESARROLLO INTEGRAL DE LA FAMILIA TAMUIN",
+    "siglas_ente": "OD048",
+    "estado_ente": "24",
+    "municipio_ente": "040",
+    "alta_usuario": "1",
+    "nivel_municipal": "True",
+    "nivel_estatal": "False"
+  },
+  {
+    "id": "227",
+    "nombre_ente": "UNION DE ASOCIACIONES DEL PERSONAL ACADEMICO DE LA UASLP ",
+    "siglas_ente": "SN022",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "239",
+    "nombre_ente": "CENTRO DE LAS ARTES DE SAN LUIS POTOSI",
+    "siglas_ente": "PE009",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "False",
+    "nivel_estatal": "True"
+  },
+  {
+    "id": "241",
+    "nombre_ente": "SISTEMA MUNICIPAL DIF DEL MUNICIPIO DE AXTLA DE TERRAZAS",
+    "siglas_ente": "DIFAT",
+    "estado_ente": "24",
+    "municipio_ente": "053",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "242",
+    "nombre_ente": "ENTE PRUEBA",
+    "siglas_ente": "ENTE PRUEBA",
+    "estado_ente": "24",
+    "municipio_ente": "028",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  },
+  {
+    "id": "244",
+    "nombre_ente": "SISTEMA DIF MUNICIPAL DEL MUNICIPIO DE CIUDAD FERNANDEZ",
+    "siglas_ente": "OD046",
+    "estado_ente": "24",
+    "municipio_ente": "011",
+    "alta_usuario": "1",
+    "nivel_municipal": "NULL",
+    "nivel_estatal": "NULL"
+  }
+]
