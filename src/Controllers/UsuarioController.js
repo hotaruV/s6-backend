@@ -158,7 +158,9 @@ const usrController = {
   createUsers: async (req, res = response) => {
 
     try {
-      //console.log(req.body.rfc);
+
+      // console.log(req.body.ente_publico.ente_id);
+      // return
       const { email, rfc } = req.body;
       const ExisteEmail = await Usuario.findOne({ email });
       if (ExisteEmail) {
@@ -204,9 +206,14 @@ const usrController = {
       }
 
       usuario.estatus = 1;
+      usuario.id_ente_publico = req.body.ente_publico.ente_id
       //obtengo id ente
-      const enteUpdated = await Entes.findOne({ ente: usuario.ente_publico });
+
+
+      const enteUpdated = await Entes.findById(usuario.id_ente_publico);
+
       usuario.id_ente_publico = enteUpdated._id;
+      usuario.ente_publico = enteUpdated.ente;
       await usuario.save();
       const token = await JWTgenerate(usuario.id);
       res.status(200).json({
@@ -223,32 +230,21 @@ const usrController = {
       });
     }
   },
-
   updateUser: async (req, res = response) => {
     try {
-
       const uid = req.params.id;
       const usuario = new Usuario();
-
-
       const usuarioDB = await Usuario.findById(uid);
-
       if (!usuarioDB) {
         return res.status(404).json({
           ok: false,
           msg: "NO ÉXISTE USUARIO",
         });
       }
-
-      //validar token
-      //
       const { password, email, ...campos } = req.body;
-
-      const ente_public = await Entes.findOne({ ente: campos.ente_publico });
+      const ente_public = await Entes.findOne({ _id: campos.ente_publico.ente_id });
       const ente_id = ente_public._id;
-
-
-
+      const nombre_ente = ente_public.ente;
       if (usuarioDB.email !== email) {
         const existeEmail = await Usuario.findOne({ email });
         if (existeEmail) {
@@ -258,11 +254,7 @@ const usrController = {
           });
         }
       }
-
-
       usuario.email = email;
-
-
       if (req.body.role === "oic") {
         usuario.userName = `OIC.S6@${req.body.userName.split('@')[1]}`;
       } else {
@@ -282,11 +274,6 @@ const usrController = {
         usuario.segundo_apellido = req.body.segundo_apellido.toUpperCase();
       else
         usuario.segundo_apellido = "";
-
-      if (req.body.ente_publico != "" && req.body.ente_publico != null)
-        usuario.ente_publico = req.body.ente_publico.toUpperCase();
-      else
-        usuario.ente_publico = "";
       if (req.body.cargo_publico != "" && req.body.cargo_publico != null)
         usuario.cargo_publico = req.body.cargo_publico.toUpperCase();
       else
@@ -304,10 +291,9 @@ const usrController = {
         usuario.rfc_homoclave = req.body.rfc_homoclave.toUpperCase();
       else
         usuario.rfc_homoclave = "";
-
       usuario.estatus = 1;
       usuario.id_ente_publico = ente_id
-
+      usuario.ente_publico = nombre_ente
       const userUpdated = await Usuario.findByIdAndUpdate(uid,
         {
           email: usuario.email,
@@ -315,29 +301,15 @@ const usrController = {
           primer_apellido: usuario.primer_apellido,
           segundo_apellido: usuario.segundo_apellido,
           ente_publico: usuario.ente_publico,
+          id_ente_publico: usuario.id_ente_publico,
           cargo_publico: usuario.cargo_publico,
           role: usuario.role,
           curp: usuario.curp,
           rfc: usuario.rfc,
           rfc_homoclave: usuario.rfc_homoclave,
           userName: usuario.userName
-
-
-
-
-
-
-
-
-
-          // update_at:"2024-03-20 20:48:11",
         }, { upsert: false, new: false } //, {  new: true } 
-
       );
-      //console.log("enteUpdated: " + userUpdated);
-      // const userUpdated = await Usuario.findByIdAndUpdate(uid, campos, {
-      //   new: true,
-      // });
       if (userUpdated) {
 
         return res.status(200).json({
@@ -360,7 +332,6 @@ const usrController = {
       });
     }
   },
-
   deleteUser: async (req, res = response) => {
     try {
 
@@ -732,6 +703,23 @@ const usrController = {
       });
     }
   },
+
+  getEnteForm: async (req, res) => {
+    try {
+      const entes = await Entes.find({ "estatus": 1 });
+      res.status(200).json({
+        ok: true,
+        entes
+      });
+    } catch (error) {
+      console.log('Error');
+      res.status(400).json({
+        ok: false,
+        msg: "Error en db consultar servicio técnico",
+      });
+    }
+  },
+
   createEnte: async (req, res = response) => {
     //console.log("Crear_ente EntesController"+req.body);
     try {
@@ -865,10 +853,11 @@ const usrController = {
   updateEnte: async (req, res = response) => {
     try {
 
-      const uid = req.params.id;
+      const uid = req.body.ente_id;
       const entes = new Entes();
 
       const { ente, siglas, ...campos } = req.body;
+
 
       entes.ente = req.body.ente.toUpperCase();
       entes.slug = generarSlug(entes.ente);

@@ -185,7 +185,7 @@ route.get("/estados", (req, res) => {
 
   try {
     const datos = JSON.parse(ArrayEstado);
-   // console.log(datos);
+    // console.log(datos);
     let data = datos.filter(({ nombre }) => nombre.includes(search.toUpperCase()))
     //console.log(data);
     return res.status(200).json({
@@ -195,7 +195,6 @@ route.get("/estados", (req, res) => {
     console.error(err);
   }
 });
-
 route.get("/paises", (req, res) => {
   const search = req.query.search;
   let ArrayPaises = [];
@@ -205,7 +204,7 @@ route.get("/paises", (req, res) => {
 
   try {
     const datos = JSON.parse(ArrayPaises);
-   // console.log(datos);
+    // console.log(datos);
     let data = datos.filter(({ nombre }) => nombre.includes(search.toUpperCase()))
     //console.log(data);
     return res.status(200).json({
@@ -216,7 +215,7 @@ route.get("/paises", (req, res) => {
   }
 });
 route.get("/paisesAll", (req, res) => {
- 
+
   let ArrayPaises = [];
   const ruta = resolve(__dirname, "../documents/paises.json");
   const fileContents = readFileSync(ruta, "utf8");
@@ -224,7 +223,7 @@ route.get("/paisesAll", (req, res) => {
 
   try {
     const datos = JSON.parse(ArrayPaises);
-   // console.log(datos);
+    // console.log(datos);
     let data = datos;
     //console.log(data);
     return res.status(200).json({
@@ -235,28 +234,26 @@ route.get("/paisesAll", (req, res) => {
   }
 });
 route.get("/codigos", (req, res) => {
-  console.log("entre a codigopostal");
-  const search = req.query.search;
-  let ArrayCodigosPostales = [];
+  const search = req.query.search || '';
+
   const ruta = resolve(__dirname, "../documents/colonias.json");
   const fileContents = readFileSync(ruta, "utf8");
-  ArrayCodigosPostales.push(fileContents);
 
   try {
-    const datos = JSON.parse(ArrayCodigosPostales);
-    console.log(datos);
-    let data = datos.filter(({ cp }) => cp.includes(search))
-    console.log(data);
+    const datos = JSON.parse(fileContents);
+    const filteredData = datos.filter(({ cp }) => cp.includes(search));
+
     return res.status(200).json({
-      data,
+      data: filteredData,
     });
   } catch (err) {
     console.error(err);
+    res.status(500).json({ message: 'Internal Server Error' });
   }
 });
 route.get("/colonias", (req, res) => {
-  console.log("entre a codigopostal");
-  const search = req.query.search;
+  //console.log("entre a codigopostal");
+  const search = req.query.search.toUpperCase();
   let ArrayCodigosPostales = [];
   const ruta = resolve(__dirname, "../documents/colonias.json");
   const fileContents = readFileSync(ruta, "utf8");
@@ -264,9 +261,9 @@ route.get("/colonias", (req, res) => {
 
   try {
     const datos = JSON.parse(ArrayCodigosPostales);
-    console.log(datos);
-    let data = datos.filter(({ cp }) => cp.includes(search))
-    console.log(data);
+    //console.log(datos);
+    let data = datos.filter(({ colonia }) => colonia.toUpperCase().includes(search));
+    //console.log(data);
     return res.status(200).json({
       data,
     });
@@ -295,7 +292,6 @@ route.get("/municipiosByNombre", (req, res) => {
     console.error(err);
   }
 });
-
 route.get("/municipiosdeEstado", (req, res) => {
   //console.log("entre MunicipiosByNombre:");
   const search = req.query.search;
@@ -309,7 +305,7 @@ route.get("/municipiosdeEstado", (req, res) => {
     const datos = JSON.parse(ArrayMunicipio);
     //console.log(datos);
     let data = datos.filter(({ nombre_estado }) => nombre_estado.includes(search.toUpperCase()))
-   // console.log(data);
+    // console.log(data);
     return res.status(200).json({
       data,
     });
@@ -317,26 +313,25 @@ route.get("/municipiosdeEstado", (req, res) => {
     console.error(err);
   }
 });
-
 route.get("/cucopAll", (req, res) => {
   //console.log("entre cucop si 1:"+req.query.search);
-  
+
   let ArrayCucop = [];
   const ruta = resolve(__dirname, "../documents/cucop.json");
   const fileContents = readFileSync(ruta, "utf8");
   ArrayCucop.push(fileContents);
- 
+
   try {
     const datos = JSON.parse(ArrayCucop);
-   
+
     let data = datos
-  
+
     return res.status(200).json({
       data,
     });
   } catch (err) {
     console.error(err);
-    console.log("errror cucop"+err);
+    console.log("errror cucop" + err);
   }
 });
 route.get("/cucop", (req, res) => {
@@ -346,18 +341,18 @@ route.get("/cucop", (req, res) => {
   const ruta = resolve(__dirname, "../documents/cucop.json");
   const fileContents = readFileSync(ruta, "utf8");
   ArrayCucop.push(fileContents);
- // console.log("entre cucop ArrayCucop:"+ArrayCucop);
+  // console.log("entre cucop ArrayCucop:"+ArrayCucop);
   try {
     const datos = JSON.parse(ArrayCucop);
-     //console.log(datos);
+    //console.log(datos);
     let data = datos.filter(({ DESCRIPCION }) => DESCRIPCION.includes(search.toUpperCase()))
     ///console.log(data);
     return res.status(200).json({
       data,
     });
   } catch (err) {
-    console.error("aaa"+err);
-    console.log("aaa"+err);
+    console.error("aaa" + err);
+    console.log("aaa" + err);
   }
 });
 route.get("/getcucop", (req, res) => {
@@ -370,36 +365,36 @@ route.get("/getcucop", (req, res) => {
 
   try {
     const datos = JSON.parse(ArrayCucop);
-    console.log("entre a buscar  search"+search.toUpperCase());
-     //console.log(datos);
+    console.log("entre a buscar  search" + search.toUpperCase());
+    //console.log(datos);
     let data = datos.filter(({ CLAVECUCoP }) => CLAVECUCoP.includes(search))
-  // console.log("daa filter"+data);
+    // console.log("daa filter"+data);
     return res.status(200).json({
       data,
     });
   } catch (err) {
-    console.error("eee"+err);
+    console.error("eee" + err);
   }
 });
 route.get("/esquemaAll", (req, res) => {
   //console.log("entre cucop si 1:"+req.query.search);
-  
+
   let ArrayEsquema = [];
   const ruta = resolve(__dirname, "../documents/esquemas.json");
   const fileContents = readFileSync(ruta, "utf8");
   ArrayEsquema.push(fileContents);
- 
+
   try {
     const datos = JSON.parse(ArrayEsquema);
-   
+
     let data = datos
-  
+
     return res.status(200).json({
       data,
     });
   } catch (err) {
     console.error(err);
-    console.log("error esquemas"+err);
+    console.log("error esquemas" + err);
   }
 });
 export default route;

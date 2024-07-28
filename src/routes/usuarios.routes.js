@@ -297,6 +297,7 @@ route.post("/registerEnte", [
 
 route.post("/UpdateEntesbyEnte", validarJWT, usuarioController.updateEntebyEnte);
 route.get("/entes", validarJWT, usuarioController.getE);
+route.get("/entes-form", validarJWT, usuarioController.getEnteForm);
 
 route.get("/Listaentes/:search", [validarJWT], usuarioController.getEntes);
 
