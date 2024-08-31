@@ -475,7 +475,7 @@ const usrController = {
       console.log(error);
       res.status(500).json({
         ok: false,
-        msg: "ERROR INESPERADO-... REVISA LOGS",
+        msg: "ERROR ENCONTRADO EN EL BLOQUE CATCH DEL SERVIDOR REVISAR API",
         error: error,
       });
     }
@@ -766,7 +766,7 @@ const usrController = {
       console.log(error);
       res.status(500).json({
         ok: false,
-        msg: "ERROR INESPERADO-... REVISA LOGS",
+        msg: "ERROR ENCONTRADO EN EL BLOQUE CATCH DEL SERVIDOR REVISAR API",
         error: error,
       });
     }
@@ -900,7 +900,7 @@ const usrController = {
 
       res.status(500).json({
         ok: false,
-        msg: "ERROR INESPERADO... NO EXISTE ENTE",
+        msg: "ERROR ENCONTRADO EN EL BLOQUE CATCH DEL SERVIDOR REVISAR API",
       });
     }
   },
@@ -935,7 +935,7 @@ const usrController = {
       console.error(error);
       res.status(500).json({
         ok: false,
-        msg: "ERROR INESPERADO... NO EXISTE ENTE",
+        msg: "ERROR ENCONTRADO EN EL BLOQUE CATCH DEL SERVIDOR REVISAR API",
         error: error.message,
       });
     }
@@ -945,6 +945,7 @@ const usrController = {
     try {
       //console.log("Entre updateEntebyEnte controller");
 
+
       const entes = new Entes();
       const { uid, nombre_legal, ...campos } = req.body;
       entes.nombre_comercial = campos.nombre_comercial.toUpperCase();
@@ -953,7 +954,7 @@ const usrController = {
 
       //console.log("entes.lugar:" + entes.lugar);
       entes.lugar = campos.lugar;
-      entes.pais = campos.pais.toUpperCase();
+      entes.pais = campos.pais;
       entes.codigoPostal = campos.codigoPostal;
       entes.colonia = campos.colonia.toUpperCase();
       entes.localidad = campos.localidad.toUpperCase();
@@ -1028,7 +1029,7 @@ const usrController = {
 
       res.status(500).json({
         ok: false,
-        msg: "ERROR INESPERADO... NO EXISTE ENTE",
+        msg: "ERROR ENCONTRADO EN EL BLOQUE CATCH DEL SERVIDOR REVISAR API",
       });
     }
   },
@@ -1102,7 +1103,7 @@ const usrController = {
         rfc_rep_legal = req.body.rfc_rep_legal.toUpperCase();
       }
       const lugar_proveedor = req.body.lugar_proveedor;
-      const pais_proveedor = req.body.pais_proveedor.toUpperCase();
+      const pais_proveedor = req.body.pais_proveedor;
       const codigoPostal_proveedor = req.body.codigoPostal_proveedor;
 
       const colonia_proveedor = req.body.colonia_proveedor.toUpperCase();
@@ -1193,7 +1194,7 @@ const usrController = {
       console.log(error);
       res.status(500).json({
         ok: false,
-        msg: "ERROR INESPERADO-... REVISA LOGS",
+        msg: "ERROR ENCONTRADO EN EL BLOQUE CATCH DEL SERVIDOR REVISAR API",
         error: error,
       });
     }
@@ -1302,7 +1303,7 @@ const usrController = {
         rfc_rep_legal = req.body.rfc_rep_legal.toUpperCase();
       }
       const lugar_proveedor = req.body.lugar_proveedor;
-      const pais_proveedor = req.body.pais_proveedor.toUpperCase();
+      const pais_proveedor = req.body.pais_proveedor;
       const codigoPostal_proveedor = req.body.codigoPostal_proveedor;
 
       const colonia_proveedor = req.body.colonia_proveedor.toUpperCase();

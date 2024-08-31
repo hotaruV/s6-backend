@@ -11,7 +11,7 @@ const OICController = {
         try {
             const active = false;
             const uid = req.uid;
-    
+
             // Verificar si el usuario existe
             const user = await Usuario.findById(uid);
             if (!user) {
@@ -20,11 +20,11 @@ const OICController = {
                     msg: 'Usuario no encontrado'
                 });
             }
-    
+
             const ente_id = user.id_ente_publico;
             let owner;
-            
-            
+
+
             switch (user.role) {
                 case 'oic':
                     owner = await Usuario.findOne({
@@ -40,31 +40,31 @@ const OICController = {
                     });
                     break;
             }
-    
+
             if (!owner) {
                 return res.status(404).json({
                     ok: false,
                     msg: 'Administrador del ente no encontrado'
                 });
             }
-    
+
             const owner_id = owner._id;
             console.log(owner_id);
             const ente_publico = owner.ente_publico;
-    
+
             // Obtener notificaciones existentes y contratos activos
             const [notificacionesExistentes, contratosActivos] = await Promise.all([
                 Revitions.find({ uid: owner_id }),
                 Contrato.find({ uid: owner_id, active })
                     .select('_id ocid buyer tender planning parties awards contracts uid date active')
             ]);
-    
+
             // Crear un conjunto de OCIDs de contratos que ya tienen notificaciones
             const notificacionesExistentesOcids = new Set(notificacionesExistentes.map(notificacion => notificacion.ocid));
-    
+
             // Filtrar contratos activos que no tienen notificaciones basadas en OCID
             const nuevosContratosParaNotificacion = contratosActivos.filter(contrato => !notificacionesExistentesOcids.has(contrato.ocid));
-    
+
             // Crear nuevas notificaciones para los contratos filtrados
             const fecha = moment().format("YYYY-MM-DD HH:mm:ss");
             const nuevasNotificaciones = nuevosContratosParaNotificacion.map(contrato => ({
@@ -75,14 +75,14 @@ const OICController = {
                 created_at: fecha,
                 updated_at: null
             }));
-    
+
             // Insertar nuevas notificaciones si existen
             if (nuevasNotificaciones.length > 0) {
                 await Revitions.insertMany(nuevasNotificaciones);
             }
-    
+
             const total = await Contrato.countDocuments({ active });
-    
+
             return res.status(200).json({
                 ok: true,
                 ente_publico,
@@ -98,9 +98,6 @@ const OICController = {
             });
         }
     },
-    
-
-
 
     updateStatusNotification: async (req, res = response) => {
         try {
@@ -355,12 +352,6 @@ const OICController = {
         });
 
     },
-
-
-
-
-
-
 };
 
 
