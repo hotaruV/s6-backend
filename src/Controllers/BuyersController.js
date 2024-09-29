@@ -5,15 +5,26 @@ const BuyersController = {
   buyer: async (req, res = response) => {
     try {
       const uid = req.uid;
+      let ente_id = req.body.ente_id;
+
       const buyer = new buyers(req.body);
       let rfc = req.body.id.toUpperCase();
       buyer.id = rfc
       buyer.user_id = uid;
+
+      const cp = await buyers.findOne({ ente_id: ente_id });
+      if (cp) {
+        return res.status(200).json({
+          ok: true,
+          ente_id: ente_id
+        })
+      }
+
       await buyer.save();
-      return res.status(200).json({ 
+      return res.status(200).json({
         ok: true,
-        _id : buyer._id,
-        
+        _id: buyer._id,
+
       });
     } catch (error) {
       return res.status(404).json({
@@ -23,10 +34,10 @@ const BuyersController = {
     }
   },
   buyerShow: async (req, res = response) => {
-    try{
+    try {
       const id = req.params.ocid;
       const cp = await buyers
-        .findOne({ ocid: id });
+        .findOne({ ente_id: id });
       if (!cp) {
         return res.status(200).json({
           ok: false,
@@ -79,7 +90,7 @@ const BuyersController = {
   buyerUpdate: async (req, res = response) => {
     try {
       const uid = req.params.id;
-      const buy = await buyers.findOne({_id: uid});
+      const buy = await buyers.findOne({ _id: uid });
       if (!buy) {
         return res.status(404).json({
           ok: false,
@@ -106,7 +117,7 @@ const BuyersController = {
     }
   },
   buyerShowByUser: async (req, res = response) => {
-    try{
+    try {
       const id = req.uid;
       const cp = await buyers
         .find({ user_id: id });

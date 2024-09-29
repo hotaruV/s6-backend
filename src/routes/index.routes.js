@@ -365,10 +365,8 @@ route.get("/getcucop", (req, res) => {
 
   try {
     const datos = JSON.parse(ArrayCucop);
-    console.log("entre a buscar  search" + search.toUpperCase());
-    //console.log(datos);
     let data = datos.filter(({ CLAVECUCoP }) => CLAVECUCoP.includes(search))
-    // console.log("daa filter"+data);
+
     return res.status(200).json({
       data,
     });
@@ -395,6 +393,33 @@ route.get("/esquemaAll", (req, res) => {
   } catch (err) {
     console.error(err);
     console.log("error esquemas" + err);
+  }
+});
+route.get("/esquemaSearch", (req, res) => {
+  const search = req.query.search || ''; // Default to empty string if search is not provided
+
+  // Define the path to the JSON file
+  const ruta = resolve(__dirname, "../documents/esquemas.json");
+
+  try {
+    // Read the file contents
+    const fileContents = readFileSync(ruta, "utf8");
+    // Parse the JSON file contents
+    const datos = JSON.parse(fileContents);
+
+    // Filter the data based on the search term
+    const data = datos.filter(({ esquema }) => esquema.toUpperCase().includes(search.toUpperCase()));
+
+    // Respond with the filtered data
+    return res.status(200).json({
+      data,
+    });
+  } catch (err) {
+    // Log and handle the error
+    console.error("Error reading or parsing JSON file:", err);
+    return res.status(500).json({
+      message: "Error reading or parsing JSON file",
+    });
   }
 });
 export default route;
