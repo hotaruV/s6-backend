@@ -104,26 +104,26 @@ const ContractsController = {
     }
   },
   value: async (req, res = response) => {
-    try {
-      //console.log(req.body);
-      const val = new value(req.body);
-      await val.save();
+    //try {
 
-      return res.status(200).json({
-        ok: true,
-        _id: val._id,
-      });
-    } catch (error) {
-      return res.status(404).json({
-        ok: false,
-        msg: "Error en servidor por favor comunicarse con administración",
-      });
-    }
+    const val = new valueS(req.body);
+    await val.save();
+
+    return res.status(200).json({
+      ok: true,
+      _id: val._id,
+    });
+    // } catch (error) {
+    //   return res.status(404).json({
+    //     ok: false,
+    //     msg: "Error en servidor por favor comunicarse con administración",
+    //   });
+    // }
   },
   ValuesShow: async (req, res = response) => {
     try {
       const id = req.params.id;
-      const cp = await value.findById({ _id: id });
+      const cp = await valueS.findById({ _id: id });
       if (!cp) {
         return res.status(404).json({
           ok: false,
@@ -143,7 +143,7 @@ const ContractsController = {
   valueUpdate: async (req, res = response) => {
     try {
       const uid = req.params.id;
-      const id = await value.findById(uid);
+      const id = await valueS.findById(uid);
       if (!id) {
         return res.status(404).json({
           ok: false,
@@ -151,7 +151,7 @@ const ContractsController = {
         });
       }
       const { ...campos } = req.body;
-      const planUpdated = await value.findByIdAndUpdate(uid, campos, {
+      const planUpdated = await valueS.findByIdAndUpdate(uid, campos, {
         new: true,
       });
 
@@ -167,371 +167,371 @@ const ContractsController = {
     }
   },
   contractCreate: async (req, res = response) => {
-    console.log("Entre a contractCreate de contractCOntroller" );
+    console.log("Entre a contractCreate de contractCOntroller");
     let count = await getID(contratos);
     //construir todos los guardados
     const id = req.body.id;
     const title = req.body.contractstitle.toUpperCase();
     const description = req.body.contractsdescription.toUpperCase();
     const status = req.body.contractsstatus.toUpperCase();
-    
-    const periodo=new ContractPeriod();
-    periodo.id= count;//req.body.suppliers.id;
-    periodo.startDate=req.body.contractPeriod.startDate;
-    periodo.endDate=req.body.contractPeriod.endDate;
-    periodo.maxExtentDate=req.body.contractPeriod.maxExtentDate;
-    periodo.durationInDays=req.body.contractPeriod.durationInDays;
-    periodo.ocid= req.body.id;
+
+    const periodo = new ContractPeriod();
+    periodo.id = count;//req.body.suppliers.id;
+    periodo.startDate = req.body.contractPeriod.startDate;
+    periodo.endDate = req.body.contractPeriod.endDate;
+    periodo.maxExtentDate = req.body.contractPeriod.maxExtentDate;
+    periodo.durationInDays = req.body.contractPeriod.durationInDays;
+    periodo.ocid = req.body.id;
     periodo.save();
-   
-    
+
+
     const _value = req.body.value;
-    const value_= new valueS();
-   
-    value_.id=`000${count}-contracts`;//req.body.id;
-    value_.amount=_value.amount;
-    value_.currency=_value.currency;
-    value_.ocid=req.body.id;
+    const value_ = new valueS();
+
+    value_.id = `000${count}-contracts`;//req.body.id;
+    value_.amount = _value.amount;
+    value_.currency = _value.currency;
+    value_.ocid = req.body.id;
     value_.save();
 
-     //items
-     const array_item = [];
-     const items = req.body.items;
-     console.log("items" +items);
-   //  items.forEach(element => {
+    //items
+    const array_item = [];
+    const items = req.body.items;
+    console.log("items" + items);
+    //  items.forEach(element => {
 
-     const item= new Items();
-    
-     item.id='item-'+items.id;
-     item.typeItem='contract-contratados';
-     item.title=items.title;
-     item.description=items.description;
- 
-     const _classification = items.classification;
-     const classification= new Classifications();
-     classification.id=_classification.id;
-     classification.scheme=_classification.scheme;
-     classification.description=_classification.description;
-     classification.uri=_classification.uri;
-     classification.ocid=req.body.id;
-     classification.save();
-     
-     item.classification=classification._id;
- 
-     const _value1 = items.unit.value;
-     const value= new ItemValue();
-     value.id=classification.id;
-     value.amount=_value1.amount;
-     value.currency=_value1.currency;
-     value.ocid=req.body.id;
-     value.save();
+    const item = new Items();
 
-     const _unit = items.unit;
+    item.id = 'item-' + items.id;
+    item.typeItem = 'contract-contratados';
+    item.title = items.title;
+    item.description = items.description;
 
-     const unit= new Unit();
-     unit.id=classification.id;
-     unit.numreq=_unit.numreq;
-     unit.scheme=_unit.scheme;
-     unit.name=_unit.name;
-     unit.valor=_unit.valor;
-     unit.values=value;
-     unit.uri=_unit.uri;
-     unit.ocid=req.body.id;
-     unit.save();
+    const _classification = items.classification;
+    const classification = new Classifications();
+    classification.id = _classification.id;
+    classification.scheme = _classification.scheme;
+    classification.description = _classification.description;
+    classification.uri = _classification.uri;
+    classification.ocid = req.body.id;
+    classification.save();
 
-     item.unit=unit;
-     item.quantity=items.quantity;
- 
-     item.save();
-    
-     array_item.push(item._id);
+    item.classification = classification._id;
 
- //  });
+    const _value1 = items.unit.value;
+    const value = new ItemValue();
+    value.id = classification.id;
+    value.amount = _value1.amount;
+    value.currency = _value1.currency;
+    value.ocid = req.body.id;
+    value.save();
+
+    const _unit = items.unit;
+
+    const unit = new Unit();
+    unit.id = classification.id;
+    unit.numreq = _unit.numreq;
+    unit.scheme = _unit.scheme;
+    unit.name = _unit.name;
+    unit.valor = _unit.valor;
+    unit.values = value;
+    unit.uri = _unit.uri;
+    unit.ocid = req.body.id;
+    unit.save();
+
+    item.unit = unit;
+    item.quantity = items.quantity;
+
+    item.save();
+
+    array_item.push(item._id);
+
+    //  });
     //end items
 
-     const _deliveryLocation = req.body.items.deliveryLocation;
-     const deliveryLocation_= new deliveryLocation();
-    
-     deliveryLocation_.id=`000${count}-contracts`;//req.body.id;
-     deliveryLocation_.ocid=req.body.id;
-     deliveryLocation_.type=_deliveryLocation.geometrytype;
-     deliveryLocation_.coordinates=_deliveryLocation.geometrycoordinates;
-     deliveryLocation_.scheme=_deliveryLocation.gazetteerscheme;
-     deliveryLocation_.identifiers=_deliveryLocation.gazetteeridentifiers;
-     deliveryLocation_.description=_deliveryLocation.gazetteerdescription;
-     deliveryLocation_.uri=_deliveryLocation.gazetteeruri;
+    const _deliveryLocation = req.body.items.deliveryLocation;
+    const deliveryLocation_ = new deliveryLocation();
 
-     deliveryLocation_.save();
-    
-     const _deliveryAddress = req.body.items.deliveryAddress;
-     const deliveryAddress_= new deliveryAddress();
-    
-     deliveryAddress_.id=`000${count}-contracts`;//req.body.id;
-     deliveryAddress_.ocid=req.body.id;
-     deliveryAddress_.lugar=_deliveryAddress.lugar;
-     deliveryAddress_.street=_deliveryAddress.street;
-     deliveryAddress_.numero=_deliveryAddress.numero;
-     deliveryAddress_.streetAddress=_deliveryAddress.streetAddress;
-     deliveryAddress_.locality=_deliveryAddress.locality;
-     deliveryAddress_.region=_deliveryAddress.region;
-     deliveryAddress_.postalCode=_deliveryAddress.postalCode;
-     deliveryAddress_.countryName=_deliveryAddress.countryName;
+    deliveryLocation_.id = `000${count}-contracts`;//req.body.id;
+    deliveryLocation_.ocid = req.body.id;
+    deliveryLocation_.type = _deliveryLocation.geometrytype;
+    deliveryLocation_.coordinates = _deliveryLocation.geometrycoordinates;
+    deliveryLocation_.scheme = _deliveryLocation.gazetteerscheme;
+    deliveryLocation_.identifiers = _deliveryLocation.gazetteeridentifiers;
+    deliveryLocation_.description = _deliveryLocation.gazetteerdescription;
+    deliveryLocation_.uri = _deliveryLocation.gazetteeruri;
 
-     deliveryAddress_.save();
+    deliveryLocation_.save();
 
-    
-     const itemCont_= new itemcontratados();
-    
-     itemCont_.id=`000${count}-contracts`;//req.body.id;
-     itemCont_.ocid=req.body.id;
-     itemCont_.items=array_item;
-     itemCont_.deliveryLocation=deliveryLocation_._id;
-     itemCont_.deliveryAddress=deliveryAddress_._id;
+    const _deliveryAddress = req.body.items.deliveryAddress;
+    const deliveryAddress_ = new deliveryAddress();
 
-     itemCont_.save();
+    deliveryAddress_.id = `000${count}-contracts`;//req.body.id;
+    deliveryAddress_.ocid = req.body.id;
+    deliveryAddress_.lugar = _deliveryAddress.lugar;
+    deliveryAddress_.street = _deliveryAddress.street;
+    deliveryAddress_.numero = _deliveryAddress.numero;
+    deliveryAddress_.streetAddress = _deliveryAddress.streetAddress;
+    deliveryAddress_.locality = _deliveryAddress.locality;
+    deliveryAddress_.region = _deliveryAddress.region;
+    deliveryAddress_.postalCode = _deliveryAddress.postalCode;
+    deliveryAddress_.countryName = _deliveryAddress.countryName;
+
+    deliveryAddress_.save();
+
+
+    const itemCont_ = new itemcontratados();
+
+    itemCont_.id = `000${count}-contracts`;//req.body.id;
+    itemCont_.ocid = req.body.id;
+    itemCont_.items = array_item;
+    itemCont_.deliveryLocation = deliveryLocation_._id;
+    itemCont_.deliveryAddress = deliveryAddress_._id;
+
+    itemCont_.save();
 
     const dateSigned = req.body.dateSigned;
-    
+
     const surveillanceMechanisms = req.body.surveillanceMechanisms.toUpperCase();
-   
+
     const _value2 = req.body.guarantees.value;
-    const valueGua_= new valueContract();
-    valueGua_.id=classification.id;
-    valueGua_.amount=_value2.amount;
-    valueGua_.currency=_value2.currency;
-    valueGua_.ocid=req.body.id;
+    const valueGua_ = new valueContract();
+    valueGua_.id = classification.id;
+    valueGua_.amount = _value2.amount;
+    valueGua_.currency = _value2.currency;
+    valueGua_.ocid = req.body.id;
     valueGua_.save();
 
     const _valueg = req.body.guarantees.guarantor;
-    const guarantor_=new guarantor ();
+    const guarantor_ = new guarantor();
 
-    guarantor_.id=_valueg.id;
-    guarantor_.name= _valueg.name;
-    guarantor_.ocid= req.body.id;
+    guarantor_.id = _valueg.id;
+    guarantor_.name = _valueg.name;
+    guarantor_.ocid = req.body.id;
     guarantor_.save();
-    
-    const periodoGua=new periodGuaranteesSchema();
-    periodoGua.id= count;//req.body.suppliers.id;
-    periodoGua.startDate=req.body.guarantees.period.startDate;
-    periodoGua.endDate=req.body.guarantees.period.endDate;
-    periodoGua.maxExtentDate=req.body.guarantees.period.maxExtentDate;
-    periodoGua.durationInDays=req.body.guarantees.period.durationInDays;
-    periodoGua.ocid= req.body.id;
+
+    const periodoGua = new periodGuaranteesSchema();
+    periodoGua.id = count;//req.body.suppliers.id;
+    periodoGua.startDate = req.body.guarantees.period.startDate;
+    periodoGua.endDate = req.body.guarantees.period.endDate;
+    periodoGua.maxExtentDate = req.body.guarantees.period.maxExtentDate;
+    periodoGua.durationInDays = req.body.guarantees.period.durationInDays;
+    periodoGua.ocid = req.body.id;
     periodoGua.save();
 
     const _guarantees = req.body.guarantees;
-    const guarantees_= new guarantees();
-   
-    guarantees_.id=`000${count}-contracts`;//req.body.id;
-    guarantees_.ocid=req.body.id;
-    guarantees_.type=_guarantees.guaranteestype;
-    guarantees_.Date=_guarantees.guaranteesDate;
-    guarantees_.obligations=_guarantees.guaranteesobligations;
+    const guarantees_ = new guarantees();
 
-    guarantees_.value=valueGua_._id;
-    guarantees_.guarantor=guarantor_._id;
-    guarantees_.period=periodoGua._id;
+    guarantees_.id = `000${count}-contracts`;//req.body.id;
+    guarantees_.ocid = req.body.id;
+    guarantees_.type = _guarantees.guaranteestype;
+    guarantees_.Date = _guarantees.guaranteesDate;
+    guarantees_.obligations = _guarantees.guaranteesobligations;
+
+    guarantees_.value = valueGua_._id;
+    guarantees_.guarantor = guarantor_._id;
+    guarantees_.period = periodoGua._id;
 
     guarantees_.save();
-    
-       //documents
-   const docsC = req.body.documents;
-   console.log("docs" +docsC);
-   const arraydocs = [];
 
-   docsC.forEach(element => {
-    const documents_ = new Documents();
-    
-    documents_.id=element.id;
-    documents_.title=element.title;
-    documents_.Type=element.Type;
-    documents_.description=element.description;
-    documents_.url=element.url;
-    documents_.format=element.format;
-    documents_.language=element.language;
-    documents_.datePublished=element.datePublished;
-    documents_.dateModified=element.dateModified;
+    //documents
+    const docsC = req.body.documents;
+    console.log("docs" + docsC);
+    const arraydocs = [];
 
-    documents_.save();
-    arraydocs.push(documents_._id);
-    
-  });
-   //enddocuments
+    docsC.forEach(element => {
+      const documents_ = new Documents();
 
-   const _valuimp = req.body.implementation.transactions.value;
-   const impvalue_=new guarantor ();
+      documents_.id = element.id;
+      documents_.title = element.title;
+      documents_.Type = element.Type;
+      documents_.description = element.description;
+      documents_.url = element.url;
+      documents_.format = element.format;
+      documents_.language = element.language;
+      documents_.datePublished = element.datePublished;
+      documents_.dateModified = element.dateModified;
 
-   impvalue_.id=_valuimp.id;
-   impvalue_.name= _valuimp.name;
-   impvalue_.ocid= req.body.id;
-   impvalue_.save();
+      documents_.save();
+      arraydocs.push(documents_._id);
 
-   const _payeer = req.body.implementation.transactions.payee;
-   const payeer_=new payeer ();
+    });
+    //enddocuments
 
-   payeer_.id=_payeer.id;
-   payeer_.name= _payeer.name;
-   payeer_.ocid= req.body.id;
-   payeer_.save();
+    const _valuimp = req.body.implementation.transactions.value;
+    const impvalue_ = new guarantor();
 
-   const _payer = req.body.implementation.transactions.payer;
-   const payer_=new payer ();
+    impvalue_.id = _valuimp.id;
+    impvalue_.name = _valuimp.name;
+    impvalue_.ocid = req.body.id;
+    impvalue_.save();
 
-   payer_.id=_payer.id;
-   payer_.name= _payer.name;
-   payer_.ocid= req.body.id;
-   payer_.save();
+    const _payeer = req.body.implementation.transactions.payee;
+    const payeer_ = new payeer();
 
-   const _valutransa = req.body.implementation.transactions;
-   const transactions_=new transactions ();
-   transactions_.id=_valutransa.id;
-   transactions_.ocid= req.body.id;
-   transactions_.source=_valutransa.source;
-   transactions_.paymentMethod=_valutransa.paymentMethod;
-   transactions_.date=_valutransa.date;
-   transactions_.value=impvalue_._id;
-   transactions_.payer=payer_._id;
-   transactions_.payeer=payeer_._id;
-   transactions_.uri=_valutransa.uri;
-   transactions_.save();
+    payeer_.id = _payeer.id;
+    payeer_.name = _payeer.name;
+    payeer_.ocid = req.body.id;
+    payeer_.save();
 
-     //documents
-     const docsImp = req.body.implementation.documents;
-     console.log("docs" +docsImp);
-     const arraydocs2 = [];
-  
-     docsImp.forEach(element => {
+    const _payer = req.body.implementation.transactions.payer;
+    const payer_ = new payer();
+
+    payer_.id = _payer.id;
+    payer_.name = _payer.name;
+    payer_.ocid = req.body.id;
+    payer_.save();
+
+    const _valutransa = req.body.implementation.transactions;
+    const transactions_ = new transactions();
+    transactions_.id = _valutransa.id;
+    transactions_.ocid = req.body.id;
+    transactions_.source = _valutransa.source;
+    transactions_.paymentMethod = _valutransa.paymentMethod;
+    transactions_.date = _valutransa.date;
+    transactions_.value = impvalue_._id;
+    transactions_.payer = payer_._id;
+    transactions_.payeer = payeer_._id;
+    transactions_.uri = _valutransa.uri;
+    transactions_.save();
+
+    //documents
+    const docsImp = req.body.implementation.documents;
+    console.log("docs" + docsImp);
+    const arraydocs2 = [];
+
+    docsImp.forEach(element => {
       const documents2_ = new Documents();
-      
-      documents2_.id=element.id;
-      documents2_.title=element.title;
-      documents2_.Type=element.Type;
-      documents2_.description=element.description;
-      documents2_.url=element.url;
-      documents2_.format=element.format;
-      documents2_.language=element.language;
-      documents2_.datePublished=element.datePublished;
-      documents2_.dateModified=element.dateModified;
-  
+
+      documents2_.id = element.id;
+      documents2_.title = element.title;
+      documents2_.Type = element.Type;
+      documents2_.description = element.description;
+      documents2_.url = element.url;
+      documents2_.format = element.format;
+      documents2_.language = element.language;
+      documents2_.datePublished = element.datePublished;
+      documents2_.dateModified = element.dateModified;
+
       documents2_.save();
       arraydocs2.push(documents2_._id);
-      
+
     });
-     //enddocuments
+    //enddocuments
 
-     //hitos
-   const hits = req.body.implementation.milestones;
-   console.log("hits" +hits);
-   const arrayhits = [];
+    //hitos
+    const hits = req.body.implementation.milestones;
+    console.log("hits" + hits);
+    const arrayhits = [];
 
-   hits.forEach(element => {
-    const hito_ = new milestones();
+    hits.forEach(element => {
+      const hito_ = new milestones();
 
-    hito_.id=req.body.id;
-    hito_.title=element.milestonestitle;
-    hito_.type=element.milestonesType;
-    hito_.description=element.milestonesdescription;
-    hito_.code=element.milestonescode;
-    hito_.dueDate=element.milestonesdueDate;
-    hito_.dateMet=element.milestonesdateMet;
-    hito_.dateModified=element.milestonesdateModified;
-    hito_.status=element.milestonesstatus;
+      hito_.id = req.body.id;
+      hito_.title = element.milestonestitle;
+      hito_.type = element.milestonesType;
+      hito_.description = element.milestonesdescription;
+      hito_.code = element.milestonescode;
+      hito_.dueDate = element.milestonesdueDate;
+      hito_.dateMet = element.milestonesdateMet;
+      hito_.dateModified = element.milestonesdateModified;
+      hito_.status = element.milestonesstatus;
 
-    hito_.save();
-    arrayhits.push(hito_._id);
-    
-  });
-   //end hitos
-   const _valuimplementation = req.body.implementation;
-   const implementation_=new implementationCont ();
-   implementation_.id=_valutransa.id;
-   implementation_.ocid= req.body.id;
-   implementation_.status=_valuimplementation.status;
-   implementation_.transactions=transactions_._id;
-   implementation_.milestones=arrayhits;
-   implementation_.documents=arraydocs2;
-  
-   implementation_.save();
+      hito_.save();
+      arrayhits.push(hito_._id);
 
-   const _valurelatedProcesses = req.body.relatedProcesses;
-   const relatedProcesses_=new implementationCont ();
-   relatedProcesses_.id=req.body.id;
-   relatedProcesses_.ocid= req.body.id;
-   relatedProcesses_.relationship=_valurelatedProcesses.relatedProcessesrelationship;
-   relatedProcesses_.title=_valurelatedProcesses.relatedProcessestitle;
-   relatedProcesses_.uri=_valurelatedProcesses.relatedProcessesuri; 
-   relatedProcesses_.save();
+    });
+    //end hitos
+    const _valuimplementation = req.body.implementation;
+    const implementation_ = new implementationCont();
+    implementation_.id = _valutransa.id;
+    implementation_.ocid = req.body.id;
+    implementation_.status = _valuimplementation.status;
+    implementation_.transactions = transactions_._id;
+    implementation_.milestones = arrayhits;
+    implementation_.documents = arraydocs2;
 
-      //hitos
-   const hits2 = req.body.milestones;
-   console.log("hits" +hits);
-   const arrayhits2 = [];
+    implementation_.save();
 
-   hits2.forEach(element => {
-    const hito2_ = new milestones();
+    const _valurelatedProcesses = req.body.relatedProcesses;
+    const relatedProcesses_ = new implementationCont();
+    relatedProcesses_.id = req.body.id;
+    relatedProcesses_.ocid = req.body.id;
+    relatedProcesses_.relationship = _valurelatedProcesses.relatedProcessesrelationship;
+    relatedProcesses_.title = _valurelatedProcesses.relatedProcessestitle;
+    relatedProcesses_.uri = _valurelatedProcesses.relatedProcessesuri;
+    relatedProcesses_.save();
 
-    hito2_.id=req.body.id;
-    hito2_.title=element.milestonestitle;
-    hito2_.type=element.milestonesType;
-    hito2_.description=element.milestonesdescription;
-    hito2_.code=element.milestonescode;
-    hito2_.dueDate=element.milestonesdueDate;
-    hito2_.dateMet=element.milestonesdateMet;
-    hito2_.dateModified=element.milestonesdateModified;
-    hito2_.status=element.milestonesstatus;
+    //hitos
+    const hits2 = req.body.milestones;
+    console.log("hits" + hits);
+    const arrayhits2 = [];
 
-    hito2_.save();
-    arrayhits2.push(hito2_._id);
-    
-  });
-   //end hitos
-   const _amendmentsCont = req.body.relatedProcesses;
-   const amendmentsCont_=new amendmentsCont ();
-   amendmentsCont_.id=req.body.id;
-   amendmentsCont_.ocid= req.body.id;
-   amendmentsCont_.rationale=_amendmentsCont.rationale;
-   amendmentsCont_.date=_amendmentsCont.date;
-   amendmentsCont_.description=_amendmentsCont.description; 
-   amendmentsCont_.amendsReleaseID=_amendmentsCont.amendsReleaseID; 
-   amendmentsCont_.releaseID=_amendmentsCont.releaseID; 
-   amendmentsCont_.save();
-   
+    hits2.forEach(element => {
+      const hito2_ = new milestones();
+
+      hito2_.id = req.body.id;
+      hito2_.title = element.milestonestitle;
+      hito2_.type = element.milestonesType;
+      hito2_.description = element.milestonesdescription;
+      hito2_.code = element.milestonescode;
+      hito2_.dueDate = element.milestonesdueDate;
+      hito2_.dateMet = element.milestonesdateMet;
+      hito2_.dateModified = element.milestonesdateModified;
+      hito2_.status = element.milestonesstatus;
+
+      hito2_.save();
+      arrayhits2.push(hito2_._id);
+
+    });
+    //end hitos
+    const _amendmentsCont = req.body.relatedProcesses;
+    const amendmentsCont_ = new amendmentsCont();
+    amendmentsCont_.id = req.body.id;
+    amendmentsCont_.ocid = req.body.id;
+    amendmentsCont_.rationale = _amendmentsCont.rationale;
+    amendmentsCont_.date = _amendmentsCont.date;
+    amendmentsCont_.description = _amendmentsCont.description;
+    amendmentsCont_.amendsReleaseID = _amendmentsCont.amendsReleaseID;
+    amendmentsCont_.releaseID = _amendmentsCont.releaseID;
+    amendmentsCont_.save();
+
 
     try {
       const contratosCount = await contratos.find({ id }).count();
-      console.log("Entre a contratosCount " +contratosCount);
+      console.log("Entre a contratosCount " + contratosCount);
       if (contratosCount != 1) {
 
-      const contract = new contratos(req.body);
-      let count = await getID(contratos, false);
+        const contract = new contratos(req.body);
+        let count = await getID(contratos, false);
 
-      contract.id = `${count}-contract`;
-      contract.title=title;
-      contract.ocid=req.body.id;
-      contract.description=description;
-      contract.status=status;
-      contract.period=periodo._id;
-      contract.value=value_._id;
-      contract.items=array_item;
-      contract.dateSigned=dateSigned;
-      contract.surveillanceMechanisms=surveillanceMechanisms;
-      contract.guarantees=guarantees_._id;
-      contract.documents=arraydocs;
-      contract.implementation=implementation_._id;
-      contract.relatedProcesses=relatedProcesses_._id;
-      contract.milestones =arrayhits2;
-      contract.amendments =amendmentsCont_._id;
-      await contract.save();
-      return res.status(200).json({
-        ok: true,
-        _id: contract._id,
-      });
-    } else {// es para editar
-      return res.status(200).json({
-        ok: false,
-        msg: "No se puede insertar más de un contrato",
-      });
-    }
+        contract.id = `${count}-contract`;
+        contract.title = title;
+        contract.ocid = req.body.id;
+        contract.description = description;
+        contract.status = status;
+        contract.period = periodo._id;
+        contract.value = value_._id;
+        contract.items = array_item;
+        contract.dateSigned = dateSigned;
+        contract.surveillanceMechanisms = surveillanceMechanisms;
+        contract.guarantees = guarantees_._id;
+        contract.documents = arraydocs;
+        contract.implementation = implementation_._id;
+        contract.relatedProcesses = relatedProcesses_._id;
+        contract.milestones = arrayhits2;
+        contract.amendments = amendmentsCont_._id;
+        await contract.save();
+        return res.status(200).json({
+          ok: true,
+          _id: contract._id,
+        });
+      } else {// es para editar
+        return res.status(200).json({
+          ok: false,
+          msg: "No se puede insertar más de un contrato",
+        });
+      }
     } catch (error) {
       return res.status(404).json({
         ok: false,
