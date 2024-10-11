@@ -365,7 +365,7 @@ route.get("/getcucop", (req, res) => {
 
   try {
     const datos = JSON.parse(ArrayCucop);
-    let data = datos.filter(({ CLAVECUCoP }) => CLAVECUCoP.includes(search))
+    let data = datos.filter(({ DESCRIPCION }) => DESCRIPCION.includes(search))
 
     return res.status(200).json({
       data,
