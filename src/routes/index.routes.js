@@ -366,13 +366,13 @@ route.get("/getcucop", (req, res) => {
   const ruta = resolve(__dirname, "../documents/cucop.json");
 
   try {
-    // Leemos el archivo JSON correctamente
+
     const fileContents = readFileSync(ruta, "utf8");
 
-    // Parseamos el contenido JSON directamente a ArrayCucop
+
     const ArrayCucop = JSON.parse(fileContents);
 
-    // Función para normalizar texto y hacer la búsqueda insensible a tildes y mayúsculas
+
     const normalizeText = (text) => {
       return text
         .normalize("NFD") // Descompone caracteres con tildes
