@@ -356,24 +356,44 @@ route.get("/cucop", (req, res) => {
   }
 });
 route.get("/getcucop", (req, res) => {
-  //console.log("entre: getcucop 2fa funcion_");
   const search = req.query.search;
-  let ArrayCucop = [];
+
+  // Validamos que se haya proporcionado el término de búsqueda
+  if (!search) {
+    return res.status(200).json({ data: [] });
+  }
+
   const ruta = resolve(__dirname, "../documents/cucop.json");
-  const fileContents = readFileSync(ruta, "utf8");
-  ArrayCucop.push(fileContents);
 
   try {
-    const datos = JSON.parse(ArrayCucop);
-    let data = datos.filter(({ DESCRIPCION }) => DESCRIPCION.includes(search))
+    // Leemos el archivo JSON correctamente
+    const fileContents = readFileSync(ruta, "utf8");
 
-    return res.status(200).json({
-      data,
-    });
+    // Parseamos el contenido JSON directamente a ArrayCucop
+    const ArrayCucop = JSON.parse(fileContents);
+
+    // Función para normalizar texto y hacer la búsqueda insensible a tildes y mayúsculas
+    const normalizeText = (text) => {
+      return text
+        .normalize("NFD") // Descompone caracteres con tildes
+        .replace(/[\u0300-\u036f]/g, "") // Elimina las marcas diacríticas (tildes)
+        .toUpperCase(); // Convierte todo a mayúsculas para comparación insensible a caso
+    };
+
+    // Filtramos los datos normalizando tanto la descripción como el término de búsqueda
+    const data = ArrayCucop.filter(({ DESCRIPCION }) =>
+      normalizeText(DESCRIPCION).includes(normalizeText(search))
+    );
+
+    // Devolvemos el array con los resultados, incluso si está vacío
+    return res.status(200).json({ data });
+
   } catch (err) {
-    console.error("eee" + err);
+    console.error("Error procesando los datos:", err);
+    return res.status(200).json({ data: [] });
   }
 });
+
 route.get("/esquemaAll", (req, res) => {
   //console.log("entre cucop si 1:"+req.query.search);
 
