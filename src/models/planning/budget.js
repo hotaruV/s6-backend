@@ -5,22 +5,22 @@ let fecha = moment().format("YYYY-MM-DD HH:mm:ss");
 const BudgetSchema = Schema(
   {
     id: { type: String, require },
-   // description: { type: String, require },
-   // uri: { type: String, require },
-    //ocid: { type: String, require },
-    // value: {
-    //   type: Schema.Types.ObjectId,
-    //   require,
-    //   ref: "planning.budget.value",
-    //   autopopulate: true,
-    // },
+   description: { type: String, require },
+   uri: { type: String, require },
+    ocid: { type: String, require },
+    value: {
+      type: Schema.Types.ObjectId,
+      require,
+      ref: "planning.budget.value",
+      autopopulate: true,
+    },
 
    
-    //budgetBreakdown: [{ type: Schema.Types.ObjectId, require, ref: "planning.budgetBreakdown", autopopulate: true }],
+    budgetBreakdown: [{ type: Schema.Types.ObjectId, require, ref: "planning.budgetBreakdown", autopopulate: true }],
 
-   // project: { type: String, require },
-    //projectID: { type: String, require },
-    //projecturi: { type: String, require },
+   project: { type: String, require },
+    projectID: { type: String, require },
+    projecturi: { type: String, require },
     
    
   

@@ -4,6 +4,7 @@ import contrato from "../models/contrato";
 import contratoUser from "../models/contratoUsuario";
 import co from "../models/count";
 import planning from "../models/planning/planning";
+import bugget from "../models/planning/values";
 import tender from "../models/tenders/tenders";
 
 const ReleaseController = {
@@ -67,7 +68,7 @@ const ReleaseController = {
     }
   },
   contratoShow: async (req, res = response) => {
-    //try {
+    try {
       const uid = req.uid;
       const [contratos, total] = await Promise.all([
         contrato.find(
@@ -81,12 +82,12 @@ const ReleaseController = {
         contratos,
         total,
       });
-    // } catch (error) {
-    //   return res.status(404).json({
-    //     ok: false,
-    //     msg: "No existe el contrato o no pertenece a este usuario",
-    //   });
-    // }
+    } catch (error) {
+      return res.status(404).json({
+        ok: false,
+        msg: "No existe el contrato o no pertenece a este usuario",
+      });
+    }
   },
   contratoShowFinal: async (req, res = response) => {
     try {
@@ -327,12 +328,13 @@ const ReleaseController = {
         });
       }
 
-      const oPlanning = await planning.find({ ocid: ocid });
-      const oPlanningBudget = await planning.budget.find({ id: ocid });
-      const oTender = await tender.find({ id: ocid });
-      const oItemUnits = await item.unit.values.find({ id: ocid });
-      const oMinValues = await tender.oMinValues.find({ id: ocid });
-      const oProcuringEntities = await tender.procuringentities.find({ id: ocid });
+      const contr = await contrato.findOne({ ocid });
+      console.log(contr);
+      return
+
+
+
+      
 
       // const oPlanning = {
       //   ocid: "ocds-7e7fnm-000-00002",
