@@ -14,7 +14,7 @@ const valueContractSchema = Schema(
     versionKey: false, //here
   }
 );
-
+valueContractSchema.plugin(require("mongoose-autopopulate"));
 valueContractSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

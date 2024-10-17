@@ -16,7 +16,7 @@ const payerSchema = Schema(
     versionKey: false, //here
   }
 );
-
+payerSchema.plugin(require("mongoose-autopopulate"));
 payerSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

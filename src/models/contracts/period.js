@@ -14,7 +14,7 @@ const periodGuaranteesSchema = Schema({
     collection: "contractGuarantees.period",
     versionKey: false, //here
   });
-  
+  periodGuaranteesSchema.plugin(require("mongoose-autopopulate"));
   periodGuaranteesSchema.method("toJSON", function () {
     const { __v, ...object } = this.toObject();
     return object;

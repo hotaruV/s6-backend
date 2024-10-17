@@ -18,6 +18,7 @@ const amendmentSchema = Schema(
     versionKey: false, //here
   }
 );
+amendmentSchema.plugin(require("mongoose-autopopulate"));
 amendmentSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

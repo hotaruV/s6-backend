@@ -21,6 +21,7 @@ const milestonesSchema = Schema(
     versionKey: false, //here
   }
 );
+milestonesSchema.plugin(require("mongoose-autopopulate"));
 milestonesSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

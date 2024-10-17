@@ -24,7 +24,7 @@ const itemcontratadosSchema = Schema(
     versionKey: false, //here
   }
 );
-
+itemcontratadosSchema.plugin(require("mongoose-autopopulate"));
 itemcontratadosSchema.method("toJSON", function () {
   const { __v, _id, ...object } = this.toObject();
   return object;

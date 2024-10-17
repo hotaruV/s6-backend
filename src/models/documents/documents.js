@@ -26,6 +26,7 @@ const documentSchema = Schema(
     versionKey: false, //here
   }
 );
+documentSchema.plugin(require("mongoose-autopopulate"));
 documentSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

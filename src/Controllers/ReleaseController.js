@@ -329,8 +329,7 @@ const ReleaseController = {
       }
 
       const contr = await contrato.findOne({ ocid });
-      console.log(contr);
-      return
+      
 
 
 
@@ -379,17 +378,16 @@ const ReleaseController = {
 
       // }
 
-      if (!oPlanning) {
-        return res.status(404).json({
-          ok: false,
-          msg: "No existe el contrato",
-        });
-      }
+      // if (!oPlanning) {
+      //   return res.status(404).json({
+      //     ok: false,
+      //     msg: "No existe el contrato",
+      //   });
+      // }
 
       res.status(200).json({
         ok: true,
-        msg: 'Si entró',
-        oPlanning, oPlanningBudget, oTender, oItemUnits, oMinValues, oProcuringEntities
+        contrato: contr
       });
       
     // } catch (error) {

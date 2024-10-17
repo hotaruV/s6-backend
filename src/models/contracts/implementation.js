@@ -26,7 +26,7 @@ const implementationContSchema = Schema(
     versionKey: false, //here
   }
 );
-
+implementationContSchema.plugin(require("mongoose-autopopulate"));
 implementationContSchema.method("toJSON", function () {
   const { __v, _id, ...object } = this.toObject();
   return object;

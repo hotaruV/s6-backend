@@ -18,7 +18,7 @@ const relatedProcessesSchema = Schema(
     versionKey: false, //here
   }
 );
-
+relatedProcessesSchema.plugin(require("mongoose-autopopulate"));
 relatedProcessesSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

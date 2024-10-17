@@ -37,7 +37,7 @@ const transactionsSchema = Schema(
     versionKey: false, //here
   }
 );
-
+transactionsSchema.plugin(require("mongoose-autopopulate"));
 transactionsSchema.method("toJSON", function () {
   const { __v, _id, ...object } = this.toObject();
   return object;
