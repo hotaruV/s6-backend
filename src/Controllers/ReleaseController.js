@@ -67,7 +67,7 @@ const ReleaseController = {
     }
   },
   contratoShow: async (req, res = response) => {
-    try {
+    //try {
       const uid = req.uid;
       const [contratos, total] = await Promise.all([
         contrato.find(
@@ -81,12 +81,12 @@ const ReleaseController = {
         contratos,
         total,
       });
-    } catch (error) {
-      return res.status(404).json({
-        ok: false,
-        msg: "No existe el contrato o no pertenece a este usuario",
-      });
-    }
+    // } catch (error) {
+    //   return res.status(404).json({
+    //     ok: false,
+    //     msg: "No existe el contrato o no pertenece a este usuario",
+    //   });
+    // }
   },
   contratoShowFinal: async (req, res = response) => {
     try {
@@ -316,7 +316,7 @@ const ReleaseController = {
   contratoUpdateDocument: async (req, res = response) => { },
 
   getInfoEjecucion: async (req, res = response) => {
-    try {
+    //try {
       const ocid = req.params.ocid;
 
       // Comprueba si existe.
@@ -327,7 +327,7 @@ const ReleaseController = {
         });
       }
 
-      const oPlanning = await planning.find({ id: ocid });
+      const oPlanning = await planning.find({ ocid: ocid });
       const oPlanningBudget = await planning.budget.find({ id: ocid });
       const oTender = await tender.find({ id: ocid });
       const oItemUnits = await item.unit.values.find({ id: ocid });
@@ -390,12 +390,12 @@ const ReleaseController = {
         oPlanning, oPlanningBudget, oTender, oItemUnits, oMinValues, oProcuringEntities
       });
       
-    } catch (error) {
-      res.status(500).json({
-        ok: false,
-        msg: "Error Inesperado: " + error,
-      });
-    }
+    // } catch (error) {
+    //   res.status(500).json({
+    //     ok: false,
+    //     msg: "Error Inesperado: " + error,
+    //   });
+    // }
   },
 };
 

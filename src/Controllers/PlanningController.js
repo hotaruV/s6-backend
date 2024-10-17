@@ -734,9 +734,9 @@ const items = req.body.requestForQuotes.items;
      
        try {
          const id = req.params.id;
-         console.log("Entre getPlanningDocuments doc id:"+id );
+         //console.log("Entre getPlanningDocuments doc id:"+id );
          const doc= await documents.findOne({_id: id});
-         console.log(" doc:"+ doc);
+         //console.log(" doc:"+ doc);
          res.status(200).json({
            _id: doc._id,
            documento: doc,
@@ -754,9 +754,9 @@ const items = req.body.requestForQuotes.items;
      
        try {
          const id = req.params.id;
-         console.log("Entre getPlanningHitos hito id:"+id );
+         //console.log("Entre getPlanningHitos hito id:"+id );
          const h= await milestones.findOne({_id: id});
-         console.log(" hito:"+ h);
+         //console.log(" hito:"+ h);
          res.status(200).json({
            _id: h._id,
            hito: h,
