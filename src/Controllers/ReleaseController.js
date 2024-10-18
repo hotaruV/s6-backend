@@ -317,7 +317,7 @@ const ReleaseController = {
   contratoUpdateDocument: async (req, res = response) => { },
 
   getInfoEjecucion: async (req, res = response) => {
-    //try {
+    try {
       const ocid = req.params.ocid;
 
       // Comprueba si existe.
@@ -329,73 +329,17 @@ const ReleaseController = {
       }
 
       const contr = await contrato.findOne({ ocid });
-      
-
-
-
-      
-
-      // const oPlanning = {
-      //   ocid: "ocds-7e7fnm-000-00002",
-      //   rationale: "Adquisición de vehículos utilitarios para el uso de la SESEA",
-      // }
-
-      // const oPlanningBudget = {
-      //   ocid: "ocds-7e7fnm-000-00002",
-      //   description: "5411 Vehículos y equipo terrestre",
-      //   uri: "https://www.conac.gob.mx/work/models/CONAC/normatividad/NOR_01_02_006.pdf",
-      //   amount: {
-      //     amount: 712825,
-      //     currency: "MXN",
-      //   }
-      // }
-
-      // const oTender = {
-      //   ocid: "ocds-7e7fnm-000-00002",
-      //   title: "SESEA/DGA/C001 RELATIVA A LA ADQUISICIÓN DE AUTOMOVILES UTILITARIO",
-      //   description: "ADQUISICIÓN DE 4 AUTOMOVILES UTIITARIOS",
-      //   procurementMethod: "selective",
-      //   procurementMethodDetails: "Invitación a cuando menos tres personas",
-      //   procurementMethodRationale: "Articulo 39, segundo párrafo de la Ley de Adquisiciones, Arrendamiento y Servicios del estado de Aguascalientes y sus Municipios.",
-      //   awardCriteria: "costOnly"
-      // }
-
-      // const oItemUnits = {
-      //   ocid: "ocds-7e7fnm-000-00002",
-      //   amount: 510000,
-      //   currency: "MXN",
-      // }
-
-      // const oMinValues = {
-      //   ocid: "ocds-7e7fnm-000-00002",
-      //   amount: 510000,
-      //   currency: "MXN",
-      // }
-
-      // const oProcuringEntities = {
-      //   ocid: "ocds-7e7fnm-000-00002",
-      //   name: "SECRETARIA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCION",
-
-      // }
-
-      // if (!oPlanning) {
-      //   return res.status(404).json({
-      //     ok: false,
-      //     msg: "No existe el contrato",
-      //   });
-      // }
-
       res.status(200).json({
         ok: true,
         contrato: contr
       });
       
-    // } catch (error) {
-    //   res.status(500).json({
-    //     ok: false,
-    //     msg: "Error Inesperado: " + error,
-    //   });
-    // }
+    } catch (error) {
+      res.status(500).json({
+        ok: false,
+        msg: "Error Inesperado: " + error,
+      });
+    }
   },
 };
 

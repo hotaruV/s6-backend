@@ -25,7 +25,7 @@ const budgetBreakdownSchema = Schema(
     versionKey: false, //here
   }
 );
-
+budgetBreakdownSchema.plugin(require('mongoose-autopopulate'));
 budgetBreakdownSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

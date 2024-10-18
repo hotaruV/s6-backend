@@ -15,7 +15,7 @@ const actorSchema = Schema(
     versionKey: false, //here
   }
 );
-
+actorSchema.plugin(require("mongoose-autopopulate"));
 actorSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

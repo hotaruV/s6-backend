@@ -13,7 +13,7 @@ const requestingUnitSchema = Schema(
     versionKey: false, //here
   }
 );
-
+requestingUnitSchema.plugin(require("mongoose-autopopulate"));
 requestingUnitSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;
