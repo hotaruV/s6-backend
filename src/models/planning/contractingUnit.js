@@ -13,7 +13,7 @@ const contractingUnitSchema = Schema(
     versionKey: false, //here
   }
 );
-contractingUnitSchema.plugin(require('mongoose-autopopulate'));
+//contractingUnitSchema.plugin(require('mongoose-autopopulate'));
 contractingUnitSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

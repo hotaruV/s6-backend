@@ -13,7 +13,7 @@ const budgetvalueSchema = Schema(
     versionKey: false, //here
   }
 );
-budgetvalueSchema.plugin(require('mongoose-autopopulate'));
+//budgetvalueSchema.plugin(require('mongoose-autopopulate'));
 budgetvalueSchema.method("toJSON", function () {
   const { __v, ocid, ...object } = this.toObject();
   return object;

@@ -5,8 +5,8 @@ let fecha = moment().format("YYYY-MM-DD HH:mm:ss");
 const BudgetSchema = Schema(
   {
     id: { type: String, require },
-   description: { type: String, require },
-   uri: { type: String, require },
+    description: { type: String, require },
+    uri: { type: String, require },
     ocid: { type: String, require },
     value: {
       type: Schema.Types.ObjectId,
@@ -15,23 +15,23 @@ const BudgetSchema = Schema(
       autopopulate: true,
     },
 
-   
+    
     budgetBreakdown: [{ type: Schema.Types.ObjectId, require, ref: "planning.budgetBreakdown", autopopulate: true }],
 
-   project: { type: String, require },
+    project: { type: String, require },
     projectID: { type: String, require },
     projecturi: { type: String, require },
-    
-   
-  
-    
+
+
+
+
   },
   {
     collection: "plannings.budgets",
     versionKey: false, //here
   }
 );
-BudgetSchema.plugin(require('mongoose-autopopulate'));
+//BudgetSchema.plugin(require('mongoose-autopopulate'));
 BudgetSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

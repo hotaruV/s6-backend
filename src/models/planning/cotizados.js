@@ -17,7 +17,7 @@ const cotizadosSchema = Schema(
   }
 
 );
-cotizadosSchema.plugin(require("mongoose-autopopulate"));
+//cotizadosSchema.plugin(require("mongoose-autopopulate"));
 cotizadosSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

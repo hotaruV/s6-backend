@@ -14,7 +14,7 @@ const QuotesPeriodSchema = Schema({
     collection: "planning.periods",
     versionKey: false, //here
   });
-  QuotesPeriodSchema.plugin(require('mongoose-autopopulate'));
+  //QuotesPeriodSchema.plugin(require('mongoose-autopopulate'));
   QuotesPeriodSchema.method("toJSON", function () {
     const { __v, ...object } = this.toObject();
     return object;

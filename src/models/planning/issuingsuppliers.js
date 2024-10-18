@@ -15,7 +15,7 @@ const SuppliersSchema = Schema(
   }
 
 );
-SuppliersSchema.plugin(require("mongoose-autopopulate"));
+//SuppliersSchema.plugin(require("mongoose-autopopulate"));
 SuppliersSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

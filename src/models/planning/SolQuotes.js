@@ -15,7 +15,7 @@ const SolQuotesSchema = Schema(
   }
 
 );
-SolQuotesSchema.plugin(require("mongoose-autopopulate"));
+//SolQuotesSchema.plugin(require("mongoose-autopopulate"));
 SolQuotesSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

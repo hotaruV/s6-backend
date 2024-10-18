@@ -14,7 +14,7 @@ const budgetBreakdownperiodoSchema = Schema({
     collection: "budgetBreakdown.periods",
     versionKey: false, //here
   });
-  
+  budgetBreakdownperiodoSchema.plugin(require('mongoose-autopopulate'));
   budgetBreakdownperiodoSchema.method("toJSON", function () {
     const { __v, ...object } = this.toObject();
     return object;
