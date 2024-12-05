@@ -5,12 +5,12 @@ let fecha = moment().format("YYYY-MM-DD HH:mm:ss");
 const documentSchema = Schema(
   {
     id: { type: String, require },
-    document_id: { type: String,  },
-    award_id: { type: String,  },
-    contract_id: { type: String,  },
-    planning_id: { type: String,  },
+    document_id: { type: String, },
+    award_id: { type: String, },
+    contract_id: { type: String, },
+    planning_id: { type: String, },
     documentType: { type: String, require },
-    Type: { type: String, require },
+    type: { type: String, require },
     title: { type: String, require },
     description: { type: String, require },
     url: { type: String, require },
@@ -19,7 +19,7 @@ const documentSchema = Schema(
     format: { type: String },
     language: { type: String },
     dateModified: { type: String, require, default: fecha },
-    ocid: { type: Schema.Types.ObjectId, require, ref: "relase.contract" }, 
+    ocid: { type: Schema.Types.ObjectId, require, ref: "relase.contract" },
   },
   {
     collection: "documents",
