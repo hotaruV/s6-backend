@@ -45,7 +45,7 @@ const usrController = {
 
       const contr = await Count.findOne().exec();
 
-      const nombres = "admsesea";
+      const nombres = "ADMSESEA";
       const ExisteSuper = await Usuario.findOne({ nombres });
       if (ExisteSuper) {
         return res.status(400).json({
@@ -57,7 +57,7 @@ const usrController = {
       let password = "pass1234";
       const salt = bcrypt.genSaltSync();
       usuario.nombres = nombres;
-      usuario.userName = "adm.s6@SEA24";
+      usuario.userName = "ADMSESEA.S6@SEA24";
       usuario.email = "admsesea@seaslp.org";
       usuario.ente_publico =
         "SECRETARIA EJECUTIVA DEL SISTEMA ESTATAL ANTICORRUPCION DE SAN LUIS POTOSI";

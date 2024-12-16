@@ -1,27 +1,35 @@
-import { Schema, Model, model } from "mongoose";
+import { Schema, model } from "mongoose";
 import moment from "moment";
 let fecha = moment().format("YYYY-MM-DD HH:mm:ss");
 
-const requestForQuotesSchema = Schema(
+const requestForQuotesSchema = new Schema(
   {
-    id: { type: String, require },
-    quotes_: [{ type: Schema.Types.ObjectId, require, ref: "planing.SolQuotes", autopopulate: true }],
-    period: { type: Schema.Types.ObjectId, require, ref: "planning.periods", autopopulate: true },
-    items: [{ type: Schema.Types.ObjectId, require, ref: "items", autopopulate: true }],
-    invitedSuppliers: [{ type: Schema.Types.ObjectId, require, ref: "planning.supplier"}],
-    quotes: [{ type: Schema.Types.ObjectId, require, ref: "quotes", autopopulate: true }],
-    
+    id: { type: String, required: true },
+    quotes_: [
+      { type: Schema.Types.ObjectId, required: true, ref: "planing.SolQuotes", autopopulate: true }
+    ],
+    period: { type: Schema.Types.ObjectId, required: true, ref: "planning.periods", autopopulate: true },
+    items: [
+      { type: Schema.Types.ObjectId, required: true, ref: "items", autopopulate: true }
+    ],
+    invitedSuppliers: [
+      { type: Schema.Types.ObjectId, required: true, ref: "planning.supplier" }
+    ],
+    quotes: [
+      { type: Schema.Types.ObjectId, required: true, ref: "quotes", autopopulate: true }
+    ],
   },
   {
     collection: "planning.requestForQuotes",
-    versionKey: false, //here
+    versionKey: false,
   }
-
 );
-//requestForQuotesSchema.plugin(require("mongoose-autopopulate"));
+
+// El método toJSON para limpiar los datos al convertir a JSON
 requestForQuotesSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;
 });
 
+// Crear y exportar el modelo
 module.exports = model("planning.requestForQuote", requestForQuotesSchema);

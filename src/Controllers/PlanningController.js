@@ -1,15 +1,15 @@
-import { response } from "express";
+//import { response } from "express";
 import getID from "../helpers/getId";
 import planning from "../models/planning/planning";
 import actor from "../models/planning/actor";
 import requestForQuote from "../models/planning/requestForQuote";
 import Solquotes from "../models/planning/SolQuotes";
 import QuotesPeriod from "../models/planning/period";
-import Items from "../models/items/items";
+
 import Classifications from "../models/items/classification";
 import additionalClassifications from "../models/items/additionalClassifications";
 import ItemValue from "../models/items/unit/values";
-import Unit from "../models/items/unit/unit";
+
 import quotes from "../models/quotes/quotes";
 import Quo from "../models/quotes/_quo";
 import cotizados from "../models/planning/cotizados";
@@ -26,6 +26,20 @@ import sourceParty from "../models/budgetLines/sourceParty";
 import documents from "../models/documents/documents";
 import milestones from "../models/documents/milestones";
 import release from "../models/contrato";
+
+
+// Importar los modelos
+import Items from "../models/items/items";
+import Classification from "../models/items/classification";
+import AdditionalClassification from "../models/items/additionalClassifications.js";
+import Unit from "../models/items/unit/unit";
+import Value from "../models/items/unit/values";
+import Supplier from "../models/planning/suppliers.js";
+import Period from "../models/planning/period.js";
+import Quote from "../models/quotes/quotes";
+import RequestForQuotes from "../models/planning/requestForQuote";
+
+
 
 const PlanningController = {
 
@@ -1200,6 +1214,272 @@ const PlanningController = {
     });
   },
 
-};
+
+
+
+  saveItems: async (req, res = response) => {
+    const { id, title, description, items, period, invitedSuppliers, quotes, typeItem } = req.body;
+
+    if (!items) {
+      return res.status(400).json({
+        message: '"items" es obligatorio en el formulario.',
+      });
+    }
+
+    try {
+      const itemIds = await Promise.all(
+        items.map(async (itemForm) => {
+          // Verificar clasificación
+          if (!itemForm.classification || !itemForm.classification.scheme || !itemForm.classification.id) {
+            return res.status(400).json({
+              message: "La clasificación debe tener un 'scheme' y 'id'.",
+            });
+          }
+
+          // Guardar clasificación
+          const classification = new Classification({
+            scheme: itemForm.classification.scheme,
+            id: itemForm.classification.id,
+            description: itemForm.classification.description,
+            uri: itemForm.classification.uri,
+          });
+
+          const savedClassification = await classification.save();
+          //console.log("Saved Classification: ", savedClassification);
+
+          // Guardar clasificaciones adicionales
+          const additionalClassifications = await Promise.all(
+            (itemForm.additionalClassifications || []).map(async (additionalClassificationForm) => {
+              const additionalClassification = new AdditionalClassification({
+                scheme: additionalClassificationForm.scheme,
+                id: additionalClassificationForm.id,
+                description: additionalClassificationForm.description,
+                uri: additionalClassificationForm.uri,
+              });
+
+              const savedAdditionalClassification = await additionalClassification.save();
+              return savedAdditionalClassification._id;
+            })
+          );
+
+          // Guardar Value (antes de Unit)
+          const value = new Value({
+            amount: itemForm.unit.value?.amount || 0,
+            currency: itemForm.unit.value?.currency || "USD",
+          });
+
+          const savedValue = await value.save();
+
+          // Guardar unidad con el valor (referencia al valor guardado)
+          const unit = new Unit({
+            scheme: itemForm.unit.scheme || "",
+            id: itemForm.unit.id || "",
+            name: itemForm.unit.name || "",
+            values: savedValue._id,  // Asegurarse de que la referencia sea correcta
+            uri: itemForm.unit.uri || "",
+            ocid: itemForm.unit.ocid || "",  // Aquí puede que tengas que agregar un campo 'ocid'
+          });
+
+          const savedUnit = await unit.save();
+
+          // Guardar item
+          const item = new Items({
+            id: itemForm.id,
+            description: itemForm.description.toUpperCase(),
+            typeItem: typeItem,
+            classification: savedClassification._id, // Referencia a la clasificación guardada
+            additionalClassifications: additionalClassifications, // Referencias a las clasificaciones adicionales
+            quantity: itemForm.quantity,
+            unit: savedUnit._id, // Referencia a la unidad guardada
+            ocid: req.params.id, // Asumimos que el ocid se pasa desde los parámetros de la URL
+          });
+
+          const savedItem = await item.save();
+          console.log("Saved Item: ", savedItem);
+          return savedItem._id;  // Devolver el _id del item guardado
+        })
+      );
+
+      // Guardar el periodo
+      const savedPeriod = new Period({
+        startDate: period.startDate,
+        endDate: period.endDate,
+        maxExtentDate: period.maxExtentDate,
+        durationInDays: period.durationInDays,
+      });
+      const savedPeriodDoc = await savedPeriod.save();
+
+      // Guardar los proveedores
+      const supplierIds = await Promise.all(
+        invitedSuppliers.map(async (supplierForm) => {
+          const supplier = new Supplier({
+            name: supplierForm.name,
+            id: supplierForm.id,
+          });
+          const savedSupplier = await supplier.save();
+          return savedSupplier._id;
+        })
+      );
+
+      // Guardar las cotizaciones
+      const quoteIds = await Promise.all(
+        quotes.map(async (quoteForm) => {
+          const quote = new Quote({
+            id: quoteForm.id,
+            description: quoteForm.description.toUpperCase(),
+            date: quoteForm.date,
+            items: await Promise.all(
+              quoteForm.items.map(async (quoteItem) => {
+                const item = await Items.findById(quoteItem.id);
+                return item._id;
+              })
+            ),
+            value: {
+              amount: quoteForm.value.amount,
+              currency: quoteForm.value.currency,
+            },
+            period: savedPeriodDoc._id,
+            issuingSupplier: quoteForm.issuingSupplier,
+          });
+
+          const savedQuote = await quote.save();
+          return savedQuote._id;
+        })
+      );
+
+      // Crear y guardar el documento RequestForQuotes
+      const requestForQuotes = new RequestForQuotes({
+        id,
+        title,
+        description,
+        period: savedPeriodDoc._id,
+        items: itemIds,
+        invitedSuppliers: supplierIds,
+        quotes: quoteIds,
+      });
+
+      // Guardar el documento requestForQuotes
+      const savedRequestForQuotes = await requestForQuotes.save();
+
+      // Respuesta exitosa con el _id de RFQ
+      res.status(201).json({
+        ok: true,
+        requestForQuotesId: savedRequestForQuotes._id, // Regresamos el _id generado por MongoDB
+      });
+    } catch (error) {
+      console.error("Error guardando los datos:", error);
+      res.status(500).json({
+        message: "Error al guardar los datos.",
+        error: error.message,
+      });
+    }
+  },
+
+
+
+  getPlanningItems: async (req, res = response) => {
+    try {
+      // Obtener el `ocid` desde los parámetros de la solicitud
+      const { ocid } = req.params;
+
+      // Obtener los items desde tu base de datos (o desde donde se almacenen)
+      const allItems = await Items.find(); // Cambia `ItemModel` por tu modelo real
+
+      // Filtrar los items que cumplen con la condición
+      const filteredItems = allItems.filter(item =>
+        item.typeItem === "planning-item" || item.ocid === ocid
+      );
+
+      // Retornar los items filtrados en la respuesta
+      return res.status(200).json({
+        ok: true,
+        items: filteredItems
+      });
+    } catch (error) {
+      console.error("Error obteniendo los planning items:", error);
+
+      // Manejo de errores
+      return res.status(500).json({
+        ok: false,
+        message: "Hubo un error al obtener los planning items",
+        error: error.message
+      });
+    }
+  },
+  UpdatePlanningItems: async (req, res = response) => {
+    try {
+      // Obtener el ID del item y el OCID desde los parámetros de la solicitud
+      const { id, ocid } = req.params;
+
+      // Validar que el cuerpo de la solicitud contiene datos para actualizar
+      const updatedData = req.body;
+      if (!updatedData || Object.keys(updatedData).length === 0) {
+        return res.status(400).json({
+          ok: false,
+          message: "No se proporcionaron datos para actualizar"
+        });
+      }
+
+      // Buscar el item por _id, typeItem "planning-item", y ocid
+      const itemToUpdate = await Items.findOne({
+        _id: id,
+        typeItem: "planning-item",
+        ocid: ocid
+      });
+
+      // Verificar si el item fue encontrado
+      if (!itemToUpdate) {
+        return res.status(404).json({
+          ok: false,
+          message: "No se encontró el item con el ID, typeItem y ocid proporcionados"
+        });
+      }
+
+      // Actualizar el item con los nuevos datos
+      Object.assign(itemToUpdate, updatedData);
+
+      // Guardar el item actualizado en la base de datos
+      await itemToUpdate.save();
+
+      // Responder con el item actualizado
+      return res.status(200).json({
+        ok: true,
+        message: "Item actualizado correctamente",
+        item: itemToUpdate
+      });
+    } catch (error) {
+      console.error("Error actualizando el item:", error);
+
+      // Manejo de errores
+      return res.status(500).json({
+        ok: false,
+        message: "Hubo un error al actualizar el item",
+        error: error.message
+      });
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 module.exports = PlanningController;
