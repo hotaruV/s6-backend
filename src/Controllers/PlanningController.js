@@ -5,6 +5,7 @@ import actor from "../models/planning/actor";
 import requestForQuote from "../models/planning/requestForQuote";
 import Solquotes from "../models/planning/SolQuotes";
 import QuotesPeriod from "../models/planning/period";
+import mongoose from "mongoose";
 
 import Classifications from "../models/items/classification";
 import additionalClassifications from "../models/items/additionalClassifications";
@@ -38,6 +39,11 @@ import Supplier from "../models/planning/suppliers.js";
 import Period from "../models/planning/period.js";
 import Quote from "../models/quotes/quotes";
 import RequestForQuotes from "../models/planning/requestForQuote";
+
+
+import ValuesQuotes from '../models/quotes/value'; // Modelo de valuesQuotes
+import PeriodsQuotes from '../models/planning/period'; // Modelo de periodsQuotes
+import SupplierQuotes from '../models/planning/suppliers'; // Modelo de supplierQuotes
 
 
 
@@ -1295,7 +1301,7 @@ const PlanningController = {
           });
 
           const savedItem = await item.save();
-          console.log("Saved Item: ", savedItem);
+          //console.log("Saved Item: ", savedItem);
           return savedItem._id;  // Devolver el _id del item guardado
         })
       );
@@ -1457,7 +1463,281 @@ const PlanningController = {
         error: error.message
       });
     }
+  },
+  saveQuotes: async (req, res = response) => {
+    const { ocid, itemPlanning } = req.params; // Obtenemos los parámetros de la URL
+    const { id, description, date, items, value, period, issuingSupplier } = req.body; // Obtenemos los datos del body
+
+    // Verificamos si todos los datos necesarios están presentes
+    if (!id || !description || !date || !period) {
+      return res.status(400).json({
+        message: 'Faltan datos necesarios en el cuerpo de la solicitud.',
+        missingFields: {
+          id,
+          description,
+          date,
+          period,
+        }
+      });
+    }
+
+    try {
+      // Buscar el RequestForQuotes usando el 'itemPlanning' (su ID)
+      const requestForQuotes = await RequestForQuotes.findById(itemPlanning);
+      if (!requestForQuotes) {
+        return res.status(404).json({
+          message: 'No existe una solicitud de cotización con ese ID.'
+        });
+      }
+
+      // Creamos un array de ObjectIds a partir de invitedSuppliers
+      const invitedSuppliersIds = requestForQuotes.invitedSuppliers.map(supplier => supplier.toString());
+
+      // Verificar si hay proveedores invitados
+      if (invitedSuppliersIds.length === 0) {
+        return res.status(400).json({
+          message: 'No hay proveedores invitados en esta solicitud de cotización.'
+        });
+      }
+
+      // Buscar los proveedores en SupplierQuotes cuyos IDs están en invitedSuppliers
+      const suppliers = await SupplierQuotes.find({ _id: invitedSuppliersIds });
+
+      // Verificar si se encontraron proveedores
+      if (suppliers.length === 0) {
+        return res.status(400).json({
+          message: `No se encontraron proveedores con los IDs de los proveedores invitados.`
+        });
+      }
+
+      // Seleccionamos el proveedor emisor de la cotización (esto lo recibimos directamente desde la petición)
+      const supplier = suppliers[0];
+
+
+      // Validación de los items de la cotización, permitimos items vacíos
+      let savedItems = [];
+      if (items && items.length > 0) {
+        savedItems = await Promise.all(
+          items.map(async (itemForm) => {
+            const item = await Items.findById(itemForm.id);
+            if (!item) {
+              return res.status(400).json({
+                message: `El item con ID ${itemForm.id} no existe.`
+              });
+            }
+            return item._id;  // Retornamos el ID del item validado
+          })
+        );
+      }
+
+      // Crear y guardar el Value para la cotización
+      const valueQuote = new ValuesQuotes({
+        amount: value.amount || 0,
+        currency: value.currency || 'USD'  // Asumimos USD si no se especifica
+      });
+
+      const savedValueQuote = await valueQuote.save();
+
+      // Crear y guardar el Periodo para la cotización
+      const periodQuote = new PeriodsQuotes({
+        startDate: period.startDate || '',
+        endDate: period.endDate || '',
+        maxExtentDate: period.maxExtentDate || '',
+        durationInDays: period.durationInDays || 0
+      });
+
+      const savedPeriodQuote = await periodQuote.save();
+
+      // Crear y guardar el proveedor emisor de la cotización (usamos los datos del proveedor encontrado)
+      const supplierQuote = {
+        name: supplier.name,
+        id: supplier.id,
+      };
+
+
+
+
+
+
+
+
+
+
+
+
+
+      // Crear la cotización con los datos recibidos
+      const savedQuote = new Quote({
+        id: id,  // Aquí debe existir un valor para `id`
+        description: description.toUpperCase(),  // Asegúrate de que `description` esté definido
+        date: date,  // Asegúrate de que `date` esté definido
+        items: savedItems,  // Asegúrate de que los items se hayan validado y guardado
+        value: savedValueQuote._id,  // Verifica que `savedValueQuote._id` sea correcto
+        period: savedPeriodQuote._id,  // Verifica que `savedPeriodQuote._id` sea correcto
+        issuingSupplier: supplierQuote
+      });
+
+      // Guardar la cotización en la base de datos
+      const savedQuoteDoc = await savedQuote.save();
+
+      // Actualizar la solicitud de cotización con la nueva cotización
+      requestForQuotes.quotes.push(savedQuoteDoc._id); // Agregamos la cotización al array de cotizaciones
+
+      // Guardar el documento RequestForQuotes actualizado
+      const updatedRequestForQuotes = await requestForQuotes.save();
+
+      // Devolver una respuesta exitosa
+      res.status(200).json({
+        ok: true,
+        message: 'Cotización agregada con éxito a la solicitud de cotización.',
+        requestForQuotesId: updatedRequestForQuotes._id,
+        quotes: updatedRequestForQuotes.quotes // Retornamos las cotizaciones actualizadas
+      });
+
+    } catch (error) {
+      console.error('Error al guardar las cotizaciones:', error);
+      res.status(500).json({
+        message: 'Error al guardar las cotizaciones.',
+        error: error.message
+      });
+    }
+
+
+
+
+
+
+  },
+
+
+  MostrarQuotes: async (req, res) => {
+    try {
+      // Obtener los IDs enviados desde el frontend
+      let { quotes } = req.body;
+
+      //console.log('IDs recibidos antes de procesar:', quotes);
+
+      // Verificar si 'quotes' es un array y aplanarlo si es necesario
+      if (!Array.isArray(quotes)) {
+        return res.status(400).json({
+          success: false,
+          message: 'El formato de los IDs enviados no es válido.',
+        });
+      }
+
+      // Aplanar el array si está anidado
+      quotes = quotes.flat();
+      const mongoose = require('mongoose');
+      const validIds = quotes.filter(id => mongoose.Types.ObjectId.isValid(id));
+
+      if (validIds.length === 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'No se encontraron IDs válidos para buscar.',
+        });
+      }
+
+      // Buscar solo los campos '_id' y 'description' en la colección de MongoDB
+      const results = await Quote.find(
+        { _id: { $in: validIds } }, // Condición para buscar
+        { _id: 1, description: 1 }  // Proyección: Solo devuelve '_id' y 'description'
+      );
+
+      // Devolver los resultados encontrados
+      return res.status(200).json({
+        success: true,
+        data: results,
+      });
+    } catch (error) {
+      console.error('Error al buscar cotizaciones:', error);
+      return res.status(500).json({
+        success: false,
+        message: 'Hubo un error al procesar la solicitud.',
+      });
+    }
+
+
+
+  },
+  saveItemsForQuotes: async (req, res) => {
+    try {
+      let form = req.body;  // Datos enviados desde el formulario
+      let id = req.params.id;  // ID de la cotización a actualizar
+
+      // Validar que los campos necesarios están presentes
+      if (!form.description || !form.classification || !form.classification.scheme || !form.classification.id || !form.classification.description || !form.classification.uri || !form.quantity || !form.unit || !form.unit.id || !form.unit.name || !form.unit.value || !form.unit.value.amount || !form.unit.value.currency) {
+        return res.status(400).json({ success: false, message: 'Faltan campos requeridos en el formulario.' });
+      }
+
+      // Buscar el quote por ID
+      const quote = await Quote.findById(id);
+
+      if (!quote) {
+        return res.status(404).json({ success: false, message: 'Quote no encontrado' });
+      }
+
+      // Crear los objetos necesarios para la cotización
+      const newItem = new Items({
+        description: form.description ? form.description.toUpperCase() : "",
+        typeItem: form.typeItem, // Verificar que form.description esté presente
+        classification: new Classification({
+          scheme: form.classification.scheme ? form.classification.scheme : "",  // Verificar que form.classification.scheme esté presente
+          id: form.classification.id ? form.classification.id : "",  // Verificar que form.classification.id esté presente
+          description: form.classification.description ? form.classification.description.toUpperCase() : "",  // Verificar que form.classification.description esté presente
+          uri: form.classification.uri ? form.classification.uri : "",  // Verificar que form.classification.uri esté presente
+        }),
+        additionalClassifications: form.additionalClassifications && form.additionalClassifications.length > 0 ? form.additionalClassifications.map(ac => new AdditionalClassification({
+          scheme: ac.scheme || "",  // Verificar que ac.scheme esté presente
+          id: ac.id || "",  // Verificar que ac.id esté presente
+          description: ac.description || "",  // Verificar que ac.description esté presente
+          uri: ac.uri || ""  // Verificar que ac.uri esté presente
+        })) : [new AdditionalClassification({
+          scheme: "", id: "", description: "", uri: ""
+        })],
+        quantity: form.quantity ? parseInt(form.quantity) : 0,  // Asegurarse de que quantity sea un número
+        unit: new Unit({
+          id: form.unit.id ? form.unit.id : "",  // Verificar que form.unit.id esté presente
+          name: form.unit.name ? form.unit.name.toUpperCase() : "",  // Verificar que form.unit.name esté presente
+          value: new Value({
+            amount: form.unit.value.amount ? form.unit.value.amount : 0,  // Verificar que form.unit.value.amount esté presente
+            currency: form.unit.value.currency ? form.unit.value.currency : ""  // Verificar que form.unit.value.currency esté presente
+          }),
+          uri: form.unit.uri ? form.unit.uri : "",  // Verificar que form.unit.uri esté presente
+        })
+      });
+
+      // Guardar el nuevo item
+      const savedItem = await newItem.save();
+
+      // Agregar el ObjectId del item a los items del quote
+      quote.items.push(savedItem._id);
+
+      // Guardar la cotización actualizada con el nuevo item
+      await quote.save();
+
+      return res.status(200).json({
+        success: true,
+        message: 'Cotización y item actualizado exitosamente',
+        data: savedItem,
+      });
+    } catch (error) {
+      console.error('Error al guardar los items:', error);
+      return res.status(500).json({
+        success: false,
+        message: 'Hubo un error al procesar la solicitud.',
+      });
+    }
   }
+
+
+
+
+
+
+
+
+
+
 
 
 
