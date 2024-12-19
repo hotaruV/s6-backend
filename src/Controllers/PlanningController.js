@@ -53,10 +53,40 @@ const PlanningController = {
 
   planning: async (req, res = response) => {
     const form = req.body;
-    console.log("Formulario recibido:", JSON.stringify(form, null, 2)); // Mejor log para depurar
+    const ocid = req.body.id;
+    let arrayDocs = [];
+    let arrayMiles = [];
 
     try {
-      // 1. Guardar el presupuesto en su modelo
+      // Buscar documentos relacionados con la planeación
+      const docs = await documents.find({ documentType: 'planning', document_id: ocid });
+
+      if (!docs || docs.length === 0) {
+        return res.status(400).json({
+          ok: false,
+          msg: "No se han agregado documentos a la planeación",
+        });
+      }
+
+      // Extraer los IDs de los documentos encontrados
+      arrayDocs = docs.map(doc => doc._id);
+
+      // Buscar hitos relacionados con la planeación
+      const miles = await milestones.find({ milestoneType: 'planning', document_id: ocid });
+
+
+      if (!miles || miles.length === 0) {
+        return res.status(400).json({
+          ok: false,
+          msg: "No se han agregado acciones a la planeación",
+        });
+      }
+      arrayMiles = miles.map(mile => mile._id);
+
+
+
+
+      // Crear el presupuesto
       const newBudget = new Budgets({
         id: form.budget.id,
         description: form.budget.description,
@@ -64,71 +94,64 @@ const PlanningController = {
         projectID: form.budget.projectID,
         uri: form.budget.uri,
       });
-
-      // Guardar el presupuesto
       await newBudget.save();
 
-      // 2. Guardar el valor del presupuesto
+      // Guardar el valor del presupuesto
       const budgetValue = new Budgetvalue({
         amount: form.budget.value.amount,
         currency: form.budget.value.currency,
-        budget: newBudget._id,  // Relacionar con el presupuesto
+        budget: newBudget._id,
       });
       await budgetValue.save();
 
-      // 3. Guardar los desgloses del presupuesto
+      // Guardar desgloses y sus valores, periodos y líneas
       for (const breakdown of form.budget.budgetBreakdown) {
         const newBreakdown = new BudgetBreakdown({
           id: breakdown.id,
           description: breakdown.description,
           uri: breakdown.uri,
-          budget: newBudget._id,  // Relacionar con el presupuesto
+          budget: newBudget._id,
         });
         await newBreakdown.save();
 
-        // 4. Guardar los valores de cada desglose
         const breakdownValue = new BudgetBreakdownvalue({
           amount: breakdown.value.amount,
           currency: breakdown.value.currency,
-          breakdown: newBreakdown._id,  // Relacionar con el desglose
+          breakdown: newBreakdown._id,
         });
         await breakdownValue.save();
 
-        // 5. Guardar el periodo de cada desglose
         const breakdownPeriod = new BudgetBreakdownperiodo({
           startDate: breakdown.period.startDate,
           endDate: breakdown.period.endDate,
           maxExtentDate: breakdown.period.maxExtentDate,
           durationInDays: breakdown.period.durationInDays,
-          breakdown: newBreakdown._id,  // Relacionar con el desglose
+          breakdown: newBreakdown._id,
         });
         await breakdownPeriod.save();
 
-        // 6. Guardar las líneas del presupuesto dentro del desglose
         for (const line of breakdown.budgetLines) {
           const newLine = new BudgetLine({
             id: line.id,
             origin: line.origin,
-            breakdown: newBreakdown._id,  // Relacionar con el desglose
+            breakdown: newBreakdown._id,
           });
           await newLine.save();
-
-          // Aquí agregar el manejo de componentes si es necesario
         }
       }
 
-      // Ahora que el presupuesto se guardó, proceder con la planeación
+      // Crear la planeación
       let planningForm = {
         id: form.id,
         rationale: form.rationale,
         hasQuotes: form.hasQuotes,
+        documents: [...arrayDocs, ...(form.documents || [])], // Combinar documentos encontrados y del formulario
         requestingUnits: form.requestingUnits,
         responsibleUnits: form.responsibleUnits,
         contractingUnits: form.contractingUnits,
         requestForQuotes: form.requestForQuotes || [],
-        budget: newBudget._id,  // Agregar el _id del presupuesto
-        documents: form.documents || [],
-        milestones: form.milestones || [],
+        budget: newBudget._id,
+        milestones: [...arrayMiles, ...(form.milestones || [])],
       };
 
       // Verificar si ya existe una planeación con el mismo ID
@@ -140,7 +163,6 @@ const PlanningController = {
           msg: "Solo se puede crear una planeación por contrato",
         });
       } else {
-        // Crear la nueva planeación
         const plan = new planning(planningForm);
         await plan.save();
 
@@ -154,10 +176,11 @@ const PlanningController = {
       return res.status(500).json({
         ok: false,
         msg: "Error en servidor. Por favor, comuníquese con el soporte.",
-        error: error.message,  // Incluye el mensaje de error real
+        error: error.message,
       });
     }
   },
+
 
 
 
@@ -1070,7 +1093,7 @@ const PlanningController = {
             issuingSupplier: quoteForm.issuingSupplier,
           });
 
-          const savedQuote = await quote.save();
+          const savedQuote = await Quote.save();
           return savedQuote._id;
         })
       );

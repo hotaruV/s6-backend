@@ -5,6 +5,7 @@ let fecha = moment().format("YYYY-MM-DD HH:mm:ss");
 const milestonesSchema = Schema(
   {
     id: { type: String, require },
+    milestoneType: { type: String, require },
     document_id: { type: String, require },
     title: { type: String },
     type: { type: String },
@@ -14,7 +15,7 @@ const milestonesSchema = Schema(
     dateMet: { type: String, require, default: fecha },
     dateModified: { type: String, require, default: fecha },
     status: { type: String },
-    ocid: { type: Schema.Types.ObjectId, require, ref: "relase.contract" }, 
+    ocid: { type: Schema.Types.ObjectId, require, ref: "relase.contract" },
   },
   {
     collection: "milestones",
