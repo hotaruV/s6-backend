@@ -8,23 +8,11 @@ const BudgetSchema = Schema(
     description: { type: String, require },
     uri: { type: String, require },
     ocid: { type: String, require },
-    value: {
-      type: Schema.Types.ObjectId,
-      require,
-      ref: "planning.budget.value",
-      autopopulate: true,
-    },
-
-    
-    budgetBreakdown: [{ type: Schema.Types.ObjectId, require, ref: "planning.budgetBreakdown", autopopulate: true }],
-
+    value: { type: Schema.Types.ObjectId, require, ref: "planning.budget.value", autopopulate: true },
     project: { type: String, require },
     projectID: { type: String, require },
     projecturi: { type: String, require },
-
-
-
-
+    budgetBreakdown: [{ type: Schema.Types.ObjectId, require, ref: "planning.budgetBreakdown", autopopulate: true }],
   },
   {
     collection: "plannings.budgets",

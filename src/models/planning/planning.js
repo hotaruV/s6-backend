@@ -3,17 +3,32 @@ import moment from 'moment';
 let fecha = moment().format('YYYY-MM-DD HH:mm:ss');
 
 const PlanningSchema = Schema({
-  id: { type: String, require },
-  rationale: { type: String, require },
-  hasQuotes: { type: Boolean, require },
-  hasQuotes_why: { type: String },
-  requestingUnits: [{ type: Schema.Types.ObjectId, require, ref: "planning.actor", autopopulate: true }],
-  responsibleUnits: [{ type: Schema.Types.ObjectId, require, ref: "planning.actor", autopopulate: true }],
-  contractingUnits: [{ type: Schema.Types.ObjectId, require, ref: "planning.actor", autopopulate: true }],
+  id: { type: String, required: false },
+  rationale: { type: String, required: false },
+  hasQuotes: { type: Boolean, required: false },
+  hasQuotes_why: { type: String, required: false },
+  requestingUnits: [
+    {
+      name: { type: String, required: false },
+      id: { type: String, required: false }
+    }
+  ],
+  responsibleUnits: [
+    {
+      name: { type: String, required: false },
+      id: { type: String, required: false }
+    }
+  ],
+  contractingUnits: [
+    {
+      name: { type: String, required: false },
+      id: { type: String, required: false }
+    }
+  ],
 
   requestForQuotes: [{ type: Schema.Types.ObjectId, require, ref: "planning.requestForQuote", autopopulate: true }],
   budget: { type: Schema.Types.ObjectId, require, ref: "planning.budgets_", autopopulate: true },
-  //budget: { type: Schema.Types.ObjectId, require, ref: "budget", autopopulate: true },
+  //budget: { type: Schema.Types.ObjectId, require, ref: "budget", autopopulate: false },
 
   documents: [{ type: Schema.Types.ObjectId, require, ref: "documents", autopopulate: true }],
   milestones: [{ type: Schema.Types.ObjectId, require, ref: "milestones", autopopulate: true }],

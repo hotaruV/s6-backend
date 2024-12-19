@@ -11,21 +11,21 @@ const budgetBreakdownSchema = Schema(
     uri: { type: String, require },
     periodo: { type: Schema.Types.ObjectId, require, ref: "budgetBreakdown.periods", autopopulate: true },
 
-   
-    
+
+
     budgetLines: { type: Schema.Types.ObjectId, require, ref: "planning.budgetLines", autopopulate: true },
 
-    
-   
-  
-    
+
+
+
+
   },
   {
     collection: "planning.budgetBreakdown",
     versionKey: false, //here
   }
 );
-// budgetBreakdownSchema.plugin(require('mongoose-autopopulate'));
+budgetBreakdownSchema.plugin(require('mongoose-autopopulate'));
 budgetBreakdownSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;

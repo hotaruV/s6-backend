@@ -26,6 +26,7 @@ const requestForQuotesSchema = new Schema(
 );
 
 // El método toJSON para limpiar los datos al convertir a JSON
+requestForQuotesSchema.plugin(require('mongoose-autopopulate'));
 requestForQuotesSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;
