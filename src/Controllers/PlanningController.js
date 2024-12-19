@@ -1093,7 +1093,7 @@ const PlanningController = {
             issuingSupplier: quoteForm.issuingSupplier,
           });
 
-          const savedQuote = await Quote.save();
+          const savedQuote = await quote.save();
           return savedQuote._id;
         })
       );
