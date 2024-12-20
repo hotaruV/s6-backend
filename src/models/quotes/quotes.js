@@ -3,7 +3,7 @@ import moment from "moment";
 
 // Fecha actual
 let fecha = moment().format("YYYY-MM-DD HH:mm:ss");
-const quotesSchema = new Schema(
+const quotesSchema = Schema(
   {
     id: { type: String, required: false }, // El id del quote
     description: { type: String },
@@ -18,18 +18,15 @@ const quotesSchema = new Schema(
       },
       required: false  // Es necesario que existan ambos campos: id y name
     }
-  },
-  {
-    collection: "quotes", // Nombre de la colección en la base de datos
-    versionKey: false, // No generamos el __v
   }
 );
 
 // Método para excluir el campo __v al devolver los datos
+quotesSchema.plugin(require('mongoose-autopopulate'));
 quotesSchema.method("toJSON", function () {
   const { __v, ...object } = this.toObject();
   return object;
 });
 
 // Exportamos el modelo 'Quote'
-module.exports = model("quote", quotesSchema);
+module.exports = model("quotes", quotesSchema);

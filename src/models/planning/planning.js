@@ -26,7 +26,9 @@ const PlanningSchema = Schema({
     }
   ],
 
-  requestForQuotes: [{ type: Schema.Types.ObjectId, require, ref: "planning.requestForQuote", autopopulate: true }],
+  requestForQuotes: [
+    { type: Schema.Types.ObjectId, required: true, ref: "planning.requestForQuote", autopopulate: true }
+  ],
   budget: { type: Schema.Types.ObjectId, require, ref: "planning.budgets_", autopopulate: true },
   //budget: { type: Schema.Types.ObjectId, require, ref: "budget", autopopulate: false },
 

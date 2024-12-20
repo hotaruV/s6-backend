@@ -54,7 +54,7 @@ route.get("/getItemPlanning/:ocid", [validarJWT], PlanningController.getPlanning
 route.put("/saveQuotesPlanning/:ocid/:itemPlanning", [validarJWT], PlanningController.saveQuotes);
 
 
-route.post("/get_qoutes", [validarJWT], PlanningController.MostrarQuotes);
+route.post("/get_qoutes/:ocid", [validarJWT], PlanningController.MostrarQuotes);
 route.post("/save_item_qoutes/:id", [validarJWT], PlanningController.saveItemsForQuotes);
 
 //se actualizan los items

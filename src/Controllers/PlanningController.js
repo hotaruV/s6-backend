@@ -2,7 +2,7 @@
 import getID from "../helpers/getId";
 import planning from "../models/planning/planning";
 import actor from "../models/planning/actor";
-import requestForQuote from "../models/planning/requestForQuote";
+
 import Solquotes from "../models/planning/SolQuotes";
 import QuotesPeriod from "../models/planning/period";
 import mongoose from "mongoose";
@@ -56,6 +56,7 @@ const PlanningController = {
     const ocid = req.body.id;
     let arrayDocs = [];
     let arrayMiles = [];
+    let arrayReq = [];
 
     try {
       // Buscar documentos relacionados con la planeación
@@ -82,6 +83,19 @@ const PlanningController = {
         });
       }
       arrayMiles = miles.map(mile => mile._id);
+
+      const reqQuotes = await RequestForQuotes.find({ id: ocid });
+      if (!reqQuotes || reqQuotes.length === 0) {
+        return res.status(400).json({
+          ok: false,
+          msg: "No se han agregado cotizaciones a la planeación",
+        });
+      }
+
+      arrayReq = reqQuotes.map(requo => requo._id);
+
+
+
 
 
 
@@ -149,7 +163,7 @@ const PlanningController = {
         requestingUnits: form.requestingUnits,
         responsibleUnits: form.responsibleUnits,
         contractingUnits: form.contractingUnits,
-        requestForQuotes: form.requestForQuotes || [],
+        requestForQuotes: [...arrayReq],
         budget: newBudget._id,
         milestones: [...arrayMiles, ...(form.milestones || [])],
       };
@@ -1357,41 +1371,27 @@ const PlanningController = {
 
   MostrarQuotes: async (req, res) => {
     try {
-      // Obtener los IDs enviados desde el frontend
-      let { quotes } = req.body;
+      // Obtener el ocid de los parámetros
+      const { ocid } = req.params;
 
-      //console.log('IDs recibidos antes de procesar:', quotes);
-
-      // Verificar si 'quotes' es un array y aplanarlo si es necesario
-      if (!Array.isArray(quotes)) {
+      // Validar que el ocid exista en la solicitud
+      if (!ocid) {
         return res.status(400).json({
           success: false,
-          message: 'El formato de los IDs enviados no es válido.',
+          message: 'El parámetro ocid es requerido.',
         });
       }
 
-      // Aplanar el array si está anidado
-      quotes = quotes.flat();
-      const mongoose = require('mongoose');
-      const validIds = quotes.filter(id => mongoose.Types.ObjectId.isValid(id));
-
-      if (validIds.length === 0) {
-        return res.status(400).json({
-          success: false,
-          message: 'No se encontraron IDs válidos para buscar.',
-        });
-      }
-
-      // Buscar solo los campos '_id' y 'description' en la colección de MongoDB
-      const results = await Quote.find(
-        { _id: { $in: validIds } }, // Condición para buscar
-        { _id: 1, description: 1 }  // Proyección: Solo devuelve '_id' y 'description'
+      // Buscar las cotizaciones relacionadas con el ocid y devolver solo id y description
+      const quotes = await Quote.find(
+        { id: ocid }, // Condición de búsqueda
+        { id: 1, description: 1 } // Proyección: Solo devuelve 'id' y 'description'
       );
 
-      // Devolver los resultados encontrados
+      // Responder con los datos encontrados
       return res.status(200).json({
         success: true,
-        data: results,
+        data: quotes,
       });
     } catch (error) {
       console.error('Error al buscar cotizaciones:', error);
@@ -1400,10 +1400,8 @@ const PlanningController = {
         message: 'Hubo un error al procesar la solicitud.',
       });
     }
-
-
-
   },
+
   saveItemsForQuotes: async (req, res) => {
     try {
       let form = req.body;  // Datos enviados desde el formulario
