@@ -24,7 +24,7 @@ const quotesSchema = Schema(
 // Método para excluir el campo __v al devolver los datos
 quotesSchema.plugin(require('mongoose-autopopulate'));
 quotesSchema.method("toJSON", function () {
-  const { __v, ...object } = this.toObject();
+  const { _id, __v, ...object } = this.toObject();
   return object;
 });
 

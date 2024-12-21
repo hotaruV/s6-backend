@@ -29,7 +29,7 @@ const PlanningSchema = Schema({
   requestForQuotes: [
     { type: Schema.Types.ObjectId, required: true, ref: "planning.requestForQuote", autopopulate: true }
   ],
-  budget: { type: Schema.Types.ObjectId, require, ref: "planning.budgets_", autopopulate: true },
+  budget: { type: Schema.Types.ObjectId, require, ref: "budgets", autopopulate: true },
   //budget: { type: Schema.Types.ObjectId, require, ref: "budget", autopopulate: false },
 
   documents: [{ type: Schema.Types.ObjectId, require, ref: "documents", autopopulate: true }],

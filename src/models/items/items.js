@@ -31,7 +31,7 @@ const ItemsSchema = Schema(
       ref: "item.unit",
       autopopulate: true,
     },
-    ocid: { type: String, require },
+
   },
   {
     collection: "items",

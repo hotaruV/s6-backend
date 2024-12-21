@@ -1,5 +1,5 @@
 import { response } from "express";
-import buyers from "../models/buyer/buyer";
+import buyers from "../models/planning/buyer";
 
 const BuyersController = {
   buyer: async (req, res = response) => {

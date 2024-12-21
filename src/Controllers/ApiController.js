@@ -1,6 +1,6 @@
 import { response } from "express";
 import licitacion from "../models/licitacion";
-import buyer from "../models/buyer/buyer";
+import buyer from "../models/planning/buyer";
 import tenders from "../models/tenders/tenders";
 import supplier from "../models/award/suppliers";
 import Productos from "../models/cfdi";
@@ -221,7 +221,7 @@ const ApiController = {
       });
     }
   },
-  
+
   cfdi: async (req, res) => {
     let busqueda = req.query.search;
     let limite = req.query.limit;
@@ -248,7 +248,7 @@ const ApiController = {
   searchcfdi: async (req, res) => {
     try {
       let key = req.params.key
-      const producto = await Productos.findOne({key: key});//console.log(producto);
+      const producto = await Productos.findOne({ key: key });//console.log(producto);
       return res.status(200).json({
         producto: producto,
       });

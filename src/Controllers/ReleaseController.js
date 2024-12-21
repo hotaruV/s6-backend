@@ -3,11 +3,9 @@ import getID from "../helpers/getId";
 import contrato from "../models/contrato";
 import contratoUser from "../models/contratoUsuario";
 import co from "../models/count";
-import planning from "../models/planning/planning";
-import bugget from "../models/planning/values";
-import tender from "../models/tenders/tenders";
 
-import budget_values from "../models/budgetBreakdown/budgetBreakdown";
+import Bugget from "../models/planning/budget/budget";
+
 
 const ReleaseController = {
   contratoCreate: async (req, res = response) => {
@@ -318,29 +316,31 @@ const ReleaseController = {
   },
   contratoUpdateDocument: async (req, res = response) => { },
 
+
+  //aqui va a salir un error
   getInfoEjecucion: async (req, res = response) => {
     try {
-    const ocid = req.params.ocid;
+      const ocid = req.params.ocid;
 
-    // Comprueba si existe.
-    if (!ocid || ocid == null) {
-      return res.status(404).send({
-        ok: 'false',
-        msg: 'ocid inválido'
+      // Comprueba si existe.
+      if (!ocid || ocid == null) {
+        return res.status(404).send({
+          ok: 'false',
+          msg: 'ocid inválido'
+        });
+      }
+
+      const contr = await contrato.findOne({ ocid });
+      const budget_id = contr.planning.budget;
+      const value_id = budget_id.value;
+      const budgets_values = await Bugget.findOne({ _id: value_id });
+
+
+      res.status(200).json({
+        ok: true,
+        contrato: contr,
+        budgets_values
       });
-    }
-
-    const contr = await contrato.findOne({ ocid });
-    const budget_id = contr.planning.budget;
-    const value_id = budget_id.value;
-    const budgets_values = await bugget.findOne({ _id: value_id });
-    
-     
-    res.status(200).json({
-      ok: true,
-      contrato: contr,
-      budgets_values
-    });
 
     } catch (error) {
       res.status(500).json({

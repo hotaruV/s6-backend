@@ -1,33 +1,14 @@
-//import { response } from "express";
-import getID from "../helpers/getId";
+import { response } from "express";
+
 import planning from "../models/planning/planning";
-import actor from "../models/planning/actor";
 
-import Solquotes from "../models/planning/SolQuotes";
-import QuotesPeriod from "../models/planning/period";
-import mongoose from "mongoose";
-
-import Classifications from "../models/items/classification";
-import additionalClassifications from "../models/items/additionalClassifications";
-import ItemValue from "../models/items/unit/values";
-
-import quotes from "../models/quotes/quotes";
-import Quo from "../models/quotes/_quo";
-import cotizados from "../models/planning/cotizados";
-import buyers from "../models/buyer/buyer";
 //import butgetGen from "../models/budget/budget";
-import Budgets from "../models/_budget/_budget";
-import Budgetvalue from "../models/planning/values";
-import BudgetBreakdown from "../models/budgetBreakdown/budgetBreakdown";
-import BudgetBreakdownvalue from "../models/budgetBreakdown/value";
-import BudgetBreakdownperiodo from "../models/budgetBreakdown/period";
-import BudgetLine from "../models/budgetLines/budgetLine";
-import component from "../models/budgetLines/component";
-import sourceParty from "../models/budgetLines/sourceParty";
+import Budgets from "../models/planning/budget/budget.js";
+import BudgetBreakdown from "../models/planning/budget/budgetBreakdown.js";
+import BudgetLine from "../models/planning/budget/bugetLines.js";
+
 import documents from "../models/documents/documents";
 import milestones from "../models/documents/milestones";
-import release from "../models/contrato";
-
 
 // Importar los modelos
 import Items from "../models/items/items";
@@ -37,11 +18,11 @@ import Unit from "../models/items/unit/unit";
 import Value from "../models/items/unit/values";
 import Supplier from "../models/planning/suppliers.js";
 import Period from "../models/planning/period.js";
-import Quote from "../models/quotes/quotes";
+import Quote from "../models/planning/quotes/quotes.js";
 import RequestForQuotes from "../models/planning/requestForQuote";
 
 
-import ValuesQuotes from '../models/quotes/value'; // Modelo de valuesQuotes
+import ValuesQuotes from '../models/planning/quotes/value.js'; // Modelo de valuesQuotes
 import PeriodsQuotes from '../models/planning/period'; // Modelo de periodsQuotes
 import SupplierQuotes from '../models/planning/suppliers'; // Modelo de supplierQuotes
 
@@ -49,14 +30,13 @@ import SupplierQuotes from '../models/planning/suppliers'; // Modelo de supplier
 
 const PlanningController = {
 
-
-
   planning: async (req, res = response) => {
     const form = req.body;
     const ocid = req.body.id;
     let arrayDocs = [];
     let arrayMiles = [];
     let arrayReq = [];
+    let arrayBug = [];
 
     try {
       // Buscar documentos relacionados con la planeación
@@ -94,66 +74,15 @@ const PlanningController = {
 
       arrayReq = reqQuotes.map(requo => requo._id);
 
-
-
-
-
-
-
-      // Crear el presupuesto
-      const newBudget = new Budgets({
-        id: form.budget.id,
-        description: form.budget.description,
-        project: form.budget.project,
-        projectID: form.budget.projectID,
-        uri: form.budget.uri,
-      });
-      await newBudget.save();
-
-      // Guardar el valor del presupuesto
-      const budgetValue = new Budgetvalue({
-        amount: form.budget.value.amount,
-        currency: form.budget.value.currency,
-        budget: newBudget._id,
-      });
-      await budgetValue.save();
-
-      // Guardar desgloses y sus valores, periodos y líneas
-      for (const breakdown of form.budget.budgetBreakdown) {
-        const newBreakdown = new BudgetBreakdown({
-          id: breakdown.id,
-          description: breakdown.description,
-          uri: breakdown.uri,
-          budget: newBudget._id,
+      const Bug = await Budgets.find({ id: ocid });
+      if (!arrayBug || reqQuotes.length === 0) {
+        return res.status(400).json({
+          ok: false,
+          msg: "No se han agregado prespuestos a la planeación",
         });
-        await newBreakdown.save();
-
-        const breakdownValue = new BudgetBreakdownvalue({
-          amount: breakdown.value.amount,
-          currency: breakdown.value.currency,
-          breakdown: newBreakdown._id,
-        });
-        await breakdownValue.save();
-
-        const breakdownPeriod = new BudgetBreakdownperiodo({
-          startDate: breakdown.period.startDate,
-          endDate: breakdown.period.endDate,
-          maxExtentDate: breakdown.period.maxExtentDate,
-          durationInDays: breakdown.period.durationInDays,
-          breakdown: newBreakdown._id,
-        });
-        await breakdownPeriod.save();
-
-        for (const line of breakdown.budgetLines) {
-          const newLine = new BudgetLine({
-            id: line.id,
-            origin: line.origin,
-            breakdown: newBreakdown._id,
-          });
-          await newLine.save();
-        }
       }
 
+      arrayBug = Bug.map(requo => requo._id);
       // Crear la planeación
       let planningForm = {
         id: form.id,
@@ -164,7 +93,7 @@ const PlanningController = {
         responsibleUnits: form.responsibleUnits,
         contractingUnits: form.contractingUnits,
         requestForQuotes: [...arrayReq],
-        budget: newBudget._id,
+        budget: [...arrayBug],
         milestones: [...arrayMiles, ...(form.milestones || [])],
       };
 
@@ -195,15 +124,8 @@ const PlanningController = {
     }
   },
 
-
-
-
-
-
-
-
   getPlanningbyOcid: async (req, res = response) => {
-    //console.log("Entre getPlanningbyOcid planning" );
+
 
     try {
       const ocid = req.params.ocid;
@@ -222,765 +144,121 @@ const PlanningController = {
       });
     }
   },
-  getPlanningPeriod: async (req, res = response) => {
 
-    try {
-      const id = req.params.id;
-
-      const mil = await QuotesPeriod.findOne({ _id: id });
-      res.status(200).json({
-        _id: mil._id,
-        period: mil,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningCotizacion: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-
-      const mil = await Solquotes.findOne({ _id: id });
-      res.status(200).json({
-        _id: mil._id,
-        quotes_: mil,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  deletePlanningCotizacion: async (req, res = response) => {
-    //console.log("Entre a deletePlanningCotizacion de PlanningCOntroller" );
-    try {
-      const id = req.params._id;
-      const _idOcid = req.params._idOcid;
-      const arraysolQuotes = [];
-      let Quotes;
-      let _idRequestQuotes;
-
-      const mil = await Solquotes.findByIdAndDelete({ _id: id });
-      //obtener el array guardado y eliminar del array
-      //obtengo el planning
-
-      const planning_ = await planning.findOne({ id: _idOcid });
-      const requestForQuotes = planning_.requestForQuotes; //obtengo request for quotes
-
-      requestForQuotes.forEach(element => {
-        _idRequestQuotes = element._id;
-        Quotes = element.quotes_;
-        Quotes.forEach(element2 => {
-          if (element2._id != id) {
-            arraysolQuotes.push(element2._id);
-          }
-        });
-
-      });
-      const QuotesUpdated3 = await requestForQuote.updateOne(
-        {
-          _id: _idRequestQuotes
-
-        },
-        { $set: { quotes_: arraysolQuotes, } }
-      );
-      res.status(200).json({
-        ok: true,
-        Quotes: arraysolQuotes,
-        msg: "SOLICITUD DE COTIZACIÓN ELIMINADO",
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... Solicitud de cotización no existe",
-      });
-    }
-  },
-  updatePlanning_Cotizacion: async (req, res = response) => {
-    try {
-
-      const id = req.params.id;
-      const solQuote = new Solquotes();
-
-      const _Solquotes = await Solquotes.findById(id);
-
-      if (!_Solquotes) {
-        return res.status(404).json({
-          ok: false,
-          msg: "NO ÉXISTE LA COTIZACIÓN",
-        });
-      }
-
-      const { title, description, ...campos } = req.body;
-
-      if (req.body.title != "" && req.body.title != null)
-        solQuote.title = req.body.title.toUpperCase();
-      else
-        solQuote.title = "";
-
-      if (req.body.description != "" && req.body.description != null)
-        solQuote.description = req.body.description.toUpperCase();
-      else
-        solQuote.description = "";
-
-      //console.log("Entre titulo:"+solQuote.title+"Entre description:"+solQuote.description);
-      const solQuoteUpdated = await Solquotes.findByIdAndUpdate(id,
-        {
-          title: solQuote.title,
-          description: solQuote.description,
-
-        }, { upsert: false, new: false } //, {  new: true } 
-
-      );
-
-      if (solQuoteUpdated) {
-        //console.log("YA HA SIDO ACTUALIZADO");
-        return res.status(200).json({
-          ok: true,
-          Solquotes: solQuoteUpdated,
-          msg: `EL ${Solquotes} YA HA SIDO ACTUALIZADO`,
-        });
-      }
-      else {
-        return res.status(404).json({
-          ok: false,
-          msg: "NO EXISTE LA SOLICITUD DE COTIZACIÓN",
-        });
-      }
-    } catch (error) {
-      // console.log("ERROR INESPERADO" + error.msg);
-      res.status(500).json({
-        ok: false,
-        msg: "ERROR INESPERADO-... SOLICITUD DE COTIZACIÓN NO ÉXISTE",
-      });
-    }
-  },
-  savePlanning_Cotizacion: async (req, res = response) => {
-    try {
-      const _idOcid = req.params._idOcid;
-      let _idRequestQuotes;
-      const arraysolQuotes = [];
-      let Quotes;
-      //  console.log('entre savePlanning_Cotizacion controller ocid:'+_idOcid);
-      const solQuote = new Solquotes();
-
-      const { title, description, ...campos } = req.body;
-
-      if (req.body.title != "" && req.body.title != null)
-        solQuote.title = req.body.title.toUpperCase();
-      else
-        solQuote.title = "";
-
-      if (req.body.description != "" && req.body.description != null)
-        solQuote.description = req.body.description.toUpperCase();
-      else
-        solQuote.description = "";
-      solQuote.save();
-      //obtener el array guardado y guardar en id en el array
-
-      //obtengo el planning
-      const planning_ = await planning.findOne({ id: _idOcid });
-
-      const requestForQuotes = planning_.requestForQuotes; //obtengo request for quotes
-      requestForQuotes.forEach(element => {
-        _idRequestQuotes = element._id;
-
-        Quotes = element.quotes_;
-        Quotes.forEach(element2 => {
-          arraysolQuotes.push(element2._id);
-        });
-        arraysolQuotes.push(solQuote._id);
-      });
-      try {
-        //console.log('arraysolQuotes'+arraysolQuotes.length);
-        const QuotesUpdated3 = await requestForQuote.updateOne(
-          { _id: _idRequestQuotes },
-          { $set: { quotes_: arraysolQuotes, } }
-        );
-        if (QuotesUpdated3) {
-
-          res.status(200).json({
-            _idRequestQuotes: _idRequestQuotes,
-            Quotes: arraysolQuotes,
-            ok: true
-          });
-        }
-        else {
-
-          res.status(200).json({
-            ok: false,
-            msg: "Error Inesperado-... planeación no existe",
-          });
-
-        }
-
-
-      }
-      catch (error) {
-
-        console.log('error:' + error.msg);
-      }
-
-    } catch (error) {
-      console.log("ERROR INESPERADO SOLICITUD DE COTIZACIÓN" + error.msg);
-      res.status(500).json({
-        ok: false,
-        msg: "ERROR INESPERADO-... SOLICITUD DE COTIZACIÓN ",
-      });
-    }
-  },
-  getPlanningItems: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const item = await Items.findOne({ _id: id });
-      res.status(200).json({
-        _id: item._id,
-        items: item,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningbudgetValue: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const mil = await budgetvalue.findOne({ _id: id });
-      res.status(200).json({
-        _id: mil._id,
-        value: mil,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningbudgetBreakdownbudgetLinesComponets: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const _Componets = await component.findOne({ _id: id });
-      res.status(200).json({
-        _id: _Componets._id,
-        Componets: _Componets,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningbudgetBreakdownbudgetLinessourceParty: async (req, res = response) => {
-
-
-    try {
-      const id = req.params.id;
-
-      const act = await sourceParty.findOne({ _id: id });
-
-      res.status(200).json({
-        _id: act._id,
-        actor: act,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningDocuments: async (req, res = response) => {
-    // console.log("Entre sourceParty planning" );
-
-    try {
-      const id = req.params.id;
-      //console.log("Entre getPlanningDocuments doc id:"+id );
-      const doc = await documents.findOne({ _id: id });
-      //console.log(" doc:"+ doc);
-      res.status(200).json({
-        _id: doc._id,
-        documento: doc,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningHitos: async (req, res = response) => {
-    // console.log("Entre sourceParty planning" );
-
-    try {
-      const id = req.params.id;
-      //console.log("Entre getPlanningHitos hito id:"+id );
-      const h = await milestones.findOne({ _id: id });
-      //console.log(" hito:"+ h);
-      res.status(200).json({
-        _id: h._id,
-        hito: h,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningbudgetBreakdownbudgetLines: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const _budgetLine = await budgetLine.findOne({ _id: id });
-      res.status(200).json({
-        _id: _budgetLine._id,
-        budgetLine: _budgetLine,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningPeriodbudgetBreakdown: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const peri = await budgetBreakdownperiodo.findOne({ _id: id });
-      res.status(200).json({
-        _id: peri._id,
-        period: peri,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningbudgetBreakdown: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const Breakdown = await budgetBreakdown.findOne({ _id: id });
-      res.status(200).json({
-        _id: Breakdown._id,
-        Breakdown: Breakdown,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningbudgetBreakdownValue: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const mil = await budgetBreakdownvalue.findOne({ _id: id });
-      res.status(200).json({
-        _id: mil._id,
-        value: mil,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningItemsValue: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const mil = await ItemValue.findOne({ _id: id });
-      res.status(200).json({
-        _id: mil._id,
-        value: mil,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningItemsClassific: async (req, res = response) => {
-
-    try {
-      const id = req.params.id;
-      const mil = await Classifications.findOne({ _id: id });
-      res.status(200).json({
-        _id: mil._id,
-        classification: mil,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningItemsUint: async (req, res = response) => {
-    //console.log("Entre getPlanningUint planning" );
-
-    try {
-      const id = req.params.id;
-      //console.log("Entre getPlanningUint planning id:"+id );
-      const unit = await Unit.findOne({ _id: id });
-      //console.log("unit:"+ unit);
-      res.status(200).json({
-        _id: unit._id,
-        unit: unit,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningItemsinvitedSuppliers: async (req, res = response) => {
-    //   console.log("Entre getPlanningItemsinvitedSuppliers planning" );
-
-    try {
-      const id = req.params.id;
-      // console.log("Entre getPlanningItemsinvitedSuppliers planning id:"+id );
-      const act = await actor.findOne({ _id: id });
-      //    console.log("actor emisor:"+ act);
-      res.status(200).json({
-        _id: act._id,
-        actor: act,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningItemsQuotes: async (req, res = response) => {
-    // console.log("Entre getPlanningItemsQuotes planning" );
-
-    try {
-      const id = req.params.id;
-      // console.log("Entre getPlanningItemsQuotes planning id:"+id );
-      const quot = await quotes.findOne({ _id: id });
-      // console.log("quotes:"+ quot);
-      res.status(200).json({
-        _id: quot._id,
-        quotes: quot,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningItemsQuo: async (req, res = response) => {
-    // console.log("Entre getPlanningItemsQuotes planning" );
-
-    try {
-      const id = req.params.id;
-      // console.log("Entre getPlanningItemsQuotes planning id:"+id );
-      const quot = await Quo.findOne({ _id: id });
-      //console.log("quotes:"+ quot);
-      res.status(200).json({
-        _id: quot._id,
-        quo: quot,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningbudget: async (req, res = response) => {
-    //console.log("Entre getPlanningbudget planning" );
-
-    try {
-      const id = req.params.id;
-      //console.log("Entre getPlanningbudget  id:"+id );
-      const quot = await budgetBreakdown.findOne({ _id: id });
-
-      //("budget:"+ quot);
-      res.status(200).json({
-        _id: quot._id,
-        budget: quot,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getPlanningItemsCotizacion: async (req, res = response) => {
-    // console.log("Entre getPlanningItemsQuotes planning" );
-
-    try {
-      const id = req.params.id;
-      // console.log("Entre getPlanningItemsCotizacion planning id:"+id );
-      const quot = await cotizados.findOne({ _id: id });
-
-      // console.log("quotes:"+ quot);
-      res.status(200).json({
-        _id: quot._id,
-        cotizados: quot,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  getDatosPlanningCotizaciones: async (req, res = response) => {
-    //console.log("Entre getDatosPlanningCotizaciones planning" );
-
-    try {
-      const items = req.params.iCot;
-
-      const peri = req.params.peri;
-      const issuingSupplier = req.params.issuingSupplier;
-      // console.log("Entre getDatosPlanningCotizaciones items id:"+items);
-      // console.log("Entre getDatosPlanningCotizaciones peri id:"+peri);
-      //console.log("Entre getDatosPlanningCotizaciones issuingSupplier id:"+ issuingSupplier );
-
-      const periodo = await QuotesPeriod.findOne({ _id: peri });
-      //  console.log("periodo:"+ periodo);
-      const item = await Items.findOne({ _id: items });
-      //console.log("item:"+ item);
-
-
-      const act = await actor.findOne({ _id: issuingSupplier });
-      //  console.log("actor:"+ act);
-      res.status(200).json({
-        _id: item._id,
-        item: item,
-        periodo: periodo,
-        actor: act,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
-  PlanningRationalebyOcid: async (req, res = response) => {
-    try {
-      const ocid = req.params.ocid;
-      const mil = await planning.findOne({ id: ocid });
-      res.status(200).json({
-        _id: mil._id,
-        rationale: mil.rationale,
-        ok: true
-      });
-    } catch (error) {
-      res.status(200).json({
-        ok: false,
-        msg: "Error Inesperado-... hito no existe",
-      });
-    }
-  },
-  planningShow: async (req, res = response) => {
-    try {
-      const id = req.params.id;
-      const cp = await milestone.findById({ _id: id });
-      if (!cp) {
-        return res.status(404).json({
-          ok: false,
-          msg: "No hay registro hecho",
-        });
-      }
-      res.status(200).json({
-        planning: cp,
-      });
-    } catch (error) {
-      return res.status(404).json({
-        ok: false,
-        msg: "Error en servidor por favor comunicarse con administración",
-      });
-    }
-  },
-  planningUpdate: async (req, res = response) => {
-    try {
-      const _id = req.params.id;
-      const plan = await planning.findById(_id);
-      if (!plan) {
-        return res.status(404).json({
-          ok: false,
-          msg: "No existe planeación",
-        });
-      }
-      //console.log(req.body);
-      const { ...campos } = req.body;
-      //await plan.save();
-      const planUpdated = await planning.findByIdAndUpdate(_id, campos, {
-        new: true,
-      });
-
-      res.status(200).json({
-        ok: true,
-        planning: planUpdated,
-      });
-    } catch (error) {
-      res.status(500).json({
-        ok: false,
-        msg: "Error Inesperado-... planeación no existe",
-      });
-    }
-  },
   budget: async (req, res = response) => {
+    //console.log(req.body)
     try {
-      const bud = new budgets(req.body);
-      let count = await getID(budgets);
-      bud.id = count;
-      await bud.save();
-      return res.status(200).json({
-        ok: true,
-        _id: bud._id,
-      });
-    } catch (error) {
-      return res.status(404).json({
-        ok: false,
-        msg: "Error en servidor por favor comunicarse con administración",
-      });
-    }
-  },
-  budgetShowALL: async (req, res = response) => {
-    try {
-      const cp = await budget.find();
-      if (!cp) {
-        return res.status(404).json({
-          ok: false,
-          msg: "No hay registro hecho",
+      //console.log("Datos recibidos:", JSON.stringify(req.body, null, 2));
+
+      const { id, description, value, project, projectID, uri, budgetBreakdown } = req.body;
+
+      // Validar que los datos requeridos estén presentes
+      if (!id || !description || !value || !uri || !budgetBreakdown) {
+        return res.status(400).json({
+          message: "Faltan datos requeridos en el presupuesto",
         });
       }
-      res.status(200).json({
-        budget: cp,
+
+      // Crear y guardar los BudgetBreakdown y BudgetLines
+      const savedBreakdowns = await Promise.all(
+        budgetBreakdown.map(async (breakdown) => {
+          const { id, description, value, uri, period, budgetLines } = breakdown;
+
+          // Validar que los valores del breakdown estén completos
+          if (!id || !description || !value || !uri || !period || !budgetLines) {
+            return res.status(400).json({
+              message: "Faltan datos requeridos en un BudgetBreakdown",
+            });
+          }
+
+          // Crear y guardar los BudgetLines relacionados con el breakdown
+          const savedLines = await Promise.all(
+            budgetLines.map(async (line) => {
+              const { id, origin, components, sourceParty } = line;
+
+              // Validar que los valores del BudgetLine estén completos
+              if (!id || !origin || !sourceParty) {
+                return res.status(400).json({
+                  message: "Faltan datos requeridos en un BudgetLine",
+                });
+              }
+
+              // Si no hay componentes, asignar un valor vacío o por defecto
+              const savedComponents = components && components.length > 0 ? components.map((component) => {
+                return {
+                  name: component.name || "",
+                  level: component.level || "",
+                  code: component.code || "",
+                  description: component.description || "",
+                };
+              }) : []; // Evitar que los componentes estén vacíos o no definidos
+
+              // Crear y guardar el BudgetLine
+              const newBudgetLine = new BudgetLine({
+                id,
+                origin,
+                components: savedComponents, // Asignar componentes válidos
+                sourceParty,
+              });
+
+              // Guardar el BudgetLine y devolver el documento completo
+              const savedLine = await newBudgetLine.save();
+
+              // Verificar que la línea se guardó correctamente
+              if (!savedLine._id) {
+                throw new Error('No se pudo guardar la línea de presupuesto');
+              }
+
+              return savedLine; // Asegúrate de devolver el objeto completo
+            })
+          );
+
+          // Crear el BudgetBreakdown con referencia a las líneas presupuestarias
+          const newBreakdown = new BudgetBreakdown({
+            id,
+            description,
+            value,
+            uri,
+            period,
+            budgetLines: savedLines.map((line) => line._id), // Referencias a las líneas guardadas
+          });
+
+          // Guardar el Breakdown y devolver el documento completo
+          const savedBreakdown = await newBreakdown.save();
+          return savedBreakdown;
+        })
+      );
+
+      // Crear y guardar el presupuesto principal (Budget)
+      const newBudget = new Budgets({
+        id,
+        description,
+        value,
+        project,
+        projectID,
+        uri,
+        budgetBreakdown: savedBreakdowns.map((breakdown) => breakdown._id), // Referencias a los breakdowns guardados
+      });
+
+      const savedBudget = await newBudget.save();
+
+      // Responder con el presupuesto guardado
+      return res.status(201).json({
+        message: "Presupuesto guardado con éxito",
+        ok: true,
+        //budget: savedBudget,
       });
     } catch (error) {
-      return res.status(404).json({
-        ok: false,
-        msg: "Error en servidor por favor comunicarse con administración",
-      });
-    }
-  },
-  budgetShowID: async (req, res = response) => {
-    try {
-      const id = req.params.ocid;
-      const cp = await budgets.findOne({ ocid: id });
-      if (!cp) {
-        return res.status(404).json({
-          ok: false,
-          msg: "No hay registro hecho",
+      console.error("Error al guardar el presupuesto:", error);
+      // Evitar enviar múltiples respuestas
+      if (!res.headersSent) {
+        return res.status(500).json({
+          message: "Error al guardar el presupuesto",
+          error: error.message,
         });
       }
-      res.status(200).json({
-        budget: cp,
-        ok: true,
-      });
-    } catch (error) {
-      return res.status(200).json({
-        ok: false,
-        msg: "Error en servidor por favor comunicarse con administración",
-      });
     }
   },
-  budgetUpdate: async (req, res = response) => {
-    try {
-      const uid = req.params.id;
-      const bud = await budgets.findOne({ ocid: uid });
-
-      if (!bud) {
-        return res.status(404).json({
-          ok: false,
-          msg: "No existe presupuesto",
-        });
-      }
-      //console.log(bud._id);
-      const { ...campos } = req.body;
-      await bud.save();
-      const planUpdated = await budgets.findByIdAndUpdate(bud._id, campos, {
-        new: true,
-      });
-
-      res.status(200).json({
-        ok: true,
-        budget: planUpdated,
-      });
-    } catch (error) {
-      res.status(500).json({
-        ok: false,
-        msg: "Error Inesperado-... presupuesto no existe",
-      });
-    }
-  },
-  allPlanning: async (req, res = response) => {
-    const ocid = req.params.ocid;
-    let buyer = await buyers.findOne(
-      { ocid: ocid },
-      { _id: 1, id: 0, name: 0 }
-    );
-    let budget = await budgets.findOne({ ocid: ocid }, { _id: 1 });
-    let document = await documents.find({ document_id: ocid }, { _id: 1 });
-    let milestone = await milestones.find({ document_id: ocid }, { _id: 1 });
-    if (!buyer) {
-      return res.status(200).json({
-        ok: false,
-        msg: "No se encontro ningun resultado",
-      });
-    }
-    //console.log(buy);
-    res.status(200).json({
-      buyer,
-      budget,
-      document,
-      milestone,
-    });
-  },
-
-
-
 
   saveItems: async (req, res = response) => {
     const { id, title, description, items, period, invitedSuppliers, quotes, typeItem } = req.body;
@@ -1139,9 +417,6 @@ const PlanningController = {
       });
     }
   },
-
-
-
   getPlanningItems: async (req, res = response) => {
     try {
       // Obtener el `ocid` desde los parámetros de la solicitud
@@ -1367,8 +642,6 @@ const PlanningController = {
 
 
   },
-
-
   MostrarQuotes: async (req, res) => {
     try {
       // Obtener el ocid de los parámetros
@@ -1401,11 +674,13 @@ const PlanningController = {
       });
     }
   },
-
   saveItemsForQuotes: async (req, res) => {
     try {
       let form = req.body;  // Datos enviados desde el formulario
+
       let id = req.params.id;  // ID de la cotización a actualizar
+      // console.log(id)
+
 
       // Validar que los campos necesarios están presentes
       if (!form.description || !form.classification || !form.classification.scheme || !form.classification.id || !form.classification.description || !form.classification.uri || !form.quantity || !form.unit || !form.unit.id || !form.unit.name || !form.unit.value || !form.unit.value.amount || !form.unit.value.currency) {
@@ -1421,6 +696,7 @@ const PlanningController = {
 
       // Crear los objetos necesarios para la cotización
       const newItem = new Items({
+        id: form.id,
         description: form.description ? form.description.toUpperCase() : "",
         typeItem: form.typeItem, // Verificar que form.description esté presente
         classification: new Classification({
@@ -1471,38 +747,6 @@ const PlanningController = {
       });
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 module.exports = PlanningController;
